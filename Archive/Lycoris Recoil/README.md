@@ -1,4 +1,4 @@
-# 铳动彼岸花（Lycoris Recoil）
+﻿# 铳动彼岸花 / Lycoris Recoil
 | 集数 | 标题 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- | ---- |
 | 01 | Easy does it | 稍安勿躁 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHT_JPN.ass) |
@@ -16,3 +16,26 @@
 **海报/压制：** 泠泫凝
 
 注：繁化由[繁化姬](https://zhconvert.org)完成。
+
+# 所需字体
+
+- Hiragino Kaku Gothic ProN W6
+- Source Han Sans JP Medium
+- 阿里巴巴普惠体 M
+- 冬青黑体简体中文 W6
+- 冬青黑体繁体中文 W6
+- 思源黑体 CN Heavy
+- 思源黑体 CN Medium
+- 思源黑体 CN Normal
+- 思源黑體 TW Heavy
+- 思源黑體 TW Medium
+- 思源黑體 TW Normal
+- 方正卡通_GBK
+- 方正FW轻吟体 简 M
+- 方正兰亭圆_GBK_粗
+- 方正兰亭圆_GBK_中粗
+- 方正准雅宋_GBK
+- 方正喵呜_GBK
+- 华康方圆体W7
+- 汉仪跳跳体简
+- 霞鹜文楷
