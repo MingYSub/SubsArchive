@@ -1,7 +1,9 @@
 # MingYSub SubArchive
 该仓库存放由 MingYSub 译制的字幕文件。
 
-反馈错误请提 Issue/PR 或至 [Telegram 群组](https://t.me/MingYSub)。
+反馈错误请提 [Issue](https://github.com/MingYSub/SubArchive/issues)/PR 或至 [Telegram 群组](https://t.me/MingYSub)。
+
+招募/交流群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
 
 # 说明
 ![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)
@@ -25,8 +27,7 @@
 **附加说明：** 您可以在不公开分享的前提下随意修改字幕；在满足上述协议的基础上，压制组可以随意压制或附带字幕。
 
 # 作品列表
-
 | 时间 | 中文名称 | 原名 | 罗马音/英文名 | 字幕语言 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| 2022 春 | 街角魔族 2丁目 | まちカドまぞく 2丁目 | Machikado Mazoku S2 | 中日 |  |
-| 2022 夏 | 铳动彼岸花 | リコリス・リコイル | Lycoris Recoil | 中日 | 更新中 |
+| 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Chome) | まちカドまぞく 2丁目 | Machikado Mazoku 2-Chome | 中日 |  |
+| 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | リコリス・リコイル | Lycoris Recoil | 中日 | 更新中 |
