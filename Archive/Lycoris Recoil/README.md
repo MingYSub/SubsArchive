@@ -16,7 +16,7 @@
 
 **海报/压制：** 泠泫凝
 
-注：繁化由[繁化姬](https://zhconvert.org)完成。
+注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
 
