@@ -10,7 +10,7 @@ Style: Default,方正兰亭圆_GBK_中粗,65,&H00FFFFFF,&H000000FF,&H00000000,&H
 Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
 Style: JP,Hiragino Kaku Gothic ProN W6,48,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,0,0,1,1.6,0,2,30,30,9,1
 Style: EDJP,Source Han Sans JP Medium,62,&H00754CD5,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.5,0,8,30,30,20,1
-Style: EDCN,思源黑体 CN Medium,62,&H00754CD5,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,25,1
+Style: EDCN,思源黑体 CN Medium,62,&H00754CD5,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.5,0,2,30,30,25,1
 Style: Title,思源黑体 CN Medium,84,&H00FEFEFE,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1.2,0,1,2.5,0,3,0,108,150,1
 Style: Staff,思源黑体 CN Medium,62,&H007761E0,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.5,0,8,30,30,20,1
 
@@ -51,7 +51,7 @@ Comment: 0,0:23:31.30,0:23:42.52,EDCN,,0,0,0,karaoke,{\k82}你{\k67}伸{\k93}出
 Comment: 0,0:23:42.53,0:23:48.16,EDCN,,0,0,0,karaoke,{\k72}唱{\k52}给{\k36}我{\k54}听{\k45}吧{\k44}　{\k17}这{\k18}个{\k34}故{\k67}事{\k37}的{\k32}后{\k55}续
 Comment: 0,0:23:48.16,0:23:57.54,EDCN,,0,0,0,karaoke,{\k55}带{\k105}我{\k37}去{\k80}往{\k35}不{\k33}曾{\k34}去{\k38}过{\k108}的{\k68}星{\k355}球
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
-Dialogue: 0,0:23:58.75,0:24:01.00,Staff,,0,0,0,karaoke,{\blur3\fad(300,0)}本字幕由  MingYSub  制作\N{\fs54}翻译/压制：泠泫凝   时轴/后期：Ming
+Dialogue: 0,0:23:58.75,0:24:01.00,Staff,,0,0,0,karaoke,{\blur3\fad(300,0)}本字幕由  MingYSub  制作  |  招募/交流群：293483450\N{\fs54}翻译/压制：泠泫凝   时轴/后期：Ming
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Title ------
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code,framedur=(_G.aegisub.ms_from_frame(100)-_G.aegisub.ms_from_frame(1))/100
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code syl,num={} for i=1,4 do x=_G.math.random(1,4) while(num[x+4]) do x=_G.math.random(1,4) end num[i]=x num[x+4]=1 end

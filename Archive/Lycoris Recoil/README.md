@@ -19,7 +19,6 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
-
 - Hiragino Kaku Gothic ProN W6
 - Source Han Sans JP Medium
 - 阿里巴巴普惠体 M
