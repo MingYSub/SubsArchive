@@ -1,4 +1,6 @@
-﻿# 铳动彼岸花 / Lycoris Recoil
+﻿![海报](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/Poster.png)
+
+# 铳动彼岸花 / Lycoris Recoil
 | 集数 | 标题 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- | ---- |
 | 01 | Easy does it | 稍安勿躁 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHT_JPN.ass) |
