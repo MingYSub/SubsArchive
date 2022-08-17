@@ -1,4 +1,4 @@
-# 鬼裤衩！ / Onipan!
+## 鬼裤衩！ / Onipan!
  集数 | 标题 | 中文标题 | 片源链接 
  :--- | :--- | :--- | :--- 
 01 | 上陸！３人のおにっ子！ | 上岸！三个鬼女孩！ | [Magnet链接](magnet:?xt=urn:btih:b34d7a313520fc6340174e52635ba0d39a8f6ead&dn=%5BNC-Raws%5D%20ONIPAN%21%20-%2001%20%28B-Global%201920x1080%20HEVC%20AAC%20MKV%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
@@ -14,7 +14,7 @@
 11 | 目指せアイドル？ONIプロジェクト！ | 目标是偶像？ONI PROJECT！ | [Magnet链接](magnet:?xt=urn:btih:dd7b5268b0e6a87fb4cdd3ce4668e62dcfbc982e&dn=%5BNC-Raws%5D%20ONIPAN%21%20-%2011%20%28B-Global%201920x1080%20HEVC%20AAC%20MKV%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 12 | 伝説バトル！おにっ子たちよ、永遠に── | 传说之战！鬼女孩们啊，永远地—— | [Magnet链接](magnet:?xt=urn:btih:ac86d053c1ee8fe1a8411df8d23ae13336336979&dn=%5BNC-Raws%5D%20ONIPAN%21%20-%2012%20%28B-Global%201920x1080%20HEVC%20AAC%20MKV%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 
-# 简介
+## 简介
 
 <center>鬼是邪恶的。但这样的形象现在已经过时了。 如今，他们与人类相处得很好。</center><br>
 <center>尽管有时会因为旧时的调皮而被误解和嘲笑。</center><br>
@@ -28,13 +28,13 @@
 <center>小鬼们和他的朋友们非常忙碌，有时他们会犯错并感到沮丧，但...</center><br>
 <center>今天，他们也将持之以恒的努力下去!</center>
 
-# Staff
+## Staff
 
 【时轴】：Autism<br>
 【压制】：泠泫凝<br>
 【校对】：Ming
 
-# 所需字体
+## 所需字体
 
 - FOT-Gospel Std EB
 - 仿宋
