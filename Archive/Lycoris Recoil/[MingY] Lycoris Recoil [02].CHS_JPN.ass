@@ -7,7 +7,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
-Style: JP,FOT-UDKakugo_Large Pr6N DB,56,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,1.6,0,2,30,30,7,1
+Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,0,0,1,1.8,0,2,30,30,9,1
 Style: Default,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,2.6,0,2,30,30,25,1
 Style: OPCN,思源黑体 CN Medium,62,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,105,1
 Style: OPJP,Source Han Sans JP Medium,69,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,25,1

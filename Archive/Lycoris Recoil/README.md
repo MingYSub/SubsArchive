@@ -23,7 +23,6 @@
 # 所需字体
 ```
 Arial
-FOT-UD角ゴ_ラージ Pr6N DB <FOT-UDKakugo_Large Pr6N DB>
 ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
 阿里巴巴普惠体 B <Alibaba PuHuiTi B>
 阿里巴巴普惠体 M <Alibaba PuHuiTi M>
