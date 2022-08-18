@@ -29,5 +29,5 @@
 # 作品列表
 | 时间 | 中文名称 | 原名 | 罗马音/英文名 | 字幕语言 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Chome) | まちカドまぞく 2丁目 | Machikado Mazoku 2-Chome | 中日 |  |
+| 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume) | まちカドまぞく 2丁目 | Machikado Mazoku 2-Choume | 中日 |  |
 | 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | リコリス・リコイル | Lycoris Recoil | 中日 | 更新中 |
