@@ -1,0 +1,1322 @@
+﻿[Script Info]
+Title: [MingY&LavaAnime] Machikado Mazoku 2-Choume [03].CHS_JPN
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3.5,0,2,30,30,60,1
+Style: JP,FOT-UDKakugo_Large Pr6N DB,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,6,1
+Style: OPJP,FOT-Aokane Std EB,65,&H00A066FF,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,5,0,1,4,0,2,23,23,23,1
+Style: OPCN,造字工房朴月体（非商用）,65,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,11,0,1,4,0,8,23,23,20,1
+Style: EDJP,FOT-Humming Std D,60,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,5,0,1,2,0,2,15,15,20,1
+Style: EDCN,方正FW轻吟体 简 D,53,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,6,0,1,2,0,8,15,15,20,1
+Style: Text,思源黑体 CN Medium,68,&H006C6C6C,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,0,0,1,0,0,2,30,30,20,1
+Style: Title,方正少儿_GBK,65,&H00FFFFFF,&H00FC01DD,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------  Template  ------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code all,function char_count(ref) ref=ref or 1 if ci[ref] then ci[ref]=ci[ref]+1 else ci[ref]=1 end  return "" end    shape_heart="m 16 9 b 13 2 5 1 3 8 b 0 16 9 22 16 27 b 23 22 32 16 29 8 b 26 1 19 2 16 9"   backTags={"\\bord7\\3c&HF7994F&\\shad2",""}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci={} cn=_G.unicode.len(orgline.text_stripped)
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,fxgroup.A = (string.sub(line.actor,1)=="A")   fxgroup.B = (string.sub(line.actor,1)=="B")  fxgroup.C = (string.sub(line.actor,1)=="C")  fxgroup.D = (string.sub(line.actor,1)=="D")  fxgroup.E = (string.sub(line.actor,1)=="E")
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\fad(400,400)\fscx140\fscy140\an5\p1\bord8\3c&HF7994F&\shad2}!shape_heart!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\fad(400,400)\fscx140\fscy140\an5\p1}!shape_heart!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup A,!char_count(1)!!retime("line",math.abs(cn/2-ci[1])*60,math.abs(cn/2-ci[1])*60)!{\pos($x,$y)\fad(400,400)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup A,!char_count(2)!!retime("line",math.abs(cn/2-ci[2])*60,math.abs(cn/2-ci[2])*60)!{\pos($x,$y)\fad(400,400)}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup B,!char_count(1)!!retime("line",(ci[1]-1)*60,(ci[1]-1)*60)!{\pos($x,$y)\fad(250,250)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup B,!char_count(2)!!retime("line",(ci[2]-1)*60,(ci[2]-1)*60)!{\pos($x,$y)\fad(250,250)}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup C,!char_count(1)!!retime("line",(ci[1]-1)*60,(ci[1]-1)*60)!{\pos($x,$y)\fad(250,250)}{\fscx30\fscy30\t(0,250,\fscx112\fscy112)\t(250,400,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup C,!char_count(2)!!retime("line",(ci[2]-1)*60,(ci[2]-1)*60)!{\pos($x,$y)\fad(250,250)}{\fscx30\fscy30\t(0,250,\fscx112\fscy112)\t(250,400,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext fxgroup D,!maxloop(($ldur-650)/110)!!retime("line",remember("st",((j-1)/(($ldur-650)/110))*($ldur-400)),-$ldur+recall.st+math.random(700,1200))!{\fad(180,180)\fr!math.random(-75,75)!\t(\fr!math.random(-180,180)!)}{\fs!math.random(25,32)!\t(0,!line.duration/3!,\fs!math.random(35,45)!)\t(!line.duration/3*2!,!line.duration!,\fs!math.random(25,35)!)}{\an2\move(!remember("sx",math.random($left-25,$right-20))!,!$top+math.random(-10,8)!,!recall.sx+math.random(-12,24)!,!$bottom+math.random(-20,12)!)}{\c&HDAFEFF&\3c&HF6FFEE&\bord1.8\blur5}{\p1}m 0 0 l 3 -10 l 6 0 l 16 0 l 8 7 l 12 19 l 3 11 l -7 19 l -3 7 l -11 0
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup D,!char_count(1)!!retime("line",math.abs(cn/2-ci[1])*60,math.abs(cn/2-ci[1])*60)!{\pos($x,$y)\fad(400,400)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup D,!char_count(2)!!retime("line",math.abs(cn/2-ci[2])*60,math.abs(cn/2-ci[2])*60)!{\pos($x,$y)\fad(400,400)}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\bord8\3c&HF7994F&\shad1.6\fad(400,400)\fscx140\fscy140\an5\p1}!shape_heart!
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\fad(400,400)\fscx140\fscy140\an5\p1}!shape_heart!
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup A,!char_count(1)!!retime("line",math.abs(cn/2-ci[1])*60,math.abs(cn/2-ci[1])*60)!{\pos($x,$y)\fad(400,400)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup A,!char_count(2)!!retime("line",math.abs(cn/2-ci[2])*60,math.abs(cn/2-ci[2])*60)!{\pos($x,$y)\fad(400,400)}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup B,!char_count(1)!!retime("line",(ci[1]-1)*60,(ci[1]-1)*60)!{\pos($x,$y)\fad(250,250)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup B,!char_count(2)!!retime("line",(ci[2]-1)*60,(ci[2]-1)*60)!{\pos($x,$y)\fad(250,250)}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup C,!char_count(1)!!retime("line",(ci[1]-1)*60,(ci[1]-1)*60)!{\pos($x,$y)\fad(250,250)}{\fscx30\fscy30\t(0,250,\fscx112\fscy112)\t(250,400,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup C,!char_count(2)!!retime("line",(ci[2]-1)*60,(ci[2]-1)*60)!{\pos($x,$y)\fad(250,250)}{\fscx30\fscy30\t(0,250,\fscx112\fscy112)\t(250,400,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line notext fxgroup D,!maxloop(($ldur-650)/110)!!retime("line",remember("st",((j-1)/(($ldur-650)/110))*($ldur-400)),-$ldur+recall.st+math.random(700,1200))!{\fad(180,180)\fr!math.random(-75,75)!\t(\fr!math.random(-180,180)!)}{\fs!math.random(25,32)!\t(0,!line.duration/3!,\fs!math.random(35,45)!)\t(!line.duration/3*2!,!line.duration!,\fs!math.random(25,35)!)}{\an2\move(!remember("sx",math.random($left-25,$right-20))!,!$top+math.random(-10,8)!,!recall.sx+math.random(-12,24)!,!$bottom+math.random(-20,12)!)}{\c&HDAFEFF&\3c&HF6FFEE&\bord1.8\blur5}{\p1}m 0 0 l 3 -10 l 6 0 l 16 0 l 8 7 l 12 19 l 3 11 l -7 19 l -3 7 l -11 0
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup D,!char_count(1)!!retime("line",math.abs(cn/2-ci[1])*60,math.abs(cn/2-ci[1])*60)!{\pos($x,$y)\fad(400,400)!backTags[1]!}
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char fxgroup D,!char_count(2)!!retime("line",math.abs(cn/2-ci[2])*60,math.abs(cn/2-ci[2])*60)!{\pos($x,$y)\fad(400,400)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template syl fxgroup A,!retime("line",$sstart-50,50)!{\pos($x,$y)\fad(225,225)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template syl fxgroup A,!retime("line",$sstart-50,50)!{\pos($x,$y)\fad(225,225)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line notext fxgroup B,!retime("line",-50,50)!{\pos(!$x+5!,!$bottom+8!)\fad(225,225)}{\bord2.5\blur2\fscx!$lwidth!\3c&HFFFFFF&}{\clip(960,!$ltop-20!,960,!$lbottom+20!)\t(0,225,1.2,\clip(!$lleft-20!,!$ltop-20!,!$lright+20!,!$lbottom+20!))}{\p1}m 0 0 l 100 0 l 100 1 l 0 1
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",-50,-$ldur+175)!{\move($x,!$y+30!,$x,!$y-12!)\fad(225,0)}{\bord3\blur4\1aFF}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",175,-175)!{\move($x,!$y-12!,$x,!$y!,0,200)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",$ldur-175,50)!{\move($x,$y,$x,!$y+30!)\fad(0,225)}{\bord3\blur4\1aFF}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",-50,-$ldur+175)!{\move($x,!$y+30!,$x,!$y-12!)\fad(225,0)}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",175,-175)!{\move($x,!$y-12!,$x,!$y!,0,200)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank fxgroup B,!retime("line",$ldur-175,50)!{\move($x,$y,$x,!$y+30!)\fad(0,225)}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup C,!char_count(1)!!retime("line",(ci[1]-1)*38,(ci[1]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup C,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line notext fxgroup C,!retime("line",-50,cn*38+100-$ldur)!{\move($lleft,$middle,$lright,$middle,50,!line.duration-100!)\an5)\fad(180,180)}{\fscx80\fscy80\t(0,200,\fscx90\fscy90)\t(!line.duration-200!,!line.duration!,\fscx80\fscy80)}{\bord0\blur12\1a&H70&}{\p1}m 0 0 s 100 0 100 100 0 100 c
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup D,!char_count(1)!!retime("line",(ci[1]-1)*38-50,(ci[1]-1)*38+175-$ldur)!{\pos($center,$middle)\an5)\fad(60,180)}{\fscx20\fscy20\t(0,100,1.2,\fscx82\fscy82)\t(100,!line.duration!,\fscx120\fscy120)}{\bord3\blur2\1aFF}{\p1}m 0 0 s 100 0 100 100 0 100 c
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup D,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup D,!char_count(3)!!retime("line",(ci[3]-1)*38,(ci[3]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup E,!char_count(1)!!retime("line",(ci[1]-1)*38,(ci[1]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template char fxgroup E,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template syl fxgroup A,!retime("line",$sstart-50,50)!{\pos($x,$y)\3cE04137\fad(225,225)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template syl fxgroup A,!retime("line",$sstart-50,50)!{\pos($x,$y)\3cE04137\fad(225,225)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line notext fxgroup B,!retime("line",-50,50)!{\pos(!$x+5!,!$bottom+8!)\fad(225,225)}{\bord2.5\blur2\fscx!$lwidth!\3c&HFFFFFF&}{\clip(960,!$ltop-20!,960,!$lbottom+20!)\t(0,225,1.2,\clip(!$lleft-20!,!$ltop-20!,!$lright+20!,!$lbottom+20!))}{\p1}m 0 0 l 100 0 l 100 1 l 0 1
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",-50,-$ldur+175)!{\move($x,!$y+30!,$x,!$y-12!)\fad(225,0)}{\bord3\blur4\1aFF}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",175,-175)!{\move($x,!$y-12!,$x,!$y!,0,200)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",$ldur-175,50)!{\move($x,$y,$x,!$y+30!)\fad(0,225)}{\bord3\blur4\1aFF}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",-50,-$ldur+175)!{\move($x,!$y+30!,$x,!$y-12!)\fad(225,0)}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",175,-175)!{\move($x,!$y-12!,$x,!$y!,0,200)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line noblank fxgroup B,!retime("line",$ldur-175,50)!{\move($x,$y,$x,!$y+30!)\fad(0,225)}{\clip($lleft,!$ltop-50!,$lright,!$lbottom+8!)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup C,!char_count(1)!!retime("line",(ci[1]-1)*38,(ci[1]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup C,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template line notext fxgroup C,!retime("line",-50,cn*38+100-$ldur)!{\move($lleft,$middle,$lright,$middle,50,!line.duration-100!)\an5)\fad(180,180)}{\fscx80\fscy80\t(0,200,\fscx90\fscy90)\t(!line.duration-200!,!line.duration!,\fscx80\fscy80)}{\bord0\blur12\1a&H70&}{\p1}m 0 0 s 100 0 100 100 0 100 c
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup D,!char_count(1)!!retime("line",(ci[1]-1)*38-50,(ci[1]-1)*38+175-$ldur)!{\pos($center,$middle)\an5)\fad(60,180)}{\fscx20\fscy20\t(0,100,1.2,\fscx82\fscy82)\t(100,!line.duration!,\fscx120\fscy120)}{\bord3\blur2\1aFF}{\p1}m 0 0 s 100 0 100 100 0 100 c
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup D,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup D,!char_count(3)!!retime("line",(ci[3]-1)*38,(ci[3]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup E,!char_count(1)!!retime("line",(ci[1]-1)*38,(ci[1]-1)*38)!{\pos($center,$middle)\an5)\fad(200,200)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}{\bord3\blur4\1aFF}
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,template char fxgroup E,!char_count(2)!!retime("line",(ci[2]-1)*38,(ci[2]-1)*38)!{\pos($center,$middle)\an5\fad(250,250)}{\fscx30\fscy30\t(0,200,\fscx112\fscy112)\t(200,370,\fscx100\fscy100)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30)}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Staff ------
+Dialogue: 0,0:02:01.98,0:02:04.48,Title,,0,0,0,,{\an8\3c&H00C97EFC\bord8\fs55}翻译{\fn方正兰亭圆_GBK_粗}：{\fn}观津邀月（参考漫画）    校对{\fn方正兰亭圆_GBK_粗}：{\fn}真有人不喜欢呆唯啊
+Dialogue: 0,0:02:04.48,0:02:06.98,Title,,0,0,0,,{\an8\3c&H00C97EFC\bord8\fs55}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming    {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
+Dialogue: 1,0:02:01.98,0:02:04.48,Title,,0,0,0,,{\an8\cFFFFFF\3c&H00701B84\bord4\fs55\}翻译{\fn方正兰亭圆_GBK_粗}：{\fn}观津邀月（参考漫画）    校对{\fn方正兰亭圆_GBK_粗}：{\fn}真有人不喜欢呆唯啊
+Dialogue: 1,0:02:04.48,0:02:06.98,Title,,0,0,0,,{\an8\cFFFFFF\3c&H00701B84\bord4\fs55)}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming    {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
+Dialogue: 0,0:23:50.99,0:23:55.00,EDCN,,0,0,0,staff,{\pos(960,30)\fsp5\bord1.5\3cE04137}本字幕由  MingYSub&熔岩动画Sub  制作
+Dialogue: 0,0:23:50.99,0:23:55.00,EDCN,,0,0,0,staff,{\pos(960,30)\bord2\fsp5\3cE04137\a&HFF&\blur4}本字幕由  MingYSub&熔岩动画Sub  制作
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Title ------
+Dialogue: 0,0:02:01.98,0:02:06.98,Title,,0,0,0,,{\an8\3c&H00C97EFC\bord10\pos(960,440)}暗之魔女再临{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:02:01.98,0:02:06.98,Title,,0,0,0,,{\an8\3c&H00701B84\bord5\pos(960,440)}暗之魔女再临{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:02:01.98,0:02:06.98,Title,,0,0,0,,{\an8\3c&H00C97EFC\bord10\pos(960,530)}来自地狱的温泉烟雾{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:02:01.98,0:02:06.98,Title,,0,0,0,,{\an8\3c&H00701B84\bord5\pos(960,530)}来自地狱的温泉烟雾{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,770,2000,785)\fs70\bord6\1c&HA80D76&\4c&H00181A19\3c&H00FFFFFF\shad4\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,785,2000,800)\fs70\bord6\1c&HBA1495&\4c&H00181A19\3c&H00FFFFFF\shad4\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,800,1980,835)\fs70\bord6\1c&HCC1BB4&\4c&H00181A19\3c&H00FFFFFF\shad4\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,815,2000,830)\fs70\bord6\1c&HDE22D3&\4c&H00181A19\3c&H00FFFFFF\shad4\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,830,2000,845)\fs70\bord6\1c&HF02AF2&\4c&H00181A19\3c&H00FFFFFF\shad3\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:24:05.59,0:24:10.01,Title,,0,0,0,,{\clip(400,845,2000,860)\fs70\bord6\1c&HF42BF8&\4c&H00181A19\3c&H00FFFFFF\shad4\pos(1205,850)}发现新种{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ OPJP ------
+Comment: 0,0:00:43.44,0:00:47.03,OPJP,,0,0,0,karaoke,ドキドキはこれから！
+Comment: 0,0:00:50.53,0:00:54.62,OPJP,,0,0,0,karaoke,奇跡起こる予感
+Comment: 0,0:00:54.62,0:01:00.29,OPJP,,0,0,0,karaoke,へなちょこ さじ加減で いいでしょう いざ進め
+Comment: 0,0:01:00.29,0:01:05.22,OPJP,,0,0,0,karaoke,いちかばちか どんな場所だって
+Comment: 0,0:01:02.09,0:01:04.51,OPJP,,0,0,100,karaoke,ゆける!
+Comment: 0,0:01:05.47,0:01:09.68,OPJP,,0,0,0,karaoke,もっと聞かせて コアの音まで
+Comment: 0,0:01:09.68,0:01:14.52,OPJP,,0,0,0,karaoke,ふたり手を合わせたら こわくないよ
+Comment: 0,0:01:15.14,0:01:18.98,OPJP,,0,0,0,karaoke,困った時には 思い出して
+Comment: 0,0:01:19.27,0:01:23.11,OPJP,,0,0,0,karaoke,君がいるってこと
+Comment: 0,0:01:26.20,0:01:30.82,OPJP,,0,0,0,karaoke,同じ空 ふたりで見上げて
+Comment: 0,0:01:30.95,0:01:35.00,OPJP,,0,0,0,karaoke,笑い合って つらいことも 乗り越えちゃおう
+Comment: 0,0:01:35.75,0:01:40.21,OPJP,,0,0,0,karaoke,誰かのために頑張ること
+Comment: 0,0:01:40.46,0:01:42.88,OPJP,,0,0,0,karaoke,それも悪くない
+Comment: 0,0:01:43.50,0:01:47.42,OPJP,,0,0,0,karaoke,今日もとなりで
+Comment: 0,0:01:50.72,0:01:54.56,OPJP,,0,0,0,karaoke,ときめきはこれから
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ OPCN ------
+Comment: 0,0:00:43.44,0:00:47.03,OPCN,,0,0,0,karaoke,心动不已就此开始
+Comment: 0,0:00:50.53,0:00:54.62,OPCN,,0,0,0,karaoke,将要发生奇迹的预感
+Comment: 0,0:00:54.62,0:01:00.29,OPCN,,0,0,0,karaoke,菜鸟就稍作调整　状态好了就前进吧
+Comment: 0,0:01:00.29,0:01:05.22,OPCN,,0,0,0,karaoke,孤注一掷干到底　天涯海角任我行
+Comment: 0,0:01:02.09,0:01:04.51,OPCN,,0,0,100,karaoke,走吧！
+Comment: 0,0:01:05.47,0:01:09.68,OPCN,,0,0,0,karaoke,还想再听到更多　直到那内心之音
+Comment: 0,0:01:09.68,0:01:14.52,OPCN,,0,0,0,karaoke,两人牵起手来就不再害怕
+Comment: 0,0:01:15.14,0:01:18.98,OPCN,,0,0,0,karaoke,遇到困难的时候　就回想一下
+Comment: 0,0:01:19.27,0:01:23.11,OPCN,,0,0,0,karaoke,有你在我身边
+Comment: 0,0:01:26.20,0:01:30.82,OPCN,,0,0,0,karaoke,我们一起抬头　仰望同一片天
+Comment: 0,0:01:30.95,0:01:35.00,OPCN,,0,0,0,karaoke,一起欢笑　怎样痛苦　也能够跨越
+Comment: 0,0:01:35.75,0:01:40.21,OPCN,,0,0,0,karaoke,为了某人而努力
+Comment: 0,0:01:40.46,0:01:42.88,OPCN,,0,0,0,karaoke,这种事似乎还不赖
+Comment: 0,0:01:43.50,0:01:47.42,OPCN,,0,0,0,karaoke,今天也在你身边
+Comment: 0,0:01:50.72,0:01:54.56,OPCN,,0,0,0,karaoke,心动不已就此开始
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ EDJP ------
+Comment: 0,0:22:43.30,0:22:45.47,EDJP,,0,0,0,karaoke,また会えたね　ドラマなんだって？
+Comment: 0,0:22:45.72,0:22:48.34,EDJP,,0,0,0,karaoke,すぐ　教えにも行っちゃうぞ
+Comment: 0,0:22:49.09,0:22:51.47,EDJP,,0,0,0,karaoke,可及的なるはやでっ
+Comment: 0,0:22:51.97,0:22:54.14,EDJP,,0,0,0,karaoke,あらポストも「おはよう」なんて
+Comment: 0,0:22:54.52,0:22:56.48,EDJP,,0,0,0,karaoke,もうしっぽまで冴えてる
+Comment: 0,0:22:56.69,0:23:00.44,EDJP,,0,0,0,karaoke,白線をとんでっていつメンつどえば
+Comment: 0,0:23:00.44,0:23:02.98,EDJP,,0,0,0,karaoke,今日もはじまってく
+Comment: 0,0:23:03.36,0:23:10.32,EDJP,,0,0,0,karaoke,突然にミステリー　くらくら迷うけど
+Comment: 0,0:23:10.53,0:23:14.95,EDJP,,0,0,0,karaoke,手と手を取りどこまでも進め
+Comment: 0,0:23:18.17,0:23:21.67,EDJP,,0,0,0,karaoke,ぐるぐる 町は回りかがやく
+Comment: 0,0:23:21.96,0:23:24.71,EDJP,,0,0,0,karaoke,ころころ十重二十重して
+Comment: 0,0:23:24.71,0:23:30.43,EDJP,,0,0,0,karaoke,夢を混ぜた宵加減は　君に花を咲かせるよ
+Comment: 0,0:23:30.43,0:23:36.23,EDJP,,0,0,0,karaoke,四方まで囲むテトラゴン　ああ　まちカドに花束
+Comment: 0,0:23:36.23,0:23:39.23,EDJP,,0,0,0,karaoke,ねえいまは　もうすこし
+Comment: 0,0:23:39.44,0:23:43.11,EDJP,,0,0,0,karaoke,そっとそっと　その花を見せて
+Comment: 0,0:23:43.44,0:23:46.90,EDJP,,0,0,0,karaoke,よくばっちゃえば もう一回！
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ EDCN ------
+Comment: 0,0:22:43.30,0:22:45.47,EDCN,,0,0,0,karaoke,又见面了呢　是什么电视剧吗
+Comment: 0,0:22:45.72,0:22:48.34,EDCN,,0,0,0,karaoke,很快　我就过去告诉你喔
+Comment: 0,0:22:49.09,0:22:51.47,EDCN,,0,0,0,karaoke,就以最快的速度抵达
+Comment: 0,0:22:51.97,0:22:54.14,EDCN,,0,0,0,karaoke,哎呀　连邮筒也说着「早上好」
+Comment: 0,0:22:54.52,0:22:56.48,EDCN,,0,0,0,karaoke,直到尾巴都清醒过来
+Comment: 0,0:22:56.69,0:23:00.44,EDCN,,0,0,0,karaoke,越过白线和老友聚在一起
+Comment: 0,0:23:00.44,0:23:02.98,EDCN,,0,0,0,karaoke,今天也由此开始
+Comment: 0,0:23:03.36,0:23:10.32,EDCN,,0,0,0,karaoke,突如其来的谜团　迷得人晕头转向
+Comment: 0,0:23:10.53,0:23:14.95,EDCN,,0,0,0,karaoke,手牵着手无论往何处都能向前
+Comment: 0,0:23:18.17,0:23:21.67,EDCN,,0,0,0,karaoke,转来转去　街道回旋光芒四放
+Comment: 0,0:23:21.96,0:23:24.71,EDCN,,0,0,0,karaoke,骨碌骨碌交织重叠
+Comment: 0,0:23:24.71,0:23:30.43,EDCN,,0,0,0,karaoke,混入梦乡的傍晚时分　一定会让你如花般盛放
+Comment: 0,0:23:30.43,0:23:36.23,EDCN,,0,0,0,karaoke,环绕四面的四边形　啊~ 如同街角上的花束
+Comment: 0,0:23:36.23,0:23:39.23,EDCN,,0,0,0,karaoke,呐　现在再等一下
+Comment: 0,0:23:39.44,0:23:43.11,EDCN,,0,0,0,karaoke,轻轻地轻轻地　让我再看看这些花吧
+Comment: 0,0:23:43.44,0:23:46.90,EDCN,,0,0,0,karaoke,还想要的话　那就再看一下
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Screen ------
+Dialogue: 0,0:00:25.38,0:00:25.55,Text,,0,0,0,,{\fad(60,0)\fn@阿里巴巴普惠体 R\frz270\fs60\bord0\pos(298,684)\c&H777D7B&}网络
+Dialogue: 0,0:00:25.55,0:00:25.67,Text,,0,0,0,,{\fn@阿里巴巴普惠体 R\frz270\fs60\bord0\c&H777D7B&\pos(328.4,682.4)}网络
+Dialogue: 0,0:00:25.67,0:00:26.42,Text,,0,0,0,,{\fn@阿里巴巴普惠体 R\fs60\bord0\c&H777D7B&\pos(341.733,674.4)\frz266.1}网络
+Dialogue: 0,0:00:26.79,0:00:32.04,Text,,0,0,0,,{\fn@阿里巴巴普惠体 R\fs32\bord0\c&H777D7B&\pos(443.207,371.333)\frz264.7}网络
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs45\3c&H8F716C&\pos(535,258)}修改密码
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs30\bord0\c&H727272&\an1\pos(140,310)}键入新密码并点击下面的「更改」按钮
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs30\bord0\c&H727272&\an1\pos(215,392)}至少8个英文字母字符或数字
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs30\bord0\c&H727272&\an1\pos(295,535)}新密码
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs30\bord0\c&H727272&\an1\pos(295,630)}新密码（确认）
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs30\bord0\c&H727272&\an4\pos(1135,728)}显示密码
+Dialogue: 0,0:02:06.98,0:02:08.78,CN,,0,0,0,,{\fs45\pos(1618,874)\3c&HC9BAB8&}修改
+Dialogue: 0,0:02:53.20,0:02:56.32,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(0,100)\an4\pos(551.6,598)\frx0\fry1.2\frz20.51}这些天  河里的垃圾越来越多了\N怎样才能解决啊？
+Dialogue: 0,0:02:53.20,0:02:56.32,CN,,0,0,0,,{\fs64\bord0\c&H505050&\fad(0,100)\pos(575.733,695.333)\frz21.46}{\an7}告诉我好吃的
+Dialogue: 0,0:02:53.20,0:02:56.32,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(0,100)\frz23.3\pos(1211.467,918.933)}{\an7}这些香肠真是太好吃了  \N试吃之后回购了好几次  真是吃不腻啊
+Dialogue: 0,0:02:57.16,0:02:59.24,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(100,100)\frz19.77\pos(508.8,498.8)\an7}今天写的作业  一半不确定对不对\N好难过
+Dialogue: 0,0:02:57.16,0:02:59.24,CN,,0,0,0,,{\fs64\bord0\c&H505050&\fad(100,100)\pos(557.6,645.6)\an7\frz20.52}喜欢多魔
+Dialogue: 0,0:02:57.16,0:02:59.24,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(100,100)\an7\frz22.59\pos(1104.666,907.333)}多魔是个很棒的地方  自然风光恰到好处\N还有很多东西都很有意思
+Dialogue: 0,0:03:00.16,0:03:01.95,CN,,0,0,0,,{\fs64\bord0\c&H505050&\fad(100,0)\an4\frz19.46\pos(387.333,242)}阳夏木食品
+Dialogue: 0,0:03:00.16,0:03:01.95,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(100,0)\an7\fry3\pos(1021,344)\org(1341,449)\frz21.73}和菓子阳夏木总店盂兰盆节也每日营业！\N女儿在远方开始了一人生活\N新品点心都是泪水的盐味
+Dialogue: 0,0:03:00.16,0:03:01.95,CN,,0,0,0,,{\fs64\bord0\c&H505050&\fad(100,0)\frz21\an7\frx6\fry0\pos(610,760)}散步姐姐
+Dialogue: 0,0:03:00.16,0:03:01.95,Text,,0,0,0,,{\fn思源黑体 CN Medium\fs60\fad(100,0)\an7\frz23.15\pos(1364.533,835.333)}刚才在河边看到一个\N拉着巨大轮胎跑步的女孩…
+Dialogue: 0,0:04:05.17,0:04:08.60,Text,,0,0,0,,{\fad(300,0)\shad0\bord0\fs75\fn江西拙楷\an2\c&H2E0FBF&\pos(1090.8,864.8)}网络的\N黑暗
+Dialogue: 0,0:04:13.03,0:04:15.15,Text,,0,0,0,,{\shad0\bord0\fs60\fn江西拙楷\an2\c&H2E0FBF&\pos(966.8,962.8)}网络的黑暗
+Dialogue: 0,0:04:15.82,0:04:17.92,Text,,0,0,0,,{\fad(150,0)\an7\c&H7015DA&\bord5\fsp5\pos(421.6,90.8)}打倒魔法少女
+Dialogue: 0,0:04:15.82,0:04:17.92,Text,,0,0,0,,{\fad(150,0)\an7\c&H7015DA&\bord5\fsp5\pos(1056,220.8)}只需5秒！！
+Dialogue: 0,0:04:15.82,0:04:17.92,Text,,0,0,0,,{\fad(150,0)\an2\c&H545161&\bord3.5\fsp5\pos(960,513)}只告诉你的秘密情报
+Dialogue: 0,0:04:15.82,0:04:17.92,Text,,0,0,0,,{\fs50\fad(150,0)\an2\c&H545161&\bord2\fsp5\pos(944,658)}点击{\c&H310EBF&}这里
+Dialogue: 0,0:04:15.82,0:04:17.92,Text,,0,0,0,,{\fad(150,0)\fs55\an2\c&H3514C0&\bord3.5\pos(960,815)}25分钟后停止公开  请快一点！！
+Dialogue: 0,0:04:22.63,0:04:31.63,Text,,0,0,0,,{\fad(150,0)\pos(960,140)\an2\bord5\3c&H2B02BA&\cFFFFFF}注册成功
+Dialogue: 0,0:04:22.63,0:04:31.63,Text,,0,0,0,,{\fad(150,0)\an2\c&H2B02BA&\3cFFFFFF\bord5\fsp2\pos(1560,449.2)}请在3小时内
+Dialogue: 0,0:04:22.63,0:04:31.63,Text,,0,0,0,,{\fad(150,0)\an2\fs50\c&H686F6D&\pos(1560,500.8)}支付18000000哥伦比亚比索
+Dialogue: 0,0:04:22.62,0:04:31.63,Text,,0,0,0,,{\fad(150,0)\fs60\an7\pos(1405,750)}※如果没有支付\N将会立即派遣魔法少女\N上门砸场子
+Dialogue: 0,0:04:31.63,0:04:37.26,Text,,0,0,0,,{\fn思源黑体 CN Heavy\fs54\fsp5\an1\frx358\fry8\frz2.683\pos(974.667,835)\clip(m 1190 840 b 1199 832 1221 825 1232 820 1239 817 1259 812 1260 809 1300 790 1318 779 1264 783 l 962 794 972 841)}答对了就表扬夏美子
+Dialogue: 0,0:05:37.32,0:05:42.32,Text,,0,0,0,,{\fn方正FW轻吟体 简 B\fad(150,0)\an5\c&H706646&\frx10\fry2\pos(1306,216)\org(1350,538)\frz318.6}定本·鸟也能学会
+Dialogue: 0,0:05:37.32,0:05:42.32,Text,,0,0,0,,{\fn方正FW轻吟体 简 B\fad(150,0)\an5\c&H706646&\frx10\fry2\frz313.1\pos(530,300)\org(574,622)}因特网和电脑
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz3.314\an5\fs50\c&HD4EB9A&\pos(686,160.4)}推文
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz3.314\an5\fs50\c&HD4EB9A&\pos(952.8,135.6)}喜欢
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz3.314\pos(1187.2,117.2)\an5\fs50\c&HD4EB9A&}关注
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz3.314\an5\fs50\c&HD4EB9A&\pos(1412,92.8)}粉丝
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz5.958\an2\fs60\pos(201.6,421.2)}夏美子
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\an4\frx6\fry6\frz9.419\pos(1242.4,408.8)}不公开推文
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz8.665\an8\pos(273.6,702.4)\frx4\fry6\fs50}新手魔族\N要打倒魔法少女
+Dialogue: 0,0:06:36.42,0:06:42.17,Text,,0,0,0,,{\frz11.37\an5\fs50\c&HD4EB9A&\pos(1572,754)}关注请求
+Dialogue: 0,0:07:48.45,0:07:50.70,Text,,0,0,0,,{\frz15.32\pos(582.4,203.6)}{\an7}想知道桃的推特账号
+Dialogue: 0,0:08:24.07,0:08:30.45,Text,,0,0,0,,{\an2\pos(960,863.2)\c&HB566E5&\3cFFFFFF\fs56\b1\fsp3\bord6\fn方正品尚细黑简体}羊驼炸虾鸡花园鳗
+Dialogue: 0,0:08:24.07,0:08:30.45,Text,,0,0,0,,{\an2\pos(960,863.2)\c&HB566E5&\3c&H86119C&\fs56\b1\fsp3\bord3\fn方正品尚细黑简体}羊驼炸虾鸡花园鳗
+Dialogue: 0,0:08:51.51,0:08:55.50,Text,,0,0,0,,{\frz5.351\an4\frx6\fry12\pos(1072.4,328)}您有一则关注请求
+Dialogue: 0,0:08:51.51,0:08:52.26,Text,,0,0,0,,{\frz9.272\an4\c&HD4F6AB&\frx0\fry6\pos(1460.8,502.8)}展开
+Comment: 0,0:09:19.92,0:09:23.17,Text,,0,0,0,,{\frz11.5\an4\c&HBDEC96&\pos(1142.8,223.2)}@FreshP_0325
+Dialogue: 0,0:09:19.92,0:09:23.13,Text,,0,0,0,,{\frz14.02\an4\fs55\pos(1198,370.8)}向您发送了关注请求
+Dialogue: 0,0:09:19.92,0:09:23.13,Text,,0,0,0,,{\pos(1317.6,527.2)\frz13.07\an7\b1\c&HFFFFFF&}请多关照
+Dialogue: 0,0:09:19.92,0:09:23.13,Text,,0,0,0,,{\frz13.94\pos(1497.2,813.6)}{\an4\c&HC8F389&}接受
+Dialogue: 0,0:09:30.34,0:09:32.64,Text,,0,0,0,,{\fad(150,0)\fs60\an7\pos(1224,298)}喜欢的：\N肌肉/有氧运动/\N修行/猫/乌冬面/\N多魔樱酱/
+Dialogue: 0,0:09:30.34,0:09:32.64,Text,,0,0,0,,{\fad(150,0)\fs60\an7\pos(1271.2,600.8)}魔法少女  经历12年\N被夺走魔力恢复中\N用物理手段揍的话就能打赢战斗
+Dialogue: 0,0:09:35.35,0:09:36.22,Text,,0,0,0,,{\fad(0,100)\pos(580,325)\an4}是桃吗？
+Dialogue: 0,0:09:36.22,0:09:37.42,Text,,0,0,0,,{\fad(100,0)\pos(580,100)\an4}是桃吗？
+Dialogue: 0,0:09:36.22,0:09:37.42,Text,,0,0,0,,{\fad(100,0)\an4\pos(415,320)}嗯
+Dialogue: 0,0:09:37.42,0:09:38.88,Text,,0,0,0,,{\fad(100,0)\pos(415,94)\an4}嗯
+Dialogue: 0,0:09:37.47,0:09:38.88,Text,,0,0,0,,{\fad(0,100)\an4\pos(275,423.6)\bord1.5\3cFFFFFF}为什么告诉我了？
+Dialogue: 0,0:09:38.89,0:09:41.06,Text,,0,0,0,,{\fad(100,0)\pos(275,192)\an4\bord1.5\3cFFFFFF}为什么告诉我了？
+Dialogue: 0,0:09:38.98,0:09:41.06,Text,,0,0,0,,{\an4\pos(275,423.6)\bord1.5\3cFFFFFF}因为想更了解夏美子
+Dialogue: 0,0:09:41.06,0:09:41.39,Text,,0,0,0,,{\fad(0,80)\frz13.69\pos(583.2,326.8)}{\an7}为什么告诉我了？
+Dialogue: 0,0:09:41.06,0:09:41.39,Text,,0,0,0,,{\fad(0,80)\frz13.69\pos(677.2,741.2)}{\an7}因为想更了解夏美子
+Dialogue: 0,0:09:41.39,0:09:42.67,Text,,0,0,0,,{\fad(70,70)\frz13.69\an4\pos(585.2,367.6)}因为想更了解夏美子
+Dialogue: 0,0:09:41.39,0:09:42.67,Text,,0,0,0,,{\fad(70,70)\frz13.7\an4\pos(680,712.8)}骗你的骗你的
+Dialogue: 0,0:09:42.65,0:09:44.27,Text,,0,0,0,,{\fad(70,0)\frz13.69\an4\pos(573,303.2)}骗你的骗你的
+Dialogue: 0,0:09:42.65,0:09:44.27,Text,,0,0,0,,{\fad(70,0)\frz13.69\an4\pos(674.8,759.6)}是为了监视夏美子哦
+Dialogue: 0,0:09:50.20,0:09:51.91,Text,,0,0,0,,{\fn@方正兰亭圆_GBK_中粗\fsp20\frz270\pos(190,350)\an5\bord4\c&H7EF9F1&\3c&H039493&}日后
+Dialogue: 0,0:09:53.37,0:09:55.99,Text,,0,0,0,,{\frz20.38\pos(622.4,173.6)}{\an7}夏美子——
+Dialogue: 0,0:09:53.37,0:09:55.99,Text,,0,0,0,,{\pos(760,537.2)\frz19.7\an7}你终于开账号了呢!!
+Dialogue: 0,0:09:55.99,0:09:57.37,Text,,0,0,0,,{\frz20.38\pos(646.4,216.133)}{\an7}是的!! 我开了
+Dialogue: 0,0:09:55.99,0:09:57.37,Text,,0,0,0,,{\frz20.38\an7\pos(758.4,527.067)}夏美子——\N你终于开账号了呢!!
+Dialogue: 0,0:09:57.37,0:09:59.33,Text,,0,0,0,,{\frz19.5\an7\pos(652.4,201.2)}啊  发现桃了☆  关注了~
+Dialogue: 0,0:09:57.37,0:09:59.33,Text,,0,0,0,,{\frz19.5\pos(803.733,640)}{\an7}是的！！我拿到了
+Dialogue: 0,0:10:54.84,0:10:59.39,Text,,0,0,0,,{\fad(60,0)\fn方正兰亭圆_GBK_中粗\bord2\fs60\fsp3\c&HFDD17B&\3c&H725542&\frz334.9\move(1034.8,707.2,1117.943,753.486)}飒飒飒
+Comment: 0,0:13:12.36,0:13:18.29,Text,,0,0,0,,{\an7}明天，莉莉丝小姐应该会借用夏美子的身体。\N如果放任莉莉丝一个人不管的话，\N估计她会跑到不知什么地方然后遇难之类的，\N还可能会用夏美子的身体到处借钱。\N我很担心，所以以防万一我也会跟着一起去的。\N请多指教。
+Dialogue: 0,0:14:17.50,0:14:19.34,Text,,0,0,0,,{\an2\c&HCDFFFE&\pos(960,451.6)\fn阿里巴巴普惠体 B\3c&H857F9B&\bord3\fsp2}夏装最后打折50%！
+Dialogue: 0,0:14:21.80,0:14:23.76,DefaultUp,,0,0,0,,{\c&H4F3B39&\3c&HB4A39F&}阴沉沉
+Dialogue: 0,0:15:08.14,0:15:09.47,Text,,0,0,0,,{\fad(150,0)\an2\c&HCDFFFE&\pos(960,451.6)\fn阿里巴巴普惠体 B\3c&H857F9B&\bord3\fsp2}夏季时装大甩卖  半价！
+Dialogue: 0,0:15:46.05,0:15:47.30,CN,,0,0,0,,{\fs77\an1\bord2.8\pos(495,895)}注：其实不是实质免费
+Dialogue: 0,0:15:47.30,0:15:50.29,Text,,0,0,0,,{\an5\c&HFFFFFF&\frx0\fry10\pos(1030.934,359.867)\b1\fsp5\frz356.2}延期付款购买
+Dialogue: 0,0:16:20.13,0:16:25.76,DefaultUp,,0,0,0,,{\c&H4F3B39&\3c&HB4A39F&}阴沉沉
+Dialogue: 0,0:17:41.42,0:17:43.38,DefaultUp,,0,0,0,,{\c&H9499A8&\3c&H29282B&}多魔健康中心
+Dialogue: 0,0:17:50.59,0:17:57.43,Default,,0,0,0,,{\pos(960,65)\fs50\c&H9F6759&\bord0}售票机
+Dialogue: 0,0:20:02.13,0:20:04.29,Text,,0,0,0,,{\an4\pos(1340,192)\fs50\c&HBE7ED2&\3cFFFFFF\bord1}窄俯卧撑                         5次
+Dialogue: 0,0:20:02.10,0:20:04.31,Text,,0,0,0,,{\an1\pos(46.6,944)\bord2\fs50\3c&HFEFFFC&}瘦手臂 × 肌肉锻炼
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Comment ------
+Dialogue: 0,0:02:52.10,0:02:53.32,CN,Mikan,0,0,0,,{\3c015ADE}{\pos(987,952)\fs42\bord2.3}Tsubuyaiter
+Dialogue: 0,0:08:45.27,0:08:48.85,CN,Shamiko,0,0,0,,{\3c5B50C4}{\pos(1184,952)\fs42\bord2.3}Sugoi Netto no Sekai
+Dialogue: 0,0:08:48.85,0:08:50.77,CN,Ryouko,0,0,0,,{\3c644B8D}{\fs42\bord2.3\pos(960,952)}Social Networking Services
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Dialogue ------
+Dialogue: 0,0:00:03.93,0:00:06.29,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  うちで何してるんですか？
+Dialogue: 0,0:00:06.96,0:00:11.03,JP,Momo,0,0,0,,{\3c7E61DE}良ちゃんの夏の宿題のために  インターネットができるようにしてるの
+Dialogue: 0,0:00:11.44,0:00:12.69,JP,Shamiko,0,0,0,,{\3c5B50C4}インターネット？
+Dialogue: 0,0:00:13.29,0:00:15.52,JP,Shamiko,0,0,0,,{\3c5B50C4}桃って 工事もできるんですか？
+Dialogue: 0,0:00:15.52,0:00:17.53,JP,Momo,0,0,0,,{\3c7E61DE}そんな難しいことはしないよ
+Dialogue: 0,0:00:18.24,0:00:20.53,JP,Momo,0,0,0,,{\3c7E61DE}私の部屋から Wi-Fiを引っ張ってきてるの
+Dialogue: 0,0:00:21.03,0:00:22.36,JP,Shamiko,0,0,0,,{\3c5B50C4}ワイファイを？
+Dialogue: 0,0:00:22.36,0:00:22.98,JP,Shamiko,0,0,0,,{\3c5B50C4}つまり…
+Dialogue: 0,0:00:22.98,0:00:23.85,JP,,0,0,0,,パリピー
+Dialogue: 0,0:00:23.85,0:00:24.64,JP,,0,0,0,,ワイファイ
+Dialogue: 0,0:00:24.64,0:00:25.35,JP,,0,0,0,,パリピー
+Dialogue: 0,0:00:25.35,0:00:25.80,JP,,0,0,0,,ワイファイ
+Dialogue: 0,0:00:25.80,0:00:26.32,JP,,0,0,0,,やってる？
+Comment: 0,0:00:26.36,0:00:31.94,JP,,0,0,0,,{\an8}
+Dialogue: 0,0:00:26.69,0:00:30.59,JP,Shamiko,0,0,0,,{\3c5B50C4}楽しい雰囲気を出すと インターネットさんが家に来てくれる？
+Dialogue: 0,0:00:30.59,0:00:31.60,JP,Momo,0,0,0,,{\3c7E61DE}全く違う
+Dialogue: 0,0:02:09.08,0:02:10.98,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  何してるんですか？
+Dialogue: 0,0:02:11.21,0:02:12.36,JP,Momo,0,0,0,,{\3c7E61DE}ルーターの設定
+Dialogue: 0,0:02:12.78,0:02:14.61,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  何してるんですか？
+Dialogue: 0,0:02:14.98,0:02:16.86,JP,Momo,0,0,0,,{\3c7E61DE}ペアレンタルコントロールの設定
+Dialogue: 0,0:02:17.21,0:02:19.69,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  手元見ないで打ってませんか？
+Dialogue: 0,0:02:19.69,0:02:20.73,JP,Momo,0,0,0,,{\3c7E61DE}ブラインドタッチ
+Dialogue: 0,0:02:21.24,0:02:22.86,JP,Shamiko,0,0,0,,{\3c5B50C4}全然分からないです
+Dialogue: 0,0:02:23.02,0:02:24.67,JP,Momo,0,0,0,,{\3c7E61DE}分からなくて大丈夫
+Dialogue: 0,0:02:24.67,0:02:26.03,JP,Momo,0,0,0,,{\3c7E61DE}ちょっと集中してるから
+Dialogue: 0,0:02:26.03,0:02:29.35,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  スーパーハッカーって どうなったらなれるんですか？
+Dialogue: 0,0:02:29.62,0:02:30.73,JP,Momo,0,0,0,,{\3c7E61DE}ちょっと こうるさいよ
+Dialogue: 0,0:02:30.73,0:02:31.72,JP,Shamiko,0,0,0,,{\3c5B50C4}ええ～!?
+Dialogue: 0,0:02:32.01,0:02:32.56,JP,Momo,0,0,0,,{\3c7E61DE}はい
+Dialogue: 0,0:02:33.15,0:02:34.22,JP,Momo,0,0,0,,{\3c7E61DE}セット完了
+Dialogue: 0,0:02:34.69,0:02:37.18,JP,Momo,0,0,0,,{\3c7E61DE}これで シャミ子の家に インターネットが来ました
+Dialogue: 0,0:02:37.18,0:02:38.63,JP,Shamiko,0,0,0,,{\3c5B50C4}えっ どこに？
+Dialogue: 0,0:02:38.88,0:02:40.73,JP,Momo,0,0,0,,{\3c7E61DE}もう飛んでる 飛んできてるから
+Dialogue: 0,0:02:40.98,0:02:42.82,JP,Shamiko,0,0,0,,{\3c5B50C4}インターネットって 飛ぶんですか？
+Dialogue: 0,0:02:44.43,0:02:45.71,JP,Shamiko,0,0,0,,{\3c5B50C4}飛んでるんですね
+Dialogue: 0,0:02:46.05,0:02:47.63,JP,Shamiko,0,0,0,,{\3c5B50C4}インターネットといえば
+Dialogue: 0,0:02:49.62,0:02:51.78,JP,Shamiko,0,0,0,,{\3c5B50C4}ミカンさん　何をしてるんですか？
+Dialogue: 0,0:02:52.10,0:02:53.32,JP,Mikan,0,0,0,,{\3c015ADE}つぶやいたーよ
+Dialogue: 0,0:02:53.67,0:02:58.73,JP,Mikan,0,0,0,,{\3c015ADE}インターネット上で つぶやきっていう  短い日記や写真を投稿できるサービスね
+Dialogue: 0,0:02:58.95,0:03:02.02,JP,Mikan,0,0,0,,{\3c015ADE}友達の知らない一面が見えたりして  楽しいわよ
+Dialogue: 0,0:03:03.19,0:03:07.42,JP,Mikan,0,0,0,,{\3c015ADE}そういえば  桃が なかなか自分のIDを教えてくれないのよね
+Dialogue: 0,0:03:07.42,0:03:08.97,JP,Shamiko,0,0,0,,{\3c5B50C4}桃もやってるんですか？
+Dialogue: 0,0:03:09.34,0:03:11.31,JP,Mikan,0,0,0,,{\3c015ADE}やってるみたいなんだけどね
+Dialogue: 0,0:03:11.31,0:03:12.18,JP,Mikan,0,0,0,,{\3c015ADE}気になるの？
+Dialogue: 0,0:03:12.57,0:03:15.75,JP,Shamiko,0,0,0,,{\3c5B50C4}私の知らない桃がインターネットに転がっている
+Dialogue: 0,0:03:15.75,0:03:18.98,JP,Shamiko,0,0,0,,{\3c5B50C4}それを見つければ 労せずして 桃のツボが分かる
+Dialogue: 0,0:03:18.98,0:03:21.67,JP,Shamiko,0,0,0,,{\3c5B50C4}つまり  桃の笑顔に一歩近づける
+Dialogue: 0,0:03:21.67,0:03:25.93,JP,Mikan,0,0,0,,{\3c015ADE}でも  携帯なり パソコンなりで ネットにつなげられないと できないわよ
+Dialogue: 0,0:03:25.93,0:03:27.66,JP,Mikan,0,0,0,,{\3c015ADE}あと  会員登録しないと
+Dialogue: 0,0:03:28.10,0:03:29.43,JP,Shamiko,0,0,0,,{\3c5B50C4}そうなんですか
+Dialogue: 0,0:03:31.35,0:03:33.35,JP,Shamiko,0,0,0,,{\3c5B50C4}これは  またとないチャンス
+Dialogue: 0,0:03:33.35,0:03:37.59,JP,Shamiko,0,0,0,,{\3c5B50C4}インターネットで　つぶやいたーに登録し  桃の日記を発見しちゃります
+Dialogue: 0,0:03:37.87,0:03:40.57,JP,Shamiko,0,0,0,,{\3c5B50C4}じゃあ早速  インターネットを使わせていただきま…
+Dialogue: 0,0:03:40.57,0:03:40.97,JP,Momo,0,0,0,,{\3c7E61DE}待って
+Dialogue: 0,0:03:41.59,0:03:45.44,JP,Shamiko,0,0,0,,{\3c5B50C4}何をする！私の尻尾は 魔族停止ヒモではない！
+Dialogue: 0,0:03:45.44,0:03:48.02,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子  あんまりパソコンのこと知らないでしょ
+Dialogue: 0,0:03:48.02,0:03:51.87,JP,Shamiko,0,0,0,,{\3c5B50C4}確かに初心者だけど  ごく基本的な知識はあります
+Dialogue: 0,0:03:51.87,0:03:53.85,JP,Shamiko,0,0,0,,{\3c5B50C4}桃に教えられるいわれはない
+Dialogue: 0,0:03:54.21,0:03:57.06,JP,Seiko,0,0,0,,{\3c6E0A4A}桃さん  お疲れさまです  お茶が入りました
+Dialogue: 0,0:03:57.44,0:03:59.09,JP,Seiko,0,0,0,,{\3c6E0A4A}優子も座ったらどうですか？
+Dialogue: 0,0:03:59.09,0:04:00.30,JP,Shamiko,0,0,0,,{\3c5B50C4}あっ はい
+Dialogue: 0,0:04:01.26,0:04:01.90,JP,Momo,0,0,0,,{\3c7E61DE}さて
+Dialogue: 0,0:04:02.17,0:04:04.14,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子が席に着いてくれたので
+Dialogue: 0,0:04:05.44,0:04:07.72,JP,Momo,0,0,0,,{\3c7E61DE}魔法少女のネットリテラシー講座
+Dialogue: 0,0:04:07.72,0:04:08.94,JP,Shamiko,0,0,0,,{\3c5B50C4}用意周到！
+Dialogue: 0,0:04:09.45,0:04:10.52,JP,Shamiko,0,0,0,,{\3c5B50C4}お茶 熱っ！
+Dialogue: 0,0:04:10.52,0:04:13.23,JP,Shamiko,0,0,0,,{\3c5B50C4}お母さん  何か結託してませんか？
+Dialogue: 0,0:04:13.23,0:04:15.14,JP,Momo,0,0,0,,{\3c7E61DE}そんなことないよ  気のせいだよ
+Dialogue: 0,0:04:16.15,0:04:18.01,JP,Momo,0,0,0,,{\3c7E61DE}では  魔族に問題です
+Dialogue: 0,0:04:18.76,0:04:22.07,JP,Momo,0,0,0,,{\3c7E61DE}魔族がとても気になる 怪しいサイトを見つけてクリックしました
+Dialogue: 0,0:04:22.68,0:04:25.36,JP,Momo,0,0,0,,{\3c7E61DE}すると勝手に謎の契約が結ばれて
+Dialogue: 0,0:04:25.36,0:04:27.96,JP,Momo,0,0,0,,{\3c7E61DE}管理者から 多額のお金を請求されました
+Dialogue: 0,0:04:27.96,0:04:30.10,JP,Shamiko,0,0,0,,{\3c5B50C4}どうしてそんなことが起きるんですか？
+Dialogue: 0,0:04:30.36,0:04:31.53,JP,Momo,0,0,0,,{\3c7E61DE}インターネットだから
+Dialogue: 0,0:04:31.97,0:04:34.37,JP,Momo,0,0,0,,{\3c7E61DE}このような場合  魔族はどうしますか？
+Dialogue: 0,0:04:34.37,0:04:37.19,JP,Shamiko,0,0,0,,{\3c5B50C4}急いで電話をかけ  身分を明かして 謝り倒す
+Dialogue: 0,0:04:37.19,0:04:37.92,JP,Momo,0,0,0,,{\3c7E61DE}不正解
+Dialogue: 0,0:04:38.90,0:04:39.92,JP,Momo,0,0,0,,{\3c7E61DE}魔族は死にました
+Dialogue: 0,0:04:39.92,0:04:41.31,JP,Shamiko,0,0,0,,{\3c5B50C4}私 死んじゃうの!?
+Dialogue: 0,0:04:42.06,0:04:44.62,JP,Momo,0,0,0,,{\3c7E61DE}インターネットは うかつな行動を取ると死ぬ
+Dialogue: 0,0:04:44.88,0:04:46.50,JP,Shamiko,0,0,0,,{\3c5B50C4}インターネット怖い…
+Dialogue: 0,0:04:46.86,0:04:49.77,JP,Momo,0,0,0,,{\3c7E61DE}ネットで調べたいことがあるなら 私が調べるよ
+Dialogue: 0,0:04:49.77,0:04:51.28,JP,Shamiko,0,0,0,,{\3c5B50C4}それだと困る！
+Dialogue: 0,0:04:51.28,0:04:54.65,JP,Shamiko,0,0,0,,{\3c5B50C4}なぜなら  私は 桃のつぶやいたーを監視したいから
+Dialogue: 0,0:04:54.94,0:04:58.45,JP,Momo,0,0,0,,{\3c7E61DE}さてはシャミ子 後ろめたいことを調べようとしてるのかな
+Dialogue: 0,0:04:58.45,0:05:00.69,JP,Shamiko,0,0,0,,{\3c5B50C4}ち… 違う  プライバシー侵害だ！
+Dialogue: 0,0:05:00.69,0:05:04.19,JP,Shamiko,0,0,0,,{\3c5B50C4}あ… 今のは桃のプライバシーをのぞき見たいという意味ではなく
+Dialogue: 0,0:05:04.19,0:05:07.15,JP,Shamiko,0,0,0,,{\3c5B50C4}私のプライバシーを詮索しないでほしいという意味なので
+Dialogue: 0,0:05:07.15,0:05:08.91,JP,Shamiko,0,0,0,,{\3c5B50C4}詮索しないでいただきたい
+Dialogue: 0,0:05:08.91,0:05:10.04,JP,Momo,0,0,0,,{\3c7E61DE}それは分かるよ
+Dialogue: 0,0:05:10.29,0:05:11.70,JP,Momo,0,0,0,,{\3c7E61DE}どうしてそんなに よく喋るの？
+Dialogue: 0,0:05:11.94,0:05:14.70,JP,Shamiko,0,0,0,,{\3c5B50C4}とにかく  一旦今日はお引き取りください
+Dialogue: 0,0:05:14.70,0:05:16.26,JP,Shamiko,0,0,0,,{\3c5B50C4}お疲れさまです お疲れさまです
+Dialogue: 0,0:05:16.26,0:05:17.68,JP,Shamiko,0,0,0,,{\3c5B50C4}お疲れさまで～す！
+Dialogue: 0,0:05:19.06,0:05:20.59,JP,Seiko,0,0,0,,{\3c6E0A4A}いいんですか？ 優子
+Dialogue: 0,0:05:20.59,0:05:23.41,JP,Shamiko,0,0,0,,{\3c5B50C4}いいんです  お父さんの杖も受け継いだし
+Dialogue: 0,0:05:23.80,0:05:25.92,JP,Shamiko,0,0,0,,{\3c5B50C4}以前の私とは ひと味違います
+Dialogue: 0,0:05:26.47,0:05:28.43,JP,Shamiko,0,0,0,,{\3c5B50C4}桃は私よりできるからって
+Dialogue: 0,0:05:28.43,0:05:30.98,JP,Shamiko,0,0,0,,{\3c5B50C4}何でもかんでも 導こうとしすぎです
+Dialogue: 0,0:05:31.20,0:05:34.25,JP,Seiko,0,0,0,,{\3c6E0A4A}でも  桃さん 少し寂しそうだったので
+Dialogue: 0,0:05:34.70,0:05:35.91,JP,Seiko,0,0,0,,{\3c6E0A4A}あと 桃さんから
+Dialogue: 0,0:05:36.93,0:05:39.81,JP,Seiko,0,0,0,,{\3c6E0A4A}こんなこともあろうかと  この本を託されています
+Dialogue: 0,0:05:40.06,0:05:41.24,JP,Shamiko,0,0,0,,{\3c5B50C4}悔しい
+Dialogue: 0,0:05:41.24,0:05:42.36,JP,Shamiko,0,0,0,,{\3c5B50C4}でも お借りします
+Dialogue: 0,0:05:46.98,0:05:49.00,JP,Shamiko,0,0,0,,{\3c5B50C4}あれ？パソコンが止まっちゃった
+Dialogue: 0,0:05:49.34,0:05:51.64,JP,Shamiko,0,0,0,,{\3c5B50C4}こういうときは えっと…
+Dialogue: 0,0:05:52.50,0:05:59.03,JP,Shamiko,0,0,0,,{\3c5B50C4}キーボードから コントロール　アルト　デリートすると タスクマネージャーが 出てくるから
+Dialogue: 0,0:05:59.38,0:06:03.42,JP,Shamiko,0,0,0,,{\3c5B50C4}アプリケーションのタブから フリーズしたアプリケーションの…
+Dialogue: 0,0:06:03.91,0:06:06.55,JP,Shamiko,0,0,0,,{\3c5B50C4}呪文ですか!? アプリケーションって何だ？
+Dialogue: 0,0:06:06.55,0:06:10.55,JP,Shamiko,0,0,0,,{\3c5B50C4}秋の味覚か？説明書を読むための説明書をつけておけ！
+Dialogue: 0,0:06:12.03,0:06:14.02,JP,Lilith,0,0,0,,{\3c993399}落ち着くのです かわいい子孫よ
+Dialogue: 0,0:06:14.34,0:06:15.27,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖
+Dialogue: 0,0:06:15.68,0:06:20.07,JP,Lilith,0,0,0,,{\3c993399}こんなときこそ  父より受け継ぎし万能の杖を使うのです
+Dialogue: 0,0:06:20.21,0:06:21.15,JP,Shamiko,0,0,0,,{\3c5B50C4}なるほど
+Dialogue: 0,0:06:21.30,0:06:24.45,JP,Lilith,0,0,0,,{\3c993399}では 杖を鈍器に変えて液晶を殴るのです
+Dialogue: 0,0:06:24.45,0:06:25.58,JP,Shamiko,0,0,0,,{\3c5B50C4}借りものです！
+Dialogue: 0,0:06:25.95,0:06:29.33,JP,Sion,0,0,0,,{\3c660000}大きな荷物を引いてるよ～
+Dialogue: 0,0:06:29.33,0:06:30.48,JP,Shamiko,0,0,0,,{\3c5B50C4}できた～
+Dialogue: 0,0:06:30.79,0:06:33.58,JP,Shamiko,0,0,0,,{\3c5B50C4}やっと つぶやいたーに登録できました
+Dialogue: 0,0:06:33.58,0:06:36.53,JP,Shamiko,0,0,0,,{\3c5B50C4}長かった  落とし穴まみれでした
+Dialogue: 0,0:06:36.53,0:06:39.72,JP,Shamiko,0,0,0,,{\3c5B50C4}しかーし！これで桃の監視は はかどるぞ！
+Dialogue: 0,0:06:39.72,0:06:42.38,JP,Shamiko,0,0,0,,{\3c5B50C4}敵にWi-Fiを送るとは 愚かなり  桃
+Dialogue: 0,0:06:42.38,0:06:44.44,JP,Shamiko,0,0,0,,{\3c5B50C4}必殺  魔族エンター！
+Dialogue: 0,0:06:45.02,0:06:48.82,JP,Shamiko,0,0,0,,{\3c5B50C4}あれ？ つぶやいたーって国内で4000万人もやってるの？
+Dialogue: 0,0:06:49.16,0:06:50.52,JP,Shamiko,0,0,0,,{\3c5B50C4}甘く見ていた
+Dialogue: 0,0:06:51.02,0:06:54.56,JP,Shamiko,0,0,0,,{\3c5B50C4}50人くらいでやってるインターネットだと思ってました
+Dialogue: 0,0:06:54.56,0:06:56.78,JP,Shamiko,0,0,0,,{\3c5B50C4}これでは 一日100人探しても
+Dialogue: 0,0:06:56.78,0:06:58.98,JP,Shamiko,0,0,0,,{\3c5B50C4}桃を見つけるのに1000年かかる>
+Dialogue: 0,0:06:59.62,0:07:02.91,JP,Shamiko,0,0,0,,{\3c5B50C4}せっかくお父さんから 万能の杖を受け継いだのに
+Dialogue: 0,0:07:02.91,0:07:04.96,JP,Shamiko,0,0,0,,{\3c5B50C4}今のところ 全然生かせてない>
+Dialogue: 0,0:07:05.27,0:07:08.47,JP,Shamiko,0,0,0,,{\3c5B50C4}現代文明の前に 古代の武器は無力なのか!?
+Dialogue: 0,0:07:08.81,0:07:11.64,JP,Shamiko,0,0,0,,{\3c5B50C4}いやいや  何とかの杖さんのせいではない！
+Dialogue: 0,0:07:12.86,0:07:14.50,JP,Shamiko,0,0,0,,{\3c5B50C4}私が無力なんです
+Dialogue: 0,0:07:14.88,0:07:16.83,JP,Shamiko,0,0,0,,{\3c5B50C4}桃のつぶやいたーをのぞければ
+Dialogue: 0,0:07:16.83,0:07:19.51,JP,Shamiko,0,0,0,,{\3c5B50C4}桃の気持ちが多少分かると思ったのに
+Dialogue: 0,0:07:20.36,0:07:22.53,JP,Seiko,0,0,0,,{\3c6E0A4A}桃さん少し寂しそうだったので
+Dialogue: 0,0:07:22.89,0:07:25.01,JP,Shamiko,0,0,0,,{\3c5B50C4}桃の気持ちは分かりづらい
+Dialogue: 0,0:07:25.01,0:07:27.63,JP,Shamiko,0,0,0,,{\3c5B50C4}ちゃんと言葉で言ってくれないと 分から～ん！
+Dialogue: 0,0:07:28.08,0:07:31.37,JP,Shamiko,0,0,0,,{\3c5B50C4}お父さん  これを乗り切る力を貸してください
+Dialogue: 0,0:07:31.37,0:07:33.26,JP,Lilith,0,0,0,,{\3c993399}鈍器にして 桃を脅そう
+Dialogue: 0,0:07:33.26,0:07:34.87,JP,Shamiko,0,0,0,,{\3c5B50C4}絶対 返り討ちです
+Dialogue: 0,0:07:40.61,0:07:42.52,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子？ フォーク？
+Dialogue: 0,0:07:42.52,0:07:44.13,JP,Shamiko,0,0,0,,{\3c5B50C4}さっきはごめんなさい
+Dialogue: 0,0:07:44.13,0:07:45.78,JP,Momo,0,0,0,,{\3c7E61DE}えっ いや 別に
+Dialogue: 0,0:07:50.82,0:07:53.32,JP,Momo,0,0,0,,{\3c7E61DE}何とかの杖の使い道 おかしくない？
+Dialogue: 0,0:07:53.32,0:07:56.93,JP,Shamiko,0,0,0,,{\3c5B50C4}言いにくいことを伝えるために お父さんの力を借りたんです
+Dialogue: 0,0:07:58.45,0:08:00.21,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子 アカウント作ったんだ
+Dialogue: 0,0:08:00.21,0:08:00.94,JP,Momo,0,0,0,,{\3c7E61DE}そうです！
+Dialogue: 0,0:08:00.94,0:08:03.69,JP,Momo,0,0,0,,{\3c7E61DE}ｼｬﾄﾞｳﾐｽﾄﾚｽ 全部 ローマ字だね
+Dialogue: 0,0:08:03.69,0:08:04.86,JP,Shamiko,0,0,0,,{\3c5B50C4}はい 頑張りました
+Dialogue: 0,0:08:05.17,0:08:08.39,JP,Momo,0,0,0,,{\3c7E61DE}私のつぶやいたー そこまでして 何で知りたいの？
+Dialogue: 0,0:08:08.39,0:08:10.31,JP,Shamiko,0,0,0,,{\3c5B50C4}そ… それは桃が
+Dialogue: 0,0:08:10.31,0:08:12.81,JP,Shamiko,0,0,0,,{\3c5B50C4}どうしたら笑ってくれるのか 知りたいから
+Dialogue: 0,0:08:15.47,0:08:18.48,JP,Shamiko,0,0,0,,{\3c5B50C4}貴様を オールウェイズ監視するためだ！
+Dialogue: 0,0:08:18.48,0:08:22.14,JP,Shamiko,0,0,0,,{\3c5B50C4}貴様が私以外の 変な魔族につけこまれたら困る
+Dialogue: 0,0:08:22.84,0:08:24.22,JP,Momo,0,0,0,,{\3c7E61DE}ごめんね  シャミ子
+Dialogue: 0,0:08:24.22,0:08:27.08,JP,Momo,0,0,0,,{\3c7E61DE}私 この人の眷属になって闇堕ちする
+Dialogue: 0,0:08:27.42,0:08:29.21,JP,Momo,0,0,0,,{\3c7E61DE}あとは1人で Wi-Fiしてね
+Dialogue: 0,0:08:29.21,0:08:30.44,JP,Shamiko,0,0,0,,{\3c5B50C4}不思議な生き物
+Dialogue: 0,0:08:30.91,0:08:33.12,JP,Momo,0,0,0,,{\3c7E61DE}その尻尾は どういう感情？
+Dialogue: 0,0:08:33.64,0:08:36.03,JP,Shamiko,0,0,0,,{\3c5B50C4}結局 桃は教えてくれませんでした
+Dialogue: 0,0:08:39.95,0:08:43.89,JP,Ryouko,0,0,0,,{\3c644B8D}お姉 とうとうSNSの世界にも 進軍を開始したんだね
+Dialogue: 0,0:08:43.89,0:08:45.05,JP,Ryouko,0,0,0,,{\3c644B8D}良は感動した
+Dialogue: 0,0:08:45.27,0:08:48.85,JP,Shamiko,0,0,0,,{\3c5B50C4}SNSって何ですか？ すごいネットの世界？
+Dialogue: 0,0:08:48.85,0:08:50.77,JP,Ryouko,0,0,0,,{\3c644B8D}ソーシャルネットワークサービス
+Dialogue: 0,0:08:52.26,0:08:54.04,JP,Shamiko,0,0,0,,{\3c5B50C4}何か来た！ 何これ!?
+Dialogue: 0,0:08:54.04,0:08:55.79,JP,Ryouko,0,0,0,,{\3c644B8D}フォローリクエストって書いてある
+Dialogue: 0,0:08:55.79,0:08:57.97,JP,Ryouko,0,0,0,,{\3c644B8D}もしかしたら お姉に仕官したい人かも
+Dialogue: 0,0:08:57.97,0:08:58.50,JP,Shamiko,0,0,0,,{\3c5B50C4}えっ
+Dialogue: 0,0:08:58.50,0:09:00.49,JP,Shamiko,0,0,0,,{\3c5B50C4}でもまだ 誰にも教えてないし
+Dialogue: 0,0:09:00.49,0:09:02.65,JP,Shamiko,0,0,0,,{\3c5B50C4}桃に言われたとおり 鍵もかけたし
+Dialogue: 0,0:09:03.05,0:09:06.40,JP,Shamiko,0,0,0,,{\3c5B50C4}怪しいです 絶対
+Dialogue: 0,0:09:06.40,0:09:07.70,JP,Shamiko,0,0,0,,{\3c5B50C4}拒否です 拒否です
+Dialogue: 0,0:09:07.70,0:09:08.45,JP,Ryouko,0,0,0,,{\3c644B8D}そうかな？
+Dialogue: 0,0:09:08.73,0:09:12.03,JP,Seiko,0,0,0,,{\3c6E0A4A}良  そろそろ 寝ない子お化けが出る時間ですよ
+Dialogue: 0,0:09:12.03,0:09:14.09,JP,Seiko,0,0,0,,{\3c6E0A4A}小学生は お布団に入りなさい
+Dialogue: 0,0:09:14.09,0:09:14.87,JP,Ryouko,0,0,0,,{\3c644B8D}は～い
+Dialogue: 0,0:09:15.34,0:09:16.98,JP,Ryouko,0,0,0,,{\3c644B8D}お姉 頑張って！
+Dialogue: 0,0:09:16.98,0:09:17.45,JP,Shamiko,0,0,0,,{\3c5B50C4}うん
+Dialogue: 0,0:09:17.77,0:09:18.94,JP,Shamiko,0,0,0,,{\3c5B50C4}良子  おやすみ
+Dialogue: 0,0:09:20.38,0:09:23.03,JP,Shamiko,0,0,0,,{\3c5B50C4}そういえば桃は 私のアカウントを見てた
+Dialogue: 0,0:09:23.57,0:09:24.95,JP,Shamiko,0,0,0,,{\3c5B50C4}これはもしかして…
+Dialogue: 0,0:09:24.95,0:09:27.68,JP,Shamiko,0,0,0,,{\3c5B50C4}いや でも 桃は教えたくないって言ってたし
+Dialogue: 0,0:09:30.98,0:09:32.54,JP,Shamiko,0,0,0,,{\3c5B50C4}絶対に桃だ これ
+Dialogue: 0,0:09:46.54,0:09:49.42,JP,Shamiko,0,0,0,,{\3c5B50C4}{\an8}これで勝ったと思うなよ～！
+Dialogue: 0,0:09:48.91,0:09:50.09,JP,Momo,0,0,0,,{\3c7E61DE}壁が薄いな
+Dialogue: 0,0:09:53.38,0:09:55.95,JP,Mikan,0,0,0,,{\3c015ADE}しゃみこおおお  ついにアカウントをとったのね
+Dialogue: 0,0:09:55.95,0:09:57.36,JP,Shamiko,0,0,0,,{\3c5B50C4}はい!! 取っちゃいました
+Dialogue: 0,0:09:57.36,0:09:59.41,JP,Mikan,0,0,0,,{\3c015ADE}あっ  桃はっけーん  フォローしました
+Dialogue: 0,0:09:59.41,0:10:01.85,JP,Mikan,0,0,0,,{\3c015ADE}そういえば 先日の映画 面白かったわね
+Dialogue: 0,0:10:01.85,0:10:03.78,JP,Shamiko,0,0,0,,{\3c5B50C4}はい すごく面白かったです
+Dialogue: 0,0:10:03.78,0:10:08.33,JP,Shamiko,0,0,0,,{\3c5B50C4}ゾンビが カニ爆弾を抱えて 酢飯の海に飛び込むところが すごく興奮しました
+Dialogue: 0,0:10:08.33,0:10:10.17,JP,Mikan,0,0,0,,{\3c015ADE}ところで 来週の日曜 空いてる？
+Dialogue: 0,0:10:10.17,0:10:11.77,JP,Shamiko,0,0,0,,{\3c5B50C4}修行がなければ 空いてます
+Dialogue: 0,0:10:11.77,0:10:13.44,JP,Mikan,0,0,0,,{\3c015ADE}やった  シャミ子 予約！
+Dialogue: 0,0:10:13.44,0:10:14.94,JP,Mikan,0,0,0,,{\3c015ADE}ところで シャミ子の趣味って…
+Dialogue: 0,0:10:15.16,0:10:16.73,JP,Momo,0,0,0,,{\3c7E61DE}夜は Wi-Fi切っとこう
+Dialogue: 0,0:10:16.96,0:10:21.65,JP,,0,0,0,,頑張れ 桃さん  たくさんつぶやいて 楽しくWi-Fiするんだ
+Dialogue: 0,0:10:33.13,0:10:34.56,JP,Lilith,0,0,0,,{\3c993399}何だ これは
+Dialogue: 0,0:10:34.56,0:10:36.27,JP,Lilith,0,0,0,,{\3c993399}どういう風の吹き回しだ
+Dialogue: 0,0:10:36.27,0:10:38.32,JP,Momo,0,0,0,,{\3c7E61DE}ワイロ… じゃなかった お供えです
+Dialogue: 0,0:10:38.59,0:10:40.84,JP,Momo,0,0,0,,{\3c7E61DE}今日はリリスさんに 聞きたいことがあるんです
+Dialogue: 0,0:10:41.63,0:10:43.98,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子のお母さんの話から 考えて
+Dialogue: 0,0:10:43.98,0:10:47.03,JP,Momo,0,0,0,,{\3c7E61DE}過去 あなたは ヨシュアさんに 持ち運ばれていたようです
+Dialogue: 0,0:10:47.49,0:10:51.30,JP,Momo,0,0,0,,{\3c7E61DE}そのときに 私の姉 千代田桜を見た記憶はありますか
+Dialogue: 0,0:10:52.38,0:10:53.64,JP,Lilith,0,0,0,,{\3c993399}聞いて驚け
+Dialogue: 0,0:10:53.64,0:10:55.08,JP,Lilith,0,0,0,,{\3c993399}さっぱり分からぬ！
+Dialogue: 0,0:10:55.08,0:10:56.66,JP,Momo,0,0,0,,{\3c7E61DE}今日の用事 終わりでーす
+Dialogue: 0,0:10:56.66,0:10:59.45,JP,Lilith,0,0,0,,{\3c993399}ああっ しまうな！ まだ食べてる まだ味わってるから！
+Dialogue: 0,0:11:01.33,0:11:05.60,JP,Lilith,0,0,0,,{\3c993399}余は太古の昔に封印されて以来 弱体化の一途をたどっていた
+Dialogue: 0,0:11:06.57,0:11:12.02,JP,Lilith,0,0,0,,{\3c993399}特に ここ2000年は 魔力が弱まって 封印空間の外が 観測できなかったのだ
+Dialogue: 0,0:11:12.84,0:11:17.19,JP,Lilith,0,0,0,,{\3c993399}10年ほど前から 意識がはっきりして 外の世界が見えるようになった
+Dialogue: 0,0:11:17.19,0:11:19.55,JP,Lilith,0,0,0,,{\3c993399}弱ってた時期のことは曖昧なのだ
+Dialogue: 0,0:11:19.55,0:11:22.16,JP,Momo,0,0,0,,{\3c7E61DE}2000年間 閉じ込められていた ってことですか？
+Dialogue: 0,0:11:22.43,0:11:24.48,JP,Lilith,0,0,0,,{\3c993399}まあ ほぼほぼ そうなるな
+Dialogue: 0,0:11:24.48,0:11:27.84,JP,Lilith,0,0,0,,{\3c993399}調子がいいときは 縁の近い者の夢に干渉できたが
+Dialogue: 0,0:11:27.84,0:11:31.57,JP,Lilith,0,0,0,,{\3c993399}最近 シャミ子が 余の声に 気づくようになって 退屈せんな
+Dialogue: 0,0:11:32.67,0:11:35.45,JP,Lilith,0,0,0,,{\3c993399}うん？ 何だ その顔は 若者の同情などいらぬ！
+Dialogue: 0,0:11:36.14,0:11:38.32,JP,Lilith,0,0,0,,{\3c993399}無言でお供えは怖いからやめよ！
+Dialogue: 0,0:11:38.32,0:11:39.84,JP,Lilith,0,0,0,,{\3c993399}シャミ子は泣くな！
+Dialogue: 0,0:11:44.31,0:11:46.67,JP,Shamiko,0,0,0,,{\3c5B50C4}桃 何か考え事してますか？
+Dialogue: 0,0:11:46.67,0:11:48.03,JP,Momo,0,0,0,,{\3c7E61DE}えっ？ いや 全然
+Dialogue: 0,0:11:48.78,0:11:51.46,JP,Momo,0,0,0,,{\3c7E61DE}いや うん 考え事してた
+Dialogue: 0,0:11:51.88,0:11:54.14,JP,Momo,0,0,0,,{\3c7E61DE}最近 リリスさんを投げまくってたし
+Dialogue: 0,0:11:54.14,0:11:55.83,JP,Momo,0,0,0,,{\3c7E61DE}多少悪いことしたかなと
+Dialogue: 0,0:11:56.45,0:12:00.47,JP,Momo,0,0,0,,{\3c7E61DE}いや  そんなことはなかった よく考えたら
+Dialogue: 0,0:12:00.47,0:12:01.56,JP,Shamiko,0,0,0,,{\3c5B50C4}は… はい
+Dialogue: 0,0:12:01.91,0:12:02.95,JP,Shamiko,0,0,0,,{\3c5B50C4}あ… あの
+Dialogue: 0,0:12:03.61,0:12:05.72,JP,Shamiko,0,0,0,,{\3c5B50C4}私に考えがあるんですけど
+Dialogue: 0,0:12:08.83,0:12:10.93,JP,Lilith,0,0,0,,{\3c993399}何だ これは 拷問か？
+Dialogue: 0,0:12:10.93,0:12:13.80,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖に 私の体をお貸ししたいんです
+Dialogue: 0,0:12:13.80,0:12:16.58,JP,Shamiko,0,0,0,,{\3c5B50C4}明日 一日 自由に楽しんでもらいたくて
+Dialogue: 0,0:12:17.13,0:12:21.24,JP,Momo,0,0,0,,{\3c7E61DE}私は以前 リリスさんが ｼｬﾐ子に 乗り移る機能を封印しました
+Dialogue: 0,0:12:21.65,0:12:24.23,JP,Momo,0,0,0,,{\3c7E61DE}なので その封印 エポキシ接着剤を
+Dialogue: 0,0:12:24.23,0:12:26.16,JP,Momo,0,0,0,,{\3c7E61DE}今から 物理的にひっぺがします
+Dialogue: 0,0:12:26.16,0:12:27.89,JP,Lilith,0,0,0,,{\3c993399}やはり拷問だったか
+Dialogue: 0,0:12:27.89,0:12:30.13,JP,Momo,0,0,0,,{\3c7E61DE}本体は 1ミクロンも削りません
+Dialogue: 0,0:12:30.13,0:12:31.84,JP,Momo,0,0,0,,{\3c7E61DE}魔法は物理で超えられる
+Dialogue: 0,0:12:31.84,0:12:33.26,JP,Lilith,0,0,0,,{\3c993399}余は何も知らない
+Dialogue: 0,0:12:33.26,0:12:35.42,JP,Lilith,0,0,0,,{\3c993399}さっき話したことが全てでーす！
+Dialogue: 0,0:12:35.80,0:12:37.40,JP,Momo,0,0,0,,{\3c7E61DE}手元が狂うので黙って
+Comment: 0,0:12:37.83,0:12:42.15,JP,Lilith,0,0,0,,{\3c993399}
+Dialogue: 0,0:12:46.71,0:12:48.70,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖 おはようございます
+Dialogue: 0,0:12:48.70,0:12:50.31,JP,Shamiko,0,0,0,,{\3c5B50C4}桃は さっき帰りました
+Dialogue: 0,0:12:50.31,0:12:52.86,JP,Lilith,0,0,0,,{\3c993399}ひっぺがし作業の途中で 寝てしまわれてたので
+Dialogue: 0,0:12:52.86,0:12:53.86,JP,Lilith,0,0,0,,{\3c993399}シャミ子よ
+Dialogue: 0,0:12:53.86,0:12:56.13,JP,Lilith,0,0,0,,{\3c993399}違うぞ  あれは恐怖からの気絶だ！
+Dialogue: 0,0:12:56.49,0:12:58.44,JP,Lilith,0,0,0,,{\3c993399}余がピチピチだった時代は
+Dialogue: 0,0:12:58.44,0:13:01.29,JP,Lilith,0,0,0,,{\3c993399}麻酔なしのキリ一本で 虫歯治療をしていた
+Dialogue: 0,0:13:01.29,0:13:02.85,JP,Lilith,0,0,0,,{\3c993399}そのことを思い出していた
+Dialogue: 0,0:13:03.05,0:13:04.88,JP,Shamiko,0,0,0,,{\3c5B50C4}はえ～ さすがは ご先祖です
+Dialogue: 0,0:13:04.88,0:13:06.60,JP,Shamiko,0,0,0,,{\3c5B50C4}あっ 桃から連絡だ
+Dialogue: 0,0:13:06.70,0:13:08.49,JP,Lilith,0,0,0,,{\3c993399}もう少し ねぎらってはどうだ？
+Dialogue: 0,0:13:08.49,0:13:11.16,JP,Shamiko,0,0,0,,{\3c5B50C4}す… すみません  インターネットが難しくて
+Dialogue: 0,0:13:11.57,0:13:12.35,JP,Shamiko,0,0,0,,{\3c5B50C4}えっと～
+Dialogue: 0,0:13:13.30,0:13:17.21,JP,Momo,0,0,0,,{\3c7E61DE}あした ﾘﾘｽさんにシャミ子の体を 貸すことになると思うんだけど｣
+Dialogue: 0,0:13:17.21,0:13:19.29,JP,Momo,0,0,0,,{\3c7E61DE}リリスさんを一人で放流すると
+Dialogue: 0,0:13:19.29,0:13:21.18,JP,Momo,0,0,0,,{\3c7E61DE}どこか遠くで遭難して くたばったり
+Dialogue: 0,0:13:21.55,0:13:24.84,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子の体で勝手に 借金を抱えそうで心配だから
+Dialogue: 0,0:13:24.84,0:13:27.88,JP,Shamiko,0,0,0,,{\3c5B50C4}念のため 私も 一緒についていくから よろしく
+Dialogue: 0,0:13:28.25,0:13:29.17,JP,Shamiko,0,0,0,,{\3c5B50C4}だそうです
+Dialogue: 0,0:13:29.17,0:13:31.14,JP,Lilith,0,0,0,,{\3c993399}何!? いらんわ！ そんなもの
+Dialogue: 0,0:13:31.14,0:13:34.11,JP,Lilith,0,0,0,,{\3c993399}余を世間知らずの ポンコツ魔族だとでも言いたいのか
+Dialogue: 0,0:13:34.11,0:13:35.84,JP,Lilith,0,0,0,,{\3c993399}1人でお散歩くらいできる！
+Dialogue: 0,0:13:35.84,0:13:38.89,JP,Shamiko,0,0,0,,{\3c5B50C4}でも ご先祖 温泉までの道 分かりますか？
+Dialogue: 0,0:13:38.89,0:13:40.79,JP,Shamiko,0,0,0,,{\3c5B50C4}入場料金の払い方とか
+Dialogue: 0,0:13:40.79,0:13:43.31,JP,Lilith,0,0,0,,{\3c993399}分かんないが 適当に行けば たどり着くだろう
+Dialogue: 0,0:13:43.31,0:13:46.46,JP,Lilith,0,0,0,,{\3c993399}あとは 土下座でもすれば 文無しでも 入れてくれるのではないか？
+Dialogue: 0,0:13:46.91,0:13:49.41,JP,Shamiko,0,0,0,,{\3c5B50C4}やっぱり 桃と一緒にいた方が いいと思います
+Dialogue: 0,0:13:51.48,0:13:52.51,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖…
+Dialogue: 0,0:13:53.49,0:13:57.60,JP,Shamiko,0,0,0,,{\3c5B50C4}私 以前から桃とご先祖が ヒリヒリしているのが心配で
+Dialogue: 0,0:13:57.60,0:14:00.64,JP,Shamiko,0,0,0,,{\3c5B50C4}これを機に 仲良くなってくれると嬉しいです
+Dialogue: 0,0:14:00.64,0:14:02.95,JP,Shamiko,0,0,0,,{\3c5B50C4}仮にも 協力することになったし
+Dialogue: 0,0:14:03.81,0:14:05.43,JP,Lilith,0,0,0,,{\3c993399}おぬしが そう言うなら
+Dialogue: 0,0:14:05.43,0:14:09.31,JP,Lilith,0,0,0,,{\3c993399}だが　桃にエスコートされるにしても 余が上でなければならぬ
+Dialogue: 0,0:14:09.31,0:14:12.19,JP,Lilith,0,0,0,,{\3c993399}この文章全体から ナメられている気配を感じる
+Dialogue: 0,0:14:13.54,0:14:15.66,JP,Lilith,0,0,0,,{\3c993399}開幕から　きちんとマウンティングして ビビらせてやらねばならぬ
+Dialogue: 0,0:14:15.66,0:14:16.57,JP,Shamiko,0,0,0,,{\3c5B50C4}そうですか？
+Dialogue: 0,0:14:19.82,0:14:21.59,JP,Lilith,0,0,0,,{\3c993399}余に考えがある
+Dialogue: 0,0:14:25.89,0:14:26.97,JP,Lilith,0,0,0,,{\3c993399}待たせたな！
+Dialogue: 0,0:14:32.21,0:14:35.63,JP,Lilith,0,0,0,,{\3c993399}闇の魔女 リリス 子孫の体を借りて参上だ！
+Dialogue: 0,0:14:37.19,0:14:38.78,JP,,0,0,0,,{\an8}あらあら ごめんなさい
+Dialogue: 0,0:14:39.00,0:14:41.44,JP,,0,0,0,,{\an8}犬ちゃん シーッ おとなしくね
+Dialogue: 0,0:14:41.90,0:14:44.67,JP,Shamiko,0,0,0,,{\3c5B50C4}桃  今日は ご先祖をよろしくお願いします
+Dialogue: 0,0:14:44.67,0:14:47.57,JP,Shamiko,0,0,0,,{\3c5B50C4}私 2人に もう少し仲良くなってほしいです
+Dialogue: 0,0:14:47.57,0:14:51.31,JP,Lilith,0,0,0,,{\3c993399}うむうむ 今日はｼｬﾐ子の代わりに 余が貴様と遊んでやる
+Dialogue: 0,0:14:51.31,0:14:53.33,JP,Shamiko,0,0,0,,{\3c5B50C4}私は 今日は勉強していますね
+Dialogue: 0,0:14:53.33,0:14:54.93,JP,Shamiko,0,0,0,,{\3c5B50C4}たっぷり遊んできてください
+Dialogue: 0,0:14:54.93,0:14:58.71,JP,Lilith,0,0,0,,{\3c993399}うむ！ 外の音は切っておくので 思うさま ゆっくりするがよい！
+Dialogue: 0,0:14:59.17,0:15:01.51,JP,Lilith,0,0,0,,{\3c993399}闇の魔女　リリスをエスコートできること
+Dialogue: 0,0:15:01.51,0:15:02.87,JP,Lilith,0,0,0,,{\3c993399}誇りに思うがよい！
+Dialogue: 0,0:15:03.21,0:15:05.69,JP,Momo,0,0,0,,{\3c7E61DE}リリスさん  左右の靴下 間違ってますよ
+Dialogue: 0,0:15:05.94,0:15:07.41,JP,Lilith,0,0,0,,{\3c993399}こういうファッションだ！
+Dialogue: 0,0:15:08.48,0:15:09.36,JP,Lilith,0,0,0,,{\3c993399}これだ！
+Dialogue: 0,0:15:09.60,0:15:13.11,JP,Lilith,0,0,0,,{\3c993399}桃をﾋﾞﾋﾞらせるためのイケてる服を
+Dialogue: 0,0:15:13.11,0:15:14.30,JP,Shamiko,0,0,0,,{\3c5B50C4}今からですか？
+Dialogue: 0,0:15:14.30,0:15:16.40,JP,Lilith,0,0,0,,{\3c993399}ここに 即日発送と書いてあるぞ
+Dialogue: 0,0:15:16.40,0:15:17.80,JP,Lilith,0,0,0,,{\3c993399}多分 間に合うだろう
+Dialogue: 0,0:15:17.80,0:15:20.41,JP,Lilith,0,0,0,,{\3c993399}これだ！ これ  これも攻撃力が高そうだ
+Dialogue: 0,0:15:20.41,0:15:21.80,JP,Lilith,0,0,0,,{\3c993399}この服もよさそうだ
+Dialogue: 0,0:15:21.80,0:15:25.19,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖 ご先祖  どんどんカートの値段が 上がっていきます
+Dialogue: 0,0:15:26.33,0:15:28.34,JP,Lilith,0,0,0,,{\3c993399}おぬしは疎いから 分からんだろうが
+Dialogue: 0,0:15:28.34,0:15:32.62,JP,Lilith,0,0,0,,{\3c993399}ネット通販というのは うま～く利用すると タダで買い物ができるのだ
+Dialogue: 0,0:15:32.62,0:15:34.04,JP,Lilith,0,0,0,,{\3c993399}余は勉強したぞ
+Dialogue: 0,0:15:34.22,0:15:35.36,JP,Shamiko,0,0,0,,{\3c5B50C4}そうなんですか!?
+Dialogue: 0,0:15:35.36,0:15:37.48,JP,Lilith,0,0,0,,{\3c993399}うむ  初回利用ポイントとか
+Dialogue: 0,0:15:37.48,0:15:39.56,JP,Lilith,0,0,0,,{\3c993399}ナントカ払いとか　カントカ払いとか\N
+Dialogue: 0,0:15:39.56,0:15:40.98,JP,Lilith,0,0,0,,{\3c993399}複雑な仕組みがあってだ
+Dialogue: 0,0:15:40.98,0:15:43.05,JP,Lilith,0,0,0,,{\3c993399}目先のお金は一旦忘れていい
+Dialogue: 0,0:15:43.05,0:15:44.59,JP,Lilith,0,0,0,,{\3c993399}つまり 実質タダだ！
+Dialogue: 0,0:15:44.53,0:15:45.95,JP,Shamiko,0,0,0,,{\3c5B50C4}さすが ご先祖です
+Dialogue: 0,0:15:47.44,0:15:48.71,JP,Lilith,0,0,0,,{\3c993399}さあ ポチれ！
+Dialogue: 0,0:15:48.71,0:15:49.42,JP,Shamiko,0,0,0,,{\3c5B50C4}ポチります
+Dialogue: 0,0:15:51.17,0:15:52.21,JP,Lilith,0,0,0,,{\3c993399}フフン ビビったか？
+Dialogue: 0,0:15:52.21,0:15:53.87,JP,Momo,0,0,0,,{\3c7E61DE}くっ 締め落としたい
+Dialogue: 0,0:15:53.87,0:15:55.93,JP,Momo,0,0,0,,{\3c7E61DE}でも シャミ子の体だから締め落とせない
+Dialogue: 0,0:15:56.84,0:15:58.98,JP,Momo,0,0,0,,{\3c7E61DE}何か 一緒に歩きたくない
+Dialogue: 0,0:15:58.98,0:16:01.25,JP,Lilith,0,0,0,,{\3c993399}おっ 怖いのか？ 怖いのか？
+Dialogue: 0,0:16:01.25,0:16:03.81,JP,Momo,0,0,0,,{\3c7E61DE}怖いというか  独自性が高いというか
+Dialogue: 0,0:16:04.00,0:16:05.31,JP,Momo,0,0,0,,{\3c7E61DE}目を引いているというか
+Dialogue: 0,0:16:05.31,0:16:07.03,JP,Lilith,0,0,0,,{\3c993399}バリバリにキメてきているのだ
+Dialogue: 0,0:16:07.28,0:16:09.51,JP,Lilith,0,0,0,,{\3c993399}このセンスが分からんとは愚かだな
+Dialogue: 0,0:16:09.76,0:16:12.27,JP,Lilith,0,0,0,,{\3c993399}貴様こそ そのだらしない格好は何だ！
+Dialogue: 0,0:16:12.27,0:16:12.98,JP,Momo,0,0,0,,{\3c7E61DE}面倒で
+Dialogue: 0,0:16:13.16,0:16:14.44,JP,Lilith,0,0,0,,{\3c993399}だらしなすぎる！
+Dialogue: 0,0:16:14.44,0:16:18.92,JP,Lilith,0,0,0,,{\3c993399}日頃の謝罪の意を込めて 白装束で来るくらいの根性を 見せてみよ！
+Dialogue: 0,0:16:18.92,0:16:20.15,JP,Momo,0,0,0,,{\3c7E61DE}来なきゃよかった
+Dialogue: 0,0:16:20.15,0:16:22.93,JP,Lilith,0,0,0,,{\3c993399}まあ 案内してくれることには感謝する
+Dialogue: 0,0:16:22.93,0:16:25.82,JP,Lilith,0,0,0,,{\3c993399}ところで この天気が 何を意味するか 分かるか？
+Dialogue: 0,0:16:26.49,0:16:29.98,JP,Momo,0,0,0,,{\3c7E61DE}リリスさんの性格の 負しかない部分が 風景として あらわれている
+Dialogue: 0,0:16:29.98,0:16:30.67,JP,Lilith,0,0,0,,{\3c993399}違うわ！
+Dialogue: 0,0:16:31.39,0:16:35.06,JP,Lilith,0,0,0,,{\3c993399}以前の ごせんぞスイッチは いいお天気でないと使えなかった
+Dialogue: 0,0:16:35.06,0:16:39.16,JP,Lilith,0,0,0,,{\3c993399}しかし 今は 悪いお天気でも 余がシャミ子の体に憑依できている
+Dialogue: 0,0:16:39.16,0:16:43.26,JP,Lilith,0,0,0,,{\3c993399}つまりだ！ シャミ子の魔力が 着々と成長しているのだ
+Dialogue: 0,0:16:43.26,0:16:46.71,JP,Lilith,0,0,0,,{\3c993399}どこかのマヌケな魔法少女が 毎日鍛えてくれたおかげでな！
+Dialogue: 0,0:16:48.84,0:16:50.14,JP,Momo,0,0,0,,{\3c7E61DE}耐えろ 千代田桃 今 ここで
+Dialogue: 0,0:16:50.14,0:16:53.90,JP,Momo,0,0,0,,{\3c7E61DE}こいつを一本背負いしても  ビターンとなるのは シャミ子の体
+Dialogue: 0,0:16:54.23,0:16:55.52,JP,Sion,0,0,0,,{\3c660000}シャ～ミ子ちゃん
+Dialogue: 0,0:16:57.29,0:16:58.98,JP,Momo,0,0,0,,{\3c7E61DE}あっ えっと… 小倉さん？
+Dialogue: 0,0:16:59.24,0:17:01.81,JP,Sion,0,0,0,,{\3c660000}実験材料を集めに 行ってたとこなんだ
+Dialogue: 0,0:17:01.81,0:17:02.88,JP,Sion,0,0,0,,{\3c660000}中 見たい？
+Dialogue: 0,0:17:03.39,0:17:04.80,JP,Sion,0,0,0,,{\3c660000}え～ いいの？
+Dialogue: 0,0:17:04.80,0:17:07.30,JP,Sion,0,0,0,,{\3c660000}見たいでしょ？見たいよね？
+Dialogue: 0,0:17:07.30,0:17:07.82,JP,Sion,0,0,0,,{\3c660000}あれ？
+Dialogue: 0,0:17:13.32,0:17:13.89,JP,Sion,0,0,0,,{\3c660000}ああ…
+Dialogue: 0,0:17:14.64,0:17:18.61,JP,Sion,0,0,0,,{\3c660000}じゃあ 実はまだ収集途中だから ここで失礼するね
+Dialogue: 0,0:17:18.61,0:17:20.56,JP,Sion,0,0,0,,{\3c660000}でも このアイデアは生かせそう
+Dialogue: 0,0:17:21.79,0:17:25.01,JP,Lilith,0,0,0,,{\3c993399}シャミ子の魔力的に 体を借りられるのは2～3時間
+Dialogue: 0,0:17:25.36,0:17:29.01,JP,Lilith,0,0,0,,{\3c993399}魔法少女よ ローカル路線バスで 別府温泉に急ぐぞ！
+Dialogue: 0,0:17:29.01,0:17:30.83,JP,Momo,0,0,0,,{\3c7E61DE}バス待ち中に時間切れです
+Dialogue: 0,0:17:31.85,0:17:34.10,JP,Lilith,0,0,0,,{\3c993399}下呂温泉は？ 登別は？
+Dialogue: 0,0:17:34.10,0:17:35.12,JP,Momo,0,0,0,,{\3c7E61DE}全部 無理です
+Dialogue: 0,0:17:35.12,0:17:37.68,JP,Lilith,0,0,0,,{\3c993399}ヤダヤダ　ヤダヤダ　お風呂行くのだ
+Dialogue: 0,0:17:37.68,0:17:39.63,JP,Lilith,0,0,0,,{\3c993399}温泉が好きなのだ～！
+Dialogue: 0,0:17:39.63,0:17:41.54,JP,Momo,0,0,0,,{\3c7E61DE}どうしても温泉がいいんですね
+Dialogue: 0,0:17:42.41,0:17:43.36,JP,Momo,0,0,0,,{\3c7E61DE}はい 着きました
+Dialogue: 0,0:17:43.79,0:17:46.45,JP,Lilith,0,0,0,,{\3c993399}ここ この前も来た～ 2回目～
+Dialogue: 0,0:17:46.45,0:17:49.12,JP,Lilith,0,0,0,,{\3c993399}桃～ ここ2回目～ いいけど～
+Dialogue: 0,0:17:49.12,0:17:50.15,JP,Momo,0,0,0,,{\3c7E61DE}帰りたい
+Dialogue: 0,0:17:50.84,0:17:52.33,JP,Momo,0,0,0,,{\3c7E61DE}リリスさん 1200円
+Dialogue: 0,0:17:52.33,0:17:54.17,JP,Lilith,0,0,0,,{\3c993399}余の慰労会ではなかったのか!?
+Dialogue: 0,0:17:54.17,0:17:55.50,JP,Momo,0,0,0,,{\3c7E61DE}親睦会です
+Dialogue: 0,0:17:55.50,0:17:57.53,JP,Momo,0,0,0,,{\3c7E61DE}若造におごられて 悔しくないんですか？
+Dialogue: 0,0:17:57.68,0:17:59.93,JP,Lilith,0,0,0,,{\3c993399}余の財布には お金が入ってないのだ
+Dialogue: 0,0:17:59.93,0:18:04.12,JP,Momo,0,0,0,,{\3c7E61DE}シャ･ミ･子の財布です  親睦会なら 対等であるべきです
+Dialogue: 0,0:18:04.95,0:18:07.91,JP,Momo,0,0,0,,{\3c7E61DE}というわけで 一回こなすごとに20円です
+Dialogue: 0,0:18:07.91,0:18:09.84,JP,Lilith,0,0,0,,{\3c993399}何だこれは 拷問器具か？
+Dialogue: 0,0:18:10.08,0:18:11.20,JP,Momo,0,0,0,,{\3c7E61DE}バタフライマシンです
+Dialogue: 0,0:18:11.59,0:18:13.50,JP,Lilith,0,0,0,,{\3c993399}余の目的は温泉
+Dialogue: 0,0:18:13.50,0:18:16.41,JP,Lilith,0,0,0,,{\3c993399}併設されたジムには みじんの興味も…
+Dialogue: 0,0:18:16.41,0:18:18.23,JP,Momo,0,0,0,,{\3c7E61DE}フルーツ牛乳 120円
+Dialogue: 0,0:18:18.23,0:18:20.13,JP,Lilith,0,0,0,,{\3c993399}よっしゃ 6回追加じゃあ！
+Dialogue: 0,0:18:22.21,0:18:25.38,JP,Lilith,0,0,0,,{\3c993399}はっ！ いかん シャミ子の魔力が残り少ないっぽい
+Dialogue: 0,0:18:25.38,0:18:27.20,JP,Lilith,0,0,0,,{\3c993399}お風呂へ急ぐぞ 魔法少女よ
+Dialogue: 0,0:18:27.20,0:18:27.83,JP,Momo,0,0,0,,{\3c7E61DE}お風呂…
+Dialogue: 0,0:18:28.07,0:18:31.60,JP,Momo,0,0,0,,{\3c7E61DE}私 外で待っているので リリスさん　１人で行ってもらえます？
+Dialogue: 0,0:18:31.83,0:18:32.70,JP,Lilith,0,0,0,,{\3c993399}なぜだ！
+Dialogue: 0,0:18:32.70,0:18:34.66,JP,Lilith,0,0,0,,{\3c993399}一とおりのぼせて  正気度が下がれば
+Dialogue: 0,0:18:34.66,0:18:37.02,JP,Lilith,0,0,0,,{\3c993399}汗とともに 互いのわだかまりも 流れよう うん？
+Dialogue: 0,0:18:38.53,0:18:42.91,JP,Lilith,0,0,0,,{\3c993399}そういえば この前 ここに来たときも 外で監視しているだけだったし
+Dialogue: 0,0:18:42.91,0:18:45.83,JP,Lilith,0,0,0,,{\3c993399}館内着も着替えずに 謎の棒で変身していたし
+Dialogue: 0,0:18:47.44,0:18:50.39,JP,Lilith,0,0,0,,{\3c993399}さては おぬし 脱ぐのが恥ずかしいのだな
+Dialogue: 0,0:18:50.39,0:18:52.26,JP,Momo,0,0,0,,{\3c7E61DE}えっ いや 面倒くさいだけです
+Dialogue: 0,0:18:52.26,0:18:55.46,JP,Lilith,0,0,0,,{\3c993399}普段はクールぶってるのに 意外と乙女なヤツよ
+Dialogue: 0,0:18:55.46,0:18:56.44,JP,Momo,0,0,0,,{\3c7E61DE}違いますけど
+Dialogue: 0,0:18:56.44,0:18:58.53,JP,Lilith,0,0,0,,{\3c993399}よいぞ よいぞ 興が乗ったわ
+Dialogue: 0,0:18:58.53,0:18:59.81,JP,Lilith,0,0,0,,{\3c993399}脱げ 脱ぐのだ！
+Dialogue: 0,0:18:59.81,0:19:00.69,JP,Momo,0,0,0,,{\3c7E61DE}何か嫌です
+Dialogue: 0,0:19:00.69,0:19:04.55,JP,Lilith,0,0,0,,{\3c993399}おぬしのヘコたれた姿を見ることで 心から 上から目線でいられる
+Dialogue: 0,0:19:04.55,0:19:06.73,JP,Lilith,0,0,0,,{\3c993399}もとい 共闘することができるのだ
+Dialogue: 0,0:19:07.11,0:19:11.29,JP,Lilith,0,0,0,,{\3c993399}おぬしの恥ずかしがる姿 丹念に 余の心のﾒﾓﾘｰに収めてくれるわ！
+Dialogue: 0,0:19:11.29,0:19:13.50,JP,Lilith,0,0,0,,{\3c993399}脱いで恥ずかしがれ 魔法少女よ！
+Dialogue: 0,0:19:16.90,0:19:21.22,JP,,0,0,0,,{\an8}ただいま 悪天候による雷のため 停電が発生しました
+Dialogue: 0,0:19:21.22,0:19:22.55,JP,Momo,0,0,0,,{\3c7E61DE}何だ 停電か
+Dialogue: 0,0:19:22.88,0:19:25.25,JP,Momo,0,0,0,,{\3c7E61DE}ちょうどいいので  一旦ロビーに出て 待ちましょう
+Dialogue: 0,0:19:25.68,0:19:28.27,JP,Lilith,0,0,0,,{\3c993399}も… 桃桃桃～！ これは何だ この世の終わりか？
+Dialogue: 0,0:19:28.27,0:19:31.23,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子… じゃなかった リリスさん どうしました？
+Dialogue: 0,0:19:31.23,0:19:32.74,JP,Lilith,0,0,0,,{\3c993399}余は 余は…
+Dialogue: 0,0:19:32.74,0:19:35.27,JP,Lilith,0,0,0,,{\3c993399}完全なる暗闇はダメなのだ！
+Dialogue: 0,0:19:35.27,0:19:38.71,JP,Lilith,0,0,0,,{\3c993399}全力で余を担いで逃げよ！ 余は暗闇が怖いのだ！
+Dialogue: 0,0:19:38.71,0:19:41.20,JP,Momo,0,0,0,,{\3c7E61DE}永劫の闇をつかさどる 魔女なのに？
+Dialogue: 0,0:19:41.95,0:19:45.40,JP,Lilith,0,0,0,,{\3c993399}余は 封印されてた頃は 多少 未熟でな
+Dialogue: 0,0:19:45.40,0:19:49.59,JP,Lilith,0,0,0,,{\3c993399}魔力を コントロールできるようになるまで 封印空間は真っ暗だったのだ
+Dialogue: 0,0:19:50.04,0:19:52.26,JP,Lilith,0,0,0,,{\3c993399}外の世界も見られなかったしな
+Dialogue: 0,0:19:54.20,0:19:54.78,JP,Lilith,0,0,0,,{\3c993399}ほへ？
+Dialogue: 0,0:19:55.46,0:19:56.92,JP,Momo,0,0,0,,{\3c7E61DE}これなら怖くないですか？
+Dialogue: 0,0:19:56.92,0:19:58.36,JP,Lilith,0,0,0,,{\3c993399}スマホというやつか！
+Dialogue: 0,0:19:58.36,0:20:00.59,JP,Lilith,0,0,0,,{\3c993399}う… うむ  これなら生きていけるぞ！
+Dialogue: 0,0:20:00.59,0:20:02.03,JP,Momo,0,0,0,,{\3c7E61DE}じゃあ 復旧するまで
+Dialogue: 0,0:20:04.70,0:20:07.06,JP,Momo,0,0,0,,{\3c7E61DE}これが 上腕二頭筋を鍛える動画
+Dialogue: 0,0:20:07.06,0:20:09.98,JP,Momo,0,0,0,,{\3c7E61DE}だいでんきん こっちは大臀筋を 美しく鍛える動画
+Dialogue: 0,0:20:09.98,0:20:11.04,JP,Lilith,0,0,0,,{\3c993399}へえ～
+Dialogue: 0,0:20:11.04,0:20:12.50,JP,Lilith,0,0,0,,{\3c993399}何だ この時間は
+Dialogue: 0,0:20:14.55,0:20:16.06,JP,Lilith,0,0,0,,{\3c993399}生き返るのう
+Dialogue: 0,0:20:16.06,0:20:17.96,JP,Lilith,0,0,0,,{\3c993399}つきあってくれてサンキューだ
+Dialogue: 0,0:20:17.96,0:20:18.56,JP,Momo,0,0,0,,{\3c7E61DE}はあ
+Dialogue: 0,0:20:20.87,0:20:22.86,JP,Lilith,0,0,0,,{\3c993399}おぬし 体に傷があるのか？
+Dialogue: 0,0:20:23.29,0:20:25.90,JP,Momo,0,0,0,,{\3c7E61DE}ああ まあ 別に 恥ずかしくはないですけど
+Dialogue: 0,0:20:26.43,0:20:29.26,JP,Momo,0,0,0,,{\3c7E61DE}エーテル体同士でやり合った傷は 消えづらいんです
+Dialogue: 0,0:20:29.59,0:20:31.75,JP,Momo,0,0,0,,{\3c7E61DE}姉が消えてからも色々あったので
+Dialogue: 0,0:20:31.75,0:20:33.12,JP,Momo,0,0,0,,{\3c7E61DE}聞かれるのも面倒で
+Dialogue: 0,0:20:33.12,0:20:34.11,JP,Lilith,0,0,0,,{\3c993399}じゃあ 聞かぬ
+Dialogue: 0,0:20:34.64,0:20:36.40,JP,Lilith,0,0,0,,{\3c993399}余は悪いことをしたかの？
+Dialogue: 0,0:20:36.73,0:20:38.85,JP,Momo,0,0,0,,{\3c7E61DE}いつもに比べれば 全然マシです
+Dialogue: 0,0:20:42.38,0:20:44.03,JP,Lilith,0,0,0,,{\3c993399}あれ？ 泡が消えない
+Dialogue: 0,0:20:44.03,0:20:46.44,JP,Lilith,0,0,0,,{\3c993399}高いシャンプーは こんなにも泡立つのか!?
+Dialogue: 0,0:20:48.99,0:20:51.08,JP,Shamiko,0,0,0,,{\3c5B50C4}この服で歩くのは 恥ずかしいです
+Dialogue: 0,0:20:51.64,0:20:54.27,JP,Shamiko,0,0,0,,{\3c5B50C4}ご先祖 健康ランド 楽しかったですか？
+Dialogue: 0,0:20:54.27,0:20:56.72,JP,Lilith,0,0,0,,{\3c993399}うむ！ 多少のトラブルはあったがな
+Dialogue: 0,0:20:56.72,0:20:59.05,JP,Lilith,0,0,0,,{\3c993399}嫌がる桃を 散々連れ回してやったわ
+Dialogue: 0,0:20:59.05,0:20:59.89,JP,Shamiko,0,0,0,,{\3c5B50C4}そうですか
+Dialogue: 0,0:21:00.24,0:21:02.28,JP,Lilith,0,0,0,,{\3c993399}そういえば あやつの体には
+Dialogue: 0,0:21:02.75,0:21:03.48,JP,Lilith,0,0,0,,{\3c993399}いや…
+Dialogue: 0,0:21:04.13,0:21:05.99,JP,Lilith,0,0,0,,{\3c993399}桃には気を使ってもらった
+Dialogue: 0,0:21:05.99,0:21:07.36,JP,Lilith,0,0,0,,{\3c993399}あいつは いいヤツだ
+Dialogue: 0,0:21:07.76,0:21:09.16,JP,Shamiko,0,0,0,,{\3c5B50C4}それは よかったです
+Dialogue: 0,0:21:09.16,0:21:10.96,JP,Lilith,0,0,0,,{\3c993399}じゃあまた 体を貸しますね
+Dialogue: 0,0:21:10.96,0:21:14.45,JP,Lilith,0,0,0,,{\3c993399}余はこうして シャミ子に 運ばれるのも嫌いじゃないぞ
+Dialogue: 0,0:21:14.45,0:21:15.47,JP,Shamiko,0,0,0,,{\3c5B50C4}そうですか？
+Dialogue: 0,0:21:15.47,0:21:18.64,JP,Lilith,0,0,0,,{\3c993399}それにしても あのスマホというものは便利だな
+Dialogue: 0,0:21:18.64,0:21:19.85,JP,Lilith,0,0,0,,{\3c993399}大助かりだった
+Dialogue: 0,0:21:19.85,0:21:21.23,JP,Lilith,0,0,0,,{\3c993399}おぬしも持ったらどうだ？
+Dialogue: 0,0:21:21.89,0:21:24.01,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子　ちょっとリリスさんを貸して
+Dialogue: 0,0:21:24.01,0:21:24.90,JP,Shamiko,0,0,0,,{\3c5B50C4}あっ はい
+Dialogue: 0,0:21:25.87,0:21:27.59,JP,Momo,0,0,0,,{\3c7E61DE}リリスさん これを聞いてください
+Dialogue: 0,0:21:28.23,0:21:33.94,JP,Lilith,0,0,0,,{\3c993399}{\an8}余は暗闇が怖いのだ～ 余は暗闇が怖いのだ～ 余は暗闇が怖いのだ～
+Dialogue: 0,0:21:32.48,0:21:33.94,JP,Lilith,0,0,0,,{\3c993399}こ… これは…
+Dialogue: 0,0:21:33.94,0:21:36.44,JP,Momo,0,0,0,,{\3c7E61DE}最近のスマホは 録音もできて便利だよね
+Dialogue: 0,0:21:36.82,0:21:39.73,JP,Momo,0,0,0,,{\3c7E61DE}今まで散々 悪巧みをされてきたけど
+Dialogue: 0,0:21:39.73,0:21:41.58,JP,Momo,0,0,0,,{\3c7E61DE}やっと黙らせるネタを見つけたよ
+Dialogue: 0,0:21:42.00,0:21:45.05,JP,Momo,0,0,0,,{\3c7E61DE}永劫の闇をつかさどる魔女である リリスさんが
+Dialogue: 0,0:21:45.05,0:21:46.58,JP,Momo,0,0,0,,{\3c7E61DE}暗所恐怖症なんて
+Dialogue: 0,0:21:46.88,0:21:49.64,JP,Momo,0,0,0,,{\3c7E61DE}かわいい子孫には 知られたくないよね
+Dialogue: 0,0:21:49.64,0:21:51.35,JP,Lilith,0,0,0,,{\3c993399}なっ なっ…
+Dialogue: 0,0:21:51.35,0:21:54.18,JP,Momo,0,0,0,,{\3c7E61DE}この音源を 穏便に処理してほしいなら
+Dialogue: 0,0:21:54.18,0:21:57.50,JP,Momo,0,0,0,,{\3c7E61DE}もろもろの問題が解決するまで 仲良くしていこうね
+Dialogue: 0,0:21:58.32,0:22:00.99,JP,Lilith,0,0,0,,{\3c993399}き… 貴様 それでも魔法少女か～！
+Dialogue: 0,0:22:01.33,0:22:03.75,JP,Shamiko,0,0,0,,{\3c5B50C4}何やら 小声で仲良く話してる
+Dialogue: 0,0:22:03.75,0:22:05.56,JP,Shamiko,0,0,0,,{\3c5B50C4}2人があんなに仲良くなって
+Dialogue: 0,0:22:05.56,0:22:07.71,JP,Shamiko,0,0,0,,{\3c5B50C4}親睦会 やってよかったです
+Dialogue: 0,0:22:08.29,0:22:09.69,JP,,0,0,0,,頑張れシャミ子
+Dialogue: 0,0:22:09.69,0:22:12.98,JP,,0,0,0,,多分 明日は激甚な筋肉痛だぞ
+Dialogue: 0,0:22:17.38,0:22:19.04,JP,Seiko,0,0,0,,{\3c6E0A4A}実質タダなどありません
+Dialogue: 0,0:22:19.46,0:22:22.56,JP,Seiko,0,0,0,,{\3c6E0A4A}次 こういうことしたら
+Dialogue: 0,0:22:23.31,0:22:25.22,JP,Lilith,0,0,0,,{\3c993399}ごめんなさいでした
+Dialogue: 0,0:23:56.39,0:23:58.24,JP,Momo,0,0,0,,{\3c7E61DE}今日は町に出て魔族を探そう
+Dialogue: 0,0:23:58.24,0:23:59.98,JP,Shamiko,0,0,0,,{\3c5B50C4}魔族のすみかを見つけましょう
+Dialogue: 0,0:23:59.98,0:24:03.04,JP,Shamiko,0,0,0,,{\3c5B50C4}でも 全く見当がつかないので 杏里ちゃんに聞いてみます
+Dialogue: 0,0:24:03.04,0:24:05.24,JP,Anri,0,0,0,,{\3c000059}魔族といつも会えるとこ 知ってる
+Dialogue: 0,0:24:05.24,0:24:06.81,JP,Shamiko,0,0,0,,{\3c5B50C4}魔族穴に入っちゃります！
+Dialogue: 0,0:24:07.04,0:24:09.71,JP,Momo,0,0,0,,{\3c7E61DE}帰りに夕飯の食材 買ってきて
+Dialogue: 1,0:00:03.93,0:00:06.29,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你在我家做什么呢
+Dialogue: 1,0:00:06.96,0:00:11.03,CN,Momo,0,0,0,,{\3c7E61DE}为了良的暑假作业  让夏美子家也能连上因特网
+Dialogue: 1,0:00:11.44,0:00:12.69,CN,Shamiko,0,0,0,,{\3c5B50C4}因特网？
+Dialogue: 1,0:00:13.29,0:00:15.52,CN,Shamiko,0,0,0,,{\3c5B50C4}桃连施工也会吗？
+Dialogue: 1,0:00:15.52,0:00:17.53,CN,Momo,0,0,0,,{\3c7E61DE}用不着这么麻烦哦
+Dialogue: 1,0:00:18.24,0:00:20.53,CN,Momo,0,0,0,,{\3c7E61DE}只是接上我房间里的WiFi而已
+Dialogue: 1,0:00:21.03,0:00:22.36,CN,Shamiko,0,0,0,,{\3c5B50C4}接上哇飞？
+Dialogue: 1,0:00:22.36,0:00:22.98,CN,Shamiko,0,0,0,,{\3c5B50C4}也就是说…
+Dialogue: 1,0:00:22.98,0:00:23.85,CN,,0,0,0,,气氛组
+Dialogue: 1,0:00:23.85,0:00:24.64,CN,,0,0,0,,WiFi
+Dialogue: 1,0:00:24.64,0:00:25.35,CN,,0,0,0,,气氛组
+Dialogue: 1,0:00:25.35,0:00:25.80,CN,,0,0,0,,WiFi
+Dialogue: 1,0:00:25.80,0:00:26.32,CN,,0,0,0,,宴会吗？
+Dialogue: 1,0:00:26.36,0:00:31.94,CN,,0,0,20,,{\an8}快来！WiFi！快来！WiFi！
+Dialogue: 1,0:00:26.69,0:00:30.59,CN,Shamiko,0,0,0,,{\3c5B50C4}只要让气氛快乐起来因特网先生就会到家里来
+Dialogue: 1,0:00:30.59,0:00:31.60,CN,Momo,0,0,0,,{\3c7E61DE}差远了
+Dialogue: 1,0:02:09.08,0:02:10.98,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你在干什么啊
+Dialogue: 1,0:02:11.21,0:02:12.36,CN,Momo,0,0,0,,{\3c7E61DE}设置路由器
+Dialogue: 1,0:02:12.78,0:02:14.61,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你在干什么啊
+Dialogue: 1,0:02:14.98,0:02:16.86,CN,Momo,0,0,0,,{\3c7E61DE}设置家长控制
+Dialogue: 1,0:02:17.21,0:02:19.69,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你是怎么做到不看键盘打字的
+Dialogue: 1,0:02:19.69,0:02:20.73,CN,Momo,0,0,0,,{\3c7E61DE}盲打
+Dialogue: 1,0:02:21.24,0:02:22.86,CN,Shamiko,0,0,0,,{\3c5B50C4}完全不明白
+Dialogue: 1,0:02:23.02,0:02:24.67,CN,Momo,0,0,0,,{\3c7E61DE}不明白也没关系
+Dialogue: 1,0:02:24.67,0:02:26.03,CN,Momo,0,0,0,,{\3c7E61DE}我正在努力
+Dialogue: 1,0:02:26.03,0:02:29.35,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你能告诉我怎么才能成为超级黑客吗
+Dialogue: 1,0:02:29.62,0:02:30.73,CN,Momo,0,0,0,,{\3c7E61DE}太吵了
+Dialogue: 1,0:02:30.73,0:02:31.72,CN,Shamiko,0,0,0,,{\3c5B50C4}诶？
+Dialogue: 1,0:02:32.01,0:02:32.56,CN,Momo,0,0,0,,{\3c7E61DE}好了
+Dialogue: 1,0:02:33.15,0:02:34.22,CN,Momo,0,0,0,,{\3c7E61DE}都设置好了
+Dialogue: 1,0:02:34.69,0:02:37.18,CN,Momo,0,0,0,,{\3c7E61DE}现在你家里就有因特网了  夏美子
+Dialogue: 1,0:02:37.18,0:02:38.63,CN,Shamiko,0,0,0,,{\3c5B50C4}诶  在哪里
+Dialogue: 1,0:02:38.88,0:02:40.73,CN,Momo,0,0,0,,{\3c7E61DE}已经在飞了  它会飞过来的
+Dialogue: 1,0:02:40.98,0:02:42.82,CN,Shamiko,0,0,0,,{\3c5B50C4}因特网可以飞？
+Dialogue: 1,0:02:44.43,0:02:45.71,CN,Shamiko,0,0,0,,{\3c5B50C4}在飞着呢
+Dialogue: 1,0:02:46.05,0:02:47.63,CN,Shamiko,0,0,0,,{\3c5B50C4}因特网究竟是…
+Dialogue: 1,0:02:49.62,0:02:51.78,CN,Shamiko,0,0,0,,{\3c5B50C4}蜜柑  你在干什么啊？
+Dialogue: 1,0:02:52.10,0:02:53.32,CN,Mikan,0,0,0,,{\3c015ADE}在发「推特」哦
+Dialogue: 1,0:02:53.67,0:02:58.73,CN,Mikan,0,0,0,,{\3c015ADE}是一个能在网上发布短日记和照片「推文」的软件
+Dialogue: 1,0:02:58.95,0:03:02.02,CN,Mikan,0,0,0,,{\3c015ADE}能够看到朋友不为人知的一面  很有意思
+Dialogue: 1,0:03:03.19,0:03:07.42,CN,Mikan,0,0,0,,{\3c015ADE}说起来  桃一直不肯把她的账号告诉我
+Dialogue: 1,0:03:07.42,0:03:08.97,CN,Shamiko,0,0,0,,{\3c5B50C4}桃也有在玩吗？
+Dialogue: 1,0:03:09.34,0:03:11.31,CN,Mikan,0,0,0,,{\3c015ADE}似乎有在玩的样子呢
+Dialogue: 1,0:03:11.31,0:03:12.18,CN,Mikan,0,0,0,,{\3c015ADE}很在意吗？
+Dialogue: 1,0:03:12.57,0:03:15.75,CN,Shamiko,0,0,0,,{\3c5B50C4}因特网上有我不知道的桃在…
+Dialogue: 1,0:03:15.75,0:03:18.98,CN,Shamiko,0,0,0,,{\3c5B50C4}只要找到的话就能轻松知道桃的笑点
+Dialogue: 1,0:03:18.98,0:03:21.67,CN,Shamiko,0,0,0,,{\3c5B50C4}也就是离桃的笑容更近一步了
+Dialogue: 1,0:03:21.67,0:03:25.93,CN,Mikan,0,0,0,,{\3c015ADE}但是不管是手机还是电脑  都要连上网才能用哦
+Dialogue: 1,0:03:25.93,0:03:27.66,CN,Mikan,0,0,0,,{\3c015ADE}你还得先注册个会员
+Dialogue: 1,0:03:28.10,0:03:29.43,CN,Shamiko,0,0,0,,{\3c5B50C4}是这样啊…
+Dialogue: 1,0:03:31.35,0:03:33.35,CN,Shamiko,0,0,0,,{\3c5B50C4}这是不能错过的机会
+Dialogue: 1,0:03:33.35,0:03:37.59,CN,Shamiko,0,0,0,,{\3c5B50C4}用因特网登陆上「推特」  然后找到桃的日记
+Dialogue: 1,0:03:37.87,0:03:40.57,CN,Shamiko,0,0,0,,{\3c5B50C4}那就快点  让我用用看因特网
+Dialogue: 1,0:03:40.57,0:03:40.97,CN,Momo,0,0,0,,{\3c7E61DE}等一下
+Dialogue: 1,0:03:41.59,0:03:45.44,CN,Shamiko,0,0,0,,{\3c5B50C4}干什么啊  我的尾巴可不是魔族刹车绳
+Dialogue: 1,0:03:45.44,0:03:48.02,CN,Momo,0,0,0,,{\3c7E61DE}夏美子不知道怎么用电脑吧
+Dialogue: 1,0:03:48.02,0:03:51.87,CN,Shamiko,0,0,0,,{\3c5B50C4}虽然的确是新手 但基础的知识还是有的
+Dialogue: 1,0:03:51.87,0:03:53.85,CN,Shamiko,0,0,0,,{\3c5B50C4}用不着桃来教
+Dialogue: 1,0:03:54.21,0:03:57.06,CN,Seiko,0,0,0,,{\3c6E0A4A}桃  辛苦了  来喝点茶吧
+Dialogue: 1,0:03:57.44,0:03:59.09,CN,Seiko,0,0,0,,{\3c6E0A4A}优子也先坐下好吗
+Dialogue: 1,0:03:59.09,0:04:00.30,CN,Shamiko,0,0,0,,{\3c5B50C4}啊  好的
+Dialogue: 1,0:04:01.26,0:04:01.90,CN,Momo,0,0,0,,{\3c7E61DE}那么
+Dialogue: 1,0:04:02.17,0:04:04.14,CN,Momo,0,0,0,,{\3c7E61DE}既然夏美子也已经坐下了
+Dialogue: 1,0:04:05.44,0:04:07.72,CN,Momo,0,0,0,,{\3c7E61DE}那就开始魔法少女的网络教育讲座
+Dialogue: 1,0:04:07.72,0:04:08.94,CN,Shamiko,0,0,0,,{\3c5B50C4}准备周全
+Dialogue: 1,0:04:09.45,0:04:10.52,CN,Shamiko,0,0,0,,{\3c5B50C4}茶好烫！
+Dialogue: 1,0:04:10.52,0:04:13.23,CN,Shamiko,0,0,0,,{\3c5B50C4}妈妈  你们是不是串通好的
+Dialogue: 1,0:04:13.23,0:04:15.14,CN,Momo,0,0,0,,{\3c7E61DE}没有那种事哟  只是错觉哦
+Dialogue: 1,0:04:16.15,0:04:18.01,CN,Momo,0,0,0,,{\3c7E61DE}向魔族提问
+Dialogue: 1,0:04:18.76,0:04:22.07,CN,Momo,0,0,0,,{\3c7E61DE}魔族点击了非常在意的可疑网站
+Dialogue: 1,0:04:22.68,0:04:25.36,CN,Momo,0,0,0,,{\3c7E61DE}然后就擅自签下了迷之契约
+Dialogue: 1,0:04:25.36,0:04:27.96,CN,Momo,0,0,0,,{\3c7E61DE}被管理者要求支付大量的金钱
+Dialogue: 1,0:04:27.96,0:04:30.10,CN,Shamiko,0,0,0,,{\3c5B50C4}为什么会发生这种事啊
+Dialogue: 1,0:04:30.36,0:04:31.53,CN,Momo,0,0,0,,{\3c7E61DE}因为是因特网
+Dialogue: 1,0:04:31.97,0:04:34.37,CN,Momo,0,0,0,,{\3c7E61DE}这种场合魔族应该怎么办？
+Dialogue: 1,0:04:34.37,0:04:37.19,CN,Shamiko,0,0,0,,{\3c5B50C4}立即打电话表明身份谢罪
+Dialogue: 1,0:04:37.19,0:04:37.92,CN,Momo,0,0,0,,{\3c7E61DE}错误
+Dialogue: 1,0:04:38.90,0:04:39.92,CN,Momo,0,0,0,,{\3c7E61DE}魔族死掉了
+Dialogue: 1,0:04:39.92,0:04:41.31,CN,Shamiko,0,0,0,,{\3c5B50C4}我死掉了吗？
+Dialogue: 1,0:04:42.06,0:04:44.62,CN,Momo,0,0,0,,{\3c7E61DE}在因特网上粗心大意的话就会死
+Dialogue: 1,0:04:44.88,0:04:46.50,CN,Shamiko,0,0,0,,{\3c5B50C4}因特网真可怕…
+Dialogue: 1,0:04:46.86,0:04:49.77,CN,Momo,0,0,0,,{\3c7E61DE}如果有什么想在网络上查的事的话就交给我吧
+Dialogue: 1,0:04:49.77,0:04:51.28,CN,Shamiko,0,0,0,,{\3c5B50C4}这样我很难办的
+Dialogue: 1,0:04:51.28,0:04:54.65,CN,Shamiko,0,0,0,,{\3c5B50C4}因为我是想要监视桃的推特啊
+Dialogue: 1,0:04:54.94,0:04:58.45,CN,Momo,0,0,0,,{\3c7E61DE}原来如此  夏美子是想要查一些会心虚的东西对吧
+Dialogue: 1,0:04:58.45,0:05:00.69,CN,Shamiko,0,0,0,,{\3c5B50C4}不  不对  这是侵犯隐私
+Dialogue: 1,0:05:00.69,0:05:04.19,CN,Shamiko,0,0,0,,{\3c5B50C4}啊  刚刚的不是说我想要偷看桃的隐私
+Dialogue: 1,0:05:04.19,0:05:07.15,CN,Shamiko,0,0,0,,{\3c5B50C4}只是不想别人查我的隐私而已
+Dialogue: 1,0:05:07.15,0:05:08.91,CN,Shamiko,0,0,0,,{\3c5B50C4}请不要误会了
+Dialogue: 1,0:05:08.91,0:05:10.04,CN,Momo,0,0,0,,{\3c7E61DE}这个我知道啊？
+Dialogue: 1,0:05:10.29,0:05:11.70,CN,Momo,0,0,0,,{\3c7E61DE}为什么要说那么多啊
+Dialogue: 1,0:05:11.94,0:05:14.70,CN,Shamiko,0,0,0,,{\3c5B50C4}总之今天就请先回去吧
+Dialogue: 1,0:05:14.70,0:05:16.26,CN,Shamiko,0,0,0,,{\3c5B50C4}您辛苦了  辛苦了
+Dialogue: 1,0:05:16.26,0:05:17.68,CN,Shamiko,0,0,0,,{\3c5B50C4}辛苦了——
+Dialogue: 1,0:05:19.06,0:05:20.59,CN,Seiko,0,0,0,,{\3c6E0A4A}这样好吗  优子
+Dialogue: 1,0:05:20.59,0:05:23.41,CN,Shamiko,0,0,0,,{\3c5B50C4}没事  我已经继承了爸爸的法杖
+Dialogue: 1,0:05:23.80,0:05:25.92,CN,Shamiko,0,0,0,,{\3c5B50C4}现在的我已经和过去不一样了
+Dialogue: 1,0:05:26.47,0:05:28.43,CN,Shamiko,0,0,0,,{\3c5B50C4}就算桃比我要能干
+Dialogue: 1,0:05:28.43,0:05:30.98,CN,Shamiko,0,0,0,,{\3c5B50C4}这个那个也管得太多了
+Dialogue: 1,0:05:31.20,0:05:34.25,CN,Seiko,0,0,0,,{\3c6E0A4A}但是  桃她看起来稍微有些寂寞啊
+Dialogue: 1,0:05:34.70,0:05:35.91,CN,Seiko,0,0,0,,{\3c6E0A4A}还有  桃说
+Dialogue: 1,0:05:36.93,0:05:39.81,CN,Seiko,0,0,0,,{\3c6E0A4A}「就知道会有这种事」把这本书留下来了
+Dialogue: 1,0:05:40.06,0:05:41.24,CN,Shamiko,0,0,0,,{\3c5B50C4}不甘心
+Dialogue: 1,0:05:41.24,0:05:42.36,CN,Shamiko,0,0,0,,{\3c5B50C4}但是先借我吧
+Dialogue: 1,0:05:46.98,0:05:49.00,CN,Shamiko,0,0,0,,{\3c5B50C4}啊勒  电脑卡住了
+Dialogue: 1,0:05:49.34,0:05:51.64,CN,Shamiko,0,0,0,,{\3c5B50C4}这种时候要…
+Dialogue: 1,0:05:52.50,0:05:59.03,CN,Shamiko,0,0,0,,{\3c5B50C4}按下键盘上的「Ctrl+Alt+Delete」就会弹出「任务管理器」
+Dialogue: 1,0:05:59.38,0:06:03.42,CN,Shamiko,0,0,0,,{\3c5B50C4}之后在应用程序这一栏中把无响应的应用程序…
+Dialogue: 1,0:06:03.91,0:06:06.55,CN,Shamiko,0,0,0,,{\3c5B50C4}这是咒语吗  「应用程序」是什么东西！
+Dialogue: 1,0:06:06.55,0:06:10.55,CN,Shamiko,0,0,0,,{\3c5B50C4}是秋季的味觉吗  给我把读说明书需要的说明书准备好
+Dialogue: 1,0:06:12.03,0:06:14.02,CN,Lilith,0,0,0,,{\3c993399}冷静一点  我可爱的子孙…
+Dialogue: 1,0:06:14.34,0:06:15.27,CN,Shamiko,0,0,0,,{\3c5B50C4}先祖
+Dialogue: 1,0:06:15.68,0:06:20.07,CN,Lilith,0,0,0,,{\3c993399}这种时候就要使用从你父亲那里继承的万能的杖
+Dialogue: 1,0:06:20.21,0:06:21.15,CN,Shamiko,0,0,0,,{\3c5B50C4}原来如此…
+Dialogue: 1,0:06:21.30,0:06:24.45,CN,Lilith,0,0,0,,{\3c993399}把杖变成钝器然后砸液晶屏
+Dialogue: 1,0:06:24.45,0:06:25.58,CN,Shamiko,0,0,0,,{\3c5B50C4}这是借来的东西
+Dialogue: 1,0:06:25.95,0:06:29.33,CN,Sion,0,0,0,,{\3c660000}看看我拉的这辆大推车
+Dialogue: 1,0:06:29.33,0:06:30.48,CN,Shamiko,0,0,0,,{\3c5B50C4}完成了
+Dialogue: 1,0:06:30.79,0:06:33.58,CN,Shamiko,0,0,0,,{\3c5B50C4}总算成功登录推特了…
+Dialogue: 1,0:06:33.58,0:06:36.53,CN,Shamiko,0,0,0,,{\3c5B50C4}真是漫长  充满了陷阱
+Dialogue: 1,0:06:36.53,0:06:39.72,CN,Shamiko,0,0,0,,{\3c5B50C4}但是  这样对桃的监视就更近一步了
+Dialogue: 1,0:06:39.72,0:06:42.38,CN,Shamiko,0,0,0,,{\3c5B50C4}竟然给敌人送WiFi  桃真是太愚蠢了
+Dialogue: 1,0:06:42.38,0:06:44.44,CN,Shamiko,0,0,0,,{\3c5B50C4}必杀！魔族Enter
+Dialogue: 1,0:06:45.02,0:06:48.82,CN,Shamiko,0,0,0,,{\3c5B50C4}诶？  国内有4000万人在玩推特？
+Dialogue: 1,0:06:49.16,0:06:50.52,CN,Shamiko,0,0,0,,{\3c5B50C4}太轻视了
+Dialogue: 1,0:06:51.02,0:06:54.56,CN,Shamiko,0,0,0,,{\3c5B50C4}我还以为是个只有50人左右在用的网站
+Dialogue: 1,0:06:54.56,0:06:56.78,CN,Shamiko,0,0,0,,{\3c5B50C4}这样的话就算一天找100个账号
+Dialogue: 1,0:06:56.78,0:06:58.98,CN,Shamiko,0,0,0,,{\3c5B50C4}要找到桃的账号的话也要花一千年
+Dialogue: 1,0:06:59.62,0:07:02.91,CN,Shamiko,0,0,0,,{\3c5B50C4}好不容易才从爸爸那里继承了万能的杖
+Dialogue: 1,0:07:02.91,0:07:04.96,CN,Shamiko,0,0,0,,{\3c5B50C4}现在却毫无用处
+Dialogue: 1,0:07:05.27,0:07:08.47,CN,Shamiko,0,0,0,,{\3c5B50C4}在现代文明面前古代的武器如此无力吗
+Dialogue: 1,0:07:08.81,0:07:11.64,CN,Shamiko,0,0,0,,{\3c5B50C4}不对不对  不是那啥啥杖的问题
+Dialogue: 1,0:07:12.86,0:07:14.50,CN,Shamiko,0,0,0,,{\3c5B50C4}是我力量不足
+Dialogue: 1,0:07:14.88,0:07:16.83,CN,Shamiko,0,0,0,,{\3c5B50C4}明明我感觉只要偷窥桃的推特
+Dialogue: 1,0:07:16.83,0:07:19.51,CN,Shamiko,0,0,0,,{\3c5B50C4}就能多多少少明白桃的心情
+Dialogue: 1,0:07:20.36,0:07:22.53,CN,Seiko,0,0,0,,{\3c6E0A4A}因为桃小姐看起来有点寂寞
+Dialogue: 1,0:07:22.89,0:07:25.01,CN,Shamiko,0,0,0,,{\3c5B50C4}桃的心情太难懂了
+Dialogue: 1,0:07:25.01,0:07:27.63,CN,Shamiko,0,0,0,,{\3c5B50C4}不好好和我讲出来的话我搞不懂啊
+Dialogue: 1,0:07:28.08,0:07:31.37,CN,Shamiko,0,0,0,,{\3c5B50C4}爸爸  请赐予我能跨过这道难关的力量
+Dialogue: 1,0:07:31.37,0:07:33.26,CN,Lilith,0,0,0,,{\3c993399}变成钝器去威胁桃吧
+Dialogue: 1,0:07:33.26,0:07:34.87,CN,Shamiko,0,0,0,,{\3c5B50C4}绝对会被反杀的
+Dialogue: 1,0:07:40.61,0:07:42.52,CN,Momo,0,0,0,,{\3c7E61DE}夏美子？叉子？
+Dialogue: 1,0:07:42.52,0:07:44.13,CN,Shamiko,0,0,0,,{\3c5B50C4}刚才真是抱歉
+Dialogue: 1,0:07:44.13,0:07:45.78,CN,Momo,0,0,0,,{\3c7E61DE}诶？不  没什么…
+Dialogue: 1,0:07:50.82,0:07:53.32,CN,Momo,0,0,0,,{\3c7E61DE}那啥啥杖的使用方式是不是有点奇怪
+Dialogue: 1,0:07:53.32,0:07:56.93,CN,Shamiko,0,0,0,,{\3c5B50C4}为了传达难以说出口的事所以借了爸爸的力量
+Dialogue: 1,0:07:58.45,0:08:00.21,CN,Momo,0,0,0,,{\3c7E61DE}夏美子你自己建了账号啊
+Dialogue: 1,0:08:00.21,0:08:00.94,CN,Momo,0,0,0,,{\3c7E61DE}是的
+Dialogue: 1,0:08:00.94,0:08:03.69,CN,Momo,0,0,0,,{\3c7E61DE}「Syadoumisutoresu」  都是用罗马音写的呢
+Dialogue: 1,0:08:03.69,0:08:04.86,CN,Shamiko,0,0,0,,{\3c5B50C4}是的  我很努力了
+Dialogue: 1,0:08:05.17,0:08:08.39,CN,Momo,0,0,0,,{\3c7E61DE}你为什么这么想知道我的推特账号
+Dialogue: 1,0:08:08.39,0:08:10.31,CN,Shamiko,0,0,0,,{\3c5B50C4}那  那是因为桃你…
+Dialogue: 1,0:08:10.31,0:08:12.81,CN,Shamiko,0,0,0,,{\3c5B50C4}因为想知道怎么才能让你露出笑容
+Dialogue: 1,0:08:15.47,0:08:18.48,CN,Shamiko,0,0,0,,{\3c5B50C4}是为了能一直监视你！
+Dialogue: 1,0:08:18.48,0:08:22.14,CN,Shamiko,0,0,0,,{\3c5B50C4}如果你被除我以外的奇怪的魔族干掉的话我会很困扰的
+Dialogue: 1,0:08:22.84,0:08:24.22,CN,Momo,0,0,0,,{\3c7E61DE}对不起  夏美子
+Dialogue: 1,0:08:24.22,0:08:27.08,CN,Momo,0,0,0,,{\3c7E61DE}我要暗堕成为这个人的眷属
+Dialogue: 1,0:08:27.42,0:08:29.21,CN,Momo,0,0,0,,{\3c7E61DE}之后你一个人上网吧
+Dialogue: 1,0:08:29.21,0:08:30.44,CN,Shamiko,0,0,0,,{\3c5B50C4}奇妙的生物
+Dialogue: 1,0:08:30.91,0:08:33.12,CN,Momo,0,0,0,,{\3c7E61DE}那个样子的尾巴是什么感情
+Dialogue: 1,0:08:33.64,0:08:36.03,CN,Shamiko,0,0,0,,{\3c5B50C4}最终桃没有告诉我账号
+Dialogue: 1,0:08:39.95,0:08:43.89,CN,Ryouko,0,0,0,,{\3c644B8D}姐姐  你终于开始向SNS的世界进军了呢
+Dialogue: 1,0:08:43.89,0:08:45.05,CN,Ryouko,0,0,0,,{\3c644B8D}我很感动
+Dialogue: 1,0:08:45.27,0:08:48.85,CN,Shamiko,0,0,0,,{\3c5B50C4}「SNS」是什么？很厉害的网络世界？
+Dialogue: 1,0:08:48.85,0:08:50.77,CN,Ryouko,0,0,0,,{\3c644B8D}社交网络服务
+Dialogue: 1,0:08:52.26,0:08:54.04,CN,Shamiko,0,0,0,,{\3c5B50C4}有什么东西弹出来了  这什么？
+Dialogue: 1,0:08:54.04,0:08:55.79,CN,Ryouko,0,0,0,,{\3c644B8D}写着「关注请求」
+Dialogue: 1,0:08:55.79,0:08:57.97,CN,Ryouko,0,0,0,,{\3c644B8D}也许有人想成为姐姐的下属
+Dialogue: 1,0:08:57.97,0:08:58.50,CN,Shamiko,0,0,0,,{\3c5B50C4}诶？
+Dialogue: 1,0:08:58.50,0:09:00.49,CN,Shamiko,0,0,0,,{\3c5B50C4}明明没有告诉任何人的…
+Dialogue: 1,0:09:00.49,0:09:02.65,CN,Shamiko,0,0,0,,{\3c5B50C4}而且我也按桃说的把它锁定了
+Dialogue: 1,0:09:03.05,0:09:06.40,CN,Shamiko,0,0,0,,{\3c5B50C4}太奇怪了  一定是邪恶的因特网派来的使者
+Dialogue: 1,0:09:06.40,0:09:07.70,CN,Shamiko,0,0,0,,{\3c5B50C4}快拒绝  快拒绝
+Dialogue: 1,0:09:07.70,0:09:08.45,CN,Ryouko,0,0,0,,{\3c644B8D}是吗
+Dialogue: 1,0:09:08.73,0:09:12.03,CN,Seiko,0,0,0,,{\3c6E0A4A}良  快到怪物出来吃没睡的小孩的时候了哦
+Dialogue: 1,0:09:12.03,0:09:14.09,CN,Seiko,0,0,0,,{\3c6E0A4A}小学生该进被窝了
+Dialogue: 1,0:09:14.09,0:09:14.87,CN,Ryouko,0,0,0,,{\3c644B8D}好
+Dialogue: 1,0:09:15.34,0:09:16.98,CN,Ryouko,0,0,0,,{\3c644B8D}姐姐  加油
+Dialogue: 1,0:09:16.98,0:09:17.45,CN,Shamiko,0,0,0,,{\3c5B50C4}嗯
+Dialogue: 1,0:09:17.77,0:09:18.94,CN,Shamiko,0,0,0,,{\3c5B50C4}良子  晚安
+Dialogue: 1,0:09:20.38,0:09:23.03,CN,Shamiko,0,0,0,,{\3c5B50C4}说起来桃之前看过我的账号
+Dialogue: 1,0:09:23.57,0:09:24.95,CN,Shamiko,0,0,0,,{\3c5B50C4}这难道是…
+Dialogue: 1,0:09:24.95,0:09:27.68,CN,Shamiko,0,0,0,,{\3c5B50C4}不对  但是之前桃说了不想告诉我
+Dialogue: 1,0:09:30.98,0:09:32.54,CN,Shamiko,0,0,0,,{\3c5B50C4}这绝对是桃
+Dialogue: 1,0:09:46.54,0:09:49.42,CN,Shamiko,0,0,0,,{\3c5B50C4}{\an8}不要以为这样就算赢了
+Dialogue: 1,0:09:48.91,0:09:50.09,CN,Momo,0,0,0,,{\3c7E61DE}墙好薄啊
+Dialogue: 1,0:09:53.38,0:09:55.95,CN,Mikan,0,0,0,,{\3c015ADE}夏美子  你终于开账号了
+Dialogue: 1,0:09:55.95,0:09:57.36,CN,Shamiko,0,0,0,,{\3c5B50C4}是的  我开了
+Dialogue: 1,0:09:57.36,0:09:59.41,CN,Mikan,0,0,0,,{\3c015ADE}啊  发现桃了  关注了
+Dialogue: 1,0:09:59.41,0:10:01.85,CN,Mikan,0,0,0,,{\3c015ADE}说起来前几天的电影真有趣呢
+Dialogue: 1,0:10:01.85,0:10:03.78,CN,Shamiko,0,0,0,,{\3c5B50C4}是的  非常有趣
+Dialogue: 1,0:10:03.78,0:10:08.33,CN,Shamiko,0,0,0,,{\3c5B50C4}僵尸抱着螃蟹炸弹跳进醋饭里的那里令我十分兴奋
+Dialogue: 1,0:10:08.33,0:10:10.17,CN,Mikan,0,0,0,,{\3c015ADE}话说下周的周日有空吗？
+Dialogue: 1,0:10:10.17,0:10:11.77,CN,Shamiko,0,0,0,,{\3c5B50C4}没有修行的话就有空
+Dialogue: 1,0:10:11.77,0:10:13.44,CN,Mikan,0,0,0,,{\3c015ADE}太棒了  预约到了夏美子
+Dialogue: 1,0:10:13.44,0:10:14.94,CN,Mikan,0,0,0,,{\3c015ADE}话说夏美子的兴趣爱好
+Dialogue: 1,0:10:15.16,0:10:16.73,CN,Momo,0,0,0,,{\3c7E61DE}晚上把WiFi断了吧
+Dialogue: 1,0:10:16.96,0:10:21.65,CN,,0,0,0,,加油桃小姐  要发很多推  开心地上网啊
+Dialogue: 1,0:10:33.13,0:10:34.56,CN,Lilith,0,0,0,,{\3c993399}这是什么啊
+Dialogue: 1,0:10:34.56,0:10:36.27,CN,Lilith,0,0,0,,{\3c993399}你这吹的哪门子风啊
+Dialogue: 1,0:10:36.27,0:10:38.32,CN,Momo,0,0,0,,{\3c7E61DE}贿赂…  不对  这是贡品
+Dialogue: 1,0:10:38.59,0:10:40.84,CN,Momo,0,0,0,,{\3c7E61DE}今天想从莉莉丝这里打听一些东西
+Dialogue: 1,0:10:41.63,0:10:43.98,CN,Momo,0,0,0,,{\3c7E61DE}把夏美子母亲的话想了一下
+Dialogue: 1,0:10:43.98,0:10:47.03,CN,Momo,0,0,0,,{\3c7E61DE}过去您似乎是由约书亚先生一直携带着的
+Dialogue: 1,0:10:47.49,0:10:51.30,CN,Momo,0,0,0,,{\3c7E61DE}您当时有见过我姐姐千代田樱呢
+Dialogue: 1,0:10:52.38,0:10:53.64,CN,Lilith,0,0,0,,{\3c993399}听了不要吓着
+Dialogue: 1,0:10:53.64,0:10:55.08,CN,Lilith,0,0,0,,{\3c993399}一点都不记得了
+Dialogue: 1,0:10:55.08,0:10:56.66,CN,Momo,0,0,0,,{\3c7E61DE}今天的事情已经办完了
+Dialogue: 1,0:10:56.66,0:10:59.45,CN,Lilith,0,0,0,,{\3c993399}别啊  我还在吃  还在品尝啊
+Dialogue: 1,0:11:01.33,0:11:05.60,CN,Lilith,0,0,0,,{\3c993399}余从太古时候被封印以来就一直在被弱化
+Dialogue: 1,0:11:06.57,0:11:12.02,CN,Lilith,0,0,0,,{\3c993399}尤其是最近两千年魔力已经弱到封印空间以外都观测不到了
+Dialogue: 1,0:11:12.84,0:11:17.19,CN,Lilith,0,0,0,,{\3c993399}十年前左右意识变清晰了才能看到外面的世界
+Dialogue: 1,0:11:17.19,0:11:19.55,CN,Lilith,0,0,0,,{\3c993399}被削弱时候的事情都记得挺模糊的
+Dialogue: 1,0:11:19.55,0:11:22.16,CN,Momo,0,0,0,,{\3c7E61DE}两千年间都被完全封闭了是吗？
+Dialogue: 1,0:11:22.43,0:11:24.48,CN,Lilith,0,0,0,,{\3c993399}差不多吧
+Dialogue: 1,0:11:24.48,0:11:27.84,CN,Lilith,0,0,0,,{\3c993399}状态好的时候可以干涉关系近的人的梦
+Dialogue: 1,0:11:27.84,0:11:31.57,CN,Lilith,0,0,0,,{\3c993399}最近夏美子也能听到余的声音了余也就不无聊了
+Dialogue: 1,0:11:32.67,0:11:35.45,CN,Lilith,0,0,0,,{\3c993399}汝这是什么表情啊  余不要年轻人来同情我啊
+Dialogue: 1,0:11:36.14,0:11:38.32,CN,Lilith,0,0,0,,{\3c993399}一言不合就献贡品很恐怖啊别这样啊
+Dialogue: 1,0:11:38.32,0:11:39.84,CN,Lilith,0,0,0,,{\3c993399}夏美子别哭啊
+Dialogue: 1,0:11:44.31,0:11:46.67,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  是在想什么吗
+Dialogue: 1,0:11:46.67,0:11:48.03,CN,Momo,0,0,0,,{\3c7E61DE}诶？  不  完全没…
+Dialogue: 1,0:11:48.78,0:11:51.46,CN,Momo,0,0,0,,{\3c7E61DE}不…  唔  的确是在想事情
+Dialogue: 1,0:11:51.88,0:11:54.14,CN,Momo,0,0,0,,{\3c7E61DE}因为最近总是把莉莉丝小姐丢出去
+Dialogue: 1,0:11:54.14,0:11:55.83,CN,Momo,0,0,0,,{\3c7E61DE}感觉有点对不起她
+Dialogue: 1,0:11:56.45,0:12:00.47,CN,Momo,0,0,0,,{\3c7E61DE}不对  仔细想想全是她挑的事
+Dialogue: 1,0:12:00.47,0:12:01.56,CN,Shamiko,0,0,0,,{\3c5B50C4}是  是
+Dialogue: 1,0:12:01.91,0:12:02.95,CN,Shamiko,0,0,0,,{\3c5B50C4}那个
+Dialogue: 1,0:12:03.61,0:12:05.72,CN,Shamiko,0,0,0,,{\3c5B50C4}我有一个想法
+Dialogue: 1,0:12:08.83,0:12:10.93,CN,Lilith,0,0,0,,{\3c993399}这是啥  拷问吗
+Dialogue: 1,0:12:10.93,0:12:13.80,CN,Shamiko,0,0,0,,{\3c5B50C4}我想把我的身体借给先祖一天
+Dialogue: 1,0:12:13.80,0:12:16.58,CN,Shamiko,0,0,0,,{\3c5B50C4}这样您就可以明天享受一整天的自由了
+Dialogue: 1,0:12:17.13,0:12:21.24,CN,Momo,0,0,0,,{\3c7E61DE}我以前把莉莉丝转移到夏美子身上的机能封印了
+Dialogue: 1,0:12:21.65,0:12:24.23,CN,Momo,0,0,0,,{\3c7E61DE}因为当时是用环氧树脂胶封印的
+Dialogue: 1,0:12:24.23,0:12:26.16,CN,Momo,0,0,0,,{\3c7E61DE}现在就物理地把封印剥除
+Dialogue: 1,0:12:26.16,0:12:27.89,CN,Lilith,0,0,0,,{\3c993399}果然还是拷问啊
+Dialogue: 1,0:12:27.89,0:12:30.13,CN,Momo,0,0,0,,{\3c7E61DE}本体一微米都不会削到的
+Dialogue: 1,0:12:30.13,0:12:31.84,CN,Momo,0,0,0,,{\3c7E61DE}魔法是能被物理超越的…
+Dialogue: 1,0:12:31.84,0:12:33.26,CN,Lilith,0,0,0,,{\3c993399}余真的什么都不知道
+Dialogue: 1,0:12:33.26,0:12:35.42,CN,Lilith,0,0,0,,{\3c993399}刚才说的就是我全部知道的东西了啊
+Dialogue: 1,0:12:35.80,0:12:37.40,CN,Momo,0,0,0,,{\3c7E61DE}闭嘴  我手会抖
+Dialogue: 1,0:12:37.55,0:12:42.52,CN,Lilith,0,0,20,,{\3c993399}在先祖挨削的时候  敬请欣赏美丽花朵的图片
+Dialogue: 1,0:12:46.71,0:12:48.70,CN,Shamiko,0,0,0,,{\3c5B50C4}早上好  先祖大人
+Dialogue: 1,0:12:48.70,0:12:50.31,CN,Shamiko,0,0,0,,{\3c5B50C4}桃今天已经回家了
+Dialogue: 1,0:12:50.31,0:12:52.86,CN,Lilith,0,0,0,,{\3c993399}您好像在刮树脂的时候睡着了
+Dialogue: 1,0:12:52.86,0:12:53.86,CN,Lilith,0,0,0,,{\3c993399}夏美子哟
+Dialogue: 1,0:12:53.86,0:12:56.13,CN,Lilith,0,0,0,,{\3c993399}不是的  我完全是因为恐惧才昏过去的
+Dialogue: 1,0:12:56.49,0:12:58.44,CN,Lilith,0,0,0,,{\3c993399}在我还小的时候
+Dialogue: 1,0:12:58.44,0:13:01.29,CN,Lilith,0,0,0,,{\3c993399}做了一个只用钻头没有麻醉的治疗蛀牙的手术
+Dialogue: 1,0:13:01.29,0:13:02.85,CN,Lilith,0,0,0,,{\3c993399}这让我重新想起了那段经历
+Dialogue: 1,0:13:03.05,0:13:04.88,CN,Shamiko,0,0,0,,{\3c5B50C4}诶  不愧是祖先
+Dialogue: 1,0:13:04.88,0:13:06.60,CN,Shamiko,0,0,0,,{\3c5B50C4}啊  桃发消息来了
+Dialogue: 1,0:13:06.70,0:13:08.49,CN,Lilith,0,0,0,,{\3c993399}为什么不再多安慰我一些呢？
+Dialogue: 1,0:13:08.49,0:13:11.16,CN,Shamiko,0,0,0,,{\3c5B50C4}对…对不起  因特网对我来说太难了
+Dialogue: 1,0:13:11.57,0:13:12.35,CN,Shamiko,0,0,0,,{\3c5B50C4}嗯…
+Dialogue: 1,0:13:13.30,0:13:17.21,CN,Momo,0,0,0,,{\3c7E61DE}明天  莉莉丝小姐应该会借用夏美子的身体
+Dialogue: 1,0:13:17.21,0:13:19.29,CN,Momo,0,0,0,,{\3c7E61DE}如果放任莉莉丝一个人不管的话
+Dialogue: 1,0:13:19.29,0:13:21.18,CN,Momo,0,0,0,,{\3c7E61DE}估计她会跑到不知什么地方然后遇难倒下
+Dialogue: 1,0:13:21.55,0:13:24.84,CN,Momo,0,0,0,,{\3c7E61DE}还可能会用夏美子的身体到处借钱  我很担心
+Dialogue: 1,0:13:24.84,0:13:27.88,CN,Shamiko,0,0,0,,{\3c5B50C4}因此以防万一我也会跟着一起去的  请多指教
+Dialogue: 1,0:13:28.25,0:13:29.17,CN,Shamiko,0,0,0,,{\3c5B50C4}她是这么说的
+Dialogue: 1,0:13:29.17,0:13:31.14,CN,Lilith,0,0,0,,{\3c993399}什么？不需要她跟来
+Dialogue: 1,0:13:31.14,0:13:34.11,CN,Lilith,0,0,0,,{\3c993399}她是不是觉得余是那种不谙世事的笨蛋魔族啊
+Dialogue: 1,0:13:34.11,0:13:35.84,CN,Lilith,0,0,0,,{\3c993399}余完全可以一个人去！
+Dialogue: 1,0:13:35.84,0:13:38.89,CN,Shamiko,0,0,0,,{\3c5B50C4}但先祖您知道怎么去温泉吗
+Dialogue: 1,0:13:38.89,0:13:40.79,CN,Shamiko,0,0,0,,{\3c5B50C4}而且您必须付钱才能进
+Dialogue: 1,0:13:40.79,0:13:43.31,CN,Lilith,0,0,0,,{\3c993399}余虽然不知道  但会用别的方式到那
+Dialogue: 1,0:13:43.31,0:13:46.46,CN,Lilith,0,0,0,,{\3c993399}然后就算身无分文  只要跪下磕个头他们也会让余进的吧
+Dialogue: 1,0:13:46.91,0:13:49.41,CN,Shamiko,0,0,0,,{\3c5B50C4}果然  我还是认为您应该和桃一起去
+Dialogue: 1,0:13:51.48,0:13:52.51,CN,Shamiko,0,0,0,,{\3c5B50C4}先祖
+Dialogue: 1,0:13:53.49,0:13:57.60,CN,Shamiko,0,0,0,,{\3c5B50C4}我之前就一直很担心您和桃之间的关系
+Dialogue: 1,0:13:57.60,0:14:00.64,CN,Shamiko,0,0,0,,{\3c5B50C4}希望您能利用这个机会和她冰释前嫌  我会很高兴
+Dialogue: 1,0:14:00.64,0:14:02.95,CN,Shamiko,0,0,0,,{\3c5B50C4}虽然是暂时的  但我和她现在正在合作
+Dialogue: 1,0:14:03.81,0:14:05.43,CN,Lilith,0,0,0,,{\3c993399}如果你这么说的话
+Dialogue: 1,0:14:05.43,0:14:09.31,CN,Lilith,0,0,0,,{\3c993399}但如果桃要护送我  那就必须明确我是老大
+Dialogue: 1,0:14:09.31,0:14:12.19,CN,Lilith,0,0,0,,{\3c993399}她写的这条消息看起来对我很傲慢啊
+Dialogue: 1,0:14:13.54,0:14:15.66,CN,Lilith,0,0,0,,{\3c993399}所以我一开始就得居高临下地给她来个下马威
+Dialogue: 1,0:14:15.66,0:14:16.57,CN,Shamiko,0,0,0,,{\3c5B50C4}这样吗？
+Dialogue: 1,0:14:19.82,0:14:21.59,CN,Lilith,0,0,0,,{\3c993399}余知道该怎么做了
+Dialogue: 1,0:14:25.89,0:14:26.97,CN,Lilith,0,0,0,,{\3c993399}久等了！
+Dialogue: 1,0:14:32.21,0:14:35.63,CN,Lilith,0,0,0,,{\3c993399}暗之女帝莉莉丝  借用子孙的身体降临了
+Dialogue: 1,0:14:37.19,0:14:38.78,CN,,0,0,0,,{\an8}哎呀哎呀  对不起
+Dialogue: 1,0:14:39.00,0:14:41.44,CN,,0,0,0,,{\an8}狗狗  嘘  安静
+Dialogue: 1,0:14:41.90,0:14:44.67,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  今天先祖大人就交给你了
+Dialogue: 1,0:14:44.67,0:14:47.57,CN,Shamiko,0,0,0,,{\3c5B50C4}我希望你们两个人能建立更友好的关系
+Dialogue: 1,0:14:47.57,0:14:51.31,CN,Lilith,0,0,0,,{\3c993399}没错没错  今天余代替夏美子陪你游玩
+Dialogue: 1,0:14:51.31,0:14:53.33,CN,Shamiko,0,0,0,,{\3c5B50C4}我今天就一直学习了
+Dialogue: 1,0:14:53.33,0:14:54.93,CN,Shamiko,0,0,0,,{\3c5B50C4}你们就去慢慢享受吧
+Dialogue: 1,0:14:54.93,0:14:58.71,CN,Lilith,0,0,0,,{\3c993399}嗯  那我就切断声音联系了  好好休息吧
+Dialogue: 1,0:14:59.17,0:15:01.51,CN,Lilith,0,0,0,,{\3c993399}有我暗之魔女莉莉丝亲自护送
+Dialogue: 1,0:15:01.51,0:15:02.87,CN,Lilith,0,0,0,,{\3c993399}汝应当感到自豪
+Dialogue: 1,0:15:03.21,0:15:05.69,CN,Momo,0,0,0,,{\3c7E61DE}莉莉丝小姐  你的袜子左右不对称啊
+Dialogue: 1,0:15:05.94,0:15:07.41,CN,Lilith,0,0,0,,{\3c993399}这叫做时尚
+Dialogue: 1,0:15:08.48,0:15:09.36,CN,Lilith,0,0,0,,{\3c993399}就是这个
+Dialogue: 1,0:15:09.60,0:15:13.11,CN,Lilith,0,0,0,,{\3c993399}现在就来买一套能震慑桃的衣服吧
+Dialogue: 1,0:15:13.11,0:15:14.30,CN,Shamiko,0,0,0,,{\3c5B50C4}现在吗？
+Dialogue: 1,0:15:14.30,0:15:16.40,CN,Lilith,0,0,0,,{\3c993399}这个页面写着当天发货
+Dialogue: 1,0:15:16.40,0:15:17.80,CN,Lilith,0,0,0,,{\3c993399}应该会及时到达
+Dialogue: 1,0:15:17.80,0:15:20.41,CN,Lilith,0,0,0,,{\3c993399}这个  就这个  这个看起来攻击力很高
+Dialogue: 1,0:15:20.41,0:15:21.80,CN,Lilith,0,0,0,,{\3c993399}这件衣服也很不错
+Dialogue: 1,0:15:21.80,0:15:25.19,CN,Shamiko,0,0,0,,{\3c5B50C4}先祖先祖  购物车里的价格正在飙升
+Dialogue: 1,0:15:26.33,0:15:28.34,CN,Lilith,0,0,0,,{\3c993399}汝可能不是很清楚啊
+Dialogue: 1,0:15:28.34,0:15:32.62,CN,Lilith,0,0,0,,{\3c993399}善用网上购物的话  是可以免费买东西的
+Dialogue: 1,0:15:32.62,0:15:34.04,CN,Lilith,0,0,0,,{\3c993399}余可是好好地学习了
+Dialogue: 1,0:15:34.22,0:15:35.36,CN,Shamiko,0,0,0,,{\3c5B50C4}是这样的吗？
+Dialogue: 1,0:15:35.36,0:15:37.48,CN,Lilith,0,0,0,,{\3c993399}嗯  初次购买送的积分啦
+Dialogue: 1,0:15:37.48,0:15:39.56,CN,Lilith,0,0,0,,{\3c993399}这种支付那种支付啦
+Dialogue: 1,0:15:39.56,0:15:40.98,CN,Lilith,0,0,0,,{\3c993399}这些复杂东西组合起来…
+Dialogue: 1,0:15:40.98,0:15:43.05,CN,Lilith,0,0,0,,{\3c993399}姑且忘掉眼前的钱就好
+Dialogue: 1,0:15:43.05,0:15:44.59,CN,Lilith,0,0,0,,{\3c993399}所以就是实质免费！
+Dialogue: 1,0:15:44.59,0:15:45.95,CN,Shamiko,0,0,0,,{\3c5B50C4}不愧是祖先大人
+Dialogue: 1,0:15:47.44,0:15:48.71,CN,Lilith,0,0,0,,{\3c993399}现在  点击！
+Dialogue: 1,0:15:48.71,0:15:49.42,CN,Shamiko,0,0,0,,{\3c5B50C4}点击！
+Dialogue: 1,0:15:51.17,0:15:52.21,CN,Lilith,0,0,0,,{\3c993399}被吓到了吧？
+Dialogue: 1,0:15:52.21,0:15:53.87,CN,Momo,0,0,0,,{\3c7E61DE}啊  好想把她勒死
+Dialogue: 1,0:15:53.87,0:15:55.93,CN,Momo,0,0,0,,{\3c7E61DE}但又不能  因为那实际上是夏美子的身体
+Dialogue: 1,0:15:56.84,0:15:58.98,CN,Momo,0,0,0,,{\3c7E61DE}不知道为什么  不想跟你一起走
+Dialogue: 1,0:15:58.98,0:16:01.25,CN,Lilith,0,0,0,,{\3c993399}哦？被吓到了吗  吓傻了？
+Dialogue: 1,0:16:01.25,0:16:03.81,CN,Momo,0,0,0,,{\3c7E61DE}一点也不吓人  因为你实在是太引人注目了
+Dialogue: 1,0:16:04.00,0:16:05.31,CN,Momo,0,0,0,,{\3c7E61DE}好像现在所有的目光都集中在我们身上
+Dialogue: 1,0:16:05.31,0:16:07.03,CN,Lilith,0,0,0,,{\3c993399}这身衣服很帅吧
+Dialogue: 1,0:16:07.28,0:16:09.51,CN,Lilith,0,0,0,,{\3c993399}这种感觉都不懂可真是愚蠢啊
+Dialogue: 1,0:16:09.76,0:16:12.27,CN,Lilith,0,0,0,,{\3c993399}不过说来  你这衣冠不整的样貌是什么啊
+Dialogue: 1,0:16:12.27,0:16:12.98,CN,Momo,0,0,0,,{\3c7E61DE}嫌麻烦
+Dialogue: 1,0:16:13.16,0:16:14.44,CN,Lilith,0,0,0,,{\3c993399}太糟糕了
+Dialogue: 1,0:16:14.44,0:16:18.92,CN,Lilith,0,0,0,,{\3c993399}至少拿出穿白衣切腹谢罪的端正态度来啊
+Dialogue: 1,0:16:18.92,0:16:20.15,CN,Momo,0,0,0,,{\3c7E61DE}真不该来这趟的…
+Dialogue: 1,0:16:20.15,0:16:22.93,CN,Lilith,0,0,0,,{\3c993399}不过还是谢谢你当我的向导
+Dialogue: 1,0:16:22.93,0:16:25.82,CN,Lilith,0,0,0,,{\3c993399}话说回来  你知道这天气意味着什么吗
+Dialogue: 1,0:16:26.49,0:16:29.98,CN,Momo,0,0,0,,{\3c7E61DE}莉莉丝小姐的性格中充满负能量的部分化作了风景
+Dialogue: 1,0:16:29.98,0:16:30.67,CN,Lilith,0,0,0,,{\3c993399}才不是！
+Dialogue: 1,0:16:31.39,0:16:35.06,CN,Lilith,0,0,0,,{\3c993399}以前的「先祖大人开关」只有在天气好的时候才能使用
+Dialogue: 1,0:16:35.06,0:16:39.16,CN,Lilith,0,0,0,,{\3c993399}但即使现在天气不好余仍旧能够附在夏美子身上
+Dialogue: 1,0:16:39.16,0:16:43.26,CN,Lilith,0,0,0,,{\3c993399}总而言之  夏美子的魔力在一点一点地成长
+Dialogue: 1,0:16:43.26,0:16:46.71,CN,Lilith,0,0,0,,{\3c993399}这可得感谢不知从哪里来的笨蛋魔法少女每天的锻炼啊
+Dialogue: 1,0:16:48.84,0:16:50.14,CN,Momo,0,0,0,,{\3c7E61DE}忍耐啊  千代田桃
+Dialogue: 1,0:16:50.14,0:16:53.90,CN,Momo,0,0,0,,{\3c7E61DE}现在想要一下打倒的这个混蛋可是在夏美子的身体里啊
+Dialogue: 1,0:16:54.23,0:16:55.52,CN,Sion,0,0,0,,{\3c660000}夏美子
+Dialogue: 1,0:16:57.29,0:16:58.98,CN,Momo,0,0,0,,{\3c7E61DE}啊  那个  小仓同学？
+Dialogue: 1,0:16:59.24,0:17:01.81,CN,Sion,0,0,0,,{\3c660000}我正想去收集实验材料
+Dialogue: 1,0:17:01.81,0:17:02.88,CN,Sion,0,0,0,,{\3c660000}想看看我拿到了什么吗
+Dialogue: 1,0:17:03.39,0:17:04.80,CN,Sion,0,0,0,,{\3c660000}诶  好吗
+Dialogue: 1,0:17:04.80,0:17:07.30,CN,Sion,0,0,0,,{\3c660000}想看吗  想看的吧
+Dialogue: 1,0:17:07.30,0:17:07.82,CN,Sion,0,0,0,,{\3c660000}嗯？
+Dialogue: 1,0:17:13.32,0:17:13.89,CN,Sion,0,0,0,,{\3c660000}哦
+Dialogue: 1,0:17:14.64,0:17:18.61,CN,Sion,0,0,0,,{\3c660000}好吧  其实我还正在收集中  我先走啦
+Dialogue: 1,0:17:18.61,0:17:20.56,CN,Sion,0,0,0,,{\3c660000}但是  想到了个好主意
+Dialogue: 1,0:17:21.79,0:17:25.01,CN,Lilith,0,0,0,,{\3c993399}夏美子的魔力只允许我借用她身体的两三个小时
+Dialogue: 1,0:17:25.36,0:17:29.01,CN,Lilith,0,0,0,,{\3c993399}魔法少女哟  坐地方线路巴士赶快前往别府温泉
+Dialogue: 1,0:17:29.01,0:17:30.83,CN,Momo,0,0,0,,{\3c7E61DE}等待的时候就到时间了啊
+Dialogue: 1,0:17:31.85,0:17:34.10,CN,Lilith,0,0,0,,{\3c993399}下吕温泉呢  登别呢？
+Dialogue: 1,0:17:34.10,0:17:35.12,CN,Momo,0,0,0,,{\3c7E61DE}全部不可能
+Dialogue: 1,0:17:35.12,0:17:37.68,CN,Lilith,0,0,0,,{\3c993399}不要不要…  我要去泡澡
+Dialogue: 1,0:17:37.68,0:17:39.63,CN,Lilith,0,0,0,,{\3c993399}我喜欢泡温泉啊
+Dialogue: 1,0:17:39.63,0:17:41.54,CN,Momo,0,0,0,,{\3c7E61DE}不管怎么样都要去温泉是吧
+Dialogue: 1,0:17:42.41,0:17:43.36,CN,Momo,0,0,0,,{\3c7E61DE}好了  我们到了
+Dialogue: 1,0:17:43.79,0:17:46.45,CN,Lilith,0,0,0,,{\3c993399}这里  之前来过两次了
+Dialogue: 1,0:17:46.45,0:17:49.12,CN,Lilith,0,0,0,,{\3c993399}桃  都来两次了  虽然也可以
+Dialogue: 1,0:17:49.12,0:17:50.15,CN,Momo,0,0,0,,{\3c7E61DE}好想回去…
+Dialogue: 1,0:17:50.84,0:17:52.33,CN,Momo,0,0,0,,{\3c7E61DE}莉莉丝  入场费1200日元
+Dialogue: 1,0:17:52.33,0:17:54.17,CN,Lilith,0,0,0,,{\3c993399}不是慰劳余的吗？
+Dialogue: 1,0:17:54.17,0:17:55.50,CN,Momo,0,0,0,,{\3c7E61DE}是联谊会
+Dialogue: 1,0:17:55.50,0:17:57.53,CN,Momo,0,0,0,,{\3c7E61DE}让年轻人请客不会害臊吗
+Dialogue: 1,0:17:57.68,0:17:59.93,CN,Lilith,0,0,0,,{\3c993399}余的钱包里没有钱
+Dialogue: 1,0:17:59.93,0:18:04.12,CN,Momo,0,0,0,,{\3c7E61DE}是夏美子的钱包  联谊会的话当然每个人都要付钱了
+Dialogue: 1,0:18:04.95,0:18:07.91,CN,Momo,0,0,0,,{\3c7E61DE}做一次20日元
+Dialogue: 1,0:18:07.91,0:18:09.84,CN,Lilith,0,0,0,,{\3c993399}这是什么东西  拷问器具吗
+Dialogue: 1,0:18:10.08,0:18:11.20,CN,Momo,0,0,0,,{\3c7E61DE}这是胸扩练习器
+Dialogue: 1,0:18:11.59,0:18:13.50,CN,Lilith,0,0,0,,{\3c993399}我的目的地是温泉
+Dialogue: 1,0:18:13.50,0:18:16.41,CN,Lilith,0,0,0,,{\3c993399}对配套的健身房…  一点兴趣…也没有…
+Dialogue: 1,0:18:16.41,0:18:18.23,CN,Momo,0,0,0,,{\3c7E61DE}水果牛奶120日元
+Dialogue: 1,0:18:18.23,0:18:20.13,CN,Lilith,0,0,0,,{\3c993399}好啊  再做6个
+Dialogue: 1,0:18:22.21,0:18:25.38,CN,Lilith,0,0,0,,{\3c993399}不好  夏美子的魔力已经不剩多少了
+Dialogue: 1,0:18:25.38,0:18:27.20,CN,Lilith,0,0,0,,{\3c993399}赶快去泡澡  魔法少女
+Dialogue: 1,0:18:27.20,0:18:27.83,CN,Momo,0,0,0,,{\3c7E61DE}泡澡…
+Dialogue: 1,0:18:28.07,0:18:31.60,CN,Momo,0,0,0,,{\3c7E61DE}我想在外面呆着  莉莉丝一个人进去泡行吗
+Dialogue: 1,0:18:31.83,0:18:32.70,CN,Lilith,0,0,0,,{\3c993399}为啥啊
+Dialogue: 1,0:18:32.70,0:18:34.66,CN,Lilith,0,0,0,,{\3c993399}一下子血往上涌  理智下降
+Dialogue: 1,0:18:34.66,0:18:37.02,CN,Lilith,0,0,0,,{\3c993399}不是正好把彼此的隔阂随着汗水一起冲走吗
+Dialogue: 1,0:18:38.53,0:18:42.91,CN,Lilith,0,0,0,,{\3c993399}说起来  上次来这里你也只是在外面监视
+Dialogue: 1,0:18:42.91,0:18:45.83,CN,Lilith,0,0,0,,{\3c993399}换衣服的时候也不是直接换而是用棒子变身的
+Dialogue: 1,0:18:47.44,0:18:50.39,CN,Lilith,0,0,0,,{\3c993399}所以说汝…  对于脱衣服感到很羞耻吧
+Dialogue: 1,0:18:50.39,0:18:52.26,CN,Momo,0,0,0,,{\3c7E61DE}诶？不…  只是觉得很麻烦而已啊
+Dialogue: 1,0:18:52.26,0:18:55.46,CN,Lilith,0,0,0,,{\3c993399}平常都很酷的样子这个时候却意外的少女啊
+Dialogue: 1,0:18:55.46,0:18:56.44,CN,Momo,0,0,0,,{\3c7E61DE}不是啊
+Dialogue: 1,0:18:56.44,0:18:58.53,CN,Lilith,0,0,0,,{\3c993399}那好那好  我感兴趣了
+Dialogue: 1,0:18:58.53,0:18:59.81,CN,Lilith,0,0,0,,{\3c993399}脱啊  给我脱啊
+Dialogue: 1,0:18:59.81,0:19:00.69,CN,Momo,0,0,0,,{\3c7E61DE}好烦啊
+Dialogue: 1,0:19:00.69,0:19:04.55,CN,Lilith,0,0,0,,{\3c993399}看你这狼狈怂包样儿  我打心眼里瞧不上你
+Dialogue: 1,0:19:04.55,0:19:06.73,CN,Lilith,0,0,0,,{\3c993399}在你身边战斗  我会感觉很好
+Dialogue: 1,0:19:07.11,0:19:11.29,CN,Lilith,0,0,0,,{\3c993399}汝那羞耻的姿势余要仔仔细细地记下来
+Dialogue: 1,0:19:11.29,0:19:13.50,CN,Lilith,0,0,0,,{\3c993399}对脱衣服感到羞耻的魔法少女啊
+Dialogue: 1,0:19:16.90,0:19:21.22,CN,,0,0,0,,{\an8}由于今天恶劣天气打雷的原因  现在停电了
+Dialogue: 1,0:19:21.22,0:19:22.55,CN,Momo,0,0,0,,{\3c7E61DE}什么啊  停电了
+Dialogue: 1,0:19:22.88,0:19:25.25,CN,Momo,0,0,0,,{\3c7E61DE}正好  现在就出去在大厅等着吧
+Dialogue: 1,0:19:25.68,0:19:28.27,CN,Lilith,0,0,0,,{\3c993399}桃桃桃…  这是什么啊  世界的终结吗
+Dialogue: 1,0:19:28.27,0:19:31.23,CN,Momo,0,0,0,,{\3c7E61DE}夏美子…  不对  莉莉丝  怎么了啊？
+Dialogue: 1,0:19:31.23,0:19:32.74,CN,Lilith,0,0,0,,{\3c993399}余  余…
+Dialogue: 1,0:19:32.74,0:19:35.27,CN,Lilith,0,0,0,,{\3c993399}余最怕一片漆黑了
+Dialogue: 1,0:19:35.27,0:19:38.71,CN,Lilith,0,0,0,,{\3c993399}带着余全力逃跑吧  余怕黑！
+Dialogue: 1,0:19:38.71,0:19:41.20,CN,Momo,0,0,0,,{\3c7E61DE}你不是「掌管永恒黑暗的魔女」吗
+Dialogue: 1,0:19:41.95,0:19:45.40,CN,Lilith,0,0,0,,{\3c993399}余被封印的时候多少还有些不成熟
+Dialogue: 1,0:19:45.40,0:19:49.59,CN,Lilith,0,0,0,,{\3c993399}在能控制魔力之前封印空间都是全黑的
+Dialogue: 1,0:19:50.04,0:19:52.26,CN,Lilith,0,0,0,,{\3c993399}还看不到外面的世界
+Dialogue: 1,0:19:54.20,0:19:54.78,CN,Lilith,0,0,0,,{\3c993399}嗯？
+Dialogue: 1,0:19:55.46,0:19:56.92,CN,Momo,0,0,0,,{\3c7E61DE}这样子就不害怕了吧？
+Dialogue: 1,0:19:56.92,0:19:58.36,CN,Lilith,0,0,0,,{\3c993399}是叫智能手机吗？
+Dialogue: 1,0:19:58.36,0:20:00.59,CN,Lilith,0,0,0,,{\3c993399}嗯  这样感觉就能活下去了
+Dialogue: 1,0:20:00.59,0:20:02.03,CN,Momo,0,0,0,,{\3c7E61DE}那么  在恢复之前…
+Dialogue: 1,0:20:04.70,0:20:07.06,CN,Momo,0,0,0,,{\3c7E61DE}这是有效锻炼肱二头肌的视频
+Dialogue: 1,0:20:07.06,0:20:09.98,CN,Momo,0,0,0,,{\3c7E61DE}这是能塑形臀大肌的视频
+Dialogue: 1,0:20:09.98,0:20:11.04,CN,Lilith,0,0,0,,{\3c993399}诶
+Dialogue: 1,0:20:11.04,0:20:12.50,CN,Lilith,0,0,0,,{\3c993399}这场面好诡异
+Dialogue: 1,0:20:14.55,0:20:16.06,CN,Lilith,0,0,0,,{\3c993399}活过来了
+Dialogue: 1,0:20:16.06,0:20:17.96,CN,Lilith,0,0,0,,{\3c993399}跟着我过来  谢谢了
+Dialogue: 1,0:20:17.96,0:20:18.56,CN,Momo,0,0,0,,{\3c7E61DE}是
+Dialogue: 1,0:20:20.87,0:20:22.86,CN,Lilith,0,0,0,,{\3c993399}你身体受伤了吗？
+Dialogue: 1,0:20:23.29,0:20:25.90,CN,Momo,0,0,0,,{\3c7E61DE}啊…  也不是什么羞耻的事情
+Dialogue: 1,0:20:26.43,0:20:29.26,CN,Momo,0,0,0,,{\3c7E61DE}以太体的话让受到的伤消失很难
+Dialogue: 1,0:20:29.59,0:20:31.75,CN,Momo,0,0,0,,{\3c7E61DE}姐姐消失以后已经发生了很多事情了
+Dialogue: 1,0:20:31.75,0:20:33.12,CN,Momo,0,0,0,,{\3c7E61DE}要解释也很麻烦
+Dialogue: 1,0:20:33.12,0:20:34.11,CN,Lilith,0,0,0,,{\3c993399}那我就不问了
+Dialogue: 1,0:20:34.64,0:20:36.40,CN,Lilith,0,0,0,,{\3c993399}余这是问得太唐突了吗
+Dialogue: 1,0:20:36.73,0:20:38.85,CN,Momo,0,0,0,,{\3c7E61DE}和平常的比起来不算什么
+Dialogue: 1,0:20:42.38,0:20:44.03,CN,Lilith,0,0,0,,{\3c993399}啊嘞  这泡泡不会消失
+Dialogue: 1,0:20:44.03,0:20:46.44,CN,Lilith,0,0,0,,{\3c993399}贵的沐浴露能起泡成这样？
+Dialogue: 1,0:20:48.99,0:20:51.08,CN,Shamiko,0,0,0,,{\3c5B50C4}穿这身衣服走路好羞耻啊
+Dialogue: 1,0:20:51.64,0:20:54.27,CN,Shamiko,0,0,0,,{\3c5B50C4}先祖玩得开心吗？
+Dialogue: 1,0:20:54.27,0:20:56.72,CN,Lilith,0,0,0,,{\3c993399}嗯  虽然途中多少发生了一些事情
+Dialogue: 1,0:20:56.72,0:20:59.05,CN,Lilith,0,0,0,,{\3c993399}不过拖着不情愿的桃到处转了
+Dialogue: 1,0:20:59.05,0:20:59.89,CN,Shamiko,0,0,0,,{\3c5B50C4}这样啊
+Dialogue: 1,0:21:00.24,0:21:02.28,CN,Lilith,0,0,0,,{\3c993399}这么说来那个人的身体
+Dialogue: 1,0:21:02.75,0:21:03.48,CN,Lilith,0,0,0,,{\3c993399}不…
+Dialogue: 1,0:21:04.13,0:21:05.99,CN,Lilith,0,0,0,,{\3c993399}让桃费心了
+Dialogue: 1,0:21:05.99,0:21:07.36,CN,Lilith,0,0,0,,{\3c993399}那家伙确实是个好人
+Dialogue: 1,0:21:07.76,0:21:09.16,CN,Shamiko,0,0,0,,{\3c5B50C4}那真是太好了
+Dialogue: 1,0:21:09.16,0:21:10.96,CN,Lilith,0,0,0,,{\3c993399}这样下次还把身体借给您吧
+Dialogue: 1,0:21:10.96,0:21:14.45,CN,Lilith,0,0,0,,{\3c993399}余也并不讨厌这样被你拿着走
+Dialogue: 1,0:21:14.45,0:21:15.47,CN,Shamiko,0,0,0,,{\3c5B50C4}这样啊
+Dialogue: 1,0:21:15.47,0:21:18.64,CN,Lilith,0,0,0,,{\3c993399}说起来  那个叫「智能手机」的东西好方便啊
+Dialogue: 1,0:21:18.64,0:21:19.85,CN,Lilith,0,0,0,,{\3c993399}帮大忙了啊
+Dialogue: 1,0:21:19.85,0:21:21.23,CN,Lilith,0,0,0,,{\3c993399}汝也拿一个如何
+Dialogue: 1,0:21:21.89,0:21:24.01,CN,Momo,0,0,0,,{\3c7E61DE}夏美子  稍微借我一下莉莉丝
+Dialogue: 1,0:21:24.01,0:21:24.90,CN,Shamiko,0,0,0,,{\3c5B50C4}啊  好
+Dialogue: 1,0:21:25.87,0:21:27.59,CN,Momo,0,0,0,,{\3c7E61DE}莉莉丝请您听一下这个
+Dialogue: 1,0:21:28.23,0:21:33.94,CN,Lilith,0,0,0,,{\3c993399}{\an8}余怕黑  余怕黑  余怕黑！
+Dialogue: 1,0:21:32.48,0:21:33.94,CN,Lilith,0,0,0,,{\3c993399}这…这是？
+Dialogue: 1,0:21:33.94,0:21:36.44,CN,Momo,0,0,0,,{\3c7E61DE}最近智能手机有了录音功能很方便啊
+Dialogue: 1,0:21:36.82,0:21:39.73,CN,Momo,0,0,0,,{\3c7E61DE}最近老是被你使坏
+Dialogue: 1,0:21:39.73,0:21:41.58,CN,Momo,0,0,0,,{\3c7E61DE}终于抓住能让你闭嘴的把柄了
+Dialogue: 1,0:21:42.00,0:21:45.05,CN,Momo,0,0,0,,{\3c7E61DE}作为「掌管永恒黑暗的魔女」的莉莉丝小姐
+Dialogue: 1,0:21:45.05,0:21:46.58,CN,Momo,0,0,0,,{\3c7E61DE}竟然有黑暗恐惧症
+Dialogue: 1,0:21:46.88,0:21:49.64,CN,Momo,0,0,0,,{\3c7E61DE}不想让可爱的子孙知道吧
+Dialogue: 1,0:21:49.64,0:21:51.35,CN,Lilith,0,0,0,,{\3c993399}什  什么？
+Dialogue: 1,0:21:51.35,0:21:54.18,CN,Momo,0,0,0,,{\3c7E61DE}想更稳妥地处理掉这份音源的话
+Dialogue: 1,0:21:54.18,0:21:57.50,CN,Momo,0,0,0,,{\3c7E61DE}希望你我能在解决诸多问题之前好好相处呢
+Dialogue: 1,0:21:58.32,0:22:00.99,CN,Lilith,0,0,0,,{\3c993399}你这样也叫魔法少女吗
+Dialogue: 1,0:22:01.33,0:22:03.75,CN,Shamiko,0,0,0,,{\3c5B50C4}好像在亲密地小声说些什么
+Dialogue: 1,0:22:03.75,0:22:05.56,CN,Shamiko,0,0,0,,{\3c5B50C4}两个人的关系能变得这么好
+Dialogue: 1,0:22:05.56,0:22:07.71,CN,Shamiko,0,0,0,,{\3c5B50C4}这个联谊会开得值啊
+Dialogue: 1,0:22:08.29,0:22:09.69,CN,,0,0,0,,加油啊夏美子
+Dialogue: 1,0:22:09.69,0:22:12.98,CN,,0,0,0,,大概明天就会有严重的肌肉疼呢
+Dialogue: 1,0:22:17.38,0:22:19.04,CN,Seiko,0,0,0,,{\3c6E0A4A}哪有什么「实质免费」
+Dialogue: 1,0:22:19.46,0:22:22.56,CN,Seiko,0,0,0,,{\3c6E0A4A}下次再发生这种事儿  就在网上拍卖你哦
+Dialogue: 1,0:22:23.31,0:22:25.22,CN,Lilith,0,0,0,,{\3c993399}抱  抱歉…
+Dialogue: 1,0:23:56.39,0:23:58.24,CN,Momo,0,0,0,,{\3c7E61DE}今天去镇上寻找魔族吧
+Dialogue: 1,0:23:58.24,0:23:59.98,CN,Shamiko,0,0,0,,{\3c5B50C4}要去打听到他们的住处
+Dialogue: 1,0:23:59.98,0:24:03.04,CN,Shamiko,0,0,0,,{\3c5B50C4}但是我对于他们的去向毫无头绪  去问问杏里吧
+Dialogue: 1,0:24:03.04,0:24:05.24,CN,Anri,0,0,0,,{\3c000059}我知道哪里可以找到魔族
+Dialogue: 1,0:24:05.24,0:24:06.81,CN,Shamiko,0,0,0,,{\3c5B50C4}现在要进入魔族的巢穴
+Dialogue: 1,0:24:07.04,0:24:09.71,CN,Momo,0,0,0,,{\3c7E61DE}夏美子  回来时顺便买下晚餐的食材
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ fx ------
+Dialogue: 0,0:00:43.44,0:00:47.03,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}ドキドキはこれから！
+Dialogue: 0,0:00:43.44,0:00:47.03,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}ドキドキはこれから！
+Dialogue: 0,0:00:50.53,0:00:54.62,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}奇跡起こる予感
+Dialogue: 0,0:00:50.53,0:00:54.62,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}奇跡起こる予感
+Dialogue: 0,0:00:54.62,0:01:00.29,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}へなちょこ  さじ加減で  いいでしょう  いざ進め
+Dialogue: 0,0:00:54.62,0:01:00.29,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}へなちょこ  さじ加減で  いいでしょう  いざ進め
+Dialogue: 0,0:01:00.29,0:01:05.22,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}いちかばちか  どんな場所だって
+Dialogue: 0,0:01:00.29,0:01:05.22,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}いちかばちか  どんな場所だって
+Dialogue: 0,0:01:02.09,0:01:04.51,OPJP,,0,0,100,fx,{\pos(960,980)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}ゆける!
+Dialogue: 0,0:01:02.09,0:01:04.51,OPJP,,0,0,100,fx,{\pos(960,980)\fsp5\fad(400,400)\bord4}ゆける!
+Dialogue: 0,0:01:05.47,0:01:09.68,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}もっと聞かせて  コアの音まで
+Dialogue: 0,0:01:05.47,0:01:09.68,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}もっと聞かせて  コアの音まで
+Dialogue: 0,0:01:09.68,0:01:14.52,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}ふたり手を合わせたら  こわくないよ
+Dialogue: 0,0:01:09.68,0:01:14.52,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}ふたり手を合わせたら  こわくないよ
+Dialogue: 0,0:01:15.14,0:01:18.98,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}困った時には  思い出して
+Dialogue: 0,0:01:15.14,0:01:18.98,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}困った時には  思い出して
+Dialogue: 0,0:01:19.27,0:01:23.11,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}君がいるってこと
+Dialogue: 0,0:01:19.27,0:01:23.11,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}君がいるってこと
+Dialogue: 0,0:01:26.20,0:01:30.82,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}同じ空  ふたりで見上げて
+Dialogue: 0,0:01:26.20,0:01:30.82,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}同じ空  ふたりで見上げて
+Dialogue: 0,0:01:30.95,0:01:35.00,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}笑い合って  つらいことも  乗り越えちゃおう
+Dialogue: 0,0:01:30.95,0:01:35.00,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}笑い合って  つらいことも  乗り越えちゃおう
+Dialogue: 0,0:01:35.75,0:01:40.21,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}誰かのために頑張ること
+Dialogue: 0,0:01:35.75,0:01:40.21,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}誰かのために頑張ること
+Dialogue: 0,0:01:40.46,0:01:42.88,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}それも悪くない
+Dialogue: 0,0:01:40.46,0:01:42.88,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}それも悪くない
+Dialogue: 0,0:01:43.50,0:01:47.42,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}今日もとなりで
+Dialogue: 0,0:01:43.50,0:01:47.42,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}今日もとなりで
+Dialogue: 0,0:01:50.72,0:01:54.56,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}ときめきはこれから
+Dialogue: 0,0:01:50.72,0:01:54.56,OPJP,,0,0,0,fx,{\pos(960,1057)\fsp5\fad(400,400)\bord4}ときめきはこれから
+Dialogue: 0,0:00:43.44,0:00:47.03,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}心动不已就此开始
+Dialogue: 0,0:00:43.44,0:00:47.03,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}心动不已就此开始
+Dialogue: 0,0:00:50.53,0:00:54.62,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}将要发生奇迹的预感
+Dialogue: 0,0:00:50.53,0:00:54.62,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}将要发生奇迹的预感
+Dialogue: 0,0:00:54.62,0:01:00.29,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}菜鸟就稍作调整　状态好了就前进吧
+Dialogue: 0,0:00:54.62,0:01:00.29,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}菜鸟就稍作调整　状态好了就前进吧
+Dialogue: 0,0:01:00.29,0:01:05.22,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}孤注一掷干到底　天涯海角任我行
+Dialogue: 0,0:01:00.29,0:01:05.22,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}孤注一掷干到底　天涯海角任我行
+Dialogue: 0,0:01:02.09,0:01:04.51,OPCN,,0,0,100,fx,{\pos(960,100)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}走吧！
+Dialogue: 0,0:01:02.09,0:01:04.51,OPCN,,0,0,100,fx,{\pos(960,100)\fsp5\fad(400,400)\bord4}走吧！
+Dialogue: 0,0:01:05.47,0:01:09.68,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}还想再听到更多　直到那内心之音
+Dialogue: 0,0:01:05.47,0:01:09.68,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}还想再听到更多　直到那内心之音
+Dialogue: 0,0:01:09.68,0:01:14.52,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}两人牵起手来就不再害怕
+Dialogue: 0,0:01:09.68,0:01:14.52,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}两人牵起手来就不再害怕
+Dialogue: 0,0:01:15.14,0:01:18.98,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}遇到困难的时候　就回想一下
+Dialogue: 0,0:01:15.14,0:01:18.98,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}遇到困难的时候　就回想一下
+Dialogue: 0,0:01:19.27,0:01:23.11,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}有你在我身边
+Dialogue: 0,0:01:19.27,0:01:23.11,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}有你在我身边
+Dialogue: 0,0:01:26.20,0:01:30.82,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}我们一起抬头　仰望同一片天
+Dialogue: 0,0:01:26.20,0:01:30.82,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}我们一起抬头　仰望同一片天
+Dialogue: 0,0:01:30.95,0:01:35.00,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}一起欢笑　怎样痛苦　也能够跨越
+Dialogue: 0,0:01:30.95,0:01:35.00,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}一起欢笑　怎样痛苦　也能够跨越
+Dialogue: 0,0:01:35.75,0:01:40.21,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}为了某人而努力
+Dialogue: 0,0:01:35.75,0:01:40.21,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}为了某人而努力
+Dialogue: 0,0:01:40.46,0:01:42.88,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}这种事似乎还不赖
+Dialogue: 0,0:01:40.46,0:01:42.88,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}这种事似乎还不赖
+Dialogue: 0,0:01:43.50,0:01:47.42,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}今天也在你身边
+Dialogue: 0,0:01:43.50,0:01:47.42,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}今天也在你身边
+Dialogue: 0,0:01:50.72,0:01:54.56,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord8\3c&HF7994F&\fad(400,400)\shad2.5}心动不已就此开始
+Dialogue: 0,0:01:50.72,0:01:54.56,OPCN,,0,0,0,fx,{\pos(960,20)\fsp5\fad(400,400)\bord4}心动不已就此开始
+Dialogue: 0,0:22:43.30,0:22:45.47,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}また会えたね　ドラマなんだって？
+Dialogue: 0,0:22:43.30,0:22:45.47,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}また会えたね　ドラマなんだって？
+Dialogue: 0,0:22:45.72,0:22:48.34,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}すぐ　教えにも行っちゃうぞ
+Dialogue: 0,0:22:45.72,0:22:48.34,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}すぐ　教えにも行っちゃうぞ
+Dialogue: 0,0:22:49.09,0:22:51.47,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}可及的なるはやでっ
+Dialogue: 0,0:22:49.09,0:22:51.47,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}可及的なるはやでっ
+Dialogue: 0,0:22:51.97,0:22:54.14,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}あらポストも「おはよう」なんて
+Dialogue: 0,0:22:51.97,0:22:54.14,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}あらポストも「おはよう」なんて
+Dialogue: 0,0:22:54.52,0:22:56.48,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}もうしっぽまで冴えてる
+Dialogue: 0,0:22:54.52,0:22:56.48,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}もうしっぽまで冴えてる
+Dialogue: 0,0:22:56.69,0:23:00.44,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}白線をとんでっていつメンつどえば
+Dialogue: 0,0:22:56.69,0:23:00.44,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}白線をとんでっていつメンつどえば
+Dialogue: 0,0:23:00.44,0:23:02.98,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}今日もはじまってく
+Dialogue: 0,0:23:00.44,0:23:02.98,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}今日もはじまってく
+Dialogue: 0,0:23:03.36,0:23:10.32,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}突然にミステリー　くらくら迷うけど
+Dialogue: 0,0:23:03.36,0:23:10.32,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}突然にミステリー　くらくら迷うけど
+Dialogue: 0,0:23:10.53,0:23:14.95,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}手と手を取りどこまでも進め
+Dialogue: 0,0:23:10.53,0:23:14.95,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}手と手を取りどこまでも進め
+Dialogue: 0,0:23:18.17,0:23:21.67,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}ぐるぐる  町は回りかがやく
+Dialogue: 0,0:23:18.17,0:23:21.67,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}ぐるぐる  町は回りかがやく
+Dialogue: 0,0:23:21.96,0:23:24.71,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}ころころ十重二十重して
+Dialogue: 0,0:23:21.96,0:23:24.71,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}ころころ十重二十重して
+Dialogue: 0,0:23:24.71,0:23:30.43,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}夢を混ぜた宵加減は　君に花を咲かせるよ
+Dialogue: 0,0:23:24.71,0:23:30.43,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}夢を混ぜた宵加減は　君に花を咲かせるよ
+Dialogue: 0,0:23:30.43,0:23:36.23,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}四方まで囲むテトラゴン　ああ　まちカドに花束
+Dialogue: 0,0:23:30.43,0:23:36.23,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}四方まで囲むテトラゴン　ああ　まちカドに花束
+Dialogue: 0,0:23:36.23,0:23:39.23,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}ねえいまは　もうすこし
+Dialogue: 0,0:23:36.23,0:23:39.23,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}ねえいまは　もうすこし
+Dialogue: 0,0:23:39.44,0:23:43.11,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}そっとそっと　その花を見せて
+Dialogue: 0,0:23:39.44,0:23:43.11,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}そっとそっと　その花を見せて
+Dialogue: 0,0:23:43.44,0:23:46.90,EDJP,,0,0,0,fx,{\pos(960,1060)\fsp5\bord1.5\3cE04137\fad(300,300)}よくばっちゃえば  もう一回！
+Dialogue: 0,0:23:43.44,0:23:46.90,EDJP,,0,0,0,fx,{\pos(960,1060)\bord2\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}よくばっちゃえば  もう一回！
+Dialogue: 0,0:22:43.30,0:22:45.47,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}又见面了呢　是什么电视剧吗
+Dialogue: 0,0:22:43.30,0:22:45.47,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}又见面了呢　是什么电视剧吗
+Dialogue: 0,0:22:45.72,0:22:48.34,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}很快　我就过去告诉你喔
+Dialogue: 0,0:22:45.72,0:22:48.34,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}很快　我就过去告诉你喔
+Dialogue: 0,0:22:49.09,0:22:51.47,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}就以最快的速度抵达
+Dialogue: 0,0:22:49.09,0:22:51.47,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}就以最快的速度抵达
+Dialogue: 0,0:22:51.97,0:22:54.14,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}哎呀　连邮筒也说着「早上好」
+Dialogue: 0,0:22:51.97,0:22:54.14,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}哎呀　连邮筒也说着「早上好」
+Dialogue: 0,0:22:54.52,0:22:56.48,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}直到尾巴都清醒过来
+Dialogue: 0,0:22:54.52,0:22:56.48,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}直到尾巴都清醒过来
+Dialogue: 0,0:22:56.69,0:23:00.44,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}越过白线和老友聚在一起
+Dialogue: 0,0:22:56.69,0:23:00.44,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}越过白线和老友聚在一起
+Dialogue: 0,0:23:00.44,0:23:02.98,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}今天也由此开始
+Dialogue: 0,0:23:00.44,0:23:02.98,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}今天也由此开始
+Dialogue: 0,0:23:03.36,0:23:10.32,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}突如其来的谜团　迷得人晕头转向
+Dialogue: 0,0:23:03.36,0:23:10.32,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}突如其来的谜团　迷得人晕头转向
+Dialogue: 0,0:23:10.53,0:23:14.95,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}手牵着手无论往何处都能向前
+Dialogue: 0,0:23:10.53,0:23:14.95,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}手牵着手无论往何处都能向前
+Dialogue: 0,0:23:18.17,0:23:21.67,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}转来转去　街道回旋光芒四放
+Dialogue: 0,0:23:18.17,0:23:21.67,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}转来转去　街道回旋光芒四放
+Dialogue: 0,0:23:21.96,0:23:24.71,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}骨碌骨碌交织重叠
+Dialogue: 0,0:23:21.96,0:23:24.71,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}骨碌骨碌交织重叠
+Dialogue: 0,0:23:24.71,0:23:30.43,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}混入梦乡的傍晚时分　一定会让你如花般盛放
+Dialogue: 0,0:23:24.71,0:23:30.43,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}混入梦乡的傍晚时分　一定会让你如花般盛放
+Dialogue: 0,0:23:30.43,0:23:36.23,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}环绕四面的四边形　啊~  如同街角上的花束
+Dialogue: 0,0:23:30.43,0:23:36.23,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}环绕四面的四边形　啊~  如同街角上的花束
+Dialogue: 0,0:23:36.23,0:23:39.23,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}呐　现在再等一下
+Dialogue: 0,0:23:36.23,0:23:39.23,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}呐　现在再等一下
+Dialogue: 0,0:23:39.44,0:23:43.11,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}轻轻地轻轻地　让我再看看这些花吧
+Dialogue: 0,0:23:39.44,0:23:43.11,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}轻轻地轻轻地　让我再看看这些花吧
+Dialogue: 0,0:23:43.44,0:23:46.90,EDCN,,0,0,0,fx,{\pos(960,20)\fsp5\bord2\3cE04137\fad(300,300)}还想要的话　那就再看一下
+Dialogue: 0,0:23:43.44,0:23:46.90,EDCN,,0,0,0,fx,{\pos(960,20)\bord4\fsp5\3cE04137\a&HFF&\fad(300,300)\blur4}还想要的话　那就再看一下

@@ -1,9 +1,9 @@
 # 街角魔族 2丁目 / Machikado Mazoku 2-Choume
 | 集数 | 中文标题 | 对应片源 | 字幕 |
 | ---- | -------- | -------- | ---- |
-| 01  | 再次对决！魔法少女的新姿态！？ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.CHS_JPN.ass) 繁日 |
+| 01 | 再次对决！魔法少女的新姿态！？ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.CHS_JPN.ass) 繁日 |
 | 02 | 废墟搜索！有隐情的蜜柑和兴奋的魔族 | BD | 简日 繁日 |
-| 03 | 暗之魔女再临！雾气From Hell！ | BD | 简日 繁日 |
+| 03 | 暗之魔女再临！来自地狱的温泉烟雾！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B03%5D.CHS_JPN.ass) 繁日 |
 | 04 | 发现新物种！镇上的咖啡店是魔族巢穴！ | BD | 简日 繁日 |
 | 05 | 魔族觉醒！开辟自己的道路！ | BD | 简日 繁日 |
 | 06 | 夕阳的誓言！魔族们前进的道路！ | BD | 简日 繁日 |
