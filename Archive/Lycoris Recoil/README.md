@@ -21,24 +21,34 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
-- Hiragino Kaku Gothic ProN W6
-- Source Han Sans JP Medium
-- 阿里巴巴普惠体 M
-- 冬青黑体简体中文 W6
-- 冬青黑体繁体中文 W6
-- 思源黑体 CN Heavy
-- 思源黑体 CN Medium
-- 思源黑体 CN Normal
-- 思源黑體 TW Heavy
-- 思源黑體 TW Medium
-- 思源黑體 TW Normal
-- 方正卡通_GBK
-- 方正FW轻吟体 简 M
-- 方正兰亭圆_GBK_粗
-- 方正兰亭圆_GBK_中粗
-- 方正准雅宋_GBK
-- 方正喵呜_GBK
-- 华康方圆体W7
-- 汉仪跳跳体简
-- 霞鹜文楷
-- 霞鹜臻楷
+```
+Arial
+FOT-UD角ゴ_ラージ Pr6N DB <FOT-UDKakugo_Large Pr6N DB>
+ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
+阿里巴巴普惠体 B <Alibaba PuHuiTi B>
+阿里巴巴普惠体 M <Alibaba PuHuiTi M>
+阿里巴巴普惠体 R <Alibaba PuHuiTi R>
+冬青黑体繁体中文 W6 <Hiragino Sans TC W6>
+冬青黑体简体中文 W6 <Hiragino Sans GB W6>
+方正FW轻吟体 简 M <FZFW Qing Yin TiS M>
+方正卡通_GBK <FZKaTong-M19>
+方正兰亭圆_GBK_粗 <FZLanTingYuan-B-GBK>
+方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
+方正喵呜_GBK <FZMiaoWu-GBK>
+方正准雅宋_GBK <FZYaSong-M-GBK>
+汉仪跳跳体简 <HYTiaoTiaoTiJ>
+华康方圆体W7 <DFFangYuanW7-GB>
+华康俪金黑W8 <DFLiJinHeiW8-GB>
+华康翩翩体W3-A <DFHanziPenW3-A>
+华康翩翩体W5P <DFPHanziPenW5-GB>
+思源黑体 CN Heavy <Source Han Sans CN Heavy>
+思源黑体 CN Medium <Source Han Sans CN Medium>
+思源黑體 TW Heavy <Source Han Sans TW Heavy>
+思源黑體 TW Medium <Source Han Sans TW Medium>
+思源黑體 TW Normal <Source Han Sans TW Normal>
+腾祥伯当行楷GB18030 <Tensentype XingKaiGB18030>
+霞鹜文楷 <LXGW WenKai>
+霞鹜文楷 Bold <LXGW WenKai Bold>
+霞鹜臻楷 <LXGW ZhenKai>
+源ノ角ゴシック JP Medium <Source Han Sans JP Medium>
+```
