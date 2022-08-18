@@ -5,7 +5,7 @@
 | 02 | 废墟搜索！有隐情的蜜柑和兴奋的魔族 | BD | 简日 繁日 |
 | 03 | 暗之魔女再临！来自地狱的温泉烟雾！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B03%5D.CHS_JPN.ass) 繁日 |
 | 04 | 发现新物种！镇上的咖啡店是魔族巢穴！ | BD | 简日 繁日 |
-| 05 | 魔族觉醒！开辟自己的道路！ | BD | 简日 繁日 |
+| 05 | 魔族觉醒！开辟自己的道路！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B05%5D.CHS_JPN.ass) 繁日 |
 | 06 | 夕阳的誓言！魔族们前进的道路！ | BD | 简日 繁日 |
 | 07 | 短暂的休假！！魔族的夏日祭 | Web | 简日 繁日 |
 | 08 | 火花四溅！？光明与黑暗的联合远足！ | Web | 简日 繁日 |
@@ -40,3 +40,4 @@
 - 华康俪金黑W8
 - 方正艺黑_GBK
 - 方正品尚细黑简体
+- 方正基础像素
