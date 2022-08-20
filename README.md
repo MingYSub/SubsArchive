@@ -27,7 +27,7 @@
 **附加说明：** 您可以在不公开分享的前提下随意修改字幕；在满足上述协议的基础上，压制组可以随意压制或附带字幕。
 
 # 作品列表
-| 时间 | 中文名称 | 原名 | 罗马音/英文名 | 字幕语言 | 备注 |
+| 时间 | 中文名称 | 罗马音/英文名 | 字幕语言 | 集数 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume) | まちカドまぞく 2丁目 | Machikado Mazoku 2-Choume | 中日 |  |
-| 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | リコリス・リコイル | Lycoris Recoil | 中日 | 更新中 |
+| 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume) | Machikado Mazoku 2-Choume | 中日 | 12 + Mini |  |
+| 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | Lycoris Recoil | 中日 |  | 更新中 |

@@ -14,6 +14,8 @@
 | 11 | 新学期！魔法少女的新角色！ | Web | 简日 繁日 |
 | 12 | 暗夜的仪式！魔族的新伙伴！！ | Web | 简日 繁日 |
 
+[Mini 小剧场](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume/Mini)
+
 # Staff
 **翻译/校对：** 观津邀月（参考漫画）  真有人不喜欢呆唯啊
 
