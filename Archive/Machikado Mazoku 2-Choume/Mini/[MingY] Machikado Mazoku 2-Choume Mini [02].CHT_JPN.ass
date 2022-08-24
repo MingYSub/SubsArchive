@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: [MingY] Machikado Mazoku 2-Choume Mini [02].CHT_JPN
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Hiragino Kaku Gothic ProN W6,52,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,8,1
+Style: TC,冬青黑体繁体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H1E202020,0,0,0,0,120,120,1,0,1,2.7,0,2,30,30,55,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:02.02,TC,,0,0,15,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 製作  |  日聽/翻譯：{\fscx100\fscy100\fn冬青黑体简体中文 W6}真有人不喜欢呆唯啊{\fscx\fscy\fn}   時軸：Ming
+Dialogue: 0,0:00:00.10,0:00:02.02,TC,,0,0,0,,{\fscx100\fscy100\fn思源黑體 TW Heavy\an7\fs62\bord0\fad(400,400)\pos(310,820)\c&H202020&}街角魔族 2丁目
+Dialogue: 0,0:00:02.52,0:00:05.36,TC,,0,0,0,,{\fscx100\fscy100\fn方正特雅宋_GBK\fs70\fsp5\bord3\blur5\fad(250,300)\pos(960,880)\c&H63B6D2&\3c&HFCFCFC&}莉莉絲的房間
+Dialogue: 0,0:00:02.52,0:00:05.36,TC,,0,0,0,,{\fscx100\fscy100\fn方正特雅宋_GBK\shad1\fs70\fsp5\bord3\fad(250,300)\pos(960,880)\c&H508EA6&\3c&HFCFCFC&}莉莉絲的房間
+Dialogue: 0,0:00:04.67,0:00:06.82,JP,Lilith,0,0,0,,{\3c993399\blur3}よく来たな　陽夏木ミカン
+Comment: 0,0:00:06.82,0:00:08.54,JP,Lilith,0,0,0,,{\3c993399\blur3}ちょっと変わった呪いを背負っているが
+Comment: 0,0:00:08.54,0:00:11.68,JP,Lilith,0,0,0,,{\3c993399\blur3}根はいいやつなみかん色の助っ人魔法少女　１５歳
+Comment: 0,0:00:11.68,0:00:14.98,JP,Lilith,0,0,0,,{\3c993399\blur3}年齢よりちょっと年上に見られるのがコンプと自称しているか
+Comment: 0,0:00:14.98,0:00:16.87,JP,Lilith,0,0,0,,{\3c993399\blur3}個人的にはそこがいい
+Comment: 0,0:00:16.87,0:00:17.70,JP,Lilith,0,0,0,,{\3c993399\blur3}食材を見たら
+Comment: 0,0:00:17.70,0:00:20.25,JP,Lilith,0,0,0,,{\3c993399\blur3}とりあえず柑橘類をそっと添えるキャラでお馴染み
+Comment: 0,0:00:20.25,0:00:21.93,JP,Lilith,0,0,0,,{\3c993399\blur3}シーズン１の７話で登場した
+Comment: 0,0:00:21.93,0:00:23.62,JP,Lilith,0,0,0,,{\3c993399\blur3}女子力いと高い者よ
+Dialogue: 0,0:00:23.62,0:00:24.62,JP,Lilith,0,0,0,,{\3c993399\blur3}歓迎するぞ
+Dialogue: 0,0:00:24.62,0:00:26.81,JP,Mikan,0,0,0,,{\3c015ADE\blur3}物凄い説明口調ね
+Dialogue: 0,0:00:26.81,0:00:28.64,JP,Mikan,0,0,0,,{\3c015ADE\blur3}ここが封印空間なのね
+Dialogue: 0,0:00:28.64,0:00:31.35,JP,Mikan,0,0,0,,{\3c015ADE\blur3}なんだか見覚えがあってとっても落ち着くわ
+Dialogue: 0,0:00:31.35,0:00:35.44,JP,Mikan,0,0,0,,{\3c015ADE\blur3}でも私たち魔法少女がここには来れないんって聞いたのだけど
+Dialogue: 0,0:00:35.44,0:00:39.85,JP,Lilith,0,0,0,,{\3c993399\blur3}このミニアニメは新規も古参も楽しめることを目的としたパラレルワールド
+Dialogue: 0,0:00:39.85,0:00:41.89,JP,Lilith,0,0,0,,{\3c993399\blur3}細かいことは気にしなくてよし
+Dialogue: 0,0:00:41.89,0:00:43.74,JP,Lilith,0,0,0,,{\3c993399\blur3}ここに呼んだのは他でもない
+Dialogue: 0,0:00:43.74,0:00:46.24,JP,Lilith,0,0,0,,{\3c993399\blur3}かわいいかわいい余の子孫を守るために
+Dialogue: 0,0:00:46.24,0:00:50.19,JP,Lilith,0,0,0,,{\3c993399\blur3}わざわざ引っ越してきてくれたおぬしに改めて礼を言うと思ってな
+Dialogue: 0,0:00:50.19,0:00:52.95,JP,Mikan,0,0,0,,{\3c015ADE\blur3}あら　そんなことは気にしなくてもいいわよ
+Dialogue: 0,0:00:52.95,0:00:54.99,JP,Mikan,0,0,0,,{\3c015ADE\blur3}シャミ子は私にもよくしてくれて
+Dialogue: 0,0:00:54.99,0:00:57.13,JP,Mikan,0,0,0,,{\3c015ADE\blur3}お礼を言いたいのはこちらのほうよ
+Dialogue: 0,0:00:57.13,0:01:00.30,JP,Mikan,0,0,0,,{\3c015ADE\blur3}封印されているシャミ子のお父さんのこともあるでしょうし
+Dialogue: 0,0:01:00.30,0:01:02.83,JP,Mikan,0,0,0,,{\3c015ADE\blur3}これからもガシガシ協力させてもらうわ
+Dialogue: 0,0:01:02.83,0:01:05.34,JP,Mikan,0,0,0,,{\3c015ADE\blur3}自分にかけられた呪いで苦労しているのに
+Dialogue: 0,0:01:05.34,0:01:07.22,JP,Lilith,0,0,0,,{\3c993399\blur3}おぬしは本当に優しい
+Dialogue: 0,0:01:07.22,0:01:08.76,JP,Lilith,0,0,0,,{\3c993399\blur3}理想な魔法少女だな
+Dialogue: 0,0:01:08.76,0:01:11.57,JP,Mikan,0,0,0,,{\3c015ADE\blur3}そんなに褒めても呪いしか出ないんだから
+Dialogue: 0,0:01:13.61,0:01:17.26,JP,Lilith,0,0,0,,{\3c993399\blur3}しまった　不用意に褒めても呪いが発動するんだった
+Dialogue: 1,0:00:04.67,0:00:06.82,TC,Lilith,0,0,0,,{\3c993399\blur3}歡迎你  陽夏木蜜柑
+Dialogue: 1,0:00:06.82,0:00:08.54,TC,Lilith,0,0,25,,{\3c993399\blur3}一位背負著有點奇怪的詛咒
+Dialogue: 1,0:00:08.54,0:00:11.68,TC,Lilith,0,0,25,,{\3c993399\blur3}本性卻十分善良的樂於助人的橘色魔法少女  15歲
+Dialogue: 1,0:00:11.68,0:00:14.98,TC,Lilith,0,0,25,,{\3c993399\blur3}雖然看起來比實際年齡要大　因此感到自卑
+Dialogue: 1,0:00:14.98,0:00:16.87,TC,Lilith,0,0,25,,{\3c993399\blur3}但是我覺得這也沒什麼
+Dialogue: 1,0:00:16.87,0:00:17.70,TC,Lilith,0,0,25,,{\3c993399\blur3}只要看到食材
+Dialogue: 1,0:00:17.70,0:00:20.25,TC,Lilith,0,0,25,,{\3c993399\blur3}就不管三七二十一偷偷往上加柑橘類水果  因此廣為人知
+Dialogue: 1,0:00:20.25,0:00:21.93,TC,Lilith,0,0,25,,{\3c993399\blur3}在第一季第七話登場
+Dialogue: 1,0:00:21.93,0:00:23.62,TC,Lilith,0,0,25,,{\3c993399\blur3}擁有強大女性魅力的蜜柑同學
+Dialogue: 1,0:00:23.62,0:00:24.62,TC,Lilith,0,0,0,,{\3c993399\blur3}歡迎你來
+Dialogue: 1,0:00:24.62,0:00:26.81,TC,Mikan,0,0,0,,{\3c015ADE\blur3}好長的介紹啊
+Dialogue: 1,0:00:26.81,0:00:28.64,TC,Mikan,0,0,0,,{\3c015ADE\blur3}這裡是封印空間吧
+Dialogue: 1,0:00:28.64,0:00:31.35,TC,Mikan,0,0,0,,{\3c015ADE\blur3}總感覺之前見過  很讓人安心
+Dialogue: 1,0:00:31.35,0:00:35.44,TC,Mikan,0,0,0,,{\3c015ADE\blur3}不過我聽說魔法少女是進不來這裡的
+Dialogue: 1,0:00:35.44,0:00:39.85,TC,Lilith,0,0,0,,{\3c993399\blur3}為了讓新老觀眾都能樂在其中  本迷你動畫是建立在平行世界上的
+Dialogue: 1,0:00:39.85,0:00:41.89,TC,Lilith,0,0,0,,{\3c993399\blur3}所以不用關心那些細節
+Dialogue: 1,0:00:41.89,0:00:43.74,TC,Lilith,0,0,0,,{\3c993399\blur3}叫你到這裡來不是為了別的
+Dialogue: 1,0:00:43.74,0:00:46.24,TC,Lilith,0,0,0,,{\3c993399\blur3}你為了守護我可可愛愛的子孫特地搬過來
+Dialogue: 1,0:00:46.24,0:00:50.19,TC,Lilith,0,0,0,,{\3c993399\blur3}我一直想正式向你道謝
+Dialogue: 1,0:00:50.19,0:00:52.95,TC,Mikan,0,0,0,,{\3c015ADE\blur3}這種事沒關係啦
+Dialogue: 1,0:00:52.95,0:00:54.99,TC,Mikan,0,0,0,,{\3c015ADE\blur3}夏美子對我也很好
+Dialogue: 1,0:00:54.99,0:00:57.13,TC,Mikan,0,0,0,,{\3c015ADE\blur3}要說謝謝的應該是我才對
+Dialogue: 1,0:00:57.13,0:01:00.30,TC,Mikan,0,0,0,,{\3c015ADE\blur3}況且夏美子的父親好像還在被封印著吧
+Dialogue: 1,0:01:00.30,0:01:02.83,TC,Mikan,0,0,0,,{\3c015ADE\blur3}今後我也要鼓起幹勁幫忙啊
+Dialogue: 1,0:01:02.83,0:01:05.34,TC,Mikan,0,0,0,,{\3c015ADE\blur3}明明對抗自己身上的詛咒就很辛苦了
+Dialogue: 1,0:01:05.34,0:01:07.22,TC,Lilith,0,0,0,,{\3c993399\blur3}汝真是善良啊
+Dialogue: 1,0:01:07.22,0:01:08.76,TC,Lilith,0,0,0,,{\3c993399\blur3}真是理想中的魔法少女
+Dialogue: 1,0:01:08.76,0:01:11.57,TC,Mikan,0,0,0,,{\3c015ADE\blur3}你這樣誇我也只會出詛咒的啦
+Dialogue: 1,0:01:13.61,0:01:17.26,TC,Lilith,0,0,0,,{\3c993399\blur3}壞了  誇獎不謹慎  事後兩行淚

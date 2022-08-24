@@ -11,7 +11,7 @@ Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H1E20
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日字/翻译：真有人不喜欢呆唯啊   时轴：Ming
+Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日听/翻译：真有人不喜欢呆唯啊   时轴：Ming
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,0,,{\fn思源黑体 CN Heavy\an7\fs62\bord0\fad(400,400)\pos(310,820)\c&H202020&}街角魔族 2丁目
 Dialogue: 0,0:00:02.52,0:00:05.36,CN,,0,0,0,,{\fn方正特雅宋_GBK\fs70\fsp5\bord3\blur5\fad(250,300)\pos(960,880)\c&H63B6D2&\3c&HFCFCFC&}莉莉丝的房间
 Dialogue: 0,0:00:02.52,0:00:05.36,CN,,0,0,0,,{\fn方正特雅宋_GBK\shad1\fs70\fsp5\bord3\fad(250,300)\pos(960,880)\c&H508EA6&\3c&HFCFCFC&}莉莉丝的房间

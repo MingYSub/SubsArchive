@@ -11,7 +11,7 @@ Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H1E20
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日字/翻译：真有人不喜欢呆唯啊   时轴：Ming
+Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日听/翻译：真有人不喜欢呆唯啊   时轴：Ming
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,0,,{\fn思源黑体 CN Heavy\an7\fs62\bord0\fad(400,400)\pos(310,820)\c&H202020&}街角魔族 2丁目
 Dialogue: 0,0:00:29.77,0:00:31.77,CN,,0,0,20,,{\fad(0,150)\an7\fsp0\fs54\bord2.2}谷歌结果：アメマバッチ。是一个徽章，原型为在1985年到1987年播出的日本综艺节目\N「今夜はねむれナイト{\fsp-10}」{\fsp}中出现的角{\fsp-10}色{\fsp}「アメママン{\fsp-20}」{\fsp}。当时为这一角色配音的艺人间宽平\N决定把它商品化，贷款制作{\fsp7}了{\fsp}1{\fsp7}0{\fsp}万个之多{\fsp5}。{\fsp}但是由于后来节目停播，该角色的人气大幅\N下滑，导致产品完全卖不出去，亏损惨重。
 Dialogue: 0,0:00:10.53,0:00:18.62,CN,,0,0,0,,{\fad(0,300)\fs25\bord3\t(0,90,\fs55\bord5)\fn华康方圆体W7\c&H0090FF&\3c&HFFFFFF&\frz18\move(374,595,245,510,22,90)}蜜柑酱（改）玩偶
