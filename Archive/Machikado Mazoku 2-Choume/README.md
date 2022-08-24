@@ -24,22 +24,46 @@
 **压制：** 泠泫凝  天姥
 
 # 所需字体
-- 冬青黑体简体中文 W6
-- FOT-UDKakugo_Large Pr6N DB
-- FOT-Aokane Std EB
-- 造字工房朴月体（非商用）
-- FOT-Humming Std D
-- 方正FW轻吟体 简 D
-- 方正少儿_GBK
-- 方正兰亭圆_GBK_中粗
-- 方正兰亭圆_GBK_粗
-- 方正喵呜_GBK
-- 方正准圆简体
-- 方正华隶_GBK
-- 方正硬笔行书简体
-- 文鼎大签字笔体
-- 华康竹风体W4
-- 华康俪金黑W8
-- 方正艺黑_GBK
-- 方正品尚细黑简体
-- 方正基础像素
+```
+FOT-UD角ゴ_ラージ Pr6N DB <FOT-UDKakugo_Large Pr6N DB>
+FOT-あおかね Std EB <FOT-Aokane Std EB>
+FOT-ハミング Std D <FOT-Humming Std D>
+ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
+阿里巴巴普惠体 B <Alibaba PuHuiTi B>
+阿里巴巴普惠体 R <Alibaba PuHuiTi R>
+冬青黑体简体中文 W6 <Hiragino Sans GB W6>
+方正FW轻吟体 简 B <FZFW Qing Yin TiS B>
+方正FW轻吟体 简 D <FZFW Qing Yin TiS D>
+方正粗楷简体 <FZCuKaiS-R-GB>
+方正粗雅宋_GBK <FZYaSong-B-GBK>
+方正华隶_GBK <FZHuaLi-M14>
+方正基础像素 <FZJCXS>
+方正卡通_GBK <FZKaTong-M19>
+方正楷体_GBK <FZKai-Z03>
+方正兰亭圆_GBK <FZLanTingYuan-R-GBK>
+方正兰亭圆_GBK_粗 <FZLanTingYuan-B-GBK>
+方正兰亭圆_GBK_中 <FZLanTingYuan-DB-GBK>
+方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
+方正喵呜_GBK <FZMiaoWu-GBK>
+方正品尚细黑简体 <FZPinShangHeiS-L-GB>
+方正少儿_GBK <FZShaoEr-M11>
+方正新书宋简体 <FZNewShuSong-Z10S>
+方正艺黑_GBK <FZYiHei-M20>
+方正悠宋+ GBK 509R <FZYouSongJ GBK 509R>
+方正正准黑_GBK <FZZhengHei-M-GBK>
+方正准圆简体 <FZZhunYuan-M02S>
+方正字迹-潇洒隶书简体 <FZZJ-XSLSJW>
+华康方圆体W7 <DFFangYuanW7-GB>
+华康俪金黑W8 <DFLiJinHeiW8-GB>
+华康手札体W5-A <DFHannotateW5-A>
+华康手札体W7-A <DFHannotateW7-A>
+华康竹风体W4 <DFChu SC2 W4>
+江西拙楷 <jiangxizhuokai>
+思源黑体 CN Heavy <Source Han Sans CN Heavy>
+思源黑体 CN Light <Source Han Sans CN Light>
+思源黑体 CN Medium <Source Han Sans CN Medium>
+思源宋体 CN Heavy <Source Han Serif CN Heavy>
+文鼎大签字笔体 <AR QianZiBiGB EB>
+造字工房朴月体（非商用） <MF PuYue(Noncommercial)>
+方正基础像素
+```

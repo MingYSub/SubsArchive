@@ -18,3 +18,15 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
+```
+ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
+冬青黑体繁体中文 W6 <Hiragino Sans TC W6>
+冬青黑体简体中文 W6 <Hiragino Sans GB W6>
+方正特雅宋_GBK <FZYaSong-H-GBK>
+华康方圆体W7 <DFFangYuanW7-GB>
+華康方圓體W7 <DFFangYuanW7-B5>
+思源黑体 CN Heavy <Source Han Sans CN Heavy>
+思源黑體 TW Heavy <Source Han Sans TW Heavy>
+文鼎奈谷米POP体_B <AR NaGoMiPOPGB BD>
+霞鹜文楷 Bold <LXGW WenKai Bold>
+```
