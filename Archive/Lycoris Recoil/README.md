@@ -1,4 +1,4 @@
-﻿![海报](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/Poster.png)
+![海报](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/Poster.png)
 
 # 铳动彼岸花 / Lycoris Recoil
 | 集数 | 标题 | 中文标题 | 对应片源 | 字幕 |
