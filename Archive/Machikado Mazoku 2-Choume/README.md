@@ -7,10 +7,10 @@
 | 04 | 发现新物种！镇上的咖啡店是魔族巢穴！ | BD | 简日 繁日 |
 | 05 | 魔族觉醒！开辟自己的道路！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B05%5D.CHS_JPN.ass) 繁日 |
 | 06 | 夕阳的誓言！魔族们前进的道路！ | BD | 简日 繁日 |
-| 07 | 短暂的休假！！魔族的夏日祭 | Web | 简日 繁日 |
+| 07 | 短暂的休假！！魔族的夏日祭 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B07%5D.CHS_JPN.ass) 繁日 |
 | 08 | 火花四溅！？光明与黑暗的联合远足！ | Web | 简日 繁日 |
 | 09 | 黑色的感情！！暗堕桃再临！！ | Web | 简日 繁日 |
-| 10 | 先祖大人的道场！？魔族的究极武器！ | Web | 简日 繁日 |
+| 10 | 先祖大人的道场！？魔族的究极武器！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B10%5D.CHS_JPN.ass) 繁日 |
 | 11 | 新学期！魔法少女的新角色！ | Web | 简日 繁日 |
 | 12 | 暗夜的仪式！魔族的新伙伴！！ | Web | 简日 繁日 |
 
