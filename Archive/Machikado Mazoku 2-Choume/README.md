@@ -11,7 +11,7 @@
 | 08 | 火花四溅！？光明与黑暗的联合远足！ | Web | 简日 繁日 |
 | 09 | 黑色的感情！！暗堕桃再临！！ | Web | 简日 繁日 |
 | 10 | 先祖大人的道场！？魔族的究极武器！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B10%5D.CHS_JPN.ass) 繁日 |
-| 11 | 新学期！魔法少女的新角色！ | Web | 简日 繁日 |
+| 11 | 新学期！魔法少女的新角色！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B11%5D.CHS_JPN.ass) 繁日 |
 | 12 | 暗夜的仪式！魔族的新伙伴！！ | Web | 简日 繁日 |
 
 [Mini 小剧场](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume/Mini)
@@ -22,6 +22,9 @@
 **时轴/后期：** Ming  Magma  Autism
 
 **压制：** 泠泫凝  天姥
+
+# 字幕说明
+本字幕未使用 VSFilterMod 中的特效标签。使用 Aegisub 可应用模板。
 
 # 所需字体
 ```
@@ -65,5 +68,4 @@ FOT-ハミング Std D <FOT-Humming Std D>
 思源宋体 CN Heavy <Source Han Serif CN Heavy>
 文鼎大签字笔体 <AR QianZiBiGB EB>
 造字工房朴月体（非商用） <MF PuYue(Noncommercial)>
-方正基础像素
 ```
