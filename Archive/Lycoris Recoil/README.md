@@ -10,7 +10,8 @@
 | 05 | So far, so good | 目前为止，一切顺利 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B05%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B05%5D.CHT_JPN.ass) |
 | 06 | Opposites attract | 相斥相吸 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B06%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B06%5D.CHT_JPN.ass) |
 | 07 | Time will tell | 时间会证明一切 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B07%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B07%5D.CHT_JPN.ass) |
-| 08 | Another day, Another dollar | 又一日，又一文 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHT_JPN.ass) |
+| 08 | Another day, another dollar | 又一日，又一文 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHT_JPN.ass) |
+| 09 | What's done is done | 覆水难收 | Web |  |
 
 # Staff
 **翻译/校对：** 泠泫凝  伊马替尼  小圆香径独徘徊
