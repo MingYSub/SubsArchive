@@ -1,0 +1,45 @@
+﻿[Script Info]
+Title: [MingY] Machikado Mazoku 2-Choume Mini [12].CHS_JPN
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Hiragino Kaku Gothic ProN W6,52,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,8,1
+Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H1E202020,0,0,0,0,100,100,1,0,1,2.7,0,2,30,30,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日听/翻译：真有人不喜欢呆唯啊   时轴：Ming
+Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,0,,{\fn思源黑体 CN Heavy\an7\fs62\bord0\fad(400,400)\pos(310,820)\c&H202020&}街角魔族 2丁目
+Dialogue: 0,0:00:04.02,0:00:07.52,JP,Riko,0,0,0,,{\3c97453D\blur3}どうも　狐狸精のリコです
+Dialogue: 0,0:00:07.52,0:00:10.46,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}はじめまして　マスターの白澤です
+Dialogue: 0,0:00:10.46,0:00:12.58,JP,Riko,0,0,0,,{\3c97453D\blur3}二人合わせて
+Dialogue: 1,0:00:12.58,0:00:14.89,JP,Riko,0,0,0,,{\3c97453D\blur3}{\clip(m 1017 944 l 935 1072 718 1074 706 950)}喫茶あすらです
+Dialogue: 0,0:00:12.58,0:00:14.89,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}{\iclip(m 1017 944 l 935 1072 718 1074 706 950)}喫茶あすらです
+Dialogue: 0,0:00:14.89,0:00:17.63,JP,Riko,0,0,0,,{\3c97453D\blur3}名前だけでも覚えて書いてください
+Dialogue: 0,0:00:18.09,0:00:19.19,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}リコ君
+Dialogue: 0,0:00:19.19,0:00:21.22,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}やっぱりこれは違う気がするよ
+Dialogue: 0,0:00:21.22,0:00:26.70,JP,Riko,0,0,0,,{\3c97453D\blur3}そう　うちが知ってる二人組は大体こんな感じで自己紹介しはるよ
+Dialogue: 0,0:00:26.70,0:00:29.56,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}それは大分偏った認識だし
+Dialogue: 0,0:00:29.56,0:00:31.03,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}あと　若干古い
+Dialogue: 0,0:00:31.03,0:00:32.88,JP,Riko,0,0,0,,{\3c97453D\blur3}いややわ　マスター
+Dialogue: 0,0:00:32.88,0:00:35.22,JP,Riko,0,0,0,,{\3c97453D\blur3}うちのがまだまだ若手よ
+Dialogue: 0,0:00:35.22,0:00:38.71,JP,Riko,0,0,0,,{\3c97453D\blur3}芸歴何千年の先輩がぎょうさんいってはるよ
+Dialogue: 0,0:00:38.71,0:00:41.33,JP,Shirosawa,0,0,0,,{\3c4A3F50\blur3}まぞくに芸歴とかないからね
+Dialogue: 1,0:00:04.02,0:00:07.52,CN,Riko,0,0,0,,{\3c97453D\blur3}大家好呀  我是狐狸精莉子
+Dialogue: 1,0:00:07.52,0:00:10.46,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}初次见面  我是店长白泽
+Dialogue: 1,0:00:10.46,0:00:12.58,CN,Riko,0,0,0,,{\3c97453D\blur3}我们两人加起来
+Dialogue: 2,0:00:12.58,0:00:14.89,CN,Riko,0,0,0,,{\3c97453D\blur3}{\clip(m 1017 944 l 935 1072 718 1074 706 950)}就是咖啡厅明日向
+Dialogue: 3,0:00:12.58,0:00:14.89,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}{\iclip(m 1017 944 l 935 1072 718 1074 706 950)}就是咖啡厅明日向
+Dialogue: 1,0:00:14.89,0:00:17.63,CN,Riko,0,0,0,,{\3c97453D\blur3}至少要把我们的名字写下来记住哦
+Dialogue: 1,0:00:18.09,0:00:19.19,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}莉子
+Dialogue: 1,0:00:19.19,0:00:21.22,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}果然感觉怪怪的
+Dialogue: 1,0:00:21.22,0:00:26.70,CN,Riko,0,0,0,,{\3c97453D\blur3}是吗  我知道的二人组合大概都是以这种感觉做自我介绍的
+Dialogue: 1,0:00:26.70,0:00:29.56,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}你这种想法实在失之偏颇
+Dialogue: 1,0:00:29.56,0:00:31.03,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}而且多少有点老土
+Dialogue: 1,0:00:31.03,0:00:32.88,CN,Riko,0,0,0,,{\3c97453D\blur3}讨厌啦  店长
+Dialogue: 1,0:00:32.88,0:00:35.22,CN,Riko,0,0,0,,{\3c97453D\blur3}我可还算年轻哦
+Dialogue: 1,0:00:35.22,0:00:38.71,CN,Riko,0,0,0,,{\3c97453D\blur3}那些艺龄上千年的前辈好多都这么说
+Dialogue: 1,0:00:38.71,0:00:41.33,CN,Shirosawa,0,0,0,,{\3c4A3F50\blur3}魔族可没有什么艺龄之类的东西

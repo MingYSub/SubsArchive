@@ -13,9 +13,9 @@ Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H1E20
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日听/翻译：真有人不喜欢呆唯啊   时轴：Ming
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,0,,{\fn思源黑体 CN Heavy\an7\fs62\bord0\fad(400,400)\pos(300,820)\c&H202020&}街角魔族 2丁目
-Dialogue: 0,0:01:00.25,0:01:00.37,CN,Shamiko,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs15\bord1\c&HA7B1D2&\3c&H14163D&\frz349\t(\fs54)\move(1022.314,260.2,1025.143,127.857,19,80)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
-Dialogue: 0,0:01:00.37,0:01:00.58,CN,Shamiko,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs52\t(\fs40)\bord1\c&HA7B1D2&\3c&H14163D&\frz349\move(1026.4,125.6,1025,171,24,140)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
-Dialogue: 0,0:01:00.58,0:01:04.59,CN,Shamiko,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs42\t(0,125,\fs45)\t(125,250,\fs42)\bord1\c&HA7B1D2&\3c&H14163D&\frz349\move(1025,171,1024,165,24,120)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
+Dialogue: 0,0:01:00.25,0:01:00.37,CN,,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs15\bord1\c&HA7B1D2&\3c&H14163D&\frz349\t(\fs54)\move(1022.314,260.2,1025.143,127.857,19,80)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
+Dialogue: 0,0:01:00.37,0:01:00.58,CN,,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs52\t(\fs40)\bord1\c&HA7B1D2&\3c&H14163D&\frz349\move(1026.4,125.6,1025,171,24,140)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
+Dialogue: 0,0:01:00.58,0:01:04.59,CN,,0,0,0,,{\fn霞鹜文楷\b1\shad1\fs42\t(0,125,\fs45)\t(125,250,\fs42)\bord1\c&HA7B1D2&\3c&H14163D&\frz349\move(1025,171,1024,165,24,120)}坠入{\c&H634FC9&}黑暗{\c}吧  夏美子赠
 Dialogue: 0,0:00:59.84,0:01:02.37,CN,Shamiko,0,0,0,,{\3c5B50C4\blur3}{\fs40\bord2.3\pos(846,952)}SHUKUTEKI
 Dialogue: 0,0:00:59.84,0:01:02.37,CN,Shamiko,0,0,0,,{\3c5B50C4\blur3}{\fs40\bord2.3\pos(1183,952)}TEKI
 Dialogue: 0,0:00:03.00,0:00:04.76,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}桃　何してるんですか
