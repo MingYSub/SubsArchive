@@ -11,7 +11,8 @@
 | 06 | Opposites attract | 相斥相吸 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B06%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B06%5D.CHT_JPN.ass) |
 | 07 | Time will tell | 时间会证明一切 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B07%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B07%5D.CHT_JPN.ass) |
 | 08 | Another day, another dollar | 又一日，又一文 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B08%5D.CHT_JPN.ass) |
-| 09 | What's done is done | 覆水难收 | Web |  |
+| 09 | What's done is done | 覆水难收 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B09%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B09%5D.CHT_JPN.ass) |
+| 10 |  |  | Web | 简日 繁日 |
 
 # Staff
 **翻译/校对：** 泠泫凝  伊马替尼  小圆香径独徘徊
@@ -23,6 +24,8 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
+字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
+
 ```
 Arial
 ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>

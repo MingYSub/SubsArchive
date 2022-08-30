@@ -24,6 +24,8 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
+字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
+
 ```
 ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
 冬青黑体繁体中文 W6 <Hiragino Sans TC W6>

@@ -27,6 +27,8 @@
 本字幕未使用 VSFilterMod 中的特效标签。使用 Aegisub 可应用模板。
 
 # 所需字体
+字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
+
 ```
 FOT-UD角ゴ_ラージ Pr6N DB <FOT-UDKakugo_Large Pr6N DB>
 FOT-あおかね Std EB <FOT-Aokane Std EB>
