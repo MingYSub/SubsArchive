@@ -108,8 +108,8 @@ Comment: 0,0:00:00.00,0:00:00.00,Staff2 - TC,,0,0,0,template line keeptags nobla
 Comment: 0,0:03:40.94,0:03:45.00,Staff2 - TC,,0,700,0,karaoke,本字幕由  MingYSub  製作
 Dialogue: 0,0:03:41.19,0:03:45.00,Staff2 - TC,,0,0,0,1,{\fsp0\fad(130,0)\blur5\&H5E5FDF&}|
 Comment: 0,0:03:41.10,0:03:45.00,Staff2 - TC,,700,0,0,karaoke,招募/交流群：293483450
-Comment: 0,0:03:40.94,0:03:45.00,Staff - TC,,0,610,0,karaoke,翻譯/校對：{\fn思源黑体 CN Medium}泠泫凝  伊马替尼  小圆香径独徘徊
-Comment: 0,0:03:41.10,0:03:45.00,Staff - TC,,970,0,0,karaoke,時軸：Ming   壓製：{\fn思源黑体 CN Medium}泠泫凝
+Comment: 0,0:03:40.94,0:03:45.00,Staff - TC,,0,620,0,karaoke,翻譯/校對：{\fn思源黑体 CN Medium}泠泫凝  伊马替尼  小圆香径独徘徊
+Comment: 0,0:03:41.10,0:03:45.00,Staff - TC,,980,0,0,karaoke,時軸：Ming   壓製：{\fn思源黑体 CN Medium}泠泫凝
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Title ------
 Comment: 0,0:00:00.00,0:00:00.00,Title - TC,,0,0,0,code syl,num={} for i=1,4 do x=_G.math.random(1,4) while(num[x+4]) do x=_G.math.random(1,4) end num[i]=x num[x+4]=1 end
 Comment: 0,0:00:00.00,0:00:00.00,Title - TC,,0,0,0,code line,style_title={"\\blur5\\alpha1E","\\bord0\\xshad1.1\\4c00FF00\\alpha1E","\\bord0\\xshad-0.9\\4c0000FF\\alpha1E","\\bord0"} tags="\\fad(0,900)" theme_color={"6C5DF7","EFFF62"}
