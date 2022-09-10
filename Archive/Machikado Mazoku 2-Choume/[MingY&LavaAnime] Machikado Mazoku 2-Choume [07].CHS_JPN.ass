@@ -149,8 +149,8 @@ Dialogue: 0,0:05:55.01,0:05:57.50,Title,,0,0,45,,{\an8\shad0\cFFFFFF\3c&H00C97EF
 Dialogue: 0,0:05:57.50,0:06:00.02,Title,,0,0,45,,{\an8\shad0\cFFFFFF\3c&H00C97EFC\bord8\fs55}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming   {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
 Dialogue: 1,0:05:55.01,0:05:57.50,Title,,0,0,45,,{\an8\shad0\cFFFFFF\3c&H00701B84\bord4\fs55\}翻译{\fn方正兰亭圆_GBK_粗}/{\fn}校对{\fn方正兰亭圆_GBK_粗}：{\fn}真有人不喜欢呆唯啊   协力{\fn方正兰亭圆_GBK_粗}：{\fn}观津邀月  奕北
 Dialogue: 1,0:05:57.50,0:06:00.02,Title,,0,0,45,,{\an8\shad0\cFFFFFF\3c&H00701B84\bord4\fs55)}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming   {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
-Dialogue: 0,0:23:51.05,0:23:55.05,EDCN,,0,0,0,staff,{\pos(960,30)\fsp5\bord2\3cE04137}本字幕由  MingYSub&熔岩动画Sub  制作
 Dialogue: 0,0:23:51.05,0:23:55.05,EDCN,,0,0,0,staff,{\pos(960,30)\bord3\fsp5\3cE04137\a&HFF&\blur4}本字幕由  MingYSub&熔岩动画Sub  制作
+Dialogue: 0,0:23:51.05,0:23:55.05,EDCN,,0,0,0,staff,{\pos(960,30)\fsp5\bord2\3cE04137}本字幕由  MingYSub&熔岩动画Sub  制作
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Title ------
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code all,function withinRange(num) return math.min(1,math.max(0,num)) end
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template line keeptags noblank fxgroup A,!relayer(j)!!maxloop($height+10)!{\clip(!_G.table.concat({0,j-1+$top-10,1920,j+$top-10},",")!)\c!_G.interpolate_color(withinRange((j-10)/(maxj-10)),"&H960A68&","&HE142EA&")!}
