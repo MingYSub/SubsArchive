@@ -1,4 +1,5 @@
 # 街角魔族 2丁目 Mini / Machikado Mazoku 2-Choume Mini
+## Mini 小剧场
 | 集数 | 字幕 |
 | ---- | ---- |
 | 01 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B01%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B01%5D.CHT_JPN.ass) |
@@ -20,8 +21,16 @@
 | 17 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B17%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B17%5D.CHT_JPN.ass) |
 | 18 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B18%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B18%5D.CHT_JPN.ass) |
 
+## あけおめ Mini Movie 新年祝福
+| 人物 | 字幕 |
+| ---- | ---- |
+| 夏美子 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BShamiko%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BShamiko%5D.CHT_JPN.ass) |
+| 桃 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMomo%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMomo%5D.CHT_JPN.ass) |
+| 蜜柑 |  |
+| 莉莉丝 |  |
+
 # Staff
-**日听/翻译：** 真有人不喜欢呆唯啊
+**日听/翻译：** 真有人不喜欢呆唯啊（Mini 小剧场）   Ming（新年祝福）
 
 **时轴：** Ming
 

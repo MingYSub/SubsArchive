@@ -12,9 +12,9 @@
 | 09 | 黑色的感情！！暗堕桃再临！！ | Web | 简日 繁日 |
 | 10 | 先祖大人的道场！？魔族的究极武器！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B10%5D.CHS_JPN.ass) 繁日 |
 | 11 | 新学期！魔法少女的新角色！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B11%5D.CHS_JPN.ass) 繁日 |
-| 12 | 暗夜的仪式！魔族的新伙伴！！ | Web | 简日 繁日 |
+| 12 | 暗夜的仪式！魔族的新伙伴！！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B12%5D.CHS_JPN.ass) 繁日 |
 
-[Mini 小剧场](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume/Mini)
+[Mini 小剧场 & あけおめ Mini Movie 新年祝福](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume/Mini)
 
 # Staff
 **翻译/校对：** 观津邀月（参考漫画）  真有人不喜欢呆唯啊
