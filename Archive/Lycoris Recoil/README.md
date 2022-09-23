@@ -14,7 +14,8 @@
 | 09 | What's done is done | 覆水难收 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B09%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B09%5D.CHT_JPN.ass) |
 | 10 | Repay evil with evil | 以恶报恶 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B10%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B10%5D.CHT_JPN.ass) |
 | 11 | Diamond cut diamond | 棋逢对手 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B11%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B11%5D.CHT_JPN.ass) |
-| 12 | Nature versus nurture | 先天与后天 | Web |  |
+| 12 | Nature versus nurture | 先天与后天 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B12%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B12%5D.CHT_JPN.ass) |
+| 13 | Recoil of Lycoris |  | Web |  |
 
 # Staff
 **翻译/校对：** 泠泫凝  伊马替尼  小圆香径独徘徊
