@@ -30,4 +30,5 @@
 | 时间 | 中文名称 | 罗马音/英文名 | 字幕语言 | 集数 | 备注 |
 | --- | --- | --- | --- | --- | --- |
 | 2022 春 | [街角魔族 2丁目](https://github.com/MingYSub/SubArchive/tree/main/Archive/Machikado%20Mazoku%202-Choume) | Machikado Mazoku 2-Choume | 中日 | 12 + Mini |  |
-| 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | Lycoris Recoil | 中日 |  | 更新中 |
+| 2022 夏 | [铳动彼岸花](https://github.com/MingYSub/SubArchive/tree/main/Archive/Lycoris%20Recoil) | Lycoris Recoil | 中日 | 13 |  |
+| 2022 秋 | [孤独摇滚](https://github.com/MingYSub/SubArchive/tree/main/Archive/Bocchi%20the%20Rock%21) | Bocchi the Rock! | 中日 |  | 更新中 |
