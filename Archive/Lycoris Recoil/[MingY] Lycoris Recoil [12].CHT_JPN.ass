@@ -132,9 +132,9 @@ Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Comment ------
 Dialogue: 0,0:04:27.83,0:04:30.70,TC,,0,0,20,,{\an7\fs52}修女德蕾莎：世界著名的天主教慈善工作者，主要替印度加爾各答的窮人服務。
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Screen ------
 Dialogue: 0,0:11:41.76,0:11:48.77,TC,,0,0,0,,{\shad6\bord0\c&HDCDCF0&\4c&H2F2F2F&\4a&H50&\3c&H5C5C8E&\frz3.406\pos(1014,770)}塔內發生槍擊戰
-Dialogue: 0,0:17:34.32,0:17:36.29,TC,,0,0,0,,{\fn思源黑体 CN Heavy\fs50\fsp2\bord1.8\3c&H5E58E6&\pos(1131,315)\org(1206,289)\frx5\fry352\frz6.227\c&HF9F9F9&}請稍等片刻
-Dialogue: 0,0:17:36.29,0:17:38.00,TC,,0,0,0,,{\fn思源黑体 CN Heavy\fs50\fsp2\bord1.8\3c&H5E58E6&\frz10.67\frx17\fry346\pos(760,164)\org(795,141)\c&HF2EAED&}請稍等片刻
-Dialogue: 0,0:17:38.00,0:17:40.45,TC,,0,0,0,,{\fn思源黑体 CN Heavy\fs26\fsp0.5\bord0.8\3c&H5E58E6&\c&HFDF8EF&\pos(886,445)}請稍等片刻
+Dialogue: 0,0:17:34.32,0:17:36.29,TC,,0,0,0,,{\fscx100\fscy100\fn思源黑體 TW Heavy\fs50\fsp2\bord1.8\3c&H5E58E6&\pos(1131,315)\org(1206,289)\frx5\fry352\frz6.227\c&HF9F9F9&}請稍等片刻
+Dialogue: 0,0:17:36.29,0:17:38.00,TC,,0,0,0,,{\fscx100\fscy100\fn思源黑體 TW Heavy\fs50\fsp2\bord1.8\3c&H5E58E6&\frz10.67\frx17\fry346\pos(760,164)\org(795,141)\c&HF2EAED&}請稍等片刻
+Dialogue: 0,0:17:38.00,0:17:40.45,TC,,0,0,0,,{\fscx100\fscy100\fn思源黑體 TW Heavy\fs26\fsp0.5\bord0.8\3c&H5E58E6&\c&HFDF8EF&\pos(886,445)}請稍等片刻
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Dialogue ------
 Dialogue: 0,0:00:15.16,0:00:16.32,JP,,0,0,0,,千束 マガジンが
 Dialogue: 0,0:00:16.32,0:00:18.83,JP,,0,0,0,,しっ 黙って あいつは地獄耳だ
