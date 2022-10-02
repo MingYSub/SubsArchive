@@ -21,12 +21,12 @@ Style: Staff2,思源黑体 CN Medium,69,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Template ------
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,op_color={} op_color["white"]="FFFFFF" op_color["black"]="141414"
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code all,framedur=(_G.aegisub.ms_from_frame(100)-_G.aegisub.ms_from_frame(1))/100  function round(num, d) d=d or 0 return math.floor(num*10^d)/10^d end     function f(x) return 1/(1+(x/0.5)^-3.8) end    function clipT(t1,t2,x1,x2) return _G.string.format("\\t(%d,%d,\\clip(%d,0,%d,1080))",t1,t2,x1,x2) end
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code all,framedur=(_G.aegisub.ms_from_frame(101)-_G.aegisub.ms_from_frame(1))/100  function round(num, d) d=d or 0 return math.floor(num*10^d)/10^d end     function f(x) return 1/(1+(x/0.5)^-3.8) end    function clipT(t1,t2,x1,x2) return _G.string.format("\\t(%d,%d,\\clip(%d,0,%d,1080))",t1,t2,x1,x2) end
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,function tTag(i,n,start,mode) start=start or 0 mode=mode or 0 return clipT((i-1+start)*framedur, (i+start)*framedur, (line.left-12)*(1-mode)+(line.left+(line.width+24)*f(i/n))*mode, (line.left+(line.width+24)*f(i/n))*(1-mode)+(line.right+12)*mode) end          function clipTags() tags="" lframe=round(line.duration/framedur)-16 for j=0,1 do tags=tags..clipT(lframe*j*framedur+1,lframe*j*framedur+1,line.left-12,line.left-12)  for i=1,7 do tags=tags..tTag(i,7,lframe*j) end  tags=tags..clipT((7+lframe*j)*framedur, (8+lframe*j)*framedur, line.left-12, line.right+12)  for i=1,7 do tags=tags .. tTag(i,7,8+lframe*j,1) end tags=tags..clipT((15+lframe*j)*framedur, (16+lframe*j)*framedur, line.right+12, line.right+12) end   return tags end
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!
-Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!7*framedur!,!7*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!8*framedur!,!8*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!
-Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!7*framedur!,!7*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!8*framedur!,!8*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,color={"\\c&H423DF1&\\3c&H423DF1&","\\c&HFDE453&\\3c&HFDE453&","\\c&H3FC6FF&\\3c&H3FC6FF&","\\c&HE99E44&\\3c&HE99E44&"} shape={"{\\1aFF\\bord3}m 0 0 l 0 10 10 10 10 0","{\\1aFF\\bord3}m 5 0 b 2 0 0 2 0 5 b 0 8 2 10 5 10 b 8 10 10 8 10 5 b 10 2 8 0 5 0","{\\1aFF\\bord3}m 6 0 l 0 10 12 10","{\\bord1.5}m 0 0 l 10 10 l 11 10 l 1 0 m 0 10 l 1 10 l 11 0 l 10 0"}
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template syl notext,!maxloop(math.random(1,5))!!retime("syl",0,math.random(230,440)-syl.duration)!{\move(!$center+math.random(1,12)*remember("dx",math.pow(-1,math.random(1,2)))!,!$middle+math.random(1,12)*remember("dy",math.pow(-1,math.random(1,2)))!,!$center+math.random(20,syl.width+15)*recall.dx!,!$middle+math.random(20,syl.height+15)*recall.dy!)}{\fad(120,120)\fscx!remember("fsc",math.random(150,175))!\fscy!recall.fsc!\t(1.35,\fscx55\fscy55\blur.5\frz!math.random(-60,60)!)}{!color[math.random(1,4)]!}{\p1}!shape[math.random(1,4)]!
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template syl,!retime("syl2end",-syl.duration,-180)!{\fad(180,0)\blur3\move($x,!$y-math.pow(-1,syl.i)*18!,$x,$y,0,180)}
@@ -65,9 +65,10 @@ Comment: 0,0:01:13.78,0:01:20.65,OPCN,white,0,0,0,karaoke,现在也只需要燃�
 Comment: 0,0:01:20.65,0:01:24.45,OPCN,white,0,0,0,karaoke,祈愿能证明自身存在
 Comment: 0,0:01:24.45,0:01:32.28,OPCN,white,0,380,0,karaoke,因为是一路颤抖声音
 Comment: 0,0:01:24.61,0:01:32.45,OPCN,white,470,0,0,karaoke,宣扬主张过来的
-Comment: 0,0:01:32.45,0:01:38.58,OPCN,white,0,265,0,karaoke,无须后悔
-Comment: 0,0:01:32.62,0:01:38.73,OPCN,white,265,0,0,karaoke,相互合作
-Comment: 0,0:01:38.74,0:01:42.93,OPCN,white,0,0,0,karaoke,即使是沉重的过去也要
+Comment: 0,0:01:32.45,0:01:36.07,OPCN,white,0,265,0,karaoke,无须后悔
+Comment: 0,0:01:32.62,0:01:36.24,OPCN,white,265,0,0,karaoke,相互合作
+Comment: 0,0:01:36.24,0:01:42.76,OPCN,white,0,525,0,karaoke,即使是沉重的过去也要
+Comment: 0,0:01:36.41,0:01:42.93,OPCN,white,525,0,0,karaoke,接受它再继续向前迈进
 Comment: 0,0:01:42.93,0:01:48.07,OPCN,white,0,0,0,karaoke,比起选择既有的答案
 Comment: 0,0:01:48.08,0:01:53.35,OPCN,white,0,160,0,karaoke,更想追寻崭新的梦想
 Comment: 0,0:01:48.26,0:01:53.53,OPCN,white,470,0,0,karaoke,永远
