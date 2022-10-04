@@ -20,21 +20,25 @@
 | 16 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B16%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B16%5D.CHT_JPN.ass) |
 | 17 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B17%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B17%5D.CHT_JPN.ass) |
 | 18 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B18%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B18%5D.CHT_JPN.ass) |
+| 19 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B19%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B19%5D.CHT_JPN.ass) |
+| 20 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B20%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B20%5D.CHT_JPN.ass) |
+| 21 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B21%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B21%5D.CHT_JPN.ass) |
+| 22 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B22%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B22%5D.CHT_JPN.ass) |
+| 23 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B23%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B23%5D.CHT_JPN.ass) |
+| 24 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B24%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Mini%20%5B24%5D.CHT_JPN.ass) |
 
 ## あけおめ Mini Movie 新年祝福
 | 人物 | 字幕 |
 | ---- | ---- |
 | 夏美子 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BShamiko%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BShamiko%5D.CHT_JPN.ass) |
 | 桃 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMomo%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMomo%5D.CHT_JPN.ass) |
-| 蜜柑 |  |
-| 莉莉丝 |  |
+| 蜜柑 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMikan%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BMikan%5D.CHT_JPN.ass) |
+| 莉莉丝 | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BLilith%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Mini/%5BMingY%5D%20Machikado%20Mazoku%202-Choume%20Akeome%20Mini%20Movie%20%5BLilith%5D.CHT_JPN.ass) |
 
 # Staff
 **日听/翻译：** 真有人不喜欢呆唯啊（Mini 小剧场）   Ming（新年祝福）
 
 **时轴：** Ming
-
-**压制：** 
 
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
