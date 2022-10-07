@@ -1,7 +1,8 @@
-# Do It Yourself!!
+# DIY部！！ / Do It Yourself!!
 | 集数 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- |
 | 01 | DIY是什么？ | Web | [简日](https://github.com/MingYSub/SubArchive/tree/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B01%5D.CHS_JPN.ass) 繁日 |
+| 02 | DIY是和谁一起做？ | Web | |
 
 # Staff
 翻译：Ming  小圆香径独徘徊
