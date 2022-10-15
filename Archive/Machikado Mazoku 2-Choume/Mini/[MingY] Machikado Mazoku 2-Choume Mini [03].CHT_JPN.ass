@@ -1,5 +1,5 @@
 ﻿[Script Info]
-Title: [MingY] Machikado Mazoku 2-Choume Mini [03].CHS_JPN
+Title: [MingY] Machikado Mazoku 2-Choume Mini [03].CHT_JPN
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
@@ -36,7 +36,7 @@ Dialogue: 0,0:00:42.61,0:00:44.61,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}原型師�
 Dialogue: 0,0:00:44.61,0:00:49.34,JP,Mikan,0,0,0,,{\3c015ADE\blur3}それと　設定的にはすだちフラッシュとローリング晩白柚習得してるのよ
 Dialogue: 0,0:00:49.34,0:00:50.70,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}晩白柚って何
 Dialogue: 0,0:00:50.70,0:00:52.85,JP,Mikan,0,0,0,,{\3c015ADE\blur3}みかんちゃんの可能性は無限大
-Dialogue: 0,0:00:52.85,0:00:54.54,JP,Mikan,0,0,0,,{\3c015ADE\blur3}またまた成長するわ
+Dialogue: 0,0:00:52.85,0:00:54.54,JP,Mikan,0,0,0,,{\3c015ADE\blur3}まだまだ成長するわ
 Dialogue: 0,0:00:54.54,0:00:56.26,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}みかんちゃん侮りがたし
 Dialogue: 0,0:00:56.26,0:00:58.08,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}{\fad(0,300)}私は見習わなくては
 Dialogue: 1,0:00:03.01,0:00:07.18,TC,Mikan,0,0,0,,{\3c015ADE\blur3}只要抱著這個我就能冷靜下來  詛咒就不會發動
