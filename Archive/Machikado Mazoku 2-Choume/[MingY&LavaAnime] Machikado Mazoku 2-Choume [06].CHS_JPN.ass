@@ -6,16 +6,6 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Title-furigana,方正少儿_GBK,32.5,&H002C2C2C,&H00FC01DD,&H00FFFFFF,&H001E1E1E,0,0,0,0,100,100,0,0,1,3,1.6,2,30,30,30,1
-Style: EDCN-furigana,方正FW轻吟体 简 D,26.5,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,6,0,1,1,0,8,15,15,20,1
-Style: EDJP-furigana,FOT-Humming Std D,30,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,5,0,1,1,0,2,15,15,20,1
-Style: OPCN-furigana,造字工房朴月体（非商用）,32.5,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,11,0,1,2,0,8,23,23,20,1
-Style: OPJP-furigana,FOT-Aokane Std EB,32.5,&H00A066FF,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,5,0,1,2,0,2,23,23,23,1
-Style: INCN-furigana,方正兰亭圆_GBK_中,25,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,1.5,0,8,60,60,67,1
-Style: INJP-furigana,A-OTF Shin Maru Go Pr6N M,27.5,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,5,0,1,1.5,0,8,60,60,10,1
-Style: Default-furigana,冬青黑体简体中文 W6,34,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,0,0,1,0.9,0,2,30,30,20,1
-Style: JP-furigana,FOT-UDKakugo_Large Pr6N DB,29,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,1.15,0,2,30,30,6,1
-Style: CN-furigana,冬青黑体简体中文 W6,34,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,1.75,0,2,30,30,60,1
 Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3.5,0,2,30,30,60,1
 Style: JP,FOT-UDKakugo_Large Pr6N DB,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,6,1
 Style: Default,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,0,0,1,1.8,0,2,30,30,20,1
@@ -284,7 +274,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Dialogue ------
 Dialogue: 0,0:00:01.56,0:00:03.73,JP,Sakura,0,0,0,,{\3c6401BA}ほら  いける  いけるよ
 Dialogue: 0,0:00:03.73,0:00:05.19,JP,Sakura,0,0,0,,{\3c6401BA}いけると思い込め
 Comment: 0,0:00:05.57,0:00:07.82,JP,Shamiko,0,0,0,,{\3c5B50C4}ふんぬらば～
-Dialogue: 0,0:00:11.16,0:00:13.58,JP,Sakura,0,0,0,,{\3c6401BA}よーし  形成ＯＫ
+Dialogue: 0,0:00:11.16,0:00:13.58,JP,Sakura,0,0,0,,{\3c6401BA}よーし  形成OK
 Dialogue: 0,0:00:14.12,0:00:16.16,JP,Sakura,0,0,0,,{\3c6401BA}ご協力ありがとう
 Dialogue: 0,0:00:16.16,0:00:18.00,JP,Sakura,0,0,0,,{\3c6401BA}10年のブランクを経て
 Dialogue: 0,0:00:26.63,0:00:29.63,JP,Sakura,0,0,0,,{\3c6401BA}貴方の町のかけつけ一本  お守り桜
