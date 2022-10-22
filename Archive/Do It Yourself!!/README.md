@@ -3,7 +3,8 @@
 | ---- | ---- | ---- | ---- |
 | 01 | DIY是什么？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B01%5D.CHS_JPN.ass) 繁日 |
 | 02 | DIY是要和谁一块做的吗？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B02%5D.CHS_JPN.ass) 繁日 |
-| 03 | 怎么突然开始做起DIY了？ | Web | 简日 繁日 |
+| 03 | 怎么突然开始做起DIY了？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B03%5D.CHS_JPN.ass) 繁日 |
+| 04 | DIY、不管到哪里都能舒舒服服的哦 | Web | 简日 繁日 |
 
 [争议人名翻译对照](争议人名翻译对照.md)
 
