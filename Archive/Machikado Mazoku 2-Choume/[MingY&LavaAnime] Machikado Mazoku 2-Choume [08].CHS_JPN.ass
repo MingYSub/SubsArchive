@@ -179,7 +179,7 @@ Dialogue: 0,0:03:11.34,0:03:12.84,CN,,0,0,0,,{\fad(250,250)\pos(1795,540)\fr-90\
 Dialogue: 0,0:03:11.34,0:03:12.84,CN,,0,0,0,,{\fad(250,250)\pos(1795,540)\fr-90\bord3\fsp5\fn@方正兰亭圆_GBK_中粗\c&H79F2F2&\3c&H068995&}几小时后
 Dialogue: 0,0:03:42.74,0:03:45.21,DefaultUp,,0,0,0,,{\fad(250,0)\an1\pos(980,841)\fn方正华隶_GBK\fs50\1aFF\3c&H08021E&\bord6\blur6}魔族套餐\N　~加入了猎奇电影元素
 Dialogue: 0,0:03:42.70,0:03:45.21,DefaultUp,,0,0,0,,{\fad(250,0)\an1\pos(975,836)\fs50\fn方正华隶_GBK\c&H1000C6&\3c&HEEEDF1&\bord4}魔族套餐\N　~加入了猎奇电影元素
-Dialogue: 0,0:04:06.43,0:04:09.90,DefaultUp,,0,0,0,,{\fry3\fs40\bord0\an7\fn方正华隶_GBK\c&HE0E5EE&\pos(755,100)\org(515,1468)}咖啡店
+Dialogue: 0,0:04:06.43,0:04:09.90,DefaultUp,,0,0,0,,{\fry3\fs40\bord0\an7\fn方正华隶_GBK\c&HE0E5EE&\pos(755,100)\org(515,1468)}咖啡厅
 Dialogue: 0,0:04:06.43,0:04:09.90,DefaultUp,,0,0,0,,{\fs150\fry2.9\pos(1006,104)\org(750,1448)\fs50\bord0\b1\an7\c&HE0E5EE&\fn方正锐正圆 简 Medium}明日向
 Dialogue: 0,0:04:39.18,0:04:42.68,DefaultUp,,0,0,0,,{\pos(1560,30)\fn造字工房朗倩（非商用）粗体\bord6\c&HF1E477&\3cFFFFFF}让人身体发烫的叶子
 Dialogue: 0,0:04:39.18,0:04:42.68,DefaultUp,,0,0,0,,{\pos(1560,30)\fn造字工房朗倩（非商用）粗体\bord3\c&HF1E477&\3c&H983700&}让人身体发烫的叶子
