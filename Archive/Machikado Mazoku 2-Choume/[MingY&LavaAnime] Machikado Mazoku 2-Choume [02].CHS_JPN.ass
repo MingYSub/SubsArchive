@@ -165,7 +165,7 @@ Dialogue: 0,0:05:31.06,0:05:33.26,Default,,0,0,0,,{\fad(0,200)\an5\fs38\bord1.2\
 Dialogue: 0,0:05:31.06,0:05:33.26,Default,,0,0,0,,{\fad(0,200)\an5\fs38\bord1.2\pos(796.5,33)}tora
 Dialogue: 0,0:05:31.06,0:05:33.26,Default,,0,0,0,,{\fad(0,200)\an5\fs38\bord1.2\pos(906,34)}uma
 Dialogue: 0,0:11:24.44,0:11:28.31,CN,Mikan,0,0,0,,{\3c015ADE}{\fs42\bord2.3\pos(1150,952)}Sacrament Cannon
-Dialogue: 0,0:11:48.86,0:11:51.02,CN,Mikan,0,0,0,,{\3c015ADE}{\fs42\bord2.3\pos(1036,952)}Fresh Peach Heart Shower
+Dialogue: 0,0:11:48.86,0:11:51.02,CN,Mikan,0,0,0,,{\3c015ADE}{\fs42\bord2.3\pos(1015,952)}Fresh Peach Heart Shower
 Dialogue: 0,0:17:56.11,0:17:58.11,Default,,0,0,0,,{\fad(0,200)\an7\fs55}注：这几个词日语都是あ(a)开头。
 Dialogue: 0,0:19:43.86,0:19:47.77,Default,,0,0,0,,{\an7\fs55}注：原文是「匙加減」，以「勺子」开头为双关。
 Dialogue: 0,0:19:43.86,0:19:45.56,CN,Shamiko,0,0,0,,{\3c5B50C4}{\fs48\bord2.3\pos(1145,952)}可以当勺子用
