@@ -1,9 +1,9 @@
-![海报](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/Poster.png)
+![海报](Poster.png)
 
 # 铳动彼岸花 / Lycoris Recoil
 | 集数 | 标题 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- | ---- |
-| 01 | Easy does it | 稍安勿躁 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHT_JPN.ass) |
+| 01 | Easy does it | 稍安勿躁 | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B01%5D.CHT_JPN.ass) |
 | 02 | The more the merrier | 多多益善 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B02%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B02%5D.CHT_JPN.ass) |
 | 03 | More haste, less speed | 欲速则不达 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B03%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B03%5D.CHT_JPN.ass) |
 | 04 | Nothing seek, nothing find | 无所求则无所获 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B04%5D.CHS_JPN.ass) [繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Lycoris%20Recoil/%5BMingY%5D%20Lycoris%20Recoil%20%5B04%5D.CHT_JPN.ass) |
