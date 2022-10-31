@@ -154,8 +154,8 @@ Dialogue: 0,0:23:51.03,0:23:55.04,EDCN,,0,0,0,staff,{\pos(960,30)\bord2\fsp5\3cE
 Comment: 0,0:12:08.46,0:12:10.46,Default,,0,0,0,,------ Title ------
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code all,function withinRange(num) return math.min(1,math.max(0,num)) end
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template line keeptags noblank fxgroup A,!relayer(j)!!maxloop($height+10)!{\clip(!_G.table.concat({0,j-1+$top-10,1920,j+$top-10},",")!)\c!_G.interpolate_color(withinRange((j-10)/(maxj-10)),"&H960A68&","&HE142EA&"):gsub("&H",""):gsub("&","")!}
-Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00C97EFC\bord8\pos(960,440)}发现新种{\fn方正兰亭圆_GBK_粗\i1}!
-Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00701B84\bord4\pos(960,440)}发现新种{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00C97EFC\bord8\pos(960,440)}发现新物种{\fn方正兰亭圆_GBK_粗\i1}!
+Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00701B84\bord4\pos(960,440)}发现新物种{\fn方正兰亭圆_GBK_粗\i1}!
 Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00C97EFC\bord8\pos(960,530)}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
 Dialogue: 0,0:02:56.03,0:03:01.04,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c&H00701B84\bord4\pos(960,530)}小镇的咖啡厅是魔族的巢穴{\fn方正兰亭圆_GBK_粗\i1}!
 Comment: 0,0:24:05.72,0:24:10.05,Title,A,940,0,210,karaoke,{\fs70}魔族觉醒{\fn方正兰亭圆_GBK_粗\i1}! {\fn\i}开辟自己的道路{\fn方正兰亭圆_GBK_粗\i1}!
