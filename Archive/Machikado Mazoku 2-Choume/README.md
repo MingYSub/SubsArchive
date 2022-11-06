@@ -4,7 +4,7 @@
 | 01 | 再次对决！魔法少女的新姿态！？ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.CHS_JPN.ass) 繁日 |
 | 02 | 废墟搜索！有苦衷的蜜柑和兴奋不已的魔族 | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B02%5D.CHS_JPN.ass) 繁日 |
 | 03 | 暗之魔女再临！来自地狱的温泉烟雾！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B03%5D.CHS_JPN.ass) 繁日 |
-| 04 | 发现新种！小镇的咖啡厅是魔族的巢穴！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B04%5D.CHS_JPN.ass) 繁日 |
+| 04 | 发现新物种！小镇的咖啡厅是魔族的巢穴！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B04%5D.CHS_JPN.ass) 繁日 |
 | 05 | 魔族觉醒！开辟自己的道路！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B05%5D.CHS_JPN.ass) 繁日 |
 | 06 | 夕阳下的誓言！魔族们的前进之路！ | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B06%5D.CHS_JPN.ass) 繁日 |
 | 07 | 短暂的休假！！魔族的夏日祭典 | BD | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B07%5D.CHS_JPN.ass) 繁日 |
