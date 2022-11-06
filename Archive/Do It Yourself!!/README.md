@@ -7,16 +7,17 @@
 | 02 | DIY是要和谁一块做的吗？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B02%5D.CHS_JPN.ass) 繁日 |
 | 03 | 怎么突然开始做起DIY了？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B03%5D.CHS_JPN.ass) 繁日 |
 | 04 | DIY，不管到哪里都能舒舒服服地做哦 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B04%5D.CHS_JPN.ass) 繁日 |
-| 05 | 终于在某处有了DIY这样的归宿 | Web | 简日 繁日 |
+| 05 | 终于在某处有了DIY这样的归宿 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B05%5D.CHS_JPN.ass) 繁日 |
+| 06 | DIY不管是什么东西都能物尽其用！ | Web | 简日 繁日 |
 
 [争议人名翻译对照](争议人名翻译对照.md)
 
 # Staff
-翻译：小圆香径独徘徊  Ming
+**翻译：** 小圆香径独徘徊　Ming
 
-时轴：Ming  小柒
+**时轴：** Ming　小柒
 
-压制：泠泫凝
+**压制：** 泠泫凝
 
 # 所需字体
 字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
