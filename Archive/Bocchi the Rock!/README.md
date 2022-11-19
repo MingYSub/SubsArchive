@@ -4,18 +4,19 @@
 | 集数 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- |
 | 01 | 翻转孤独 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B01%5D.CHT_JPN.ass)　[简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B01%5D.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B01%5D.CHT.ass)　[日本語](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B01%5D.JPN.ass) |
-| 02 | 明天见 | Web |  |
+| 02 | 明天见 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B02%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B02%5D.CHT_JPN.ass)　[简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B02%5D.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B02%5D.CHT.ass)　[日本語](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Bocchi%20the%20Rock!/%5BMingY%26Billion%20Meta%20Lab%5D%20Bocchi%20the%20Rock!%20%5B02%5D.JPN.ass) |
+| 03 | 火速增员 | Web |  |
 
 # Staff
 本字幕与 **亿次研同好会** 联合制作
 
-**翻译：** 小圆香径独徘徊　Ming
+**翻译：** 小圆香径独徘徊　真有人不喜欢呆唯啊　Ming
 
 **校对：** 小圆香径独徘徊　小柒
 
 **时轴/特效：** Ming
 
-**压制：** 泠泫凝　小柒
+**压制：** 泠泫凝　小柒　Ming
 
 # 所需字体
 字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
