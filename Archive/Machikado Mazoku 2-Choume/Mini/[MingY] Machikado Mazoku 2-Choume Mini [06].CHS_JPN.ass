@@ -14,6 +14,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,20,,{\fsp0\fs56\blur4\bord0.8\an8\fad(400,400)}本字幕由 MingYSub 制作  |  日听/翻译：真有人不喜欢呆唯啊   时轴：Ming
 Dialogue: 0,0:00:00.10,0:00:02.02,CN,,0,0,0,,{\fn思源黑体 CN Heavy\an7\fs62\bord0\fad(400,400)\pos(300,820)\c&H202020&}街角魔族 2丁目
 Dialogue: 0,0:00:40.77,0:00:42.48,CN,,0,0,0,,{\fad(250,0)\fs60\bord5\yshad3\fn文鼎奈谷米POP体_B\an7\c&H000000&\3c&HFFFFFF&\4c&H3C3C3C&\4a&H3C&\pos(1325,790)}桃自制的汉堡
+Dialogue: 0,0:00:43.36,0:00:46.40,CN,,0,0,20,,{\fad(180,180)\an7\bord2\fs54}注{\fsp-18}：{\fnHiragino Kaku Gothic ProN W6\fscx105\fscy105}{\fsp}「飯テロ」{\fn\fscx\fscy}指让他人产生食欲，字面意思为「米饭恐怖袭击{\fsp-12}」，{\fsp-5}与{\fsp-12}「{\fsp}（深夜）放毒」意近。
 Dialogue: 0,0:00:02.98,0:00:04.57,JP,Momo,0,0,0,,{\3c7E61DE\blur3}シャミ子　ちょっといい
 Dialogue: 0,0:00:04.57,0:00:06.15,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}はい　どうしました
 Dialogue: 0,0:00:06.49,0:00:10.24,JP,Momo,0,0,0,,{\3c7E61DE\blur3}その… 一緒に… お花…
