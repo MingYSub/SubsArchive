@@ -1,11 +1,11 @@
 # 别当哥哥了！ / Onii-chan wa Oshimai!
 ## PV
-| 集数  | 对应片源 | 字幕 |
+| 剧集 | 对应片源 | 字幕 |
 | ---- | -------- | ---- |
 | PV1 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai%21/%5BMingY%5D%20Onii-chan%20wa%20Oshimai%21%20%5BPV1%5D.CHS_JPN.ass)　繁日 |
 
 # Staff
-**听写/翻译**：HL
+**日听/翻译**：HL
 
 **校对**：小圆香径独徘徊
 
