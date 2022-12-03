@@ -33,3 +33,4 @@
 | 2022 夏 | [铳动彼岸花](Archive/Lycoris%20Recoil) | Lycoris Recoil | 中日 | 13 |  |
 | 2022 秋 | [孤独摇滚！](Archive/Bocchi%20the%20Rock%21) | Bocchi the Rock! | 中日 |  | 更新中；与 **亿次研同好会** 联合制作 |
 | 2022 秋 | [DIY部！！](Archive/Do%20It%20Yourself%21%21) | Do It Yourself!! | 中日 |  | 更新中 |
+| 2023 冬 | [别当哥哥了！](Archive/Onii-chan%20wa%20Oshimai%21) | Onii-chan wa Oshimai! |  |  | 计划制作 |
