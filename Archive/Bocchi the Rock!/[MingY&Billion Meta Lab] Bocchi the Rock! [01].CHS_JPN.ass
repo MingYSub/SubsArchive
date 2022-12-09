@@ -185,8 +185,8 @@ Dialogue: 0,0:22:06.31,0:22:08.31,EDCN,,0,0,0,,{\pos(560,990)\an5\fs60\shad6\cFF
 Dialogue: 0,0:22:08.98,0:22:11.02,EDCN,,0,0,0,,{\pos(960,90)\an5\fs60\shad6\cFFFFFF\b1}{\fscx108\fscy108\t(140,140,\fscx100\fscy100)\t(380,430,\fscx108\fscy108)\t(440,500,\fscx100\fscy100)\t(710,760,\fscx108\fscy108)\t(770,840,\fscx100\fscy100)\t(1040,1090,\fscx108\fscy108)\t(1100,1160,\fscx100\fscy100)\t(1410,1480,\fscx108\fscy108)\t(1490,1530,\fscx100\fscy100)\t(1730,1800,\fscx108\fscy108)\t(1810,1860,\fscx100\fscy100)}时轴/特效：Ming　压制：泠泫凝　小柒
 Dialogue: 0,0:22:11.60,0:22:13.10,EDCN,,0,0,0,,{\pos(660,90)\an5\fs60\shad6\cFFFFFF\b1}{\fscx108\fscy108\t(140,140,\fscx100\fscy100)\t(330,370,\fscx108\fscy108)\t(400,430,\fscx102\fscy102)\t(500,500,\fscx100\fscy100)\t(650,720,\fscx108\fscy108)\t(740,750,\fscx102\fscy102)\t(830,830,\fscx100\fscy100)\t(1045,1100,\fscx108\fscy108)\t(1100,1130,\fscx102\fscy102)\t(1200,1200,\fscx100\fscy100)}招募/交流QQ群：293483450
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Title ------
-Dialogue: 0,0:04:20.11,0:04:22.87,CN,,0,0,0,karaoke,{\fad(500,0)\fsp3\fs80\fn华康翩翩体W5P\c&H8E60EB&\bord0\pos(1305,752)\b1}翻转孤独
-Dialogue: 0,0:23:38.73,0:23:39.98,CN,,0,0,0,,{\fad(150,0)\fs62\fn华康翩翩体W5P\c000000\bord1.5\blur1\3cFFFFFF\frz8.8\pos(1160,850)}明天见
+Dialogue: 0,0:04:20.11,0:04:22.87,CN,,0,0,0,karaoke,{\fad(500,0)\fsp3\fs80\fn华康翩翩体A Std W5\c&H8E60EB&\bord0\pos(1305,752)\b1}翻转孤独
+Dialogue: 0,0:23:38.73,0:23:39.98,CN,,0,0,0,,{\fad(150,0)\fs62\fn华康翩翩体A Std W5\c000000\bord1.5\blur1\3cFFFFFF\frz8.8\pos(1160,850)}明天见
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
 Dialogue: 0,0:00:16.37,0:00:19.04,CN,,0,0,0,,{\fad(1000,0)\c&H59514A&\bord0\fs50\fsp5\frx8\fry8\pos(704,804)\frz346.3}一里
 Dialogue: 0,0:02:11.28,0:02:11.74,CN,,0,0,0,,{\fad(0,100)\fn思源黑体 CN Heavy\fs50\bord0\shad1\c&H6368E3&\4c&H4E56A3&\frx4\fry6\frz11.67\pos(1038,434)}第一把电吉他
@@ -220,7 +220,7 @@ Dialogue: 0,0:14:46.32,0:14:51.75,CN,,0,0,0,,{\c&HEDF4ED&\fs68\bord0\pos(730,397
 Dialogue: 0,0:14:46.32,0:14:51.75,CN,,0,0,0,,{\c&HEDF4ED&\fs68\bord0\pos(625,545)}一般人
 Dialogue: 0,0:14:46.32,0:14:51.75,CN,,0,0,0,,{\c&HEDF4ED&\fs68\bord0\pos(565,705)}水蚤
 Dialogue: 0,0:14:46.32,0:14:51.75,CN,,0,0,0,,{\c&HEDF4ED&\fs68\bord0\pos(480,880)}一里
-Dialogue: 0,0:15:02.97,0:15:05.64,CN,,0,0,0,,{\fn华康翩翩体W5P\fs120\shad2.5\pos(1730,755)\fsp0\4c&H030303&}孤独摇滚！
+Dialogue: 0,0:15:02.97,0:15:05.64,CN,,0,0,0,,{\fn华康翩翩体A Std W5\fs110\shad2.5\pos(1730,755)\fsp0\4c&H030303&}孤独摇滚！
 Dialogue: 0,0:15:06.34,0:15:11.01,CN,,0,0,0,,{\an7\fn方正粗雅宋_GBK\fs54\bord0\move(1372,1070,1368,585,23,4653)}水蚤　　后藤一里\N\N\N\N鼓手　　伊地知虹夏\N\N\N\N贝斯手　山田凉\N\N\N\N吉他男　吉他男
 Dialogue: 0,0:18:40.93,0:18:44.31,CN,,0,0,0,,{\fad(200,0)\fn方正兰亭圆_GBK_中粗\fs52\c&H3C55D5&\3c&HD5E5F3&\bord2.5\fax-0.05\frz3.591\pos(602,882)}成熟芒果
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Comment ------

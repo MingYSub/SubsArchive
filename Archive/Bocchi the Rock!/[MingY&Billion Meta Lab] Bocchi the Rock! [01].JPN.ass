@@ -7,6 +7,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: JP,FOT-Humming ProN E,70,&H00FFFFFF,&H00FFFFFF,&H00343434,&H1E343434,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,10,1
+Style: OPCN,方正大黑_GBK,62,&H00000000,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,4,2,30,30,70,1
 Style: OPJP,A P-OTF Bunkyu MidasiG StdN EB,60,&H00141414,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,4,2,30,30,15,1
 Style: EDJP,DFGHannotate-W7,58,&H002C4C6E,&H000000FF,&H00000000,&H00BD9DEE,0,0,0,0,100,100,4,0,1,0,3.5,8,30,30,15,1
 
