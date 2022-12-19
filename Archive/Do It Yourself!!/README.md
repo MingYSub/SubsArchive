@@ -13,6 +13,8 @@
 | 08 | DIY难以坚持？不！一定可以的！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B08%5D.CHS_JPN.ass) 繁日 |
 | 09 | DIY、让人吓一跳？意外！全在意料之外！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B09%5D.CHS_JPN.ass) 繁日 |
 | 10 | DIY陷入绝境？无计可施？只要有勇气和干劲一切都能做到！ | Web | 简日 繁日 |
+| 11 | DIY就是Do It Yourself！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B11%5D.CHS_JPN.ass) 繁日 |
+| 12 | DIY，不论何时，友情长存！ | Web | 简日 繁日 |
 
 [争议人名翻译对照](争议人名翻译对照.md)
 
