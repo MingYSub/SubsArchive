@@ -6,8 +6,8 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3.5,0,2,30,30,60,1
-Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,9,1
+Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3,0,2,30,30,60,1
+Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.2,0,2,30,30,9,1
 Style: OPJP,FOT-Aokane Std EB,65,&H00A066FF,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,5,0,1,4,0,2,23,23,23,1
 Style: OPCN,造字工房朴月体（非商用）,65,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,11,0,1,4,0,8,23,23,20,1
 Style: EDJP,FOT-Humming Std D,60,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,5,0,1,2,0,2,15,15,20,1
@@ -111,7 +111,7 @@ Comment: 0,0:02:37.47,0:02:41.39,OPCN,B,0,0,0,karaoke,今天也在你身边
 Comment: 0,0:02:44.68,0:02:48.52,OPCN,A,0,0,0,karaoke,心动不已就此开始
 Comment: 0,0:00:02.98,0:00:02.98,EDJP,,0,0,0,,------ EDJP ------
 Comment: 0,0:22:43.26,0:22:45.47,EDJP,A,0,0,0,karaoke,{\k30}また会えたね{\k92}　{\k0}ドラマなんだって？
-Comment: 0,0:22:45.47,0:22:48.72,EDJP,A,0,0,0,karaoke,{\k30}すぐすぐ{\k88}　{\k0}教えにも行っちゃうぞ
+Comment: 0,0:22:45.47,0:22:48.72,EDJP,A,0,0,0,karaoke,{\k30}すぐ{\k88}　{\k0}教えにも行っちゃうぞ
 Comment: 0,0:22:48.85,0:22:51.72,EDJP,A,0,0,0,karaoke,可及的なるはやでっ
 Comment: 0,0:22:51.72,0:22:54.27,EDJP,A,0,0,0,karaoke,{\k30}あらポストも{\k115}{\k0}「おはよう」なんて
 Comment: 0,0:22:54.27,0:22:56.44,EDJP,A,0,0,0,karaoke,もうしっぽまで冴えてる
@@ -165,7 +165,7 @@ Dialogue: 0,0:05:38.32,0:05:41.70,CN,Shirosawa,0,0,0,,{\3c4A3F50}{\pos(988,952)\
 Dialogue: 0,0:05:41.99,0:05:44.99,CN,Shirosawa,0,0,0,,{\3c4A3F50}{\pos(1342,952)\fs42\bord2.3}baku
 Dialogue: 0,0:18:06.77,0:18:10.00,CN,,0,0,20,,{\an7\fs56\bord2\fad(250,250)}注：茶泡饭（{\fnHiragino Kaku Gothic ProN W6}ぶぶ漬け{\fn}）是京都常用的暗语，意为「请回吧」，常用来赶人。
 Dialogue: 0,0:18:34.30,0:18:36.26,CN,,0,0,20,,{\an7\fs56\bord2\fad(250,250)}注：まずい此处包含两重含义：饭菜难吃或某种东西不对劲。
-Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,,------ Screen ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
 Dialogue: 0,0:00:00.00,0:00:01.77,Text,,0,0,0,,{\an1\fsp2\fs46\c&H434956&\frx2\fry345\frz1.562\pos(1555,652)\org(1605,732)}万朵庄
 Dialogue: 0,0:00:38.48,0:00:39.23,Text,,0,0,0,,{\fs42\bord4\c&H4A5A66&\frz335.8\pos(822.133,724)}时机已…
 Dialogue: 0,0:00:41.35,0:00:43.23,Text,,0,0,0,,{\fn@方正兰亭圆_GBK_粗\pos(916.8,274)\frz293.7\bord6\an7}尽管!!
@@ -1963,14 +1963,14 @@ Dialogue: 0,0:22:43.51,0:22:45.52,EDJP,A,0,0,0,fx,{\pos(891,1060)\fad(225,225)}{
 Dialogue: 0,0:22:43.51,0:22:45.52,EDJP,A,0,0,0,fx,{\pos(891,1060)\fad(225,225)}　
 Dialogue: 0,0:22:44.43,0:22:45.52,EDJP,A,0,0,0,fx,{\pos(1120,1060)\fad(225,225)}{\bord3\blur4\1aFF}ドラマなんだって？
 Dialogue: 0,0:22:44.43,0:22:45.52,EDJP,A,0,0,0,fx,{\pos(1120,1060)\fad(225,225)}ドラマなんだって？
-Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(617,1060)\fad(225,225)}{\bord3\blur4\1aFF}
-Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(617,1060)\fad(225,225)}
-Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(709,1060)\fad(225,225)}{\bord3\blur4\1aFF}すぐすぐ
-Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(709,1060)\fad(225,225)}すぐすぐ
-Dialogue: 0,0:22:45.72,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(823,1060)\fad(225,225)}{\bord3\blur4\1aFF}　
-Dialogue: 0,0:22:45.72,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(823,1060)\fad(225,225)}　
-Dialogue: 0,0:22:46.60,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(1074,1060)\fad(225,225)}{\bord3\blur4\1aFF}教えにも行っちゃうぞ
-Dialogue: 0,0:22:46.60,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(1074,1060)\fad(225,225)}教えにも行っちゃうぞ
+Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(663,1060)\fad(225,225)}{\bord3\blur4\1aFF}
+Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(663,1060)\fad(225,225)}
+Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(709,1060)\fad(225,225)}{\bord3\blur4\1aFF}すぐ
+Dialogue: 0,0:22:45.42,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(709,1060)\fad(225,225)}すぐ
+Dialogue: 0,0:22:45.72,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(777,1060)\fad(225,225)}{\bord3\blur4\1aFF}　
+Dialogue: 0,0:22:45.72,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(777,1060)\fad(225,225)}　
+Dialogue: 0,0:22:46.60,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(1029,1060)\fad(225,225)}{\bord3\blur4\1aFF}教えにも行っちゃうぞ
+Dialogue: 0,0:22:46.60,0:22:48.77,EDJP,A,0,0,0,fx,{\pos(1029,1060)\fad(225,225)}教えにも行っちゃうぞ
 Dialogue: 0,0:22:48.80,0:22:51.77,EDJP,A,0,0,0,fx,{\pos(754,1060)\fad(225,225)}{\bord3\blur4\1aFF}
 Dialogue: 0,0:22:48.80,0:22:51.77,EDJP,A,0,0,0,fx,{\pos(754,1060)\fad(225,225)}
 Dialogue: 0,0:22:48.80,0:22:51.77,EDJP,A,0,0,0,fx,{\pos(960,1060)\fad(225,225)}{\bord3\blur4\1aFF}可及的なるはやでっ

@@ -6,22 +6,21 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3.5,0,2,30,30,60,1
-Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,9,1
+Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,3,0,2,30,30,60,1
+Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,1,0,1,2.2,0,2,30,30,9,1
 Style: OPJP,FOT-Aokane Std EB,65,&H00A066FF,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,5,0,1,4,0,2,23,23,23,1
 Style: OPCN,造字工房朴月体（非商用）,65,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,11,0,1,4,0,8,23,23,20,1
 Style: EDJP,FOT-Humming Std D,60,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,5,0,1,2,0,2,15,15,20,1
 Style: EDCN,方正FW轻吟体 简 D,53,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,6,0,1,2,0,8,15,15,20,1
 Style: Text,思源黑体 CN Medium,68,&H006C6C6C,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,0,0,1,0,0,2,30,30,20,1
 Style: Title,方正少儿_GBK,65,&H002C2C2C,&H00FC01DD,&H00FFFFFF,&H001E1E1E,0,0,0,0,100,100,0,0,1,6,3.2,2,30,30,30,1
-Style: Default,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,0.5,0,1,1.8,0,2,30,30,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Template ------
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code all,function char_count(ref) ref=ref or 1 if ci[ref] then ci[ref]=ci[ref]+1 else ci[ref]=1 end  return "" end    shape_heart="m 16 9 b 13 2 5 1 3 8 b 0 16 9 22 16 27 b 23 22 32 16 29 8 b 26 1 19 2 16 9"   backTags="\\bord7\\3cF7994F\\shad2",""
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci={} cn=_G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,fxgroup.A = (string.sub(line.actor,1)=="A")   fxgroup.B = (string.sub(line.actor,1)=="B")  fxgroup.C = (string.sub(line.actor,1)=="C")  fxgroup.D = (string.sub(line.actor,1)=="D")  fxgroup.E = (string.sub(line.actor,1)=="E")
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ Template ------
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,code all,function char_count(ref) ref=ref or 1 if ci[ref] then ci[ref]=ci[ref]+1 else ci[ref]=1 end  return "" end    shape_heart="m 16 9 b 13 2 5 1 3 8 b 0 16 9 22 16 27 b 23 22 32 16 29 8 b 26 1 19 2 16 9"   backTags="\\bord7\\3cF7994F\\shad2",""
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,code line all,ci={} cn=_G.unicode.len(orgline.text_stripped)
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,code line all,fxgroup.A = (string.sub(line.actor,1)=="A")   fxgroup.B = (string.sub(line.actor,1)=="B")  fxgroup.C = (string.sub(line.actor,1)=="C")  fxgroup.D = (string.sub(line.actor,1)=="D")  fxgroup.E = (string.sub(line.actor,1)=="E")
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\fad(400,400)\fscx140\fscy140\an5\p1!backTags!}!shape_heart!
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line notext loop 2 fxgroup A,!retime("line",(cn/2+1)*60,(cn/2+1)*60)!{\pos(!$lleft+(j-1)*$lwidth+math.pow(-1,j)*70!,$lmiddle)\fad(400,400)\fscx140\fscy140\an5\p1}!shape_heart!
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char fxgroup A,!char_count(1)!!retime("line",math.abs(cn/2-ci[1])*60,math.abs(cn/2-ci[1])*60)!{\pos($x,$y)\fad(400,400)!backTags!}
@@ -94,7 +93,7 @@ Comment: 0,0:01:35.75,0:01:40.21,OPJP,B,0,0,0,karaoke,誰かのために頑張�
 Comment: 0,0:01:40.46,0:01:42.88,OPJP,B,0,0,0,karaoke,それも悪くない
 Comment: 0,0:01:43.50,0:01:47.42,OPJP,B,0,0,0,karaoke,今日もとなりで
 Comment: 0,0:01:50.72,0:01:54.56,OPJP,A,0,0,0,karaoke,ときめきはこれから
-Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ OPCN ------
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,,------ OPCN ------
 Comment: 0,0:00:43.44,0:00:47.03,OPCN,A,0,0,0,karaoke,心动不已就此开始
 Comment: 0,0:00:50.53,0:00:54.62,OPCN,B,0,0,0,karaoke,将要发生奇迹的预感
 Comment: 0,0:00:54.62,0:01:00.29,OPCN,B,0,0,0,karaoke,菜鸟就稍作调整　状态好了就前进吧
@@ -110,7 +109,7 @@ Comment: 0,0:01:35.75,0:01:40.21,OPCN,B,0,0,0,karaoke,为了某人而努力
 Comment: 0,0:01:40.46,0:01:42.88,OPCN,B,0,0,0,karaoke,这种事似乎还不赖
 Comment: 0,0:01:43.50,0:01:47.42,OPCN,B,0,0,0,karaoke,今天也在你身边
 Comment: 0,0:01:50.72,0:01:54.56,OPCN,A,0,0,0,karaoke,心动不已就此开始
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ EDJP ------
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,,------ EDJP ------
 Comment: 0,0:22:43.30,0:22:45.47,EDJP,A,0,0,0,karaoke,{\k30}また会えたね{\k92}　{\k0}ドラマなんだって？
 Comment: 0,0:22:45.72,0:22:48.34,EDJP,A,0,0,0,karaoke,{\k30}すぐ{\k88}　{\k0}教えにも行っちゃうぞ
 Comment: 0,0:22:49.09,0:22:51.47,EDJP,A,0,0,0,karaoke,可及的なるはやでっ
@@ -127,7 +126,7 @@ Comment: 0,0:23:30.43,0:23:36.23,EDJP,D,0,0,0,karaoke,四方まで囲むテト�
 Comment: 0,0:23:36.23,0:23:39.23,EDJP,E,0,0,0,karaoke,ねえいまは　もうすこし
 Comment: 0,0:23:39.44,0:23:43.11,EDJP,E,0,0,0,karaoke,そっとそっと　その花を見せて
 Comment: 0,0:23:43.44,0:23:46.90,EDJP,E,0,0,0,karaoke,よくばっちゃえば もう一回！
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ EDCN ------
+Comment: 0,0:00:00.00,0:00:00.00,EDCN,,0,0,0,,------ EDCN ------
 Comment: 0,0:22:43.30,0:22:45.47,EDCN,A,0,0,0,karaoke,又见面了呢　是什么电视剧吗
 Comment: 0,0:22:45.72,0:22:48.34,EDCN,A,0,0,0,karaoke,很快　我就过去告诉你喔
 Comment: 0,0:22:49.09,0:22:51.47,EDCN,A,0,0,0,karaoke,就以最快的速度抵达
@@ -144,14 +143,14 @@ Comment: 0,0:23:30.43,0:23:36.23,EDCN,D,0,0,0,karaoke,环绕四面的四边形�
 Comment: 0,0:23:36.23,0:23:39.23,EDCN,E,0,0,0,karaoke,呐　现在再等一下
 Comment: 0,0:23:39.44,0:23:43.11,EDCN,E,0,0,0,karaoke,轻轻地轻轻地　让我再看看这些花吧
 Comment: 0,0:23:43.44,0:23:46.90,EDCN,E,0,0,0,karaoke,还想要的话　那就再看一下
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Staff ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
 Dialogue: 0,0:02:01.98,0:02:04.48,Title,,0,0,0,,{\an8\shad0\3cC97EFC\bord8\fs55}翻译{\fn方正兰亭圆_GBK_粗}：{\fn}观津邀月（参考漫画）    校对{\fn方正兰亭圆_GBK_粗}：{\fn}真有人不喜欢呆唯啊
 Dialogue: 0,0:02:04.48,0:02:06.98,Title,,0,0,0,,{\an8\shad0\3cC97EFC\bord8\fs55}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming    {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
 Dialogue: 1,0:02:01.98,0:02:04.48,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c701B84\bord4\fs55}翻译{\fn方正兰亭圆_GBK_粗}：{\fn}观津邀月（参考漫画）    校对{\fn方正兰亭圆_GBK_粗}：{\fn}真有人不喜欢呆唯啊
 Dialogue: 1,0:02:04.48,0:02:06.98,Title,,0,0,0,,{\an8\shad0\cFFFFFF\3c701B84\bord4\fs55}时轴{\fn方正兰亭圆_GBK_粗}/{\fn}后期{\fn方正兰亭圆_GBK_粗}：Ming    {\fn}压制{\fn方正兰亭圆_GBK_粗}：{\fn}泠泫凝  天姥
 Dialogue: 0,0:23:50.99,0:23:55.00,EDCN,,0,0,0,staff,{\pos(960,30)\bord2\fsp5\3cE04137\blur4}本字幕由  MingYSub&熔岩动画Sub  制作
 Dialogue: 0,0:23:50.99,0:23:55.00,EDCN,,0,0,0,staff,{\pos(960,30)\bord2\fsp5\3cE04137}本字幕由  MingYSub&熔岩动画Sub  制作
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Title ------
+Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,,------ Title ------
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code all,function withinRange(num) return math.min(1,math.max(0,num)) end
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template line keeptags noblank fxgroup A,!relayer(j)!!maxloop($height+10)!{\clip(!_G.table.concat({0,j-1+$top-10,1920,j+$top-10},",")!)\c!_G.interpolate_color(withinRange((j-10)/(maxj-10)),"&H960A68&","&HE142EA&"):gsub("&H",""):gsub("&","")!}
 Dialogue: 0,0:02:01.98,0:02:06.98,Title,,0,0,0,,{\an8\shad0\3cC97EFC\bord8\pos(960,440)}暗之魔女再临{\fn方正兰亭圆_GBK_粗\i1}!
@@ -253,11 +252,11 @@ Dialogue: 0,0:20:02.10,0:20:04.31,Text,,0,0,0,,{\an4\pos(1705,192)\fs50\c&HBE7ED
 Dialogue: 0,0:20:02.10,0:20:04.31,Text,,0,0,0,,{\an1\bord2\fs50\3c&HFEFFFC&\pos(742.667,1065.333)}【瘦手臂 × 肌肉锻炼】
 Dialogue: 0,0:23:55.00,0:24:10.01,CN,,0,0,0,,{\fn造字工房朴月体（非商用）\shad1.8\bord7\fsp18\an8\pos(290,165)\4c303030\3cF7994F}下集预告
 Dialogue: 0,0:23:55.00,0:24:10.01,CN,,0,0,0,,{\fn造字工房朴月体（非商用）\c&H9A58F4&\bord3.5\fsp18\an8\pos(290,165)\3c&HFFFFFF&}下集预告
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Comment ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Comment ------
 Dialogue: 0,0:02:51.98,0:02:53.19,CN,Mikan,0,0,0,,{\3c015ADE}{\pos(987,952)\fs42\bord2.3}Tsubuyaiter
 Dialogue: 0,0:08:45.27,0:08:48.80,CN,Shamiko,0,0,0,,{\3c5B50C4}{\pos(1105,952)\fs42\bord2.3}Sugoi Netto no Sekai
 Comment: 0,0:08:48.80,0:08:50.77,CN,Ryouko,0,0,0,,{\3c644B8D}{\fs42\bord2.3\pos(960,952)}Social Networking Services
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Dialogue ------
+Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,,------ Dialogue JP ------
 Dialogue: 0,0:00:03.93,0:00:06.29,JP,Shamiko,0,0,0,,{\3c5B50C4}桃　うちで何してるんですか
 Dialogue: 0,0:00:06.69,0:00:08.91,JP,Momo,0,0,0,,{\3c7E61DE}良ちゃんの夏の宿題のために
 Dialogue: 0,0:00:08.91,0:00:11.03,JP,Momo,0,0,0,,{\3c7E61DE}インターネットができるようにしてるの
@@ -735,6 +734,7 @@ Dialogue: 0,0:23:59.98,0:24:03.04,JP,Shamiko,0,0,0,,{\3c5B50C4}でも全く見�
 Dialogue: 0,0:24:03.04,0:24:05.24,JP,Anri,0,0,0,,{\3c000059}魔族といつも会えるとこ知ってる
 Dialogue: 0,0:24:05.24,0:24:06.81,JP,Shamiko,0,0,0,,{\3c5B50C4}魔族穴に入っちゃります
 Dialogue: 0,0:24:07.04,0:24:09.71,JP,Momo,0,0,0,,{\3c7E61DE}シャミ子　帰りに夕飯の食材買ってきて
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
 Dialogue: 1,0:00:03.93,0:00:06.29,CN,Shamiko,0,0,0,,{\3c5B50C4}桃  你在我家做什么呢
 Dialogue: 1,0:00:06.95,0:00:09.14,CN,Momo,0,0,0,,{\3c7E61DE}为了良的暑假作业
 Dialogue: 1,0:00:09.14,0:00:11.03,CN,Momo,0,0,0,,{\3c7E61DE}让夏美子家也能连上因特网
