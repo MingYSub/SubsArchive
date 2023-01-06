@@ -3,7 +3,7 @@
 
 反馈错误请提 [Issue](https://github.com/MingYSub/SubArchive/issues)/PR 或至 [Telegram 群组](https://t.me/MingYSub)。
 
-招募/交流群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
+字幕组长期招募翻译、校对、时轴、压制、分流、繁化、片源。招募/交流Q群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
 
 # 说明
 ![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)
