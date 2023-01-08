@@ -22,7 +22,8 @@ Candara Bold
 EPSON 太丸ゴシック体Ｂ
 FOT-ベビポップ Std EB <FOT-BabyPop Std EB>
 方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
+汉仪跳跳体简 <HYTiaoTiaoTiJ>
 華康平劇體W7 <DFPingJuW7-B5>
 華康平劇體W7(P) <DFPPingJuW7-B5>
-森泽UD新黑 Gb4 DB <MO UDShinGo SC Gb4 DB>
+森泽UD新黑 Gb4 M <MO UDShinGo SC Gb4 M>
 ```
