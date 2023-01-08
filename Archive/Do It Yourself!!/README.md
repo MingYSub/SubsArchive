@@ -1,4 +1,4 @@
-![海报](Poster.png)
+![海报](Poster.jpg)
 
 # DIY部！！ / Do It Yourself!!
 | 话数 | 中文标题 | 对应片源 | 字幕 |
@@ -12,7 +12,7 @@
 | 07 | DIY下雨天能在家里做就好了呢 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B07%5D.CHS_JPN.ass) 繁日 |
 | 08 | DIY难以坚持？不！一定可以的！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B08%5D.CHS_JPN.ass) 繁日 |
 | 09 | DIY、让人吓一跳？意外！全在意料之外！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B09%5D.CHS_JPN.ass) 繁日 |
-| 10 | DIY陷入绝境？无计可施？只要有勇气和干劲一切都能做到！ | Web | 简日 繁日 |
+| 10 | DIY陷入绝境？无计可施？只要有勇气和干劲一切都能做到！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B10%5D.CHS_JPN.ass) 繁日 |
 | 11 | DIY就是Do It Yourself！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B11%5D.CHS_JPN.ass) 繁日 |
 | 12 | DIY，不论何时，友情长存！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B12%5D.CHS_JPN.ass) 繁日 |
 
@@ -34,10 +34,17 @@ A-OTF 新丸ゴ Pr6N DB <A-OTF Shin Maru Go Pr6N DB>
 冬青黑体简体中文 W6 <Hiragino Sans GB W6>
 方正FW童趣POP体 简 <FZFW TongQu POPTiS>
 方正兰亭圆_GBK_粗 <FZLanTingYuan-B-GBK>
+方正兰亭圆_GBK_纤 <FZLanTingYuan-EL-GBK>
+方正兰亭圆_GBK_中 <FZLanTingYuan-DB-GBK>
 方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
 方正兰亭圆_GBK_准 <FZLanTingYuan-M-GBK>
 方正特雅宋_GBK <FZYaSong-H-GBK>
+华康POP2体 Std W9 <DFPOP2GB Std W9>
 华康方圆体W7 <DFFangYuanW7-GB>
+华康少女文字W5 <DFShaoNvW5-GB>
+华康手札体W5-A <DFHannotateW5-A>
+华康手札体W7-A <DFHannotateW7-A>
+华康竹风体W4 <DFChu SC2 W4>
 思源黑体 CN Medium <Source Han Sans CN Medium>
 思源黑体 CN Normal <Source Han Sans CN Normal>
 思源宋体 CN SemiBold <Source Han Serif CN SemiBold>
