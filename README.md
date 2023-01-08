@@ -32,6 +32,6 @@
 | 2022 春 | [街角魔族 2丁目](Archive/Machikado%20Mazoku%202-Choume) | Machikado Mazoku 2-Choume | 中日 | 12 + Mini |  |
 | 2022 夏 | [铳动彼岸花](Archive/Lycoris%20Recoil) | Lycoris Recoil | 中日 | 13 |  |
 | 2022 秋 | [孤独摇滚！](Archive/Bocchi%20the%20Rock%21) | Bocchi the Rock! | 中日 |  | 填坑中；与 **亿次研同好会** 联合制作 |
-| 2022 秋 | [DIY部！！](Archive/Do%20It%20Yourself%21%21) | Do It Yourself!! | 中日 | 12 | 更新中 |
+| 2022 秋 | [DIY部！！](Archive/Do%20It%20Yourself%21%21) | Do It Yourself!! | 中日 | 12 |  |
 | 2023 冬 | [别当哥哥了！](Archive/Onii-chan%20wa%20Oshimai%21) | Onii-chan wa Oshimai! | 中日 |  | 更新中；与 **熔岩动画Sub** 联合制作 |
 | 2023 冬 | [变成狗后被喜欢的人捡了。](Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta) | Inu ni Nattara Suki na Hito ni Hirowareta. | 中字 |  | 更新中 |
