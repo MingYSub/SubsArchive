@@ -91,7 +91,7 @@ Dialogue: 1,0:01:52.63,0:01:56.01,OPCN,,0,0,0,Staff,{\an5\fscx70\fscy55\bord0\p1
 Dialogue: 1,0:01:52.63,0:01:56.01,OPCN,,0,0,0,Staff,{\an5\fscx70\fscy55\bord0\p1\pos(590,660)\cFFFFFF}m 5 0 b 2 0 0 2 0 5 b 0 8 2 10 5 10 l 30 10 b 33 10 35 8 35 5 b 35 2 33 0 30 0
 Dialogue: 2,0:01:52.63,0:01:56.01,OPJP,,0,0,0,Staff,{\fs70\bord4.5\an7\pos(625,626)}{\fsp20}字幕　　{\fsp.5}MingYSub
 Dialogue: 0,0:23:16.83,0:23:21.42,EDCN,,0,0,0,Staff,{\fs36\an1\b1\fad(600,500)\pos(120,1030)}本字幕由 MingYSub 制作{\fs30}\N\N{\fs36}翻译：小圆香径独徘徊{\fs30}\N\N{\fs36}时轴/特效：Ming{\fs30}\N\N{\fs36}压制：泠泫凝
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Title ------
+Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,,------ Title ------
 Dialogue: 0,0:01:58.51,0:02:04.02,Title,,0,0,0,,{\fad(450,500)\ pos(100,832)\fs56}第2步
 Dialogue: 0,0:01:58.51,0:02:04.02,Title,,0,0,0,,{\fad(450,500)\ pos(88,892)}「DIY是要和谁一块做的吗?」
 Dialogue: 0,0:23:36.14,0:23:40.02,Title,,0,0,0,,{\fs62\fsp5\an2\fad(1000,0)\pos(960,820)\4c0B2841}第{\cD6C88A&}3{\c}步

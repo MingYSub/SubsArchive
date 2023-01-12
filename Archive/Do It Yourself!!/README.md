@@ -1,7 +1,7 @@
 ![海报](Poster.jpg)
 
 # DIY部！！ / Do It Yourself!!
-| 话数 | 中文标题 | 对应片源 | 字幕 |
+| 剧集 | 中文标题 | 对应片源 | 字幕 |
 | ---- | ---- | ---- | ---- |
 | 01 | DIY是什么？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B01%5D.CHS_JPN.ass) 繁日 |
 | 02 | DIY是要和谁一块做的吗？ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B02%5D.CHS_JPN.ass) 繁日 |
@@ -11,7 +11,7 @@
 | 06 | DIY不管是什么东西都能物尽其用！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B06%5D.CHS_JPN.ass) 繁日 |
 | 07 | DIY下雨天能在家里做就好了呢 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B07%5D.CHS_JPN.ass) 繁日 |
 | 08 | DIY难以坚持？不！一定可以的！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B08%5D.CHS_JPN.ass) 繁日 |
-| 09 | DIY、让人吓一跳？意外！全在意料之外！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B09%5D.CHS_JPN.ass) 繁日 |
+| 09 | DIY，让人吓一跳？意外！全在意料之外！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B09%5D.CHS_JPN.ass) 繁日 |
 | 10 | DIY陷入绝境？无计可施？只要有勇气和干劲一切都能做到！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B10%5D.CHS_JPN.ass) 繁日 |
 | 11 | DIY就是Do It Yourself！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B11%5D.CHS_JPN.ass) 繁日 |
 | 12 | DIY，不论何时，友情长存！ | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Do%20It%20Yourself%21%21/%5BMingY%5D%20Do%20It%20Yourself%21%21%20%5B12%5D.CHS_JPN.ass) 繁日 |
