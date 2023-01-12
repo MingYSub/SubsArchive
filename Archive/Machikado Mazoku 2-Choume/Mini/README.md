@@ -1,4 +1,4 @@
-# 街角魔族 2丁目 Mini / Machikado Mazoku 2-Choume Mini
+# 街角魔族 2丁目 小剧场 / Machikado Mazoku 2-Choume Mini
 ## Mini 小剧场
 | 集数 | 字幕 |
 | ---- | ---- |
