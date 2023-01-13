@@ -4,7 +4,8 @@
 | 剧集 | 中文标题 | 对应片源 | 字幕 |
 | ---- | -------- | -------- | ---- |
 | 01 | 真寻与不得了的身体 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B01%5D.CHT_JPN.ass)　简体　繁體　日本語 |
-| 02 | 真寻与女孩子之日 |  |  |
+| 02 | 真寻与女孩子之日 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B02%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B02%5D.CHT_JPN.ass)　[简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B02%5D.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B02%5D.CHT.ass)　[日本語](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Onii-chan%20wa%20Oshimai!/%5BMingY%26LavaAnimeSub%5D%20Onii-chan%20wa%20Oshimai!%20%5B02%5D.JPN.ass) |
+| 03 | 真寻与未知的遭遇 | Web |  |
 
 [PV](PV)
 
@@ -16,6 +17,8 @@
 **压制：** Magma
 
 **海报：** Ming
+
+注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
 字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
