@@ -93,15 +93,15 @@ Dialogue: 1,0:22:16.90,0:22:19.48,EDCN,,0,0,0,,{\fad(120,120)}不如和我一起
 Dialogue: 1,0:22:18.86,0:22:20.49,EDCN,,0,0,0,,{\an8\fad(120,120)}慢点！慢点{\fn方正少儿_GBK}啊{\fn}！
 Dialogue: 1,0:22:19.78,0:22:21.32,EDCN,,0,0,0,,{\fad(120,120)}…{\fn方正少儿_GBK}总{\fn}之　脱了再{\fn方正少儿_GBK}说罢
 Dialogue: 1,0:22:21.32,0:22:23.74,EDCN,,0,0,0,,{\fad(120,120)}都{\fn方正少儿_GBK}给{\fn}我住手{\fn方正少儿_GBK}啊——
-Dialogue: 1,0:22:23.74,0:22:26.41,EDCN,,0,0,0,,{\fad(120,120)}天才的暗算　小白鼠中招{\fn方正兰亭圆_GBK_中} ฅ(･ㅅ･❀)ฅ
-Comment: 1,0:22:25.74,0:22:26.41,EDCN,pop,0,0,155,karaoke,（可{\fn方正少儿_GBK}爱{\fn}可{\fn方正少儿_GBK}爱{\fn}）
-Dialogue: 1,0:22:26.41,0:22:29.12,EDCN,,0,0,0,,大朗吃{\fn方正少儿_GBK}药{\fn}了——　取 得 大 成 功！{\fn方正兰亭圆_GBK_中}(=^･ｪ･^=)
-Comment: 1,0:22:28.37,0:22:29.12,EDCN,pop,0,0,155,karaoke,（口耐口耐）
-Dialogue: 1,0:22:29.12,0:22:31.75,EDCN,,0,0,0,,捕{\fn方正少儿_GBK}获{\fn}美少女　快{\fn方正少儿_GBK}让{\fn}我{\fn方正少儿_GBK}贴贴{\fn方正兰亭圆_GBK_中} (=x{\fn冬青黑体简体中文 W6}ェ{\fn方正兰亭圆_GBK_中}x=)
-Comment: 1,0:22:31.04,0:22:31.75,EDCN,pop,0,0,155,karaoke,（{\fn方正少儿_GBK}阔{\fn}耐{\fn方正少儿_GBK}阔{\fn}耐）
-Dialogue: 1,0:22:31.75,0:22:34.42,EDCN,,0,0,0,,{\fn方正少儿_GBK}夺{\fn}回好集美　来加油干嗷{\fn方正兰亭圆_GBK_中} o(^･x･^)o
-Comment: 1,0:22:33.62,0:22:34.42,EDCN,pop,0,0,155,karaoke,（{\fn方正少儿_GBK}阔爱阔爱{\fn}）
-Dialogue: 1,0:22:34.42,0:22:36.17,EDCN,,0,0,0,,走一起{\fn方正少儿_GBK}开{\fn}好集美{\fn方正少儿_GBK}趴{\fn}体　快活快活{\fn方正兰亭圆_GBK_中} (^-人-^)
+Dialogue: 1,0:22:23.74,0:22:26.41,EDCN,,0,0,0,,{\fad(120,120)}天才的暗算　小白鼠中招{\fnMicrosoft Sans Serif} ฅ{\fn思源黑体 CN}(･ㅅ･❀){\fnMicrosoft Sans Serif}ฅ
+Comment: 1,0:22:25.74,0:22:26.41,EDCN,pop,0,0,155,karaoke,（{\fn方正少儿_GBK}每晚每{\fn}夜）
+Dialogue: 1,0:22:26.41,0:22:29.12,EDCN,,0,0,0,,大朗吃{\fn方正少儿_GBK}药{\fn}了——　取 得 大 成 功！{\fn思源黑体 CN}(=^･ｪ･^=)
+Comment: 1,0:22:28.37,0:22:29.12,EDCN,pop,0,0,155,karaoke,（天{\fn方正少儿_GBK}哪{\fn}天{\fn方正少儿_GBK}哪{\fn}）
+Dialogue: 1,0:22:29.12,0:22:31.75,EDCN,,0,0,0,,捕{\fn方正少儿_GBK}获{\fn}美少女　快{\fn方正少儿_GBK}让{\fn}我{\fn方正少儿_GBK}贴贴{\fn思源黑体 CN} (=xェx=)
+Comment: 1,0:22:31.04,0:22:31.75,EDCN,pop,0,0,155,karaoke,（{\fn方正少儿_GBK}哼哼哼{\fnMicrosoft Sans Serif} ๑{\fn思源黑体 CN}乛v乛{\fnMicrosoft Sans Serif}๑{\fn思源黑体 CN}）
+Dialogue: 1,0:22:31.75,0:22:34.42,EDCN,,0,0,0,,{\fn方正少儿_GBK}夺{\fn}回好集美　来加油干嗷{\fn思源黑体 CN} o(^･x･^)o
+Comment: 1,0:22:33.62,0:22:34.42,EDCN,pop,0,0,155,karaoke,（加油加油）
+Dialogue: 1,0:22:34.42,0:22:36.17,EDCN,,0,0,0,,走一起{\fn方正少儿_GBK}开{\fn}好集美{\fn方正少儿_GBK}趴{\fn}体　快活快活{\fn思源黑体 CN} (^-人-^)
 Dialogue: 1,0:22:36.17,0:22:36.92,EDCN,,0,0,0,,耶 耶 耶♪
 Dialogue: 1,0:22:36.92,0:22:39.55,EDCN,,0,0,0,,（万花{\fn方正少儿_GBK}丛{\fn}中一点{\fn方正少儿_GBK}绿呐{\fn}）
 Dialogue: 1,0:22:39.55,0:22:42.38,EDCN,,0,0,0,,冒{\fn方正少儿_GBK}险{\fn}途中　百合{\fn方正少儿_GBK}将{\fn}会盛放
@@ -110,11 +110,11 @@ Dialogue: 1,0:22:44.22,0:22:46.97,EDCN,,0,0,0,,{\fad(0,120)}好{\fn方正少儿_
 Dialogue: 1,0:22:46.97,0:22:49.68,EDCN,,0,0,0,,{\fad(120,120)}就跨{\fn方正少儿_GBK}过{\fn}那性♂{\fn方正少儿_GBK}别{\fn}♀的{\fn方正少儿_GBK}临{\fn}界{\fn方正少儿_GBK}线吧
 Dialogue: 1,0:22:49.68,0:22:52.10,EDCN,,0,0,0,,{\fad(120,120)}小心{\fn方正少儿_GBK}脏怦怦直{\fn}跳　怎{\fn方正少儿_GBK}么{\fn}回事？
 Dialogue: 1,0:22:52.10,0:22:56.94,EDCN,,0,0,0,,{\fad(120,120)}{\fn方正少儿_GBK}欢{\fn}迎光{\fn方正少儿_GBK}临{\fn}新世界！
-Comment: 1,0:22:55.15,0:22:59.94,EDCN,pop,0,0,155,karaoke,（1！2！3！冲 new world!）
-Dialogue: 1,0:22:59.94,0:23:03.03,EDCN,,0,0,0,,{\fad(120,120)}再{\fn方正少儿_GBK}见{\fn}了小兄弟　行 就{\fn方正少儿_GBK}酱
+Comment: 1,0:22:55.15,0:22:59.94,EDCN,pop,0,0,155,karaoke,（1！2！3！冲 beyond world!）
+Dialogue: 1,0:22:59.94,0:23:03.03,EDCN,,0,0,0,,{\fad(120,120)}再{\fn方正少儿_GBK}见{\fn}了小兄弟　行　就{\fn方正少儿_GBK}酱{\fn}紫咯
 Dialogue: 1,0:23:03.03,0:23:05.61,EDCN,,0,0,0,,{\fad(120,120)}{\fn方正少儿_GBK}罢{\fn}了{\fn方正少儿_GBK}罢{\fn}了　依了{\fn方正少儿_GBK}你们
-Dialogue: 1,0:23:05.61,0:23:07.95,EDCN,,0,0,0,,{\fad(120,120)}{\fn方正少儿_GBK}娇{\fn}花照水　弱柳扶{\fn方正少儿_GBK}风
-Dialogue: 1,0:23:07.95,0:23:10.83,EDCN,,0,0,0,,{\fad(120,0)}病弱美少女藏着黑暗深{\fn方正少儿_GBK}邃{\fn}的幻想
+Dialogue: 1,0:23:05.61,0:23:07.95,EDCN,,0,0,0,,{\fad(120,120)}美少女小小的身体内
+Dialogue: 1,0:23:07.95,0:23:10.83,EDCN,,0,0,0,,{\fad(120,0)}藏着黑暗♂深{\fn方正少儿_GBK}邃{\fn}的幻想
 Dialogue: 1,0:23:10.83,0:23:13.50,EDCN,,0,0,0,,{\fad(0,120)}全力以赴　在{\fn方正少儿_GBK}所{\fn}不惜
 Dialogue: 1,0:23:13.50,0:23:16.17,EDCN,,0,0,0,,{\fad(120,120)}完全{\fn方正少儿_GBK}败{\fn}北的大{\fn方正少儿_GBK}趋势{\fn}？
 Dialogue: 1,0:23:16.17,0:23:18.42,EDCN,,0,0,0,,{\fad(120,120)}美少女的女子力
@@ -644,11 +644,11 @@ Dialogue: 0,0:06:08.86,0:06:09.57,OPJP,pop,0,0,0,fx,{\fs55\fad(80,0)\move(960,10
 Dialogue: 0,0:06:09.57,0:06:09.65,OPJP,pop,0,0,0,fx,{\fs55\an8\fad(0,80)\move(960,944.984375,960,929.984375)\t(\fscx80\fscy80)}Are！
 Dialogue: 0,0:06:10.02,0:06:10.74,OPJP,pop,0,0,0,fx,{\fs55\fad(80,0)\move(960,1020,960,1000,0,80)\fscx80\fscy80\t(0,100,.9,\fscx100\fscy100)}It's me！
 Dialogue: 0,0:06:10.74,0:06:10.82,OPJP,pop,0,0,0,fx,{\fs55\an8\fad(0,80)\move(960,944.984375,960,929.984375)\t(\fscx80\fscy80)}It's me！
-Dialogue: 0,0:22:25.74,0:22:26.41,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（可{\fn方正少儿_GBK}爱{\fn}可{\fn方正少儿_GBK}爱{\fn}）
-Dialogue: 0,0:22:28.37,0:22:29.12,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（口耐口耐）
-Dialogue: 0,0:22:31.04,0:22:31.75,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（{\fn方正少儿_GBK}阔{\fn}耐{\fn方正少儿_GBK}阔{\fn}耐）
-Dialogue: 0,0:22:33.62,0:22:34.42,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（{\fn方正少儿_GBK}阔爱阔爱{\fn}）
-Dialogue: 0,0:22:55.15,0:22:59.94,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（1！2！3！冲 new world!）
+Dialogue: 0,0:22:25.74,0:22:26.41,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（{\fn方正少儿_GBK}每晚每{\fn}夜）
+Dialogue: 0,0:22:28.37,0:22:29.12,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（天{\fn方正少儿_GBK}哪{\fn}天{\fn方正少儿_GBK}哪{\fn}）
+Dialogue: 0,0:22:31.04,0:22:31.75,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（{\fn方正少儿_GBK}哼哼哼{\fnMicrosoft Sans Serif} ๑{\fn思源黑体 CN}乛v乛{\fnMicrosoft Sans Serif}๑{\fn思源黑体 CN}）
+Dialogue: 0,0:22:33.62,0:22:34.42,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（加油加油）
+Dialogue: 0,0:22:55.15,0:22:59.94,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（1！2！3！冲 beyond world!）
 Dialogue: 0,0:23:21.42,0:23:24.13,EDCN,pop,0,0,155,fx,{\fad(80,0)\move(960,880,960,860,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}（{\fn方正少儿_GBK}啦啦啦啦 啦啦啦 啦啦啦{\fn}）
 Dialogue: 0,0:22:25.74,0:22:26.41,EDJP,pop,0,0,90,fx,{\fad(80,0)\move(960,945,960,925,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}(夜な夜な～)
 Dialogue: 0,0:22:28.37,0:22:29.12,EDJP,pop,0,0,90,fx,{\fad(80,0)\move(960,945,960,925,0,80)\fscx80\fscy80\t(0,100,.8,\fscx100\fscy100)}(こらこら～)
