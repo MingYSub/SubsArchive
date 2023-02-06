@@ -6,8 +6,8 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
-Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,0,0,1,1.8,0,2,30,30,9,1
+Style: CN,冬青黑体简体中文 W6 Mod,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
+Style: JP,Hiragino Kaku Gothic Mod W6,50,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,0,0,1,1.9,0,2,30,30,9,1
 Style: OPJP,Source Han Sans JP Medium,69,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,25,1
 Style: OPCN,思源黑体 CN Medium,62,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,105,1
 Style: EDJP,Source Han Sans JP Medium,62,&H00754CD5,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.5,0,8,30,30,20,1
@@ -125,29 +125,29 @@ Dialogue: 0,0:05:36.61,0:05:37.98,CN,,0,0,0,,{\fn@思源黑体 CN Normal\b1\bord
 Dialogue: 0,0:05:56.59,0:05:56.63,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur10\fs56\an5\pos(940,796)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
 Dialogue: 0,0:05:56.67,0:05:56.71,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur10\fs60\an5\pos(940,794)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
 Dialogue: 0,0:05:56.75,0:05:57.00,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}{\t(\bord1.5\blur7)}认证成功
-Dialogue: 0,0:05:57.00,0:05:57.04,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.00,0:05:57.04,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord0\blur3\fs63\an5\pos(935,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.04,0:05:57.09,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.04,0:05:57.09,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord0\blur3\fs63\an5\pos(938,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.09,0:05:57.13,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.13,0:05:57.17,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.17,0:05:57.21,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.21,0:05:57.25,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.25,0:05:57.30,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.30,0:05:57.34,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.34,0:05:57.38,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.38,0:05:57.42,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.42,0:05:57.46,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.46,0:05:57.50,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.46,0:05:57.50,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord0\blur3\fs63\an5\pos(935,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.50,0:05:57.55,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.50,0:05:57.55,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord0\blur3\fs63\an5\pos(938,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.55,0:05:57.59,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.55,0:05:57.59,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord0\blur3\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.59,0:05:57.63,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.63,0:05:57.67,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.67,0:05:57.71,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
-Dialogue: 0,0:05:57.71,0:05:57.75,CN,,0,0,0,,{\fn阿里巴巴普惠体 R\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.00,0:05:57.04,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.00,0:05:57.04,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord0\blur3\fs63\an5\pos(935,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.04,0:05:57.09,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.04,0:05:57.09,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord0\blur3\fs63\an5\pos(938,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.09,0:05:57.13,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.13,0:05:57.17,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.17,0:05:57.21,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.21,0:05:57.25,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.25,0:05:57.30,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.30,0:05:57.34,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.34,0:05:57.38,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.38,0:05:57.42,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.42,0:05:57.46,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.46,0:05:57.50,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.46,0:05:57.50,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord0\blur3\fs63\an5\pos(935,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.50,0:05:57.55,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.50,0:05:57.55,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord0\blur3\fs63\an5\pos(938,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.55,0:05:57.59,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.3\blur12\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.55,0:05:57.59,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord0\blur3\fs63\an5\pos(940,790)\c&H56FF46&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.59,0:05:57.63,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.63,0:05:57.67,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.67,0:05:57.71,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1.2\blur12\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
+Dialogue: 0,0:05:57.71,0:05:57.75,CN,,0,0,0,,{\fn思源黑体 CN Normal\bord1\blur9\fs63\an5\pos(940,790)\c&H6EFF4D&\3c&H409F3D&\fry6}认证成功
 Dialogue: 0,0:05:57.04,0:05:57.09,CN,,0,0,0,,{\fn思源黑体 CN Medium\bord0.4\blur9\fs49\fsp-0.2\an5\c&HFFFFF8&\3c&HFFFFFF&\fry-8\frz358.6\fscx96\pos(1622,798)\org(1831,616)}Lycoris: 锦木千束
 Dialogue: 0,0:05:57.13,0:05:57.17,CN,,0,0,0,,{\fn思源黑体 CN Medium\bord0.1\blur3\fs49\fsp-0.2\an5\c&HFFFFF8&\3c&HFFFFFF&\fry-8\frz358.6\fscx96\pos(1622,798)\org(1831,616)\3a&HA5&}Lycoris: 锦木千束
 Dialogue: 0,0:05:57.21,0:05:57.75,CN,,0,0,0,,{\fn思源黑体 CN Medium\bord0.1\blur3\fs49\fsp-0.2\an5\c&HFFFFF8&\3c&HFFFFFF&\fry-8\frz358.6\fscx96\pos(1622,798)\org(1831,616)\3a&HA5&}Lycoris: 锦木千束
@@ -217,9 +217,9 @@ Dialogue: 0,0:06:49.64,0:06:49.76,CN,,0,0,0,,{\fn思源黑体 CN Heavy\fs78\fsp-
 Dialogue: 0,0:06:49.76,0:06:49.89,CN,,0,0,0,,{\fn思源黑体 CN Heavy\fs78\fsp-0.5\bord0\c&HD98F3D&\fscy90\frz354.1\frx359.8\fry2\pos(826,979)\org(719,43)}{\fax.08}更衣室内请保持安静
 Dialogue: 0,0:06:49.89,0:06:50.01,CN,,0,0,0,,{\fn思源黑体 CN Heavy\fs75\fsp-0.5\bord0\c&HD98F3D&\fscy90\frx354\fry6\frz1.947\pos(537,982)\org(424,1144)}{\fax-.06}更衣{\fax-.04}室内{\fax-.02}请保{\fax}持安{\fax.02}静
 Dialogue: 0,0:06:50.01,0:06:50.14,CN,,0,0,0,,{\fn思源黑体 CN Heavy\fs83\fsp-0.5\bord0\c&HAE7943&\fscy90\frx356\fry7\frz1.066\pos(160,952)\org(-121,1117)}更衣室内请保持安静
-Dialogue: 0,0:22:28.70,0:22:31.16,CN,,0,0,0,,{\fn阿里巴巴普惠体 M\fs62\bord0\an1\c&H2D2D2D&\frz13.74\move(1050,1258,1050,920,800,1450)}桌游大会正在打加时赛！\N如果你们能赶得上就回个话
-Dialogue: 0,0:22:41.72,0:22:42.88,CN,,0,0,0,,{\fn阿里巴巴普惠体 M\bord0\an1\c&H2D2D2D&\move(881,1150,880,985)}{\frz4\fs92\t(0.6,\fs70\frz8)\fax-.03}我俩一起去
-Dialogue: 0,0:22:42.88,0:22:44.51,CN,,0,0,0,,{\fn阿里巴巴普惠体 M\bord0\an1\c&H2D2D2D&\move(880,985,881,952,-10,1000)}{\frz7.8\fs70\t(0,1450,\fs67\frz8.5)\fax-.03}我俩一起去
+Dialogue: 0,0:22:28.70,0:22:31.16,CN,,0,0,0,,{\fn思源黑体 CN Medium\fs62\bord0\an1\c&H2D2D2D&\frz13.74\move(1050,1258,1050,920,800,1450)}桌游大会正在打加时赛！\N如果你们能赶得上就回个话
+Dialogue: 0,0:22:41.72,0:22:42.88,CN,,0,0,0,,{\fn思源黑体 CN Medium\bord0\an1\c&H2D2D2D&\move(881,1150,880,985)}{\frz4\fs92\t(0.6,\fs70\frz8)\fax-.03}我俩一起去
+Dialogue: 0,0:22:42.88,0:22:44.51,CN,,0,0,0,,{\fn思源黑体 CN Medium\bord0\an1\c&H2D2D2D&\move(880,985,881,952,-10,1000)}{\frz7.8\fs70\t(0,1450,\fs67\frz8.5)\fax-.03}我俩一起去
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
 Dialogue: 1,0:00:03.44,0:00:05.90,CN,,0,0,0,,司令部  司令部
 Dialogue: 1,0:00:07.85,0:00:08.96,CN,,0,0,0,,断线了

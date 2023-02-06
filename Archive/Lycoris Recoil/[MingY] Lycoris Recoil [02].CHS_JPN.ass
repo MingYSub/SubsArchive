@@ -6,8 +6,8 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CN,冬青黑体简体中文 W6,68,&H00FFFFFF,&H000000FF,&H00141414,&H14141414,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
-Style: JP,Hiragino Kaku Gothic ProN W6,50,&H00FFFFFF,&H00FFFFFF,&H00141414,&H910E0807,0,0,0,0,100,100,0,0,1,1.6,0,2,30,30,10,1
+Style: CN,冬青黑体简体中文 W6 Mod,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,60,1
+Style: JP,Hiragino Kaku Gothic Mod W6,50,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,0,0,1,1.9,0,2,30,30,9,1
 Style: OPCN,思源黑体 CN Medium,62,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,105,1
 Style: OPJP,Source Han Sans JP Medium,69,&H00FFFFFF,&H000000FF,&H005E5FDF,&H14141414,0,0,0,0,100,100,1,0,1,2,0,8,30,30,25,1
 Style: EDCN,思源黑体 CN Medium,62,&H00754CD5,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,1,0,1,2.5,0,2,30,30,25,1
@@ -124,7 +124,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:02:38.93,0:02:43.02,Staff2,,0,700,0,karaoke,本字幕由  MingYSub  制作
-Dialogue: 0,0:02:39.18,0:02:43.02,Staff2,,0,0,0,1,{\fsp0\fad(130,0)\blur5\&H5E5FDF&}|
+Dialogue: 0,0:02:39.18,0:02:43.02,Staff2,,0,0,18,1,{\fsp0\fad(130,0)\blur5\fscy108}|
 Comment: 0,0:02:39.10,0:02:43.02,Staff2,,700,0,0,karaoke,招募/交流群：293483450
 Comment: 0,0:02:38.93,0:02:43.02,Staff,,0,0,0,karaoke,翻译/压制：泠泫凝   时轴：Ming
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen  ------
