@@ -4,10 +4,13 @@
 | 剧集 | 中文标题 | 对应片源 | 字幕 |
 | ---- | -------- | -------- | ---- |
 | 01 | 伸手。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B01%5D.CHT_JPN.ass)　[简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B01%5D.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B01%5D.CHT.ass)　[日本語](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B01%5D.JPN.ass) |
-| 02 | 散步。 | Web |  |
+| 02 | 散步。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B02%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語  |
+| 03 | 胆小猫。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B03%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語 |
+| 04 | 狗狗的想法。 | Web | 简日　繁日　简体　繁體　日本語 |
+| 05 | 逃跑。 | Web | 简日　繁日　简体　繁體　日本語 |
 
 # Staff
-**翻译：** 伊马替尼
+**翻译：** 伊马替尼　Ming
 
 **时轴：** Autism
 
