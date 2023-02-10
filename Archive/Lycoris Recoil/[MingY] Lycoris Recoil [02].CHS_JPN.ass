@@ -22,8 +22,8 @@ Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Template ------
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,code line all,op_color={} op_color["white"]="FFFFFF" op_color["black"]="141414"
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,code all,framedur=(_G.aegisub.ms_from_frame(101)-_G.aegisub.ms_from_frame(1))/100  function round(num, d) d=d or 0 return math.floor(num*10^d)/10^d end     function f(x) return 1/(1+(x/0.5)^-3.8) end    function clipT(t1,t2,x1,x2) return _G.string.format("\\t(%d,%d,\\clip(%d,0,%d,1080))",t1,t2,x1,x2) end
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,code line all,function tTag(i,n,start,mode) start=start or 0 mode=mode or 0 return clipT((i-1+start)*framedur, (i+start)*framedur, (line.left-12)*(1-mode)+(line.left+(line.width+24)*f(i/n))*mode, (line.left+(line.width+24)*f(i/n))*(1-mode)+(line.right+12)*mode) end          function clipTags() tags="" lframe=round(line.duration/framedur)-16 for j=0,1 do tags=tags..clipT(lframe*j*framedur+1,lframe*j*framedur+1,line.left-12,line.left-12)  for i=1,7 do tags=tags..tTag(i,7,lframe*j) end  tags=tags..clipT((7+lframe*j)*framedur, (8+lframe*j)*framedur, line.left-12, line.right+12)  for i=1,7 do tags=tags .. tTag(i,7,8+lframe*j,1) end tags=tags..clipT((15+lframe*j)*framedur, (16+lframe*j)*framedur, line.right+12, line.right+12) end   return tags end
-Comment: 0,0:00:40.10,0:00:43.65,OPJP,,0,0,0,template line noblank notext,{\p1\c!op_color[line.actor]!\alpha22\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!
-Comment: 0,0:00:43.65,0:00:45.65,OPJP,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!8*framedur!,!8*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line noblank notext,{\p1\c!op_color[line.actor]!\alpha22\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!8*framedur!,!8*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line noblank notext,{\p1\c!op_color[line.actor]!\alpha22\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template line noblank,{\alphaFF\blur6}{\t(!8*framedur!,!8*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,-8*framedur)!
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,code line all,color={"\\c&H423DF1&\\3c&H423DF1&","\\c&HFDE453&\\3c&HFDE453&","\\c&H3FC6FF&\\3c&H3FC6FF&","\\c&HE99E44&\\3c&HE99E44&"} shape={"{\\1aFF\\bord3}m 0 0 l 0 10 10 10 10 0","{\\1aFF\\bord3}m 5 0 b 2 0 0 2 0 5 b 0 8 2 10 5 10 b 8 10 10 8 10 5 b 10 2 8 0 5 0","{\\1aFF\\bord3}m 6 0 l 0 10 12 10","{\\bord1.5}m 0 0 l 10 10 l 11 10 l 1 0 m 0 10 l 1 10 l 11 0 l 10 0"}
@@ -116,7 +116,7 @@ Dialogue: 1,0:08:17.47,0:08:26.94,CN,,0,0,0,,{\an7\fad(300,300)}以坚定的决�
 Dialogue: 1,0:08:26.94,0:08:30.74,CN,,0,0,0,,{\an7\fad(300,300)}朝着升起的朝阳
 Dialogue: 1,0:08:30.74,0:08:41.54,CN,,0,0,0,,{\an7\fad(300,300)}生活即冒险　不要匆匆走过
 Dialogue: 1,0:08:41.54,0:08:53.39,CN,,0,0,0,,{\an7\fad(300,0)}如果已下定决心　那就继续我们的旅行吧
-Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,,------ Staff  ------
+Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,,------ Staff ------
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\alphaFF\blur6}{\t(!7*framedur!,!7*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,16*framedur-$ldur)!
@@ -127,7 +127,7 @@ Comment: 0,0:02:38.93,0:02:43.02,Staff2,,0,700,0,karaoke,本字幕由  MingYSub 
 Dialogue: 0,0:02:39.18,0:02:43.02,Staff2,,0,0,18,1,{\fsp0\fad(130,0)\blur5\fscy108}|
 Comment: 0,0:02:39.10,0:02:43.02,Staff2,,700,0,0,karaoke,招募/交流群：293483450
 Comment: 0,0:02:38.93,0:02:43.02,Staff,,0,0,0,karaoke,翻译/压制：泠泫凝   时轴：Ming
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen  ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
 Dialogue: 0,0:01:07.88,0:01:09.26,CN,,0,0,0,,{\fs54\bord0\c&H696969&\pos(962,610)}紧急：来自 {\fad(100,0)}Walnut
 Dialogue: 0,0:02:55.90,0:02:59.37,CN,,0,0,0,,{\fn华康翩翩体A Std W5\fs45\bord0\c&H232B30&\move(880,355,1200,355)\frz346}给泷奈：推荐电影精选！～千束精选集～
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
@@ -511,7 +511,7 @@ Dialogue: 1,0:22:28.91,0:22:30.60,CN,,0,0,0,,请多指教  千束
 Dialogue: 1,0:22:33.59,0:22:36.50,CN,,0,0,0,,出来吧  一起去吃团子吧
 Dialogue: 1,0:22:36.50,0:22:37.64,CN,,0,0,0,,泷奈也一起吧
 Dialogue: 1,0:22:37.87,0:22:39.83,CN,,0,0,0,,啊哦  好痛！
-Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,,------ Dialogue JP  ------
+Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,,------ Dialogue JP ------
 Dialogue: 0,0:00:02.74,0:00:04.37,JP,,0,0,0,,アラン機関とは
 Dialogue: 0,0:00:04.37,0:00:07.50,JP,,0,0,0,,世界的に展開する謎の支援機関だ
 Dialogue: 0,0:00:07.50,0:00:11.04,JP,,0,0,0,,実際　個人か組織かもよく分からんが

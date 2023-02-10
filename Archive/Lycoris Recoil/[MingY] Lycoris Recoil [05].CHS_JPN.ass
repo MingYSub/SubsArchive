@@ -98,7 +98,7 @@ Comment: 0,0:23:20.26,0:23:31.20,EDCN,,0,0,0,karaoke,{\k39}这{\k36}座{\k37}不
 Comment: 0,0:23:31.23,0:23:42.45,EDCN,,0,0,0,karaoke,{\k38}你{\k36}伸{\k31}出{\k29}手{\k65}的{\k85}光{\k37}芒{\k132}产{\k72}生{\k37}了{\k73}影{\k37}子
 Comment: 0,0:23:42.48,0:23:48.09,EDCN,,0,0,0,karaoke,{\k71}唱{\k43}给{\k35}我{\k56}听{\k40}吧{\k45}　{\k17}这{\k19}个{\k57}故{\k47}事{\k31}的{\k66}后{\k34}续
 Comment: 0,0:23:48.09,0:23:57.47,EDCN,,0,0,0,karaoke,{\k24}带{\k24}我{\k32}去{\k55}往{\k52}不{\k37}曾{\k36}去{\k34}过{\k33}的{\k25}星{\k44}球
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff  ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\alphaFF\blur6}{\t(!7*framedur!,!7*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,16*framedur-$ldur)!
@@ -116,7 +116,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code line,style_title={"\\blur5\\a
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template syl loop 16,!relayer(math.floor((j-1)%4))!{!style_title[math.floor((j-1)%4)+1]!!tags!}{\pos($x,$y)}!retime("line",num[math.floor((j-1)/4)+1]*framedur+(syl.i-1)*4*framedur,0)!{\clip(!remember("sx",($left-5)+math.floor((j-1)/4)%2*($right-$left+10)/2)!,!remember("sy",$top-5+math.floor(math.floor((j-1)/4)/2)*($height+10)/2)!,!recall.sx+($right-$left+10)/2!,!recall.sy+($height+10)/2!)}
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template pre-line noblank loop 2,!relayer(4)!!retime("line",($syln*4+j*2)*framedur,($syln*4+j*2)*framedur+450-$ldur)!{\pos($x,$y)}{\clip(!$lleft+10!,0,!$lleft+70!,1080)}{\t(\clip(!$lright+10!,0,!$lright+70!,1080))}{\bord0\c!theme_color[j]!}
 Comment: 0,0:02:03.10,0:02:08.11,Title,,0,0,0,karaoke,{\k}　#{\k}0{\k}5{\k}  目{\k}前{\k}为{\k}止{\k}，{\k}一{\k}切{\k}都{\k}好
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen  ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
 Dialogue: 0,0:00:20.38,0:00:22.25,CN,,0,0,0,,{\an7\fs30\bord1\pos(30,234)\fn冬青黑体简体中文 W3\b1}事故已经过去1个月…市民怨声载道\N{\shad.6\fs46\c&H040AEE&\3c&H082B70&\fn}地铁脱轨事故\N{\shad\c\3c}董事社长道歉会\N{\fs30\fn冬青黑体简体中文 W3}今日中午左右
 Dialogue: 0,0:03:59.51,0:03:59.64,CN,,0,0,0,,{\fsp0\fs56\fn汉仪跳跳体简\b1\c&H1F031A&\bord0\frz354.1\pos(1632,1112)}LycoReco 出品
 Dialogue: 0,0:03:59.64,0:03:59.76,CN,,0,0,0,,{\fsp0\fs56\fn汉仪跳跳体简\b1\frz352.6\c&H1F031A&\bord0\pos(1529,849)}LycoReco 出品
