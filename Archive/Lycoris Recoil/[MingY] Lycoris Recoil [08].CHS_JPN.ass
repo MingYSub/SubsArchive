@@ -108,7 +108,7 @@ Dialogue: 1,0:10:18.89,0:10:23.77,CN,,0,0,0,,{\an7\fad(0,300)}以坚定的决心
 Dialogue: 1,0:10:23.77,0:10:27.57,CN,,0,0,0,,{\an7\fad(300,300)}朝着升起的朝阳
 Dialogue: 1,0:10:27.57,0:10:38.37,CN,,0,0,0,,{\an7\fad(300,300)}生活即冒险　不要匆匆走过
 Dialogue: 1,0:10:38.37,0:10:49.45,CN,,0,0,0,,{\an7\fad(300,300)}如果已下定决心　那就继续我们的旅行吧
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff  ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line notext,{\p1\c!op_color[line.actor]!\alpha15\bord0}{!clipTags()!}m 0 0 l !$lwidth+24! 0 !$lwidth+24! !$lheight! 0 !$lheight!!retime("line",0,16*framedur-$ldur)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\alphaFF\blur6}{\t(!7*framedur!,!7*framedur!,\alpha00)!clipTags():gsub("clip","iclip")!}!retime("line",0,16*framedur-$ldur)!
@@ -116,7 +116,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:03:40.94,0:03:45.00,Staff2,,0,700,0,karaoke,本字幕由  MingYSub  制作
-Dialogue: 0,0:03:41.19,0:03:45.00,Staff2,,0,0,0,1,{\fsp0\fad(130,0)\blur5\&H5E5FDF&}|
+Dialogue: 0,0:03:41.19,0:03:45.00,Staff2,,0,0,18,1,{\fsp0\fad(130,0)\blur5\fscy108}|
 Comment: 0,0:03:41.10,0:03:45.00,Staff2,,700,0,0,karaoke,招募/交流群：293483450
 Comment: 0,0:03:40.94,0:03:45.00,Staff,,0,610,0,karaoke,翻译/校对：泠泫凝  伊马替尼  小圆香径独徘徊
 Comment: 0,0:03:41.10,0:03:45.00,Staff,,970,0,0,karaoke,时轴：Ming   压制：泠泫凝
@@ -126,7 +126,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,code line,style_title={"\\blur5\\a
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template syl loop 16,!relayer(math.floor((j-1)%4))!{!style_title[math.floor((j-1)%4)+1]!!tags!}{\pos($x,$y)}!retime("line",num[math.floor((j-1)/4)+1]*framedur+(syl.i-1)*4*framedur,0)!{\clip(!remember("sx",($left-5)+math.floor((j-1)/4)%2*($right-$left+10)/2)!,!remember("sy",$top-5+math.floor(math.floor((j-1)/4)/2)*($height+10)/2)!,!recall.sx+($right-$left+10)/2!,!recall.sy+($height+10)/2!)}
 Comment: 0,0:00:00.00,0:00:00.00,Title,,0,0,0,template pre-line noblank loop 2,!relayer(4)!!retime("line",($syln*4+j*2)*framedur,($syln*4+j*2)*framedur+450-$ldur)!{\pos($x,$y)}{\clip(!$lleft+10!,0,!$lleft+70!,1080)}{\t(\clip(!$lright+10!,0,!$lright+70!,1080))}{\bord0\c!theme_color[j]!}
 Comment: 0,0:03:45.16,0:03:50.25,Title,,0,0,0,karaoke,{\k}　#{\k}0{\k}8{\k}  得{\k}过{\k}且{\k}过
-Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen  ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
 Dialogue: 0,0:04:18.91,0:04:23.33,CN,,0,0,0,,{\fn思源黑体 CN Medium\fs62\c&H7A6965&\fax0.150595\fscx78.54\fscy103.52\frx1.0458\fry0.2370\xbord0.00\ybord0.00\pos(952,230)\org(955,197)\frz0.2178}LycoReco咖啡厅收支表
 Dialogue: 0,0:06:55.06,0:06:55.19,CN,,0,0,0,,{\an1\fs28\bord0\c&H75715D&\frz357.2\frx356\fry1\clip(m 504 342 l 1264 386 1215 976 467 974)\move(815,424.8,811.8,364,2,85)}LycoReco的这个真的是……\N非常像大……  虽然很好吃……
 Dialogue: 0,0:06:55.08,0:06:55.94,CN,,0,0,0,,{\an1\fs28\bord0\c&H75715D&\frx356\fry1\clip(m 504 342 l 1264 386 1215 976 467 974)\frz358.5\move(758.4,976,780,372.6,2,836)\t(\frz356)}LycoReco店员的笑容很甜\N但是拿的东西太……  非常的美味……

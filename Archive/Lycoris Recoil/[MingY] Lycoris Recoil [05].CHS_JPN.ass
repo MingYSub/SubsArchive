@@ -106,7 +106,7 @@ Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:00:00.00,0:00:00.00,Staff2,,0,0,0,template line keeptags noblank,{\blur6}!retime("line",16*framedur,0)!
 Comment: 0,0:01:58.97,0:02:02.98,Staff2,,0,700,0,karaoke,本字幕由  MingYSub  制作
-Dialogue: 0,0:01:59.18,0:02:02.98,Staff2,,0,0,0,1,{\fsp0\fad(130,0)\blur5\&H5E5FDF&}|
+Dialogue: 0,0:01:59.18,0:02:02.98,Staff2,,0,0,18,1,{\fsp0\fad(130,0)\blur5\fscy108}|
 Comment: 0,0:01:59.14,0:02:02.98,Staff2,,700,0,0,karaoke,招募/交流群：293483450
 Comment: 0,0:01:58.97,0:02:02.98,Staff,,0,610,0,karaoke,翻校：泠泫凝  小圆香径独徘徊  伊马替尼
 Comment: 0,0:01:59.14,0:02:02.98,Staff,,870,0,0,karaoke,时轴：Ming   压制：泠泫凝
