@@ -3,9 +3,11 @@
 # 天使降临到了我身边！Precious Friends / Watashi ni Tenshi ga Maiorita! Precious Friends
 | 对应片源 | 字幕 |
 | -------- | ---- |
-| Web | 简体　繁體 |
+| Web | [简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHT.ass) |
 
 # Staff
+本字幕与 **北宇治字幕组** 联合制作
+
 **翻译：** 物んち　風林火山　Ming　剑介
 
 **校对：** 小企业　小圆香径独徘徊　Mikoi
@@ -19,6 +21,8 @@
 **压制：** ebb
 
 **美工：** 祝你
+
+注：繁化由 [OpenCC](https://github.com/BYVoid/OpenCC) 完成。
 
 # 所需字体
 字体下载（将在完成全部字幕后提供网盘链接）
@@ -34,5 +38,9 @@ FOT-スーラ ProN DB <FOT-Seurat ProN DB>
 更纱黑体 SC <Sarasa Gothic SC>
 更纱黑体 SC Semibold <Sarasa Gothic SC Semibold>
 更紗ゴシック J Semibold <Sarasa Gothic J Semibold>
-华康方圆体W7(P) <DFPFangYuanW7-GB>
+更紗黑體 TC <Sarasa Gothic TC>
+更紗黑體 TC Semibold <Sarasa Gothic TC Semibold>
+華康POP2體 Std W9 <DFPOP2 Std W9>
+華康方圓體W7(P) <DFPFangYuanW7-B5>
+文鼎特甜妞体 <AR TianNiuGB HV>
 ```

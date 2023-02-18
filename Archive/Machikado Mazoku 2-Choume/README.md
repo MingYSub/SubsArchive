@@ -19,6 +19,8 @@
 [Mini 小剧场 & あけおめ Mini Movie 新年祝福](Mini) | [评论音轨](Commentary)
 
 # Staff
+本字幕与 **熔岩动画Sub** 联合制作
+
 **翻译/校对：** 观津邀月（参考漫画）　真有人不喜欢呆唯啊
 
 **时轴/后期：** Ming　Magma　Autism
