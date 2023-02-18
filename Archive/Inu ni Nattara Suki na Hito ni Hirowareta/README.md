@@ -9,6 +9,7 @@
 | 04 | 狗的想法。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B04%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語 |
 | 05 | 逃跑。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B05%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語 |
 | 06 | 寂寞的兔。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B06%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語 |
+| 07 | 狗屋对决。 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta/%5BMingY%5D%20Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta.%20%5B07%5D.CHS_JPN.ass)　繁日　简体　繁體　日本語 |
 
 # Staff
 **翻译/校对：** 伊马替尼　Ming
