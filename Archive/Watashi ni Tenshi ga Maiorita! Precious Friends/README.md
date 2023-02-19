@@ -25,7 +25,7 @@
 注：繁化由 [OpenCC](https://github.com/BYVoid/OpenCC) 完成。
 
 # 所需字体
-字体下载（将在完成全部字幕后提供网盘链接）
+[字体下载](https://pan.baidu.com/s/1yH_oM4_D0aF5xzvfoj6nEg?pwd=1234)
 
 ```
 FOT-Popジョイ Std B <FOT-PopJoy Std B>
