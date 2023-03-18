@@ -16,7 +16,7 @@ Style: EDCN,方正兰亭圆_GBK_特,52,&H0019355B,&H000000FF,&H00FFFFFF,&H001414
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ Code&Template ------
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Code&Template ------
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,code once all,function AutoTags(Intervalo,Dato1,Dato2,Pause)  local RESULTADO=""  local SUERTE = 0  local CONTADOR = 0  local ARREGLO = 0  local count = math.ceil(line.duration/(Intervalo+Pause))  ARREGLO = {Dato1,Dato2}  for i = 1, count do  	CONTADOR = i  	if Dato1 and Dato2 then  		if  CONTADOR%2 ==0 then  		SUERTE = ARREGLO[1]  		else  		SUERTE = ARREGLO[2]  		end  	end  	RESULTADO = RESULTADO .."\\t(" ..(i-1)*(Intervalo+Pause).. "," ..i*Intervalo+Pause*(i-1).. ",\\" ..SUERTE..")"..""  end  return RESULTADO  end
 Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template char,{\fad(200,200)\pos($x,$y)!AutoTags(950,"fr-9","fr9",330)!}{\fscx35\fscy35\t(0,200,0.45,\fscx120\fscy120)\t(230,300,\fscx100\fscy100)\t(!$ldur-200!,$ldur,1.8,\fscx40\fscy40)}
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template char,{\fad(200,200)\pos($x,$y)!AutoTags(950,"fr9","fr-9",330)!}{\fscx35\fscy35\t(0,200,0.45,\fscx120\fscy120)\t(230,300,\fscx100\fscy100)\t(!$ldur-200!,$ldur,1.8,\fscx40\fscy40)}
@@ -101,8 +101,8 @@ Dialogue: 0,0:05:05.33,0:05:08.83,CN,,0,0,0,,{\fs26\bord0\c&H4B4F5A&\frz263\move
 Dialogue: 0,0:05:08.83,0:05:11.33,CN,,0,0,0,,{\fs64\bord0\c&H373D47&\frz258.4\move(664,340,664,580)}赛儿芙·未来
 Dialogue: 0,0:07:34.56,0:07:38.06,CN,,0,0,0,,{\fs72\bord0\c&H4B4648&\move(666,1010,666,484)\frz286.7}赛儿芙·未来
 Dialogue: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,{\c&HD1C4AF&\bord0\xshad1\4c&HAABC92&\frx18\fry2\pos(1116,168)\frz336.7}树屋
-Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,{\an7\fs30\b1\bord6\shad0\fnArial\pos(447,600)\c&HBBC3AB&\3c&HE5E5E5&\frz333.9}What we're looking for
-Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,{\an7\fs24\bord6\c&H78AC84&\3c&HD4D7DF&\frz333\pos(504,693)}Planks or other lumber you have around the house.
+Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,{\an7\fs30\b1\bord6\shad0\fnArial\pos(447,600)\c&HBBC3AB&\3c&HE5E5E5&\frz333.9}
+Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,{\an7\fs24\bord6\c&H78AC84&\3c&HD4D7DF&\frz333\pos(504,693)}
 Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,
 Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,
 Comment: 0,0:11:26.91,0:11:27.87,CN,,0,0,0,,
