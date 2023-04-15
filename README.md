@@ -3,7 +3,7 @@
 
 反馈错误请提 [Issue](https://github.com/MingYSub/SubArchive/issues)/PR 或至 [Telegram 群组](https://t.me/MingYSub)。
 
-字幕组长期招募翻译、校对、时轴、压制、分流、繁化、片源。招募/交流Q群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
+字幕组长期招募翻译、校对、时轴、压制、分流、繁化、片源。招新/交流 Q 群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
 
 所有作品优先制作简日字幕，因此仓库内其他语言字幕更新可能不及时。
 
@@ -36,5 +36,8 @@
 | 2022 秋 | [孤独摇滚！](Archive/Bocchi%20the%20Rock%21) | Bocchi the Rock! | 中日 |  | 填坑中；与 **亿次研同好会** 联合制作 |
 | 2022 秋 | [DIY部！！](Archive/Do%20It%20Yourself%21%21) | Do It Yourself!! | 中日 | 12 |  |
 | 2022 秋 | [天使降临到了我身边！Precious Friends](Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends) | Watashi ni Tenshi ga Maiorita! Precious Friends | 中字 | 剧场版 | 与 **北宇治字幕组** 联合制作 |
-| 2023 冬 | [别当哥哥了！](Archive/Onii-chan%20wa%20Oshimai%21) | Onii-chan wa Oshimai! | 中日 |  | 更新中；与 **熔岩动画Sub** 联合制作 |
-| 2023 冬 | [变成狗后被喜欢的人捡了。](Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta) | Inu ni Nattara Suki na Hito ni Hirowareta. | 中日 |  | 更新中 |
+| 2023 冬 | [别当哥哥了！](Archive/Onii-chan%20wa%20Oshimai%21) | Onii-chan wa Oshimai! | 中日 | 12 | 与 **熔岩动画Sub** 联合制作 |
+| 2023 冬 | [变成狗后被喜欢的人捡了。](Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta) | Inu ni Nattara Suki na Hito ni Hirowareta. | 中日 | 12+OVA |  |
+| 2023 春 | [跃动青春](Archive/Skip%20to%20Loafer) | Skip to Loafer | 中日 |  | 更新中 |
+| 2023 春 | [总之就是非常可爱 第二季](Archive/Tonikaku%20Kawaii%20S2) | Tonikaku Kawaii S2 | 中字 |  | 更新中 |
+| 2023 春 | [为美好的世界献上爆焰！](Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo%21) | Kono Subarashii Sekai ni Bakuen wo! | 中日 |  | 更新中；与 **北宇治字幕组** 联合制作 |
