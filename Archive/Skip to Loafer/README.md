@@ -3,8 +3,8 @@
 # 跃动青春 / Skip to Loafer
 | 剧集 | 对应片源 | 字幕 |
 | ---- | -------- | ---- |
-| 01 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B01%5D.CHS_JPN.ass)　繁日 |
-| 02 | Web |  |
+| 01 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B01%5D.CHT_JPN.ass) |
+| 02 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B02%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B02%5D.CHT_JPN.ass) |
 
 # Staff
 **翻译：** Ming　Xeryon
