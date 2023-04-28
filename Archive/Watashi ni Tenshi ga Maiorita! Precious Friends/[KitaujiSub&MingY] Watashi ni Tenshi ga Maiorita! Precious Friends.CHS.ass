@@ -1,5 +1,5 @@
 ﻿[Script Info]
-Title: [KitaujiSub&MingY] Watashi ni Tenshi ga Maiorita! Precious Friends.BD.CHS
+Title: [KitaujiSub&MingY] Watashi ni Tenshi ga Maiorita! Precious Friends.CHS
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 804
@@ -13,7 +13,7 @@ Style: INJP,Sarasa Gothic J Semibold,52,&H00FFFFFF,&H000000FF,&H00C78A00,&H006F4
 Style: INCN,更纱黑体 SC Semibold,52,&H00FFFFFF,&H000000FF,&H006F43E7,&H00BB765D,0,0,0,0,104,100,4,0,1,3,0,2,20,20,20,1
 Style: EDJP,FOT-PopHappiness Std EB,48,&H00539CF3,&H00FFFFFF,&H00FFFFFF,&H00DCB4FF,0,0,0,0,100,100,4.5,0,1,2.99,0,8,0,860,83,1
 Style: EDCN,方正标致简体,42,&H00539CF3,&H00FFFFFF,&H00FFFFFF,&H00DCB4FF,0,0,0,0,100,100,5,0,1,2.99256,0,2,0,860,83,1
-Style: Staff,更纱黑体 SC Semibold,46,&H00FFFFFF,&H000000FF,&H00000000,&H00434343,0,0,0,0,100,100,0.5,0,1,0,1.8,1,36,36,-111,1
+Style: Staff,更纱黑体 SC Semibold,46,&H00FFFFFF,&H000000FF,&H00000000,&H00434343,0,0,0,0,100,99,0.5,0,1,0,1.8,1,36,36,-111,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -28,8 +28,8 @@ Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,template syl notext noblank,!retime
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template syl noblank,!retime("syl2end",-80-$sdur,0)!{\an5\pos(!$center!,!$middle!)}{\fr!math.random(-100,100)/10!\c!OP_color[math.random(1,5)]!\fscx35\fscy35\t(0,180,\fscx!math.random(120,140)!\fscy!math.random(120,145)!)\t(220,350,\fscx100\fscy100)\t(200,450,\3a00)\t(!line.duration-200!,!line.duration!,\fscx30\fscy30\fr!math.random(-90,90)!\bord.7)}
 Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,template syl notext noblank,!retime("presyl",math.random(-50,30)-350,math.random(-55,-25))!{\fad(80,0)\an5\pos(!$center+math.random(-15,15)!,!$middle+math.random(-5,5)!)}{\fr!math.random(40,90)*(-1)^math.random(1,2)!\c!OP_color[math.random(1,5)]!\fscx55\fscy55\t(0,160,\fscx!math.random(130,150)!\fscy!math.random(130,155)!)\t(190,320,\fscx80\fscy80)}{\p1}!flower_shape!
 Comment: 0,0:00:00.00,0:00:00.00,INJP,,0,0,0,template noblank syl,!retime("start2syl",($si-1)*60-200,$sdur)!{\pos($x,$y)\1c&H7263FF&\3c&HFFFFFF&\blur4\fad(500,0)}{\t(!line.duration-$sdur-200!,!line.duration-200!,\1c&HFFFFFF&\3c&H7263FF&)}
-Comment: 0,0:52:40.89,0:52:50.48,INJP,,0,0,0,template noblank syl,!retime("syl2end",0,($si-1)*60)!{\pos($x,$y)\blur4\fad(0,500)\3c&H7263FF&\t(100,900,1.6,\3c&HC78A00&)}
-Comment: 0,0:52:50.48,0:52:52.48,INCN,,0,0,0,template noblank syl,!retime("start2syl",($si-1)*60-200,$sdur)!{\pos($x,$y)\1c&H7263FF&\3c&HFFFFFF&\blur4\fad(500,0)}{\t(!line.duration-$sdur-200!,!line.duration-200!,\1c&HFFFFFF&\3c&H7263FF&)}
+Comment: 0,0:00:00.00,0:00:00.00,INJP,,0,0,0,template noblank syl,!retime("syl2end",0,($si-1)*60)!{\pos($x,$y)\blur4\fad(0,500)\3c&H7263FF&\t(100,900,1.6,\3c&HC78A00&)}
+Comment: 0,0:00:00.00,0:00:00.00,INCN,,0,0,0,template noblank syl,!retime("start2syl",($si-1)*60-200,$sdur)!{\pos($x,$y)\1c&H7263FF&\3c&HFFFFFF&\blur4\fad(500,0)}{\t(!line.duration-$sdur-200!,!line.duration-200!,\1c&HFFFFFF&\3c&H7263FF&)}
 Comment: 0,0:00:00.00,0:00:00.00,INCN,,0,0,0,template noblank syl,!retime("syl2end",0,($si-1)*60)!{\pos($x,$y)\blur4\fad(0,500)\3c&H7263FF&\t(100,900,1.6,\3c&HC78A00&)}
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank,!retime("line",-250,-250)!{\move($x,!$y+10!,$x,$y,0,700)\clip(0,!$bottom+5!,1920,!$bottom+5!)\t(0,700,\clip(0,!$ltop-5!,1920,!$bottom+5!))}
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,template line noblank,!retime("line",$ldur-250,500)!{\move($x,$y,$x,!$y-10!,0,700)\clip(0,!$ltop-5!,1920,!$bottom+5!)\t(0,700,\clip(0,!$ltop-5!,1920,!$ltop-5!))}
@@ -324,8 +324,8 @@ Dialogue: 0,0:01:05.90,0:01:07.89,Default,,0,0,0,,{\an7\fad(200,200)\fs40}※ �
 Dialogue: 0,0:28:37.48,0:28:39.79,Default,,0,0,0,,{\pos(756,35)\fad(200,200)\fs29\fnFOT-Seurat ProN DB}ひとつぶ
 Dialogue: 0,0:28:37.48,0:28:39.79,Default,,0,0,0,,{\pos(1402,35)\fad(200,200)\fs29\fnFOT-Seurat ProN DB}ぶどう
 Dialogue: 0,0:28:37.48,0:28:39.79,Default,,0,0,36,,{\an7\fad(200,200)\fs40}※ 原句为：{\fnFOT-Seurat ProN DB\fscx110\fscy110}「葡萄一粒どう」{\fn\fscx\fscy}，其中日语{\fnFOT-Seurat ProN DB\fscx110\fscy110}「一粒」{\fn\fscx\fscy}的后一个音与{\fnFOT-Seurat ProN DB\fscx110\fscy110}「どう」{\fn\fscx\fscy}连读谐音{\fnFOT-Seurat ProN DB\fscx110\fscy110}「葡萄」{\fn\fscx\fscy}。
-Dialogue: 0,0:33:29.28,0:33:30.32,Default,,0,0,0,,{\pos(938,734)\fs35.911}Heaven
-Dialogue: 0,0:33:30.32,0:33:32.32,Default,,0,0,0,,{\pos(1055,734)\fs35.911}Paradise
+Dialogue: 0,0:33:29.28,0:33:30.32,Default,,0,0,0,,{\pos(938,734)\fs35.9}Heaven
+Dialogue: 0,0:33:30.32,0:33:32.32,Default,,0,0,0,,{\pos(1055,734)\fs35.9}Paradise
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,------ Dialogue ------
 Dialogue: 0,0:00:17.02,0:00:18.76,Default,,0,0,0,,剪刀石头布！
 Dialogue: 0,0:00:19.07,0:00:20.44,Default,,0,0,0,,我赢啦！

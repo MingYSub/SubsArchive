@@ -3,7 +3,8 @@
 # 天使降临到了我身边！Precious Friends / Watashi ni Tenshi ga Maiorita! Precious Friends
 | 对应片源 | 字幕 |
 | -------- | ---- |
-| Web | [简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHT.ass) |
+| BD(1920x804) | [简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHT.ass) |
+| BD(1920x1080) | [简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHS_1080.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends/%5BKitaujiSub%26MingY%5D%20Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends.CHT_1080.ass) |
 
 # Staff
 本字幕与 **北宇治字幕组** 联合制作
