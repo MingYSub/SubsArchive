@@ -26,7 +26,7 @@
 注：繁化由 [OpenCC](https://github.com/BYVoid/OpenCC) 完成。
 
 # 所需字体
-[字体下载](https://pan.baidu.com/s/1yH_oM4_D0aF5xzvfoj6nEg?pwd=1234)
+[字体下载（百度网盘）](https://pan.baidu.com/s/1uUycTTHG0MhRDiE--QtxZw?pwd=1234) [字体下载（蓝奏云）][https://wwp.lanzoup.com/i9MKQ0u8k1yj]
 
 ```
 FOT-Popジョイ Std B <FOT-PopJoy Std B>
@@ -43,5 +43,5 @@ FOT-スーラ ProN DB <FOT-Seurat ProN DB>
 更紗黑體 TC Semibold <Sarasa Gothic TC Semibold>
 華康POP2體 Std W9 <DFPOP2 Std W9>
 華康方圓體W7(P) <DFPFangYuanW7-B5>
-文鼎特甜妞体 <AR TianNiuGB HV>
+文鼎特甜妞体 <AR TianniuGB Heavy>
 ```
