@@ -35,8 +35,12 @@ A-OTF UD新ゴ Pr6N M <A-OTF UD Shin Go Pr6N M>
 Candara Bold
 EPSON 太丸ゴシック体Ｂ
 FOT-ベビポップ Std EB <FOT-BabyPop Std EB>
+方正FW童趣POP体 简 <FZFW TongQu POPTiS>
+方正标致简体 <FZBiaoZhiS-R-GB>
+方正兰亭圆_GBK_粗 <FZLanTingYuan-B-GBK>
 方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
-汉仪跳跳体简 <HYTiaoTiaoTiJ>
+方正喵呜_GBK <FZMiaoWu-GBK>
+汉仪喵魂体W <HYMiaoHunTiW>
 華康平劇體W7 <DFPingJuW7-B5>
 華康平劇體W7(P) <DFPPingJuW7-B5>
 森泽UD新黑 Gb4 M <MO UDShinGo SC Gb4 M>
