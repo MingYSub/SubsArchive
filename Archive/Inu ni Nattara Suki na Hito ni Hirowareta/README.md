@@ -28,7 +28,7 @@
 注：繁化由 [繁化姬](https://zhconvert.org) 完成。
 
 # 所需字体
-字体下载（将在完成全部字幕后提供网盘链接）
+[字体下载（蓝奏云）](https://wwp.lanzoup.com/iPPN70w4gh0f)　[字体下载（百度网盘）](https://pan.baidu.com/s/1fnfd2Lk1Wa39_JXHZpX-6A?pwd=1234)
 
 ```
 A-OTF UD新ゴ Pr6N M <A-OTF UD Shin Go Pr6N M>
