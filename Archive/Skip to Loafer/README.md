@@ -13,6 +13,8 @@
 | 08 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B08%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B08%5D.CHT_JPN.ass) |
 | 09 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B09%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B09%5D.CHT_JPN.ass) |
 | 10 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B10%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B10%5D.CHT_JPN.ass) |
+| 11 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B11%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B11%5D.CHT_JPN.ass) |
+| 12 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B12%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Skip%20to%20Loafer/%5BMingY%5D%20Skip%20to%20Loafer%20%5B12%5D.CHT_JPN.ass) |
 
 # Staff
 **翻译：** Ming　Xeryon　狐狸哟　小圆香径独徘徊　HL
@@ -32,8 +34,6 @@
 A-OTF UD新ゴ Pr6N M <A-OTF UD Shin Go Pr6N M>
 FOT-つばめ Std R <FOT-Tsubame Std R>
 FOT-ベビポップ Std EB <FOT-BabyPop Std EB>
-Times New Roman
-Times New Roman Italic
 たぬゴ角 太 <Tanugo-S Bold>
 方正FW童趣POP体 简 <FZFW TongQu POPTiS>
 方正FW珍珠体 简繁 <FZFW-ZHENZTJF-L>
@@ -48,7 +48,6 @@ Times New Roman Italic
 方正兰亭圆_GBK_中 <FZLanTingYuan-DB-GBK>
 方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
 方正兰亭圆_GBK_准 <FZLanTingYuan-M-GBK>
-方正屏显雅宋_GBK <FZPingXianYaSong-R-GBK>
 方正少儿_GBK <FZShaoEr-M11>
 方正细雅宋_GBK <FZYaSong-L-GBK>
 方正正粗黑_GBK <FZZhengHei-B-GBK>
