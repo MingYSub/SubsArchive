@@ -38,6 +38,8 @@
 | 2022 秋 | [天使降临到了我身边！Precious Friends](Archive/Watashi%20ni%20Tenshi%20ga%20Maiorita%21%20Precious%20Friends) | Watashi ni Tenshi ga Maiorita! Precious Friends | 中字 | 剧场版 | 与 **北宇治字幕组** 联合制作 |
 | 2023 冬 | [别当哥哥了！](Archive/Onii-chan%20wa%20Oshimai%21) | Onii-chan wa Oshimai! | 中日 | 12 | 与 **熔岩动画Sub** 联合制作 |
 | 2023 冬 | [变成狗后被喜欢的人捡了。](Archive/Inu%20ni%20Nattara%20Suki%20na%20Hito%20ni%20Hirowareta) | Inu ni Nattara Suki na Hito ni Hirowareta. | 中日 | 12 + OVA |  |
-| 2023 春 | [跃动青春](Archive/Skip%20to%20Loafer) | Skip to Loafer | 中日 |  | 更新中 |
-| 2023 春 | [总之就是非常可爱 第二季](Archive/Tonikaku%20Kawaii%20S2) | Tonikaku Kawaii S2 | 中字 |  | 更新中 |
-| 2023 春 | [为美好的世界献上爆焰！](Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo%21) | Kono Subarashii Sekai ni Bakuen wo! | 中日 |  | 更新中；与 **北宇治字幕组** 联合制作 |
+| 2023 春 | [跃动青春](Archive/Skip%20to%20Loafer) | Skip to Loafer | 中日 | 12 |  |
+| 2023 春 | [总之就是非常可爱 第二季](Archive/Tonikaku%20Kawaii%20S2) | Tonikaku Kawaii S2 | 中字 | 12 |  |
+| 2023 春 | [为美好的世界献上爆焰！](Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo%21) | Kono Subarashii Sekai ni Bakuen wo! | 中日 | 12 | 与 **北宇治字幕组** 联合制作 |
+| 2023 夏 | [喜欢的人忘记戴眼镜了](Archive/Suki%20na%20Ko%20ga%20Megane%20wo%20Wasureta) | Suki na Ko ga Megane wo Wasureta | 中日 |  | 更新中 |
+| 2023 夏 | [DIY部！！（电视剧）](Archive/Dorama-DIY) | DIY!! Do It Yourself | 中日 |  | 更新中；电视剧 |
