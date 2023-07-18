@@ -1,15 +1,23 @@
 # 为美好的世界献上爆焰！ / Kono Subarashii Sekai ni Bakuen wo!
 | 剧集 | 对应片源 | 字幕 |
 | ---- | -------- | ---- |
-| 01 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B01%5D.CHT_JPN.ass) |
-| 02 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B02%5D.CHS_JP.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B02%5D.CHT_JP.ass) |
-| 03 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B03%5D.CHS_JP.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B03%5D.CHT_JP.ass) |
-| 04 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B04%5D.CHS_JP.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B04%5D.CHT_JP.ass) |
-| 05 | Web |  |
+| 01 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B01%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B01%5D.CHT_JPN.ass) |
+| 02 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B02%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B02%5D.CHT_JPN.ass) |
+| 03 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B03%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B03%5D.CHT_JPN.ass) |
+| 04 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B04%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B04%5D.CHT_JPN.ass) |
+| 05 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B05%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B05%5D.CHT_JPN.ass) |
+| 06 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B06%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B06%5D.CHT_JPN.ass) |
+| 07 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B07%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B07%5D.CHT_JPN.ass) |
+| 08 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B08%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B08%5D.CHT_JPN.ass) |
+| 09 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B09%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B09%5D.CHT_JPN.ass) |
+| 10 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B10%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B10%5D.CHT_JPN.ass) |
+| 11 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B11%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B11%5D.CHT_JPN.ass) |
+| 12 | Web | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B12%5D.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!/%5BKitaujiSub%26MingY%5D%20Kono%20Subarashii%20Sekai%20ni%20Bakuen%20wo!%20%5B12%5D.CHT_JPN.ass) |
+
 # Staff
 本字幕与 **北宇治字幕组** 联合制作
 
-**翻译：** last order　琉璃繪　pluviophile
+**翻译：** last order　琉璃繪　pluviophile　平原
 
 **时轴：** Autism　加尔
 
@@ -17,7 +25,7 @@
 
 **压制：** 一叶
 
-**歌轴：** 伊平
+**歌翻：** 伊平　Ming
 
 **歌轴：** Ming
 
@@ -29,10 +37,13 @@
 字体下载（将在完成全部字幕后提供网盘链接，不包含思源黑体各版本）
 
 ```
+A-OTF UD新ゴ Pr6N M <A-OTF UD Shin Go Pr6N M>
+A-OTF カモライム Std M <A-OTF KamoLime Std M>
 FOT-スーラ ProN DB <FOT-Seurat ProN DB>
-ヒラギノ角ゴ ProN W6 <Hiragino Kaku Gothic ProN W6>
-冬青黑体简体中文 W6 <Hiragino Sans GB W6>
 方正兰亭圆_GBK_大 <FZLanTingYuan-EB-GBK>
 方正兰亭圆_GBK_中 <FZLanTingYuan-DB-GBK>
+方正屏显雅宋_GBK <FZPingXianYaSong-R-GBK>
 黒薔薇シンデレラ <kurobara-cinderella>
+森泽UD新黑 Gb4 M <MO UDShinGo SC Gb4 M>
+森澤UD新黑 標準繁體 M
 ```
