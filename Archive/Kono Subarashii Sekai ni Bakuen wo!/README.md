@@ -1,3 +1,5 @@
+![海报](Poster.jpg)
+
 # 为美好的世界献上爆焰！ / Kono Subarashii Sekai ni Bakuen wo!
 | 剧集 | 对应片源 | 字幕 |
 | ---- | -------- | ---- |

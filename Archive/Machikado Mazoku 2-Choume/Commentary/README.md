@@ -1,7 +1,7 @@
 # 街角魔族 2丁目 评论音轨 / Machikado Mazoku 2-Choume Commentary
 | 剧集 | 字幕 |
 | ---- | ---- |
-| 01 | [简体](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary.CHS.ass)　繁體　[简体（含动画字幕）](https://raw.githubusercontent.com/MingYSub/SubArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary_Anime.CHS.ass) |
+| 01 | [简体](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary.CHS.ass)　繁體　[简体（含动画字幕）](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary_Anime.CHS.ass) |
 | 06 | 简体　繁體 |
 | 08 | 简体　繁體 |
 | 12 | 简体　繁體 |
