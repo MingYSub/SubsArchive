@@ -1,3 +1,5 @@
+![Poster](Poster.jpg)
+
 # 喜欢的人忘记戴眼镜了 / Suki na Ko ga Megane wo Wasureta 
 | 剧集 | 对应片源 | 字幕 |
 | ---- | -------- | ---- |
