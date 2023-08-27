@@ -3,6 +3,11 @@ Title: [MingY] Skip to Loafer [10].CHS_JPN
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -54,7 +59,7 @@ Comment: 0,0:00:00.00,0:00:00.00,EDJP,B,0,0,0,template syl noblank fxgroup B,!re
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code once all,function round(num, d) d = d or 0 return math.floor(num*10^d)/10^d end  function f(t, d) return round(-math.sin(t/d*(math.pi/2)), 2) end framedur=(_G.aegisub.ms_from_frame(101)-_G.aegisub.ms_from_frame(1))/100
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code syl once,function smooth_move(x1, y1, x2, y2, st, et) st = st or 0  et = et or 0  dur = (et-st~=0) and (et-st) or line.duration-syl.start_time  if j==1 then maxloop(round(dur/framedur)+2) end if j==maxj-1 then retime("line",syl.start_time,syl.start_time+st-line.duration) return _G.table.concat({"{\\pos(", x1, ",", y1, ")}"}) elseif j==maxj then retime("line",syl.start_time+st+(maxj-2)*framedur,0) return _G.table.concat({"{\\pos(", x2, ",", y2, ")}"}) end retime("line",syl.start_time+(j-1)*framedur+st,syl.start_time+(j)*framedur-line.duration+st)  return _G.table.concat({"{\\pos(", x1+f(j, maxj-2)*(x1-x2), ",", y1+f(j, maxj-2)*(y1-y2), ")}"}) end
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code once,function frame_fad(alpha1, alpha2) if j==maxj-1 then return _G.table.concat({"{\\alpha", _G.ass_alpha(alpha1), "}"}) elseif j==maxj then return _G.table.concat({"{\\alpha", _G.ass_alpha(alpha2), "}"}) end return _G.table.concat({"{\\alpha", _G.ass_alpha(alpha1+f(j, maxj-2)*(alpha1-alpha2)), "}"})  end
-Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code once all,{=1441}function end_tag(tags, expand) expand = expand or 0 if j==maxj then if expand>0 then retime("line",0,expand) end return _G.table.concat({"{", tags, "}"}) end return "" end
+Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code once all,function end_tag(tags, expand) expand = expand or 0 if j==maxj then if expand>0 then retime("line",0,expand) end return _G.table.concat({"{", tags, "}"}) end return "" end
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,,0,0,0,code once all,shape_star="m 21 4 b 20 9 15 13 9 14 b 15 16 20 19 21 24 b 22 19 27 16 33 14 b 27 13 22 9 21 4" star_color={"\\c&HFFDBFF&\\3c&HE5ACF4&","\\c&H89FFFB&\\3c&H7DD68D&"}
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,C,0,0,0,template syl noblank fxgroup C,!relayer(1)!!smooth_move($x+86,$y,$x+60,$y,-200,50+$sdur/2)!!frame_fad(255,0)!!end_tag("\\fad(0,600)",350)!{\3c&H7BB3FD&\blur5}
 Comment: 0,0:00:00.00,0:00:00.00,EDJP,C,0,0,0,template syl noblank fxgroup C,!relayer(2)!!smooth_move($x+86,$y,$x+60,$y,-200,50+$sdur/2)!!frame_fad(255,0)!!end_tag("\\fad(0,600)",350)!
@@ -174,33 +179,23 @@ Comment: 0,0:06:29.99,0:06:32.99,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs50\
 Comment: 0,0:06:32.99,0:06:37.66,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs50\bord4\c&H2D302D&\3c&HFCFFFC&\pos(966,890)}灯光  音响
 Comment: 0,0:06:37.66,0:06:40.92,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs50\bord4\c&H2D302D&\3c&HFCFFFC&\pos(966,890)}会计
 Dialogue: 0,0:06:40.92,0:06:45.17,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs50\bord4\c&H2D302D&\3c&HFCFFFC&\pos(966,890)}广告宣传
-Dialogue: 0,0:07:00.07,0:07:03.32,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(485,592)}莱拉\N（浅野諒子）
+Dialogue: 0,0:07:00.07,0:07:03.32,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(485,592)}莱拉\N（浅野谅子）
 Dialogue: 0,0:07:03.44,0:07:06.95,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(960,832)}修道院长\N（江头美香）
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(1588.8,172.8,2902.71,172.8,28,5742)}Eldest Son\NEnomoto Tomoki
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(985.2,172.8,2299.11,172.8,28,5742)}Eldest Daughter\NNagata Youka
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(583.2,172.8,1897.11,172.8,28,5742)}Second Son\NSuda Shunya
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\fscx90\c&H3A413E&\3c&HFCFFFC&\move(210,172.8,1523.91,172.8,28,5742)}Second Daughter\NMotobayashi Yukina
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(-134.31,172.8,1089.6,172.8,28,5742)}Third Daughter\NTamaki Hikari
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(-496.71,172.8,727.2,172.8,28,5742)}Fourth Daughter\NMine Asuka
-Comment: 0,0:07:17.20,0:07:22.96,CN,,0,0,0,,{\bord9\fs42\c&H3A413E&\3c&HFCFFFC&\move(-849.51,172.8,374.4,172.8,28,5742)}Fifth Daughter\NKoshiba Nene
 Dialogue: 0,0:07:25.71,0:07:29.47,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(426,785)}上校\N（桥本拓海）
 Dialogue: 0,0:07:29.97,0:07:31.72,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(1540,750)}上校的未婚妻\N（城崎麻由里）
 Dialogue: 0,0:07:29.97,0:07:31.72,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(620,648)}管家\N（山田健斗）
 Dialogue: 0,0:07:37.97,0:07:39.98,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(1546,810)}上校的侄女艾米莉亚\N（木之本小春）
 Dialogue: 0,0:07:44.98,0:07:47.11,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fs40\bord4\c&H2D302D&\3c&HFCFFFC&\pos(614,690)}园丁约翰\N（志摩聪介）
-Comment: 0,0:08:11.01,0:08:14.76,CN,,0,0,0,,{\bord9\fs48\c&H3A413E&\3c&HFCFFFC&\pos(376.8,818.4)}Also Directing
 Dialogue: 0,0:08:42.37,0:08:46.75,CN,,0,0,0,,{\fad(650,0)\bord2\fsp5\fs56\fn方正兰亭圆_GBK_中\c&H5CF3BD&\pos(702,774)\3c&H52B476&}和平条约
-Comment: 0,0:11:15.19,0:11:19.19,CN,,0,0,0,,{\fs36\bord6\c&H7D919B&\3c&HD4ECEF&\frz-10.35\move(1545.6,253.2,1542.48,-46.14,26,3988)}Tsubame West High School Festival\NPopularity Vote Ballot
-Comment: 0,0:13:16.99,0:13:19.48,CN,,0,0,0,,{\bord6\fnTimes New Roman\fs48\c&H3E4F5B&\3c&HCDE7EC&\pos(561.6,115.2)}Kanade: "Fireflies can only be seen at night, right?"
 Dialogue: 0,0:15:08.55,0:15:10.55,CN,,0,0,0,,{\an7\fs40\fn方正兰亭圆_GBK_中\bord3\yshad3\c&H5056BB&\3c&HD7D1CB&\4c&HD7D1CB&\pos(778,525)}橘子果冻\N果汁
 Dialogue: 0,0:21:06.82,0:21:09.20,CN - Top,,0,0,0,,{\fad(650,0)\blur3\fsp5\t(28,650,\blur0.6)\fs55\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&HD7A480&}文化节{\bord0\c&HD4D8CC&}还有{\c&H8BE7CC&}30{\c&HD4D8CC&}天！
 Dialogue: 0,0:21:23.34,0:21:24.88,CN,,0,0,0,,{\bord4\fn方正兰亭圆_GBK_中\fs50\c&HB3E0F7&\3c&H20292A&\pos(1696,582)}8\N月\N生\N日
 Dialogue: 0,0:21:24.88,0:21:29.89,CN - Top,,0,0,0,,{\fs55\fsp5\bord2\an8\c&H2625F2&\pos(944,18)\3c&H162A42&}眼镜蛇盘绕
-Dialogue: 0,0:21:29.89,0:21:37.90,CN,,0,0,0,,{\fad(0,2000)\t(650,1050,\alpha80)\t(4400,4800,\alpha00)\t(5050,5450,\alpha80)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0\pos(1064,230)}{\c&HD4D8CC&}距离{\bord4\3c&HD7A480&}文化节{\bord0\c&HD4D8CC&}还有{\c&HB5B8DD&\bord2\3cF0F0F0}28{\bord0\c&HD4D8CC&}天！
-Dialogue: 0,0:21:35.98,0:21:45.87,CN,,0,0,0,,{\fad(2000,2000)\alpha80\t(2600,3000,\alpha00)\t(3200,3600,\alpha80)\t(6700,7100,\alpha00)\t(7350,7750,\alpha80)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0\pos(1064,230)}{\c&HD4D8CC&}距离{\bord4\3c&HD7A480&}文化节{\bord0\c&HD4D8CC&}还有{\c&HB0E2B2&\b1}27{\b0\c&HD4D8CC&}天！
-Dialogue: 0,0:21:43.95,0:21:55.09,CN,,0,0,0,,{\fad(2000,2000)\alpha80\t(3100,3500,\alpha00)\t(3750,4150,\alpha80)\t(7500,7900,\alpha00)\t(8150,8450,\alpha80)\pos(856,310)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&HBC9A7D&\b1}22{\b0\c&HD4D8CC&}天！
-Dialogue: 0,0:21:53.42,0:22:00.59,CN,,0,0,0,,{\fad(2000,1000)\alpha80\t(2550,2950,\alpha00)\t(3150,3550,\alpha80)\pos(368,220)}{\fsp5\fs65\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&H8CC7D4&\b1\bord3\3cF0F0F0}1{\c&HB6AB7A&}8{\bord0\b0\c&HD4D8CC&}天！
-Dialogue: 0,0:21:58.88,0:22:04.60,CN,,0,0,0,,{\fad(1000,0)\alpha80\t(950,1350,\alpha00)\t(1600,2000,\alpha80)\t(4400,4800,\alpha00)\pos(368,220)}{\fsp5\fs65\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&HCB89AF&\b1\bord3\3cF0F0F0}7{\bord0\b0\c&HD4D8CC&}天！
+Dialogue: 0,0:21:29.89,0:21:37.90,CN,,0,0,0,,{\fad(0,2000)\t(650,1050,\alpha90)\t(4400,4800,\alpha00)\t(5050,5450,\alpha90)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0\pos(1064,230)}{\c&HD4D8CC&}距离{\bord4\3c&HD7A480&}文化节{\bord0\c&HD4D8CC&}还有{\c&HB5B8DD&\bord2\3cF0F0F0}28{\bord0\c&HD4D8CC&}天！
+Dialogue: 0,0:21:35.98,0:21:45.87,CN,,0,0,0,,{\fad(2000,2000)\alpha90\t(2600,3000,\alpha00)\t(3200,3600,\alpha90)\t(6700,7100,\alpha00)\t(7350,7750,\alpha90)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0\pos(1064,230)}{\c&HD4D8CC&}距离{\bord4\3c&HD7A480&}文化节{\bord0\c&HD4D8CC&}还有{\c&HB0E2B2&\b1}27{\b0\c&HD4D8CC&}天！
+Dialogue: 0,0:21:43.95,0:21:55.09,CN,,0,0,0,,{\fad(2000,2000)\alphaA0\t(3100,3500,\alpha00)\t(3750,4150,\alphaA0)\t(7500,7900,\alpha00)\t(8150,8450,\alphaA0)\pos(856,310)}{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&HBC9A7D&\b1}22{\b0\c&HD4D8CC&}天！
+Dialogue: 0,0:21:53.42,0:22:00.59,CN,,0,0,0,,{\fad(2000,1000)\alphaA0\t(2550,2950,\alpha00)\t(3150,3550,\alphaA0)\pos(368,220)}{\fsp5\fs65\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&H8CC7D4&\b1\bord3\3cF0F0F0}1{\c&HB6AB7A&}8{\bord0\b0\c&HD4D8CC&}天！
+Dialogue: 0,0:21:58.88,0:22:04.60,CN,,0,0,0,,{\fad(1000,0)\alphaA0\t(950,1350,\alpha00)\t(1600,2000,\alphaA0)\t(4400,4800,\alpha00)\pos(368,220)}{\fsp5\fs65\fn方正兰亭圆_GBK_中\an8\bord0}{\c&HD4D8CC&}距离{\bord4\3c&H8DDED3&\c&H6AA399&}文化节{\bord0\c&HD4D8CC&}还有{\c&HCB89AF&\b1\bord3\3cF0F0F0}7{\bord0\b0\c&HD4D8CC&}天！
 Dialogue: 0,0:23:10.66,0:23:13.66,CN,,0,0,0,,{\fs60\fn方正中雅宋_GBK\c&H4495E9&\bord0\shad2\4c&H126D4C&\move(1065,484,1065,296)}家庭演唱团
 Dialogue: 0,0:23:15.67,0:23:17.92,CN - Top,,0,0,0,,{\fsp5\fs55\fn方正兰亭圆_GBK_中\an8\bord2}{\c&HE3E6DA&\3c&H64665D&}距离{\bord4\3c&HDFA9A2&}文化节{\bord2\c&HE3E6DA&\3c&H64665D&}还有{\c&H86D6CE&\bord0\fn方正兰亭圆_GBK_特}1{\fn方正兰亭圆_GBK_中\bord2\c&HE3E6DA&\3c&H64665D&}天！
 Comment: 0,0:23:34.64,0:23:39.98,CN,,0,0,0,,{\fs36\bord6\fnArial Black\c&HBCA9E9&\3c&HF6FAF6&\pos(998.4,411.6)}燕西高中文化节
@@ -211,7 +206,7 @@ Comment: 0,0:08:59.74,0:09:02.39,CN,,0,0,20,,{\an7}注：文化节的魔力，�
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
 Dialogue: 1,0:00:00.83,0:00:04.13,CN,,0,0,0,,燕西高中的文化节十分盛大
 Dialogue: 1,0:00:04.13,0:00:06.81,CN,,0,0,0,,执行委员花了一年时间准备
-Dialogue: 1,0:00:06.81,0:00:09.98,CN,,0,0,0,,各个社团和兴趣小组都有展示和演讲
+Dialogue: 1,0:00:06.81,0:00:09.98,CN,,0,0,0,,各个社团和兴趣小组都有展示和演出
 Dialogue: 1,0:00:09.98,0:00:12.53,CN,,0,0,0,,高一高二的每个班级都会策划活动或节目
 Dialogue: 1,0:00:12.53,0:00:15.80,CN,,0,0,0,,高三的同学也可以自愿参加商品销售
 Dialogue: 1,0:00:15.80,0:00:21.17,CN,,0,0,0,,我所在的学生会和会计部以及器材部进行了多次协商
@@ -273,7 +268,7 @@ Dialogue: 1,0:04:39.92,0:04:42.67,CN,,0,0,0,,但总会有难以克服的事情�
 Dialogue: 1,0:04:42.67,0:04:44.51,CN,,0,0,0,,不只你自己会很辛苦
 Dialogue: 1,0:04:44.51,0:04:47.05,CN,,0,0,0,,关心你的人也都会注意到
 Dialogue: 1,0:04:47.05,0:04:48.98,CN,,0,0,0,,感觉和你之间有一条界限
-Dialogue: 1,0:04:50.01,0:04:53.24,CN,,0,0,0,, 从今天开始  我们要在中午和放学后排练
+Dialogue: 1,0:04:50.01,0:04:53.24,CN,,0,0,0,,从今天开始  我们要在中午和放学后排练
 Dialogue: 1,0:04:53.24,0:04:54.43,CN,,0,0,0,,我说
 Dialogue: 1,0:04:53.24,0:04:56.83,CN - Top,,0,0,0,,如果大家对各自的角色有任何想法
 Dialogue: 1,0:04:56.83,0:04:58.96,CN - Top,,0,0,0,,请尽管说  我想要表演更有趣些
@@ -312,7 +307,7 @@ Comment: 1,0:06:16.17,0:06:17.77,CN,,0,0,0,,诶…
 Dialogue: 1,0:06:23.38,0:06:24.79,CN,,0,0,0,,那个位置笔直地锯开
 Dialogue: 1,0:06:24.79,0:06:26.11,CN,,0,0,0,,了解
 Dialogue: 1,0:06:26.11,0:06:28.35,CN,,0,0,0,,抱歉  拿一下白色的颜料
-Dialogue: 1,0:06:28.35,0:06:29.99,CN,,0,0,0,,没关系  稍等一下
+Dialogue: 1,0:06:28.35,0:06:29.99,CN,,0,0,0,,好的  稍等一下
 Dialogue: 1,0:06:32.99,0:06:35.49,CN,,0,0,0,,这个时候一下子把灯打开
 Dialogue: 1,0:06:35.49,0:06:37.28,CN,,0,0,0,,音量也一下子提高的话怎么样？
 Dialogue: 1,0:06:40.92,0:06:42.94,CN,,0,0,0,,这些能发完吗
@@ -369,7 +364,7 @@ Dialogue: 1,0:09:08.41,0:09:09.81,CN,,0,0,0,,沾上颜料了
 Dialogue: 1,0:09:09.81,0:09:11.61,CN,,0,0,0,,我去拿些纸板
 Dialogue: 1,0:09:12.64,0:09:14.53,CN,,0,0,0,,看起来很有趣呢
 Dialogue: 1,0:09:15.15,0:09:18.19,CN,,0,0,0,,到了高三就没有班级的节目了
-Dialogue: 1,0:09:18.19,0:09:20.85,CN,,0,0,0,,就只剩下今年和明年了
+Dialogue: 1,0:09:18.19,0:09:20.85,CN,,0,0,0,,所以就只剩下今年和明年了
 Dialogue: 1,0:09:20.85,0:09:22.55,CN,,0,0,0,,虽然参与组织也很有趣
 Dialogue: 1,0:09:22.55,0:09:25.29,CN,,0,0,0,,但我也想参与其他的事情
 Dialogue: 1,0:09:26.17,0:09:28.22,CN,,0,0,0,,这部分不能删减
@@ -393,7 +388,7 @@ Dialogue: 1,0:10:05.90,0:10:09.70,CN,,0,0,0,,但昨天还带着宣传册回家�
 Dialogue: 1,0:10:09.70,0:10:11.50,CN,,0,0,0,,有点困了
 Dialogue: 1,0:10:12.28,0:10:13.25,CN,,0,0,0,,小心！
 Dialogue: 1,0:10:13.56,0:10:14.63,CN,,0,0,0,,没事吧？
-Dialogue: 1,0:10:16.20,0:10:19.87,CN,,0,0,0,,喂  这上面有钉子  小心一点啊
+Dialogue: 1,0:10:16.22,0:10:19.87,CN,,0,0,0,,喂  这上面有钉子  小心一点啊
 Dialogue: 1,0:10:19.87,0:10:21.22,CN,,0,0,0,,对对对…对不起！
 Dialogue: 1,0:10:21.22,0:10:24.44,CN,,0,0,0,,说得对  木材还要规划着用
 Dialogue: 1,0:10:24.44,0:10:26.05,CN,,0,0,0,,如果弄坏了就麻烦了
@@ -435,8 +430,8 @@ Dialogue: 1,0:11:59.43,0:12:02.36,CN,,0,0,0,,昨天不小心睡着了  所以没
 Dialogue: 1,0:12:02.36,0:12:04.11,CN,,0,0,0,,啊  这样啊
 Dialogue: 1,0:12:04.11,0:12:05.66,CN,,0,0,0,,那也没办法
 Dialogue: 1,0:12:05.66,0:12:09.16,CN,,0,0,0,,搞砸了
-Dialogue: 1,0:12:09.16,0:12:10.65,CN,,0,0,0,,午饭怎么解决
-Dialogue: 1,0:12:10.65,0:12:12.03,CN,,0,0,0,,肚子好饿
+Dialogue: 1,0:12:09.16,0:12:10.65,CN - Top,,0,0,0,,午饭怎么解决
+Dialogue: 1,0:12:10.65,0:12:12.03,CN - Top,,0,0,0,,肚子好饿
 Dialogue: 1,0:12:12.03,0:12:14.03,CN,,0,0,0,,现在还能再看一次
 Dialogue: 1,0:12:14.03,0:12:16.53,CN,,0,0,0,,小美  一起吃午饭吧
 Dialogue: 1,0:12:16.53,0:12:17.79,CN,,0,0,0,,嗯…
@@ -507,12 +502,11 @@ Dialogue: 1,0:15:38.70,0:15:42.08,CN,,0,0,0,,志摩同学的约翰演得太棒�
 Dialogue: 1,0:15:43.48,0:15:46.97,CN,,0,0,0,,没有  约翰并不棒吧
 Dialogue: 1,0:15:48.66,0:15:51.67,CN,EP09,0,0,0,,三班的文化节活动决定为戏剧表演
 Dialogue: 1,0:15:52.47,0:15:53.82,CN,EP10,0,0,0,,那就演吧
-Dialogue: 1,0:15:53.82,0:15:55.87,CN,EP10,0,0,0,,这就对了嘛！
-Dialogue: 1,0:15:55.87,0:15:59.02,CN,EP04,0,0,0,,虽然有点对不起学长  但我已经不想演戏了
+Dialogue: 1,0:15:53.82,0:15:55.48,CN,EP10,0,0,0,,{\3c202020\t(1570,1670,\3cFFFFFF)}这就对了嘛！
+Dialogue: 1,0:15:55.48,0:15:59.02,CN,EP04,0,0,0,,{\3cFFFFFF\t(20,300,\3c202020)}虽然有点对不起学长  但我已经不想演戏了
 Dialogue: 1,0:16:00.28,0:16:04.66,CN,EP04,0,0,0,,当时我确实很努力  但不是因为开心…
 Dialogue: 1,0:16:05.66,0:16:08.13,CN,EP04,0,0,0,,我是为了让妈妈高兴才去演戏的
-Comment: 1,0:16:14.23,0:16:16.20,CN,,0,0,0,,
-Comment: 1,0:16:16.91,0:16:18.99,CN,,0,0,0,,志摩…
+Comment: 1,0:16:16.91,0:16:18.99,CN,,0,0,0,,
 Dialogue: 1,0:16:19.45,0:16:21.30,CN,,0,0,0,,嗯？怎么了？
 Dialogue: 1,0:16:21.30,0:16:22.71,CN,,0,0,0,,都弄哭了
 Dialogue: 1,0:16:22.71,0:16:24.17,CN,,0,0,0,,还是个小孩
@@ -544,7 +538,7 @@ Dialogue: 1,0:17:57.27,0:17:58.80,CN,,0,0,0,,不要再受伤了
 Dialogue: 1,0:17:59.91,0:18:03.13,CN,,0,0,0,,能一直保持自己的本色
 Dialogue: 1,0:18:06.79,0:18:10.99,CN,,0,0,0,,但是  你扮演的约翰真的很棒
 Dialogue: 1,0:18:10.99,0:18:14.19,CN,,0,0,0,,和艾米莉亚一起跳舞的场面真的很可爱
-Dialogue: 1,0:18:14.19,0:18:16.44,CN,,0,0,0,,啊…  谢谢你
+Dialogue: 1,0:18:14.19,0:18:16.44,CN,,0,0,0,,嗯…  谢谢你
 Dialogue: 1,0:18:16.44,0:18:21.02,CN,,0,0,0,,明明那么相爱  还会突然告密吗
 Dialogue: 1,0:18:21.02,0:18:23.65,CN,,0,0,0,,约翰就是这样的人呢
 Dialogue: 1,0:18:23.65,0:18:26.45,CN,,0,0,0,,正因为这样  他才会走错路
@@ -552,7 +546,7 @@ Dialogue: 1,0:18:27.87,0:18:30.71,CN,,0,0,0,,但是最后谁也没死
 Dialogue: 1,0:18:30.71,0:18:32.11,CN,,0,0,0,,所以还能回头
 Dialogue: 1,0:18:33.09,0:18:36.97,CN,,0,0,0,,艾米莉亚和我们一样大呢
 Dialogue: 1,0:18:36.97,0:18:40.22,CN,,0,0,0,,约翰也只比我们大一岁
-Dialogue: 1,0:18:40.67,0:18:45.84,CN,,0,0,0,,或许是不愿画出他做出选择的场景吧
+Dialogue: 1,0:18:40.67,0:18:45.84,CN,,0,0,0,,或许是不愿描绘出他做出选择的场景吧
 Dialogue: 1,0:18:48.14,0:18:49.89,CN,,0,0,0,,可能吧
 Dialogue: 1,0:18:51.07,0:18:52.57,CN,,0,0,0,,要试试看吗？
 Comment: 1,0:18:52.57,0:18:53.27,CN,,0,0,0,,诶？
@@ -602,8 +596,8 @@ Dialogue: 1,0:21:26.43,0:21:27.92,CN,,0,0,0,,有…有这么生气吗？
 Dialogue: 1,0:21:27.92,0:21:29.89,CN,,0,0,0,,不  只是想修理你一下
 Dialogue: 1,0:23:17.22,0:23:19.38,CN,,0,0,0,,我先走了  叔父
 Dialogue: 1,0:23:19.38,0:23:20.42,CN,,0,0,0,,嗯
-Dialogue: 1,0:23:20.42,0:23:24.79,CN,,0,0,0,,大家听我说  我想和一个人结婚
-Dialogue: 1,0:23:25.11,0:23:28.05,CN,EP10,0,0,0,,你是我们当中最开心的
+Dialogue: 1,0:23:20.42,0:23:24.80,CN,,0,0,0,,大家听我说  我想和一个人结婚
+Dialogue: 1,0:23:24.80,0:23:28.05,CN,EP10,0,0,0,,{\3cFFFFFF\t(20,300,\3c202020)}你是我们当中最开心的
 Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,,------ Dialogue JP ------
 Dialogue: 0,0:00:00.83,0:00:04.13,JP,,0,0,0,,つばめ西高校の文化祭は盛大です
 Dialogue: 0,0:00:04.13,0:00:06.81,JP,,0,0,0,,実行委員が１年をかけて準備
@@ -672,7 +666,7 @@ Dialogue: 0,0:04:47.05,0:04:48.98,JP,,0,0,0,,一線引かれてんなって
 Dialogue: 0,0:04:50.01,0:04:53.24,JP,,0,0,0,,これからは　昼と放課後に練習するから
 Dialogue: 0,0:04:53.24,0:04:54.43,JP,,0,0,0,,なあ
 Dialogue: 0,0:04:53.24,0:04:56.83,JP - Top,,0,0,0,,みんな　それぞれの役について何かアイデアあったりしたら
-Dialogue: 0,0:04:56.83,0:04:58.96,JP - Top,,0,0,0,,どんどん言って欲しい　もっと面白くしたいなぁ
+Dialogue: 0,0:04:56.83,0:04:58.96,JP - Top,,0,0,0,,どんどん言ってほしい　もっと面白くしたいなぁ
 Dialogue: 0,0:04:58.96,0:05:00.54,JP - Top,,0,0,0,,オッケー
 Dialogue: 0,0:04:54.43,0:04:56.36,JP,,0,0,0,,よかったんかよ　引き受けて
 Dialogue: 0,0:04:56.36,0:04:58.96,JP,,0,0,0,,まあまあ　大丈夫でしょ
@@ -752,7 +746,7 @@ Dialogue: 0,0:08:47.29,0:08:49.67,JP,,0,0,0,,わっ　すごい　やってる�
 Dialogue: 0,0:08:49.67,0:08:50.75,JP,,0,0,0,,お疲れ
 Dialogue: 0,0:08:50.75,0:08:54.15,JP,,0,0,0,,西野くん　これみんないるなら配っちゃって
 Dialogue: 0,0:08:54.15,0:08:55.15,JP,,0,0,0,,おお
-Dialogue: 0,0:08:55.15,0:08:58.12,JP,,0,0,0,,みつみ　分かってんのかな
+Dialogue: 0,0:08:55.15,0:08:58.12,JP,,0,0,0,,みつみ　わかってんのかな
 Dialogue: 0,0:08:56.78,0:08:59.15,JP - Top,,0,0,0,,通しが全部終わってからでもいいか
 Dialogue: 0,0:08:59.15,0:09:01.65,JP - Top,,0,0,0,,うん　それでも大丈夫
 Dialogue: 0,0:09:01.65,0:09:02.39,JP - Top,,0,0,0,,オッケー
@@ -789,7 +783,7 @@ Dialogue: 0,0:10:05.90,0:10:09.70,JP,,0,0,0,,でも昨日もパンフ持ち帰�
 Dialogue: 0,0:10:09.70,0:10:11.50,JP,,0,0,0,,ちょっと眠い
 Dialogue: 0,0:10:12.28,0:10:13.25,JP,,0,0,0,,あぶな！
 Dialogue: 0,0:10:13.56,0:10:14.63,JP,,0,0,0,,大丈夫？
-Dialogue: 0,0:10:16.20,0:10:19.87,JP,,0,0,0,,お～い　クギとか使ってるし　気ぃつけてマジで
+Dialogue: 0,0:10:16.22,0:10:19.87,JP,,0,0,0,,お～い　クギとか使ってるし　気ぃつけてマジで
 Dialogue: 0,0:10:19.87,0:10:21.22,JP,,0,0,0,,ごごご… ごめん！
 Dialogue: 0,0:10:21.22,0:10:24.44,JP,,0,0,0,,そうだよね　木材もやりくりして使ってて
 Dialogue: 0,0:10:24.44,0:10:26.05,JP,,0,0,0,,壊したら大変なのに
@@ -831,8 +825,8 @@ Dialogue: 0,0:11:59.43,0:12:02.36,JP,,0,0,0,,昨日寝落ちしちゃって　�
 Dialogue: 0,0:12:02.36,0:12:04.11,JP,,0,0,0,,ああ　そっかそっか
 Dialogue: 0,0:12:04.11,0:12:05.66,JP,,0,0,0,,それはしょうがない
 Dialogue: 0,0:12:05.66,0:12:09.16,JP,,0,0,0,,やっちゃった～
-Dialogue: 0,0:12:09.16,0:12:10.65,JP,,0,0,0,,お昼どうする
-Dialogue: 0,0:12:10.65,0:12:12.03,JP,,0,0,0,,腹減った～
+Dialogue: 0,0:12:09.16,0:12:10.65,JP - Top,,0,0,0,,お昼どうする
+Dialogue: 0,0:12:10.65,0:12:12.03,JP - Top,,0,0,0,,腹減った～
 Dialogue: 0,0:12:12.03,0:12:14.03,JP,,0,0,0,,今からでも見返して
 Dialogue: 0,0:12:14.03,0:12:16.53,JP,,0,0,0,,みつみ　お昼食べようよ
 Dialogue: 0,0:12:16.53,0:12:17.79,JP,,0,0,0,,うん…
@@ -903,11 +897,10 @@ Dialogue: 0,0:15:38.70,0:15:42.08,JP,,0,0,0,,すごいステキだったよ　�
 Dialogue: 0,0:15:43.48,0:15:46.97,JP,,0,0,0,,いや　ステキではないでしょ　ヨハンは
 Dialogue: 0,0:15:48.66,0:15:51.67,JP,EP09,0,0,0,,３組の出し物は演劇に決定しました
 Dialogue: 0,0:15:52.47,0:15:53.82,JP,EP10,0,0,0,,やるか
-Dialogue: 0,0:15:53.82,0:15:55.87,JP,EP10,0,0,0,,そうこなくっちゃ！
-Dialogue: 0,0:15:55.87,0:15:59.02,JP,EP04,0,0,0,,先輩には悪いけど　もうやりたくないんだ
+Dialogue: 0,0:15:53.82,0:15:55.48,JP,EP10,0,0,0,,{\3c202020\t(1570,1670,\3cFFFFFF)}そうこなくっちゃ！
+Dialogue: 0,0:15:55.48,0:15:59.02,JP,EP04,0,0,0,,{\3cFFFFFF\t(20,300,\3c202020)}先輩には悪いけど　もうやりたくないんだ
 Dialogue: 0,0:16:00.28,0:16:04.66,JP,EP04,0,0,0,,あのころはたしかに一生懸命だったけど　楽しいというより…
 Dialogue: 0,0:16:05.66,0:16:08.13,JP,EP04,0,0,0,,母さんが喜ぶからやってた
-Comment: 0,0:16:14.23,0:16:16.20,JP,,0,0,0,,
 Comment: 0,0:16:16.91,0:16:18.99,JP,,0,0,0,,じっ…　ごっ…
 Dialogue: 0,0:16:19.45,0:16:21.30,JP,,0,0,0,,ん？なに？
 Dialogue: 0,0:16:21.30,0:16:22.71,JP,,0,0,0,,泣かせてる
@@ -988,7 +981,7 @@ Dialogue: 0,0:21:00.11,0:21:01.16,JP,,0,0,0,,うんうん
 Dialogue: 0,0:21:01.61,0:21:03.07,JP,,0,0,0,,志摩くん
 Dialogue: 0,0:21:03.07,0:21:04.70,JP,,0,0,0,,後半の合わせやるよ
 Dialogue: 0,0:21:04.70,0:21:06.20,JP,,0,0,0,,は～い
-Dialogue: 0,0:21:09.20,0:21:13.33,JP,,0,0,0,,ハッピーバースデー　トゥ　ユー
+Dialogue: 0,0:21:09.20,0:21:13.33,JP,,0,0,0,,ハッピー・バースデー・トゥ・ユー
 Dialogue: 0,0:21:13.33,0:21:15.34,JP,,0,0,0,,おめでとう　志摩
 Dialogue: 0,0:21:15.34,0:21:17.46,JP,,0,0,0,,うわぁ　ありがとう
 Dialogue: 0,0:21:17.46,0:21:21.15,JP,,0,0,0,,小さなバラ
@@ -998,8 +991,8 @@ Dialogue: 0,0:21:26.43,0:21:27.92,JP,,0,0,0,,そ… そんな怒る？
 Dialogue: 0,0:21:27.92,0:21:29.89,JP,,0,0,0,,いや　なんとなく
 Dialogue: 0,0:23:17.22,0:23:19.38,JP,,0,0,0,,失礼します　叔父さま
 Dialogue: 0,0:23:19.38,0:23:20.42,JP,,0,0,0,,うむ
-Dialogue: 0,0:23:20.42,0:23:24.79,JP,,0,0,0,,みんな聞いてほしい　私には結婚したい人がいる
-Dialogue: 0,0:23:25.11,0:23:28.05,JP,EP10,0,0,0,,楽しそうだったよ　お前が一番
+Dialogue: 0,0:23:20.42,0:23:24.80,JP,,0,0,0,,みんな聞いてほしい　私には結婚したい人がいる
+Dialogue: 0,0:23:24.80,0:23:28.05,JP,EP10,0,0,0,,{\3cFFFFFF\t(20,300,\3c202020)}楽しそうだったよ　お前が一番
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,
 Dialogue: 0,0:00:42.55,0:00:46.32,OPJP,A1,0,0,0,fx,{\pos(859,1006)\fad(420,800)\fr-6\c&HEFC77D&\p1}m 0 0 b 0 0 0 0 0 0 b -5 0 -10 5 -10 10 b -10 15 -5 20 0 20 b 5 20 10 15 10 10 b 10 5 5 0 0 0
 Dialogue: 1,0:00:42.45,0:00:42.60,OPJP,A1,0,0,0,fx,{\move(879,1045,879,1066)\fad(100,0)}{\blur6}眩
