@@ -3,6 +3,11 @@ Title: [MingY] Suki na Ko ga Megane wo Wasureta [05].CHT_JPN
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -751,7 +756,7 @@ Dialogue: 0,0:23:10.87,0:23:12.15,JP,,0,0,0,,小村楓です
 Dialogue: 0,0:23:12.15,0:23:13.28,JP,,0,0,0,,次回予告をします
 Dialogue: 0,0:23:13.71,0:23:18.75,JP,,0,0,0,,「小村くんが三重さんと出会って　あっという間に季節が過ぎ　新学期になった」
 Dialogue: 0,0:23:19.15,0:23:21.33,JP,,0,0,0,,そっか　もうそんなに経ったんだ
-Dialogue: 0,0:23:21.74,0:23:23.04,JP,,0,0,0,,なんだか速っ
+Dialogue: 0,0:23:21.74,0:23:23.04,JP,,0,0,0,,なんだか早っ
 Dialogue: 0,0:23:23.60,0:23:24.75,JP,,0,0,0,,席替え？
 Dialogue: 0,0:23:24.75,0:23:25.83,JP,,0,0,0,,そ… そうだよな
 Dialogue: 0,0:23:25.83,0:23:28.36,JP,,0,0,0,,新学期になったら席替えあるよな

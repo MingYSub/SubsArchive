@@ -3,6 +3,11 @@ Title: [MingY] Suki na Ko ga Megane wo Wasureta [01].CHS_JPN
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -17,13 +22,9 @@ Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
 Dialogue: 0,0:00:01.48,0:00:05.48,CN,,0,0,25,,{\an8\fs52\bord1.8\alpha25\fad(500,400)}本字幕由 MingYSub 制作 | 招新群：761065438
 Dialogue: 0,0:00:01.48,0:00:05.48,CN,,0,0,90,,{\an8\fs48\bord1.7\alpha25\fad(500,400)}翻译/时轴：Ming  校对：HL
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
-Comment: 0,0:03:20.30,0:03:20.68,CN,,0,0,0,,The Girl I Like \Nher Glasses
-Comment: 0,0:03:20.68,0:03:23.31,CN,,0,0,0,,The Girl I Like \N{\c&H4460CE&}Forgot{\c&H000000&} her Glasses
 Dialogue: 0,0:03:32.94,0:03:35.95,CN,,0,0,0,,{\an8\fs42\fsp7\bord2.5\fscx82\fn方正兰亭圆_GBK_准\pos(1512,935)\c&H000000&\3c&HFFFFFF&}喜欢的人忘记戴眼镜了
 Dialogue: 0,0:03:41.65,0:03:43.66,CN,,0,0,0,,{\an1\frz19.4\fax-0.38\fn方正兰亭圆_GBK_准\fs55\bord0\c&HDEE3E5&\move(320,361,278,361)}近代，安土桃山时代 ~ 江户时代\N土一揆和百姓一揆的区别
-Comment: 0,0:11:01.05,0:11:02.68,CN,,0,0,0,,{\fad(450,1)\frz9.865\pos(492,234)}Embarrassed just \Nthinking {\c&HA2A0F4&}about it
-Comment: 0,0:21:41.73,0:21:42.74,CN,,0,0,0,,{\fad(250,400)\pos(1128,279)}Thwap
-Comment: 0,0:23:33.89,0:23:39.93,CN,,0,0,0,,{\pos(936,564)}The Girl I Like Asked Me Out
+Dialogue: 0,0:21:41.74,0:21:42.70,CN,,0,0,0,,{\fad(350,350)\move(1100,320,1150,250)\3c&H3F3F40&\bord3}嘭
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
 Dialogue: 1,0:00:06.31,0:00:08.75,CN,,0,0,0,,动物挑战的视频  你看了吗？
 Dialogue: 1,0:00:08.75,0:00:11.49,CN,,0,0,0,,那是什么  是要挑战动物吗
