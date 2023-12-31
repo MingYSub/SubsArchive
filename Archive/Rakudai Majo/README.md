@@ -1,7 +1,7 @@
 # 魔女差等生 风花与暗之魔女 /  Rakudai Majo - Fuuka to Yami no Majo
 | 对应片源 | 字幕 |
 | -------- | ---- |
-| BD | [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHT_JPN.ass) |
+| BD | [MKS 多语言字幕](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.mks) [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHT_JPN.ass) [简体](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Rakudai%20Majo/%5BMingY%5D%20Rakudai%20Majo%20-%20Fuuka%20to%20Yami%20no%20Majo.CHT.ass) |
 
 # Staff
 **日听/时轴：** Ming
