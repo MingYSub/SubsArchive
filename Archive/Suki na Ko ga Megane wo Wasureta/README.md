@@ -31,10 +31,12 @@
 # 所需字体
 字体下载（不包含思源宋体）
 
+[百度网盘](https://pan.baidu.com/s/1VvCrrxlo5sUBN79HXg-m-w?pwd=1111) [蓝奏云](https://wwi.lanzoup.com/iRgiD1twlqmh) [123云盘](https://www.123pan.com/s/apt4jv-uQ9H3.html)
+
 ```
 A-OTF UD新ゴ Pr6N M <A-OTF UD Shin Go Pr6N M>
-NTモトヤ明朝 Std W3 <NtMotoya Mincho Std W3>
 YOzN Pr6N
+モトヤ明朝 Pr6N W3 <Motoya Mincho Pr6N W3>
 方正兰亭圆_GBK <FZLanTingYuan-R-GBK>
 方正兰亭圆_GBK_粗 <FZLanTingYuan-B-GBK>
 方正兰亭圆_GBK_纤 <FZLanTingYuan-EL-GBK>
@@ -48,5 +50,4 @@ YOzN Pr6N
 思源宋體 TW Medium <Source Han Serif TW Medium>
 霞鹜文楷 Bold <LXGW WenKai Bold>
 悠哉字体 <Yozai>
-源ノ明朝 JP Medium <Source Han Serif JP Medium>
 ```
