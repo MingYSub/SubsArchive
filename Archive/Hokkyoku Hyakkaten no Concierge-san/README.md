@@ -3,7 +3,7 @@
 # 北极百货店的接待员 / Hokkyoku Hyakkaten no Concierge-san
 | 对应片源 | 字幕 |
 | -------- | ---- |
-| BD | [MKS 多语言字幕](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].mks) [简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHT_JPN.ass) |
+| BD | [MKS 多语言字幕](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].mks)　[简日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHS_JPN.ass)　[繁日](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHT_JPN.ass)　[简体](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHS.ass)　[繁體](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Hokkyoku%20Hyakkaten%20no%20Concierge-san/%5BMingY%5D%20Hokkyoku%20Hyakkaten%20no%20Concierge-san%20[Movie].CHT.ass) |
 
 # Staff
 **翻译：** Ming　伊马替尼
