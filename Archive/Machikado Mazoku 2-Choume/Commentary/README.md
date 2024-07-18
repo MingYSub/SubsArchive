@@ -2,9 +2,9 @@
 | 剧集 | 字幕 |
 | ---- | ---- |
 | 01 | [简体](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary.CHS.ass)　繁體　[简体（含动画字幕）](https://raw.githubusercontent.com/MingYSub/SubsArchive/main/Archive/Machikado%20Mazoku%202-Choume/Commentary/%5BMingY&LavaAnime%5D%20Machikado%20Mazoku%202-Choume%20%5B01%5D.Commentary_Anime.CHS.ass) |
-| 06 | 简体　繁體 |
-| 08 | 简体　繁體 |
-| 12 | 简体　繁體 |
+| 06 | [bilibili](https://www.bilibili.com/video/BV1nW4y1Y7Ed/)　简体　繁體 |
+| 08 | [bilibili](https://www.bilibili.com/video/BV1Yv4y1m7NN/)　简体　繁體 |
+| 12 | [bilibili](https://www.bilibili.com/video/BV1B44y1m7KX/)　简体　繁體 |
 
 # Staff
 ## 01话

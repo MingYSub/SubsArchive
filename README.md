@@ -1,7 +1,7 @@
 # MingYSub SubsArchive
 该仓库存放由 MingYSub 译制的字幕文件。
 
-反馈错误请提 [Issue](/issues)/PR 或至 [Telegram 群组](https://t.me/MingYSub)。
+反馈错误请提 [issue](https://github.com/MingYSub/SubsArchive/issues) / PR 或至 [Telegram 群组](https://t.me/MingYSub)。
 
 字幕组长期招募翻译、校对、时轴、压制、分流、繁化、片源。交流 Q 群：[293483450](https://jq.qq.com/?_wv=1027&k=M7BTPKx4)
 
