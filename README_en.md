@@ -21,7 +21,7 @@ All subtitle works from this group, unless otherwise stated, are shared under th
 
 **But you must comply with the following conditions:**
 
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You should provide proper attribution in a noticeable place and include a link to this page (https://github.com/MingYSub/SubsArchive).
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You should provide proper attribution in a noticeable place and include a link to this page (`https://github.com/MingYSub/SubsArchive`).
 - Non-commercial use — You may not use this work for commercial purposes.
 - Share alike — If you remix, transform, or build upon this work, you must distribute your contributions under the same license as the original work.
 - No additional restrictions — You may not apply legal terms or technological measures that restrict others from doing what the license permits.
