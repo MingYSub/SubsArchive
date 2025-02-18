@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: [MingY] Senpai wa Otokonoko - ED.JPSC
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,森泽UD新黑 Gb4 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2,0,2,30,30,58,1
+Style: EDCN,华康翩翩体W5-A,46,&H00FFFFFF,&H00FFFFFF,&H00988556,&H14988556,0,0,0,0,100,100,0,0,1,2.5,0,2,30,30,25,1
+Style: EDJP,FOT-CookHand Std R,38,&H00FFFFFF,&H00FFFFFF,&H00988556,&H14988556,0,0,0,0,100,100,0,0,1,3,0,8,30,30,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:21:20.01,0:21:20.01,EDCN,,0,0,0,,------ EDCN ------ [あれが恋だったのかな]
+Dialogue: 0,0:21:20.01,0:21:22.29,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}我们睡醒后就去看电影
+Dialogue: 0,0:21:22.29,0:21:25.21,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}一路上牵着手说说笑笑
+Dialogue: 0,0:21:25.21,0:21:28.76,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}边聊晚餐边走回家
+Dialogue: 0,0:21:28.76,0:21:30.85,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}闲下来就互相蹭蹭脸颊
+Dialogue: 0,0:21:30.85,0:21:33.41,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}寂寞也抛之脑后
+Dialogue: 0,0:21:33.41,0:21:35.59,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}身心不仅没法独立
+Dialogue: 0,0:21:35.59,0:21:39.26,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}还像史莱姆般彻底相融
+Dialogue: 0,0:21:39.26,0:21:45.56,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}只是只是只是　以为这样的日常会一直持续下去
+Dialogue: 0,0:21:45.56,0:21:47.71,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}会一直持续下去啊
+Dialogue: 0,0:21:47.71,0:21:53.97,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}只是只是只是　以为这样的日常会一直持续下去
+Dialogue: 0,0:21:53.97,0:21:55.70,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}会一直持续下去啊
+Dialogue: 0,0:21:55.70,0:21:57.03,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}是真的哦
+Dialogue: 0,0:22:04.59,0:22:06.76,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}独自一人过了一段时间
+Dialogue: 0,0:22:06.76,0:22:12.59,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}反复想着　只要扮演好人就能进行的恋爱游戏
+Dialogue: 0,0:22:12.59,0:22:14.81,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}那就是爱情吗
+Dialogue: 0,0:22:14.81,0:22:16.83,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}那就是爱情吗
+Dialogue: 0,0:22:16.83,0:22:18.32,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}善变又容易厌倦
+Dialogue: 0,0:22:18.32,0:22:20.24,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}爱撒娇又迟钝还急性子
+Dialogue: 0,0:22:20.24,0:22:22.96,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}健忘的我只能把这些写成音乐
+Dialogue: 0,0:22:23.48,0:22:29.82,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}只是只是只是　以为那样的日常会一直持续下去
+Dialogue: 0,0:22:29.82,0:22:31.73,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}会一直持续下去啊
+Dialogue: 0,0:22:31.73,0:22:38.23,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}只是只是只是　以为那样的日常会一直持续下去
+Dialogue: 0,0:22:38.23,0:22:39.93,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}会一直持续下去啊
+Dialogue: 0,0:22:39.93,0:22:41.21,EDCN,,0,0,0,,{\blur3\fad(150,150)\fax.06}是真的哦
+Comment: 0,0:21:20.01,0:21:20.01,EDJP,,0,0,0,,------ EDJP ------ [あれが恋だったのかな]
+Dialogue: 0,0:21:20.01,0:21:22.29,EDJP,,0,0,0,,{\blur3\fad(150,150)}ウチら寝起きで映画とか行って
+Dialogue: 0,0:21:22.29,0:21:25.21,EDJP,,0,0,0,,{\blur3\fad(150,150)}ぐだぐだ喋って笑って手を繋いで
+Dialogue: 0,0:21:25.21,0:21:28.76,EDJP,,0,0,0,,{\blur3\fad(150,150)}晩ごはんの話しながら帰って
+Dialogue: 0,0:21:28.76,0:21:30.85,EDJP,,0,0,0,,{\blur3\fad(150,150)}暇になれば頬擦りとかして
+Dialogue: 0,0:21:30.85,0:21:33.41,EDJP,,0,0,0,,{\blur3\fad(150,150)}寂しいとかもパッと忘れちゃって
+Dialogue: 0,0:21:33.41,0:21:35.59,EDJP,,0,0,0,,{\blur3\fad(150,150)}心も体も　自立どころか
+Dialogue: 0,0:21:35.59,0:21:39.26,EDJP,,0,0,0,,{\blur3\fad(150,150)}スライムみたいにただ溶け合って
+Dialogue: 0,0:21:39.26,0:21:45.56,EDJP,,0,0,0,,{\blur3\fad(150,150)}ただ、ただ、ただ、こんな毎日が続くと思っていた
+Dialogue: 0,0:21:45.56,0:21:47.71,EDJP,,0,0,0,,{\blur3\fad(150,150)}続くと思っていたよ
+Dialogue: 0,0:21:47.71,0:21:53.97,EDJP,,0,0,0,,{\blur3\fad(150,150)}ただ、ただ、ただ、こんな毎日が続くと思っていた
+Dialogue: 0,0:21:53.97,0:21:55.70,EDJP,,0,0,0,,{\blur3\fad(150,150)}続くと思っていたよ
+Dialogue: 0,0:21:55.70,0:21:57.03,EDJP,,0,0,0,,{\blur3\fad(150,150)}本当だよ
+Dialogue: 0,0:22:04.59,0:22:06.76,EDJP,,0,0,0,,{\blur3\fad(150,150)}１人になってしばらく経って
+Dialogue: 0,0:22:06.76,0:22:12.59,EDJP,,0,0,0,,{\blur3\fad(150,150)}ただいい人を演じればできる恋ごっこを繰り返して思う
+Dialogue: 0,0:22:12.59,0:22:14.81,EDJP,,0,0,0,,{\blur3\fad(150,150)}あれが恋だったのかな
+Dialogue: 0,0:22:14.81,0:22:16.83,EDJP,,0,0,0,,{\blur3\fad(150,150)}あれが恋だったのかな
+Dialogue: 0,0:22:16.83,0:22:18.32,EDJP,,0,0,0,,{\blur3\fad(150,150)}気まぐれで飽き性
+Dialogue: 0,0:22:18.32,0:22:20.24,EDJP,,0,0,0,,{\blur3\fad(150,150)}甘えたがりで愚図で短気で
+Dialogue: 0,0:22:20.24,0:22:22.96,EDJP,,0,0,0,,{\blur3\fad(150,150)}忘れっぽいから音楽にしとくよ
+Dialogue: 0,0:22:23.48,0:22:29.82,EDJP,,0,0,0,,{\blur3\fad(150,150)}ただ、ただ、ただ、あんな毎日が続くと思っていた
+Dialogue: 0,0:22:29.82,0:22:31.73,EDJP,,0,0,0,,{\blur3\fad(150,150)}続くと思っていたよ
+Dialogue: 0,0:22:31.73,0:22:38.23,EDJP,,0,0,0,,{\blur3\fad(150,150)}ただ、ただ、ただ、あんな毎日が続くと思っていた
+Dialogue: 0,0:22:38.23,0:22:39.93,EDJP,,0,0,0,,{\blur3\fad(150,150)}続くと思っていたよ
+Dialogue: 0,0:22:39.93,0:22:41.21,EDJP,,0,0,0,,{\blur3\fad(150,150)}本当だよ
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,
