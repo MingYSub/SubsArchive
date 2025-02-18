@@ -4,7 +4,7 @@
 
 This repository stores subtitle files translated by MingYSub.
 
-You can find all completed subtitles in the Releases.
+You can find all completed subtitles in Releases.
 
 **Report issues or contribute:**
 
@@ -12,7 +12,10 @@ You can find all completed subtitles in the Releases.
 - Join our [Telegram group](https://t.me/MingYSub)
 
 ## License
-All subtitle works from this group, unless otherwise stated, are shared under the CC BY-NC-SA 4.0 license.
+
+[![CC BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+All subtitle works in this repository, unless otherwise stated, are shared under the CC BY-NC-SA 4.0 license.
 
 **You are free to:**
 
@@ -25,7 +28,6 @@ All subtitle works from this group, unless otherwise stated, are shared under th
 - Non-commercial use — You may not use this work for commercial purposes.
 - Share alike — If you remix, transform, or build upon this work, you must distribute your contributions under the same license as the original work.
 - No additional restrictions — You may not apply legal terms or technological measures that restrict others from doing what the license permits.
-
 
 ## Subtitle List
 

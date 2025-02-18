@@ -25,6 +25,8 @@
 
 ## 字幕共享说明
 
+[![CC BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 本组所有字幕作品，若无特别标注，均基于 CC BY-NC-SA 4.0 协议共享。
 
 **您可以自由地：**
