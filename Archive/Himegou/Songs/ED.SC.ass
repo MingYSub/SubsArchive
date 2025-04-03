@@ -1,0 +1,66 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EDJP,A-OTF Shin Maru Go Pr6N DB,68,&H000056FE,&H000000FF,&H00FFFFFF,&H141E1E1E,0,0,0,0,100,100,2,0,1,5,0,8,30,30,30,1
+Style: EDCN,方正兰亭圆_GBK_中粗,55,&H000056FE,&H000000FF,&H00FFFFFF,&H141E1E1E,0,0,0,0,100,100,2,0,1,5,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:20:46.10,0:20:46.10,EDJP,,0,0,0,,------ EDJP ------
+Dialogue: 0,0:20:46.10,0:20:49.81,EDJP,,0,0,0,,{\fad(180,180)\c1E1E1E}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:20:49.81,0:20:54.40,EDJP,,0,0,0,,{\fad(180,180)\c1E1E1E}Be alright 俯{\fnA-OTF KamoLime Std DB\fscx82\fscy82}いてた{\fn\fscx\fscy}日々{\fnA-OTF KamoLime Std DB\fscx82\fscy82}も{\fn\fscx\fscy}
+Dialogue: 0,0:20:54.40,0:20:55.82,EDJP,,0,0,0,,{\fad(180,180)\c1E1E1E}愛{\fnA-OTF KamoLime Std DB\fscx82\fscy82}おしい{\fn\fscx\fscy}
+Dialogue: 0,0:21:08.66,0:21:12.29,EDJP,,0,0,0,,{\fad(180,180)}揺{\fnA-OTF KamoLime Std DB\fscx82\fscy82}れる{\fn\fscx\fscy}青色{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}煩{\fnA-OTF KamoLime Std DB\fscx82\fscy82}いに{\fn\fscx\fscy}
+Dialogue: 0,0:21:12.29,0:21:16.05,EDJP,,0,0,0,,{\fad(180,180)}誘惑魔法{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}引力{\fnA-OTF KamoLime Std DB\fscx82\fscy82}に{\fn\fscx\fscy}
+Dialogue: 0,0:21:16.05,0:21:17.88,EDJP,,0,0,0,,{\fad(180,180)}{\fnA-OTF KamoLime Std DB\fscx82\fscy82}ねぇ{\fn\fscx\fscy}、{\fnA-OTF KamoLime Std DB\fscx82\fscy82}こんなにも こんなにも{\fn\fscx\fscy}
+Dialogue: 0,0:21:17.88,0:21:19.84,EDJP,,0,0,0,,{\fad(180,180)}抗{\fnA-OTF KamoLime Std DB\fscx82\fscy82}っているのに{\fn\fscx\fscy}
+Dialogue: 0,0:21:19.84,0:21:21.34,EDJP,,0,0,0,,{\fad(180,180)}{\fnA-OTF KamoLime Std DB\fscx82\fscy82}ねぇ{\fn\fscx\fscy}、{\fnA-OTF KamoLime Std DB\fscx82\fscy82}どうしても どうしても{\fn\fscx\fscy}
+Dialogue: 0,0:21:21.34,0:21:23.26,EDJP,,0,0,0,,{\fad(180,180)}{\fnA-OTF KamoLime Std DB\fscx82\fscy82}やっぱり{\fn\fscx\fscy}負{\fnA-OTF KamoLime Std DB\fscx82\fscy82}けちゃうんだ{\fn\fscx\fscy}
+Dialogue: 0,0:21:23.26,0:21:26.77,EDJP,,0,0,0,,{\fad(180,180)\t(1000,2200,\c&HC22331&)}{\fnA-OTF KamoLime Std DB\fscx82\fscy82}もし{\fn\fscx\fscy}、今{\fnA-OTF KamoLime Std DB\fscx82\fscy82}やりなおせたら{\fn\fscx\fscy}
+Dialogue: 0,0:21:26.77,0:21:30.27,EDJP,,0,0,0,,{\fad(180,180)\c&HC22331&}願{\fnA-OTF KamoLime Std DB\fscx82\fscy82}い{\fn\fscx\fscy}儚{\fnA-OTF KamoLime Std DB\fscx82\fscy82}くて {\fn\fscx\fscy}Rollin’
+Dialogue: 0,0:21:30.27,0:21:32.40,EDJP,,0,0,0,,{\fad(180,180)\c&HC22331&}{\fnA-OTF KamoLime Std DB\fscx82\fscy82}でも{\fn\fscx\fscy}人生{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}長{\fnA-OTF KamoLime Std DB\fscx82\fscy82}いし{\fn\fscx\fscy}
+Dialogue: 0,0:21:32.40,0:21:36.69,EDJP,,0,0,0,,{\fad(180,180)\c&HC22331&}惑{\fnA-OTF KamoLime Std DB\fscx82\fscy82}うのも{\fn\fscx\fscy}時{\fnA-OTF KamoLime Std DB\fscx82\fscy82}にはいいんじゃない{\fn\fscx\fscy}？
+Dialogue: 0,0:21:36.69,0:21:37.69,EDJP,,0,0,0,,{\fad(180,0)\c&HC22331&}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:21:37.69,0:21:37.73,EDJP,,0,0,0,,{\c&HC22331&\iclip(m 1072.98 110.44 l 1125.56 75.64 1178.65 61.03 1318.56 95.49 968.53 416.53)}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:21:37.73,0:21:37.78,EDJP,,0,0,0,,{\c&HC22331&\clip(m 750.23 149.62 l 788.22 84 832.19 58.49 865.43 64.7 934.86 65.43 953.14 54 965 0 580 0)}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:21:37.78,0:21:37.82,EDJP,,0,0,0,,{\iclip(m 977 0 l 1009 89 998 396 201 558 0 0)}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:21:37.82,0:21:40.57,EDJP,,0,0,0,,{\fad(0,180)}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std DB\fscx82\fscy82}の{\fn\fscx\fscy}風{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}吹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}
+Dialogue: 0,0:21:40.57,0:21:44.12,EDJP,,0,0,0,,{\fad(180,180)}憂{\fnA-OTF KamoLime Std DB\fscx82\fscy82}い{\fn\fscx\fscy}迷{\fnA-OTF KamoLime Std DB\fscx82\fscy82}いさえもさらっていく{\fn\fscx\fscy}
+Dialogue: 0,0:21:44.12,0:21:47.62,EDJP,,0,0,0,,{\fad(180,180)}曇{\fnA-OTF KamoLime Std DB\fscx82\fscy82}る{\fn\fscx\fscy}空模様{\fnA-OTF KamoLime Std DB\fscx82\fscy82}は{\fn\fscx\fscy}晴{\fnA-OTF KamoLime Std DB\fscx82\fscy82}れ{\fn\fscx\fscy}渡{\fnA-OTF KamoLime Std DB\fscx82\fscy82}って{\fn\fscx\fscy}
+Dialogue: 0,0:21:47.62,0:21:51.12,EDJP,,0,0,0,,{\fad(180,180)}Be alright 高{\fnA-OTF KamoLime Std DB\fscx82\fscy82}く{\fn\fscx\fscy}虹{\fnA-OTF KamoLime Std DB\fscx82\fscy82}が{\fn\fscx\fscy}架{\fnA-OTF KamoLime Std DB\fscx82\fscy82}かる{\fn\fscx\fscy}
+Dialogue: 0,0:21:51.12,0:21:55.63,EDJP,,0,0,0,,{\fad(180,180)}Be alright 俯{\fnA-OTF KamoLime Std DB\fscx82\fscy82}いてた{\fn\fscx\fscy}日々{\fnA-OTF KamoLime Std DB\fscx82\fscy82}も{\fn\fscx\fscy}
+Dialogue: 0,0:21:55.63,0:21:57.92,EDJP,,0,0,0,,{\fad(180,180)}愛{\fnA-OTF KamoLime Std DB\fscx82\fscy82}おしい{\fn\fscx\fscy}
+Comment: 0,0:20:46.10,0:20:46.10,EDCN,,0,0,0,,------ EDCN ------
+Dialogue: 0,0:20:46.10,0:20:49.81,EDCN,,0,0,0,,{\fad(180,180)\c1E1E1E}明天自会吹拂明天的风
+Dialogue: 0,0:20:49.81,0:20:54.40,EDCN,,0,0,0,,{\fad(180,180)\c1E1E1E}没事的  那些垂头丧气的日子
+Dialogue: 0,0:20:54.40,0:20:55.82,EDCN,,0,0,0,,{\fad(180,180)\c1E1E1E}也可爱无比
+Dialogue: 0,0:21:08.66,0:21:12.29,EDCN,,0,0,0,,{\fad(180,180)}面对摇摆的蓝色烦扰
+Dialogue: 0,0:21:12.29,0:21:16.05,EDCN,,0,0,0,,{\fad(180,180)}面对诱惑魔法的引力
+Dialogue: 0,0:21:16.05,0:21:17.88,EDCN,,0,0,0,,{\fad(180,180)}明明如此  如此
+Dialogue: 0,0:21:17.88,0:21:19.84,EDCN,,0,0,0,,{\fad(180,180)}努力地抗拒着
+Dialogue: 0,0:21:19.84,0:21:21.34,EDCN,,0,0,0,,{\fad(180,180)}可无论如何  不管怎样
+Dialogue: 0,0:21:21.34,0:21:23.26,EDCN,,0,0,0,,{\fad(180,180)}最终还是会败下阵来
+Dialogue: 0,0:21:23.26,0:21:26.77,EDCN,,0,0,0,,{\fad(180,180)\t(1000,2200,\c&HC22331&)}如果现在能重新来过
+Dialogue: 0,0:21:26.77,0:21:30.27,EDCN,,0,0,0,,{\fad(180,180)\c&HC22331&}愿望如梦般短暂 {\fn\fscx\fscy}Rollin’
+Dialogue: 0,0:21:30.27,0:21:32.40,EDCN,,0,0,0,,{\fad(180,180)\c&HC22331&}但人生很长
+Dialogue: 0,0:21:32.40,0:21:36.69,EDCN,,0,0,27,,{\fad(180,180)\c&HC22331&}偶尔迷茫又何妨{\fnA-OTF Shin Maru Go Pr6N DB\fs68}？
+Dialogue: 0,0:21:36.69,0:21:37.61,EDCN,,0,0,0,,{\fad(180,0)\c&HC22331&}明天自会吹拂明天的风
+Dialogue: 0,0:21:37.61,0:21:37.65,EDCN,,0,0,0,,{\c&HC22331&\clip(m 945 975 l 1160 1080 0 1080 0 874)}明天自会吹拂明天的风
+Dialogue: 0,0:21:37.65,0:21:37.69,EDCN,,0,0,0,,{\c&HC22331&\clip(m 623 975 l 839 1080 0 1080 0 874)}明天自会吹拂明天的风
+Dialogue: 0,0:21:37.69,0:21:37.73,EDCN,,0,0,0,,{\iclip(m 1011 952 l 768 1080 0 1085 0 680)}明天自会吹拂明天的风
+Dialogue: 0,0:21:37.73,0:21:40.57,EDCN,,0,0,0,,{\fad(0,180)}明天自会吹拂明天的风
+Dialogue: 0,0:21:40.57,0:21:44.12,EDCN,,0,0,0,,{\fad(180,180)}将忧愁和犹豫一并带走
+Dialogue: 0,0:21:44.12,0:21:47.62,EDCN,,0,0,0,,{\fad(180,180)}阴云密布的天空会变得晴空万里
+Dialogue: 0,0:21:47.62,0:21:51.12,EDCN,,0,0,0,,{\fad(180,180)}没事的  看那彩虹高悬
+Dialogue: 0,0:21:51.12,0:21:55.63,EDCN,,0,0,0,,{\fad(180,180)}没事的  那些垂头丧气的日子
+Dialogue: 0,0:21:55.63,0:21:57.92,EDCN,,0,0,0,,{\fad(180,180)}也可爱无比
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,
