@@ -3,6 +3,7 @@ ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
 ScaledBorderAndShadow: yes
+WrapStyle: 2
 YCbCr Matrix: TV.709
 LayoutResX: 1920
 LayoutResY: 1080
@@ -10,7 +11,15 @@ LayoutResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: CN,森泽UD新黑 Gb4 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2.8,0,2,30,30,58,1
+Style: JP,A-OTF UD Shin Go Pr6N M,58,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,2.3,0,2,30,30,6,1
+Style: OPCN,造字工房朴月体（非商用）,65,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,11,0,1,4,0,8,23,23,20,1
+Style: OPJP,FOT-Aokane Std EB,65,&H00A066FF,&HFFFFFFFF,&H00FFFFFF,&H28303030,0,0,0,0,100,100,5,0,1,4,0,2,23,23,23,1
+Style: EDCN,方正FW轻吟体 简 B,53,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,6,0,1,2,0,8,15,15,20,1
+Style: EDJP,FOT-Humming ProN B,60,&H00FFFFFF,&HFFFFFFFF,&H00E04137,&H00000000,0,0,0,0,100,100,5,0,1,2,0,2,15,15,20,1
 Style: Text,方正兰亭圆_GBK_中粗,68,&H006C6C6C,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,0,0,1,0,0,2,30,30,20,1
+Style: Title,华康方圆体 Std W7,65,&H002C2C2C,&H00FC01DD,&H00FFFFFF,&H001E1E1E,0,0,0,0,100,100,0,0,1,6,3.2,2,30,30,30,1
+Style: INJP,A-OTF Shin Maru Go Pr6N M,60,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0.5,0,1,3,0,8,60,60,7,1
+Style: INCN,汉仪正圆-65S,72,&H009A58F4,&HFFFFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,60,60,64,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

@@ -1,0 +1,25 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.601
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,森泽UD新黑 Gb4 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2,0,3,30,30,58,1
+Style: JP,A-OTF UD Shin Go Pr6N M,58,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,1.7,0,3,30,30,6,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.98,0:00:03.68,JP,,0,0,0,,あけましておめでとう
+Dialogue: 0,0:00:03.68,0:00:05.35,JP,,0,0,0,,今年の目標はずばり
+Dialogue: 0,0:00:05.35,0:00:06.75,JP,,0,0,0,,平常心
+Dialogue: 0,0:00:06.75,0:00:09.70,JP,,0,0,0,,ちなみに去年は柑橘繁栄だったわ
+Dialogue: 1,0:00:01.98,0:00:03.68,CN,,0,0,0,,新年快乐
+Dialogue: 1,0:00:03.68,0:00:05.35,CN,,0,0,0,,今年的目标直截了当
+Dialogue: 1,0:00:05.35,0:00:06.75,CN,,0,0,0,,平常心
+Dialogue: 1,0:00:06.75,0:00:09.70,CN,,0,0,0,,顺便说下 去年的是柑橘丰收{不确定}

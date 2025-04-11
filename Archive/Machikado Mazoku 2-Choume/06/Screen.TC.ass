@@ -9,7 +9,7 @@ LayoutResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CN,森泽UD新黑 Gb4 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2.8,0,2,30,30,58,1
+Style: CN,森澤UD新黑 標準繁體 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2.8,0,2,30,30,58,1
 Style: Text,方正兰亭圆_GBK_中粗,68,&H006C6C6C,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,0,0,1,0,0,2,30,30,20,1
 
 [Events]
@@ -30,7 +30,7 @@ Dialogue: 0,0:10:27.40,0:10:27.77,CN,,0,0,0,,{\fad(0,275)\bord2\c&H3ECBED&\fn方
 Dialogue: 0,0:10:27.90,0:10:28.27,CN,,0,0,0,,{\fad(45,260)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(952,204)}啪
 Dialogue: 0,0:10:28.40,0:10:28.77,CN,,0,0,0,,{\fad(70,270)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(1490,180)}啪
 Dialogue: 0,0:10:28.90,0:10:29.28,CN,,0,0,0,,{\fad(70,250)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(952,204)}啪
-Dialogue: 0,0:10:33.24,0:10:38.78,JP,,0,0,0,,{\pos(960,292)\fn方正兰亭圆_GBK_粗\fs40\fsp5\bord0}出口
+Dialogue: 0,0:10:33.24,0:10:38.78,CN,,0,0,0,,{\pos(960,292)\fn方正兰亭圆_GBK_粗\fs40\fsp5\bord0}出口
 Dialogue: 0,0:11:35.26,0:11:36.55,CN,,0,0,0,,{\fad(100,250)\fn方正兰亭圆_GBK_中粗\pos(1580,905)\bord3\c&HE53A76&\3c&HED90AB&}嗚…
 Dialogue: 0,0:13:14.94,0:13:15.32,CN,,0,0,0,,{\c&H48E9FA&\bord2\fn方正兰亭圆_GBK_中粗\fs42\3c&H2F5AC2&\pos(792,422)}喀嚓
 Dialogue: 0,0:13:15.69,0:13:16.07,CN,,0,0,0,,{\c&H48E9FA&\bord2\fn方正兰亭圆_GBK_中粗\fs42\3c&H2F5AC2&\pos(792,422)}喀嚓
