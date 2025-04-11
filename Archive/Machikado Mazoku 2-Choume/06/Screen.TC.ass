@@ -1,0 +1,48 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,森泽UD新黑 Gb4 M,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,2,0,1,2.8,0,2,30,30,58,1
+Style: Text,方正兰亭圆_GBK_中粗,68,&H006C6C6C,&H000000FF,&H00FFFFFF,&H14141414,0,0,0,0,100,100,0,0,1,0,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
+Dialogue: 0,0:00:32.80,0:00:34.72,CN,,0,0,0,,{\move(2400,780,-400,780)\c&HD600D9&\bord5\3cFFFFFF\fn方正兰亭圆_GBK_中粗}叮…
+Dialogue: 0,0:00:40.35,0:00:41.77,CN,,0,0,0,,{\pos(344.8,993.6)}{\fad(100,100)\fn方正兰亭圆_GBK_中粗\bord5\3cFFFFFF\c&H3D25F2&}欸
+Dialogue: 0,0:00:40.43,0:00:41.89,CN,,0,0,0,,{\pos(268,820.8)}{\fad(100,100)\fn方正兰亭圆_GBK_中粗\bord5\3cFFFFFF\c&H3D25F2&}欸
+Dialogue: 0,0:00:40.56,0:00:41.98,CN,,0,0,0,,{\pos(152.8,648)}{\fad(100,100)\fn方正兰亭圆_GBK_中粗\bord5\3cFFFFFF\c&H3D25F2&}欸
+Dialogue: 0,0:00:40.64,0:00:42.10,CN,,0,0,0,,{\pos(114.4,453.6)}{\fad(100,100)\fn方正兰亭圆_GBK_中粗\bord5\3cFFFFFF\c&H3D25F2&}欸
+Dialogue: 0,0:02:26.54,0:02:32.72,CN,,0,0,0,,{\fad(500,0)\c&HF1BEFE&\fs55\bord2.5\3c&HC357F2&\fn方正兰亭圆_GBK_中粗\move(1600,804,1645,790)\t(\fs68)}啪啊啊啊啊啊
+Dialogue: 0,0:04:07.31,0:04:08.56,CN,,0,0,0,,{\fn@方正兰亭圆_GBK_中粗\c&H3CD3ED&\3c&H2DABDD&\move(1660,906,1730,350)\frz260.4}哈啊
+Dialogue: 0,0:08:34.62,0:08:39.37,CN,,0,0,0,,{\fn方正华隶简繁\pos(960,470)\bord5\fsp8\c&H4203A3&\3c&HFFFFFF&}嗒 嗒 嗒 嗒 嗒 嗒 嗒 嗒
+Dialogue: 0,0:08:39.37,0:08:40.83,CN,,0,0,0,,{\fn方正华隶简繁\fs120\fsp5\c&HF8F8F8&\bord0\t(1000,1450,\blur8)\pos(1500,390)}咕嗚嗚
+Dialogue: 0,0:08:54.18,0:08:55.26,CN,,0,0,0,,{\c&H47B3ED&\bord2\3c&H3173C9&\pos(1730,368)\fn方正华隶简繁\fs100}梆
+Dialogue: 0,0:10:16.64,0:10:17.64,CN,,0,0,0,,{\c&H5B35DB&\bord2\3c&H471790&\fn方正兰亭圆_GBK_中粗\fs70\pos(502,416)}喀
+Dialogue: 0,0:10:27.40,0:10:27.77,CN,,0,0,0,,{\fad(0,275)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(1490,180)}啪
+Dialogue: 0,0:10:27.90,0:10:28.27,CN,,0,0,0,,{\fad(45,260)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(952,204)}啪
+Dialogue: 0,0:10:28.40,0:10:28.77,CN,,0,0,0,,{\fad(70,270)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(1490,180)}啪
+Dialogue: 0,0:10:28.90,0:10:29.28,CN,,0,0,0,,{\fad(70,250)\bord2\c&H3ECBED&\fn方正兰亭圆_GBK_中粗\fs50\3c&H2F5AC2&\pos(952,204)}啪
+Dialogue: 0,0:10:33.24,0:10:38.78,JP,,0,0,0,,{\pos(960,292)\fn方正兰亭圆_GBK_粗\fs40\fsp5\bord0}出口
+Dialogue: 0,0:11:35.26,0:11:36.55,CN,,0,0,0,,{\fad(100,250)\fn方正兰亭圆_GBK_中粗\pos(1580,905)\bord3\c&HE53A76&\3c&HED90AB&}嗚…
+Dialogue: 0,0:13:14.94,0:13:15.32,CN,,0,0,0,,{\c&H48E9FA&\bord2\fn方正兰亭圆_GBK_中粗\fs42\3c&H2F5AC2&\pos(792,422)}喀嚓
+Dialogue: 0,0:13:15.69,0:13:16.07,CN,,0,0,0,,{\c&H48E9FA&\bord2\fn方正兰亭圆_GBK_中粗\fs42\3c&H2F5AC2&\pos(792,422)}喀嚓
+Dialogue: 0,0:14:55.04,0:14:55.83,CN,,0,0,0,,{\fad(200,0)\bord1.5\fn方正兰亭圆_GBK_中粗\c&HE53A76&\3c&HAA2D66&\pos(132,1004)}咕嗚…
+Dialogue: 0,0:15:58.02,0:15:58.48,CN,,0,0,0,,{\bord4\fn方正兰亭圆_GBK_粗\3cFFFFFF\fsp8\c&H3407EB&\move(960,500,950,-160)\t(\fs110\bord6)}咚—
+Dialogue: 0,0:15:59.19,0:16:13.91,CN,,0,0,0,,{\fad(250,0)\fn方正兰亭圆_GBK_中粗\pos(1000,425)\fsp10\c&H79FFF5&\bord2\3c&H3D8787&\blur2\frx10}贈品
+Dialogue: 0,0:16:31.51,0:16:39.31,CN,,0,0,0,,{\fn方正兰亭圆_GBK_粗\fsp5\fad(250,0)\3cFFFFFF\bord4\c&H804ACA&\pos(166,502)}啊哇哇
+Dialogue: 0,0:16:32.51,0:16:39.31,CN,,0,0,0,,{\fn方正兰亭圆_GBK_粗\fsp5\fad(250,0)\3cFFFFFF\bord4\c&HBD844E&\pos(1776,538)}咕…
+Dialogue: 0,0:16:53.24,0:16:55.20,CN,,0,0,0,,{\fn方正兰亭圆_GBK_中粗\fsp5\3c&H72BBCC&\bord2\c&H375769&\frz4.876\frx8\fry352\pos(708,288)}萬朵莊
+Dialogue: 0,0:16:59.29,0:17:03.75,CN,,0,0,0,,{\fnSarasa Gothic TC\fs85\pos(1734,818)\c&H0E3346&\bord0\fsp4\b1}蜜柑
+Dialogue: 0,0:17:30.78,0:17:31.74,CN,,0,0,0,,{\fad(150,200)\c&HC35EF3&\fn方正兰亭圆_GBK_粗\bord0\pos(1788,650)}咕…
+Dialogue: 0,0:19:45.20,0:19:59.97,CN,,0,0,0,,{\fad(250,0)\fs60\pos(1740,490)\fn方正兰亭圆_GBK_中粗\fsp5\c&HFBC67F&\3c&HF5AE57&\bord2.5}啪嗒  啪嗒
+Dialogue: 0,0:23:55.00,0:24:10.01,CN,,0,0,0,,{\fnFOT-Aokane Std EB\shad1.8\bord7\fsp18\an8\pos(290,165)\4c303030\3cF7994F}下集預告
+Dialogue: 0,0:23:55.00,0:24:10.01,CN,,0,0,0,,{\fnFOT-Aokane Std EB\c&H9A58F4&\bord3.5\fsp18\an8\pos(290,165)\3c&HFFFFFF&}下集預告
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,
