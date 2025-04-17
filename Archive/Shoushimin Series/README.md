@@ -1,5 +1,5 @@
-点击[这里](https://github.com/MingYSub/SubsArchive/releases/tag/202407)获取成品字幕
+下载字幕请前往 [Releases](https://github.com/MingYSub/SubsArchive/releases/tag/202407)
 
-點擊[這裡](https://github.com/MingYSub/SubsArchive/releases/tag/202407)獲取成品字幕
+下載字幕請前往 [Releases](https://github.com/MingYSub/SubsArchive/releases/tag/202407)
 
-Click [here](https://github.com/MingYSub/SubsArchive/releases/tag/202407) for completed subtitles.
+Refer to [Releases](https://github.com/MingYSub/SubsArchive/releases/tag/202407) for subtitles

@@ -1,0 +1,1071 @@
+﻿[Script Info]
+Title: [MingY] Shoushimin Series - 02
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.601
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,森泽UD黎明体 Gb4 B,69,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2.5,0,2,30,30,50,1
+Style: JP,A-OTF UD Reimin Pr6N B,57,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2.2,0,2,30,30,5,1
+Style: CN - Top,森泽UD黎明体 Gb4 B,69,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,8,30,30,50,1
+Style: JP - Top,A-OTF UD Reimin Pr6N B,57,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.2,0,8,30,30,5,1
+Style: OPCN,方正细雅宋_GBK,52,&HFFE0E0E0,&H000000FF,&H00D0BC9C,&H00FFFFFF,0,0,0,0,100,100,4.3,0,1,0,0,2,30,30,37,1
+Style: OPJP,FOT-Matisse ProN M,51,&HFFE0E0E0,&H000000FF,&H00D0BC9C,&H00FFFFFF,0,0,0,0,100,100,3.3,0,1,0,0,8,30,30,36,1
+Style: EDCN,方正细雅宋_GBK,50,&H00FFFFFF,&H000000FF,&H00333333,&H00FFFFFF,0,0,0,0,100,100,3,0,1,1,0,2,80,80,35,1
+Style: EDJP,FOT-Matisse ProN M,50,&H00FFFFFF,&H000000FF,&H00333333,&H00FFFFFF,0,0,0,0,100,100,3.5,0,1,1,0,8,80,80,35,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,!import ./Songs/OP.ass.[FX]
+Comment: 0,0:21:32.94,0:21:32.94,CN,,0,0,0,,!import ./Songs/ED.ass.[EDCN].[EDJP]
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Staff ------
+Dialogue: 0,0:21:26.77,0:21:30.02,CN - Top,,0,0,20,,{\fad(400,400)\fs50}本字幕由{\fscx50} {\fscx}MingYSub{\fscx50} {\fscx}制作 基于{\fscx50} {\fscx}CC BY-NC-SA 4.0{\fscx50} {\fscx}协议共享
+Dialogue: 0,0:21:26.77,0:21:30.02,CN - Top,,0,0,76,,{\fad(400,400)\fs40}翻译：Ming 绫濑!小小!可爱!  时轴：nagi  压制：Ming
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Screen ------
+Dialogue: 0,0:00:10.45,0:00:13.99,CN,,80,0,310,,{\fad(1000,0)\c&H7600E8&\bord1\fs35\blur2\3c&HFFFFFF&\3a&H27&}春季限定 草莓挞事件
+Dialogue: 0,0:04:05.55,0:04:11.81,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,240)}你有空吧
+Dialogue: 0,0:04:11.81,0:04:11.86,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,210)}你有空吧
+Dialogue: 0,0:04:07.06,0:04:11.81,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,452)}在散步
+Dialogue: 0,0:04:11.81,0:04:11.85,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,422)}在散步
+Dialogue: 0,0:04:11.85,0:04:11.89,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,322)}在散步
+Dialogue: 0,0:04:11.89,0:04:11.94,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,262)}在散步
+Dialogue: 0,0:04:11.94,0:04:11.98,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,232)}在散步
+Dialogue: 0,0:04:11.98,0:04:12.02,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,220)}在散步
+Dialogue: 0,0:04:08.81,0:04:11.81,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,650)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.81,0:04:11.85,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,630)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.85,0:04:11.89,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,530)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.89,0:04:11.94,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,470)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.94,0:04:11.98,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,440)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.98,0:04:12.02,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,428)}那就是有空 我请你来我家
+Dialogue: 0,0:04:11.81,0:04:11.85,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,926)}过来吧
+Dialogue: 0,0:04:11.85,0:04:11.89,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,826)}过来吧
+Dialogue: 0,0:04:11.89,0:04:11.94,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,766)}过来吧
+Dialogue: 0,0:04:11.94,0:04:11.98,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,736)}过来吧
+Dialogue: 0,0:04:11.98,0:04:12.02,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,724)}过来吧
+Dialogue: 0,0:04:12.02,0:04:13.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,216)}在散步
+Dialogue: 0,0:04:13.07,0:04:13.11,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,186)}在散步
+Dialogue: 0,0:04:12.02,0:04:13.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,424)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.06,0:04:13.10,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,394)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.10,0:04:13.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,304)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.14,0:04:13.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,244)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.19,0:04:13.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,214)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.23,0:04:13.27,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,201)}那就是有空 我请你来我家
+Dialogue: 0,0:04:12.02,0:04:13.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,720)}过来吧
+Dialogue: 0,0:04:13.06,0:04:13.10,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,690)}过来吧
+Dialogue: 0,0:04:13.10,0:04:13.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,600)}过来吧
+Dialogue: 0,0:04:13.14,0:04:13.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,540)}过来吧
+Dialogue: 0,0:04:13.19,0:04:13.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,510)}过来吧
+Dialogue: 0,0:04:13.23,0:04:13.27,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,498)}过来吧
+Dialogue: 0,0:04:13.27,0:04:16.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,197)}那就是有空 我请你来我家
+Dialogue: 0,0:04:13.27,0:04:16.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,494)}过来吧
+Dialogue: 0,0:04:13.27,0:04:16.06,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,696)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:13.06,0:04:13.10,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,893)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:13.10,0:04:13.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,803)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:13.14,0:04:13.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,743)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:13.19,0:04:13.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,713)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:13.23,0:04:13.27,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,700)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.06,0:04:16.11,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,462)}过来吧
+Dialogue: 0,0:04:16.11,0:04:16.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,356)}过来吧
+Dialogue: 0,0:04:16.14,0:04:16.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,276)}过来吧
+Dialogue: 0,0:04:16.19,0:04:16.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,236)}过来吧
+Dialogue: 0,0:04:16.23,0:04:16.26,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,214)}过来吧
+Dialogue: 0,0:04:16.26,0:04:18.36,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,208)}过来吧
+Dialogue: 0,0:04:16.06,0:04:16.11,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,664)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.11,0:04:16.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,558)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.14,0:04:16.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,478)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.19,0:04:16.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,438)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.23,0:04:16.26,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,416)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.26,0:04:18.36,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an3\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(1760,410)}我在和小佐内同学散步，等等过去
+Dialogue: 0,0:04:16.11,0:04:16.14,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,848)}没问题 你们一起来吧
+Dialogue: 0,0:04:16.14,0:04:16.19,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,768)}没问题 你们一起来吧
+Dialogue: 0,0:04:16.19,0:04:16.23,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,728)}没问题 你们一起来吧
+Dialogue: 0,0:04:16.23,0:04:16.26,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,706)}没问题 你们一起来吧
+Dialogue: 0,0:04:16.26,0:04:18.36,CN,,0,0,0,,{\fn方正兰亭圆_GBK\an1\fs50\fsp4.5\bord.1\blur2\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\pos(160,700)}没问题 你们一起来吧
+Dialogue: 0,0:15:50.97,0:15:52.02,CN,,0,0,0,,{=30}{\fad(0,50)\fn更纱黑体 SC\fs20\blur4\3a80\3c&HFFFFFF&\c&HCFCFCF&\fax-0.128026\fscx93.77\fscy93.22\frz-0.4199\frx-4.7603\fry-0.4239\xbord0.37\ybord0.37\org(1658.03,281.37)\pos(1660,290.69)}加热
+Dialogue: 0,0:15:52.31,0:15:53.32,CN,,0,0,0,,{=30}{\fad(0,50)\fn更纱黑体 SC\fs20\blur4\3a80\3c&HFFFFFF&\c&HCFCFCF&\fax-0.128026\fscx93.77\fscy93.22\frz-0.4199\frx-4.7603\fry-0.4239\xbord0.37\ybord0.37\org(1658.03,281.37)\pos(1660,290.69)}加热
+Dialogue: 0,0:15:53.56,0:15:53.97,CN,,0,0,0,,{=30}{\fn更纱黑体 SC\fs20\blur4\3a80\3c&HFFFFFF&\c&HCFCFCF&\fax-0.128026\fscx93.77\fscy93.22\frz-0.4199\frx-4.7603\fry-0.4239\xbord0.37\ybord0.37\org(1658.03,281.37)\pos(1660,290.69)}加热
+Dialogue: 0,0:15:50.97,0:15:53.97,CN,,0,0,0,,{=32}{\fn更纱黑体 SC\fs20\blur4\3a80\3c&HFFFFFF&\c&HCFCFCF&\fax-0.125083\fscx92.50\fscy90.78\frz-0.4816\frx-4.8156\fry-0.4294\xbord0.37\ybord0.36\org(1650.5,330.61)\pos(1651.66,339.68)}牛奶
+Comment: 0,0:17:39.83,0:17:42.08,CN,,0,0,0,,{=16}{\fn华康新综艺W7\c&H00F5F2F9\fs30\blur1\\bord0\pos(617,193)}低温杀菌
+Comment: 0,0:17:39.83,0:17:42.08,CN,,0,0,0,,{\fn华康新综艺W7\bord0\c&H00F5F2F9\fs30\blur1\frz14.46\pos(505.629,420.578)\frx356\fry24}关牛奶
+Dialogue: 0,0:17:39.83,0:17:42.08,CN,,0,0,0,,{\bord0\fs26\blur1\c&H00617F93\alpha&F15&\pos(828.815,444.808)}纯{\bord0\fs26\blur1\c&H009EDFF5\alpha&F15&\pos(828.815,444.808)}可可粉
+Dialogue: 0,0:19:46.67,0:19:47.21,CN,,0,0,0,,{=24=37}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.169296\fscx266.01\fscy248.68\frz59.1311\frx11.8738\fry6.9876\bord0\org(625.91,505.05)\pos(624.78,511.26)}好喝热可可的做法
+Dialogue: 0,0:19:51.71,0:19:51.75,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx400\fscy400\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.25,531.25)}好喝热可可的做法
+Dialogue: 0,0:19:51.75,0:19:51.79,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx400.44\fscy400.44\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.27,531.24)}好喝热可可的做法
+Dialogue: 0,0:19:51.79,0:19:51.83,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx400.92\fscy400.92\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.3,531.23)}好喝热可可的做法
+Dialogue: 0,0:19:51.83,0:19:51.88,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx401.41\fscy401.41\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.32,531.22)}好喝热可可的做法
+Dialogue: 0,0:19:51.88,0:19:51.92,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx401.89\fscy401.89\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.35,531.2)}好喝热可可的做法
+Dialogue: 0,0:19:51.92,0:19:51.96,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx402.38\fscy402.38\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.38,531.19)}好喝热可可的做法
+Dialogue: 0,0:19:51.96,0:19:52.00,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx402.88\fscy402.88\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.4,531.18)}好喝热可可的做法
+Dialogue: 0,0:19:52.00,0:19:52.04,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx403.34\fscy403.34\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.43,531.17)}好喝热可可的做法
+Dialogue: 0,0:19:52.04,0:19:52.08,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx403.8\fscy403.8\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.45,531.17)}好喝热可可的做法
+Dialogue: 0,0:19:52.08,0:19:52.13,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx404.31\fscy404.31\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.48,531.16)}好喝热可可的做法
+Dialogue: 0,0:19:52.13,0:19:52.17,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx404.82\fscy404.82\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.51,531.14)}好喝热可可的做法
+Dialogue: 0,0:19:52.17,0:19:52.21,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx405.34\fscy405.34\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.54,531.13)}好喝热可可的做法
+Dialogue: 0,0:19:52.21,0:19:52.25,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx405.81\fscy405.81\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.56,531.12)}好喝热可可的做法
+Dialogue: 0,0:19:52.25,0:19:52.29,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx406.29\fscy406.29\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.59,531.11)}好喝热可可的做法
+Dialogue: 0,0:19:52.29,0:19:52.33,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx406.77\fscy406.77\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.62,531.1)}好喝热可可的做法
+Dialogue: 0,0:19:52.33,0:19:52.38,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx407.26\fscy407.26\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.64,531.09)}好喝热可可的做法
+Dialogue: 0,0:19:52.38,0:19:52.42,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx407.77\fscy407.77\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.67,531.07)}好喝热可可的做法
+Dialogue: 0,0:19:52.42,0:19:52.46,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx408.27\fscy408.27\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.7,531.06)}好喝热可可的做法
+Dialogue: 0,0:19:52.46,0:19:52.50,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx408.79\fscy408.79\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.72,531.05)}好喝热可可的做法
+Dialogue: 0,0:19:52.50,0:19:52.54,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx409.32\fscy409.32\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.74,531.04)}好喝热可可的做法
+Dialogue: 0,0:19:52.54,0:19:52.58,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx409.82\fscy409.82\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.77,531.02)}好喝热可可的做法
+Dialogue: 0,0:19:52.58,0:19:52.63,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx410.35\fscy410.35\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.8,531.01)}好喝热可可的做法
+Dialogue: 0,0:19:52.63,0:19:52.67,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx410.86\fscy410.86\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.83,531)}好喝热可可的做法
+Dialogue: 0,0:19:52.67,0:19:52.71,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx411.36\fscy411.36\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.86,530.99)}好喝热可可的做法
+Dialogue: 0,0:19:52.71,0:19:52.75,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx411.9\fscy411.9\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.89,530.97)}好喝热可可的做法
+Dialogue: 0,0:19:52.75,0:19:52.79,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx412.4\fscy412.4\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.91,530.96)}好喝热可可的做法
+Dialogue: 0,0:19:52.79,0:19:52.83,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx412.91\fscy412.91\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.94,530.95)}好喝热可可的做法
+Dialogue: 0,0:19:52.83,0:19:52.88,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx413.42\fscy413.42\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.97,530.93)}好喝热可可的做法
+Dialogue: 0,0:19:52.88,0:19:52.92,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx413.93\fscy413.93\frz55.69\frx9.7383\fry-3.8795\bord0\pos(577.99,530.93)}好喝热可可的做法
+Dialogue: 0,0:19:52.92,0:19:52.96,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx414.43\fscy414.43\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.02,530.91)}好喝热可可的做法
+Dialogue: 0,0:19:52.96,0:19:53.00,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx414.95\fscy414.95\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.05,530.9)}好喝热可可的做法
+Dialogue: 0,0:19:53.00,0:19:53.04,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx415.46\fscy415.46\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.08,530.89)}好喝热可可的做法
+Dialogue: 0,0:19:53.04,0:19:53.08,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx415.99\fscy415.99\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.11,530.88)}好喝热可可的做法
+Dialogue: 0,0:19:53.08,0:19:53.13,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx416.54\fscy416.54\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.13,530.86)}好喝热可可的做法
+Dialogue: 0,0:19:53.13,0:19:53.17,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx417.06\fscy417.06\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.16,530.85)}好喝热可可的做法
+Dialogue: 0,0:19:53.17,0:19:53.21,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx417.59\fscy417.59\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.19,530.84)}好喝热可可的做法
+Dialogue: 0,0:19:53.21,0:19:53.25,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx418.12\fscy418.12\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.22,530.83)}好喝热可可的做法
+Dialogue: 0,0:19:53.25,0:19:53.29,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx418.67\fscy418.67\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.24,530.82)}好喝热可可的做法
+Dialogue: 0,0:19:53.29,0:19:53.33,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx419.21\fscy419.21\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.27,530.8)}好喝热可可的做法
+Dialogue: 0,0:19:53.33,0:19:53.38,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx419.76\fscy419.76\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.3,530.79)}好喝热可可的做法
+Dialogue: 0,0:19:53.38,0:19:53.42,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx420.29\fscy420.29\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.33,530.78)}好喝热可可的做法
+Dialogue: 0,0:19:53.42,0:19:53.46,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx420.82\fscy420.82\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.36,530.77)}好喝热可可的做法
+Dialogue: 0,0:19:53.46,0:19:53.50,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx421.33\fscy421.33\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.38,530.76)}好喝热可可的做法
+Dialogue: 0,0:19:53.50,0:19:53.54,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx421.89\fscy421.89\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.42,530.74)}好喝热可可的做法
+Dialogue: 0,0:19:53.54,0:19:53.59,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx422.41\fscy422.41\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.44,530.73)}好喝热可可的做法
+Dialogue: 0,0:19:53.59,0:19:53.63,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx422.95\fscy422.95\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.48,530.72)}好喝热可可的做法
+Dialogue: 0,0:19:53.63,0:19:53.67,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx423.48\fscy423.48\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.5,530.71)}好喝热可可的做法
+Dialogue: 0,0:19:53.67,0:19:53.71,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx424.03\fscy424.03\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.53,530.7)}好喝热可可的做法
+Dialogue: 0,0:19:53.71,0:19:53.75,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx424.54\fscy424.54\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.56,530.69)}好喝热可可的做法
+Dialogue: 0,0:19:53.75,0:19:53.79,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx425.07\fscy425.07\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.59,530.67)}好喝热可可的做法
+Dialogue: 0,0:19:53.79,0:19:53.84,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx425.61\fscy425.61\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.62,530.65)}好喝热可可的做法
+Dialogue: 0,0:19:53.84,0:19:53.88,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx426.15\fscy426.15\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.65,530.65)}好喝热可可的做法
+Dialogue: 0,0:19:53.88,0:19:53.92,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx426.71\fscy426.71\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.68,530.63)}好喝热可可的做法
+Dialogue: 0,0:19:53.92,0:19:53.96,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx427.25\fscy427.25\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.71,530.62)}好喝热可可的做法
+Dialogue: 0,0:19:53.96,0:19:54.00,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx427.79\fscy427.79\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.73,530.61)}好喝热可可的做法
+Dialogue: 0,0:19:54.00,0:19:54.04,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx428.34\fscy428.34\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.77,530.6)}好喝热可可的做法
+Dialogue: 0,0:19:54.04,0:19:54.09,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx428.86\fscy428.86\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.79,530.59)}好喝热可可的做法
+Dialogue: 0,0:19:54.09,0:19:54.13,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx429.42\fscy429.42\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.82,530.57)}好喝热可可的做法
+Dialogue: 0,0:19:54.13,0:19:54.17,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx429.97\fscy429.97\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.86,530.55)}好喝热可可的做法
+Dialogue: 0,0:19:54.17,0:19:54.21,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx430.52\fscy430.52\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.89,530.54)}好喝热可可的做法
+Dialogue: 0,0:19:54.21,0:19:54.25,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx431.08\fscy431.08\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.91,530.53)}好喝热可可的做法
+Dialogue: 0,0:19:54.25,0:19:54.29,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx431.64\fscy431.64\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.94,530.52)}好喝热可可的做法
+Dialogue: 0,0:19:54.29,0:19:54.34,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx432.19\fscy432.19\frz55.69\frx9.7383\fry-3.8795\bord0\pos(578.97,530.51)}好喝热可可的做法
+Dialogue: 0,0:19:54.34,0:19:54.38,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx432.74\fscy432.74\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579,530.49)}好喝热可可的做法
+Dialogue: 0,0:19:54.38,0:19:54.42,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx433.3\fscy433.3\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.03,530.48)}好喝热可可的做法
+Dialogue: 0,0:19:54.42,0:19:54.46,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx433.85\fscy433.85\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.06,530.46)}好喝热可可的做法
+Dialogue: 0,0:19:54.46,0:19:54.50,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx434.4\fscy434.4\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.09,530.46)}好喝热可可的做法
+Dialogue: 0,0:19:54.50,0:19:54.54,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx434.96\fscy434.96\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.12,530.44)}好喝热可可的做法
+Dialogue: 0,0:19:54.54,0:19:54.59,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx435.51\fscy435.51\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.15,530.43)}好喝热可可的做法
+Dialogue: 0,0:19:54.59,0:19:54.63,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx436.1\fscy436.1\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.19,530.42)}好喝热可可的做法
+Dialogue: 0,0:19:54.63,0:19:54.67,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx436.67\fscy436.67\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.21,530.41)}好喝热可可的做法
+Dialogue: 0,0:19:54.67,0:19:54.71,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx437.23\fscy437.23\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.24,530.4)}好喝热可可的做法
+Dialogue: 0,0:19:54.71,0:19:54.75,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx437.81\fscy437.81\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.27,530.38)}好喝热可可的做法
+Dialogue: 0,0:19:54.75,0:19:54.79,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx438.36\fscy438.36\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.3,530.37)}好喝热可可的做法
+Dialogue: 0,0:19:54.79,0:19:54.84,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx438.95\fscy438.95\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.34,530.35)}好喝热可可的做法
+Dialogue: 0,0:19:54.84,0:19:54.88,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx439.52\fscy439.52\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.37,530.34)}好喝热可可的做法
+Dialogue: 0,0:19:54.88,0:19:54.92,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx440.11\fscy440.11\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.4,530.33)}好喝热可可的做法
+Dialogue: 0,0:19:54.92,0:19:54.96,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx440.69\fscy440.69\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.43,530.31)}好喝热可可的做法
+Dialogue: 0,0:19:54.96,0:19:55.00,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx441.26\fscy441.26\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.46,530.3)}好喝热可可的做法
+Dialogue: 0,0:19:55.00,0:19:55.04,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx441.84\fscy441.84\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.49,530.29)}好喝热可可的做法
+Dialogue: 0,0:19:55.04,0:19:55.09,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx442.43\fscy442.43\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.52,530.27)}好喝热可可的做法
+Dialogue: 0,0:19:55.09,0:19:55.13,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx443.01\fscy443.01\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.55,530.26)}好喝热可可的做法
+Dialogue: 0,0:19:55.13,0:19:55.17,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx443.59\fscy443.59\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.59,530.25)}好喝热可可的做法
+Dialogue: 0,0:19:55.17,0:19:55.21,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx444.18\fscy444.18\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.62,530.24)}好喝热可可的做法
+Dialogue: 0,0:19:55.21,0:19:55.25,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx444.76\fscy444.76\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.65,530.23)}好喝热可可的做法
+Dialogue: 0,0:19:55.25,0:19:55.30,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx445.35\fscy445.35\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.68,530.21)}好喝热可可的做法
+Dialogue: 0,0:19:55.30,0:19:55.34,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx445.95\fscy445.95\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.71,530.2)}好喝热可可的做法
+Dialogue: 0,0:19:55.34,0:19:55.38,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx446.53\fscy446.53\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.74,530.18)}好喝热可可的做法
+Dialogue: 0,0:19:55.38,0:19:55.42,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx447.11\fscy447.11\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.78,530.17)}好喝热可可的做法
+Dialogue: 0,0:19:55.42,0:19:55.46,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx447.71\fscy447.71\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.81,530.16)}好喝热可可的做法
+Dialogue: 0,0:19:55.46,0:19:55.50,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx448.32\fscy448.32\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.84,530.14)}好喝热可可的做法
+Dialogue: 0,0:19:55.50,0:19:55.55,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx448.91\fscy448.91\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.87,530.13)}好喝热可可的做法
+Dialogue: 0,0:19:55.55,0:19:55.59,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx449.51\fscy449.51\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.91,530.11)}好喝热可可的做法
+Dialogue: 0,0:19:55.59,0:19:55.63,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx450.11\fscy450.11\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.94,530.1)}好喝热可可的做法
+Dialogue: 0,0:19:55.63,0:19:55.67,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx450.72\fscy450.72\frz55.69\frx9.7383\fry-3.8795\bord0\pos(579.97,530.08)}好喝热可可的做法
+Dialogue: 0,0:19:55.67,0:19:55.71,CN,,0,0,0,,{=23=24}{\fn方正兰亭圆_GBK_中\fs5\fsp.35\blur.2\c&H3C419B&\fax0.165465\fscx451.32\fscy451.32\frz55.69\frx9.7383\fry-3.8795\bord0\pos(580,530.07)}好喝热可可的做法
+Dialogue: 0,0:19:51.71,0:19:51.75,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280\fscy280\bord0\blur.4\frz56.04\c&H00585B66\pos(752.36,709.62)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.75,0:19:51.79,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.31\fscy280.31\bord0\blur.4\frz56.04\c&H00585B66\pos(752.58,709.8)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.79,0:19:51.83,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.64\fscy280.64\bord0\blur.4\frz56.04\c&H00585B66\pos(752.81,710)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.83,0:19:51.88,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.99\fscy280.99\bord0\blur.4\frz56.04\c&H00585B66\pos(753.05,710.21)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.88,0:19:51.92,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.32\fscy281.32\bord0\blur.4\frz56.04\c&H00585B66\pos(753.29,710.41)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.92,0:19:51.96,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.66\fscy281.66\bord0\blur.4\frz56.04\c&H00585B66\pos(753.53,710.62)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.96,0:19:52.00,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.01\fscy282.01\bord0\blur.4\frz56.04\c&H00585B66\pos(753.78,710.83)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.00,0:19:52.04,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.34\fscy282.34\bord0\blur.4\frz56.04\c&H00585B66\pos(754,711.03)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.04,0:19:52.08,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.66\fscy282.66\bord0\blur.4\frz56.04\c&H00585B66\pos(754.23,711.23)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.08,0:19:52.13,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.02\fscy283.02\bord0\blur.4\frz56.04\c&H00585B66\pos(754.48,711.44)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.13,0:19:52.17,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.37\fscy283.37\bord0\blur.4\frz56.04\c&H00585B66\pos(754.73,711.66)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.17,0:19:52.21,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.74\fscy283.74\bord0\blur.4\frz56.04\c&H00585B66\pos(754.99,711.87)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.21,0:19:52.25,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.07\fscy284.07\bord0\blur.4\frz56.04\c&H00585B66\pos(755.22,712.08)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.25,0:19:52.29,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.41\fscy284.41\bord0\blur.4\frz56.04\c&H00585B66\pos(755.46,712.28)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.29,0:19:52.33,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.74\fscy284.74\bord0\blur.4\frz56.04\c&H00585B66\pos(755.69,712.48)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.33,0:19:52.38,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.08\fscy285.08\bord0\blur.4\frz56.04\c&H00585B66\pos(755.93,712.69)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.38,0:19:52.42,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.44\fscy285.44\bord0\blur.4\frz56.04\c&H00585B66\pos(756.18,712.9)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.42,0:19:52.46,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.79\fscy285.79\bord0\blur.4\frz56.04\c&H00585B66\pos(756.43,713.12)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.46,0:19:52.50,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.16\fscy286.16\bord0\blur.4\frz56.04\c&H00585B66\pos(756.69,713.33)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.50,0:19:52.54,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.52\fscy286.52\bord0\blur.4\frz56.04\c&H00585B66\pos(756.94,713.56)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.54,0:19:52.58,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.87\fscy286.87\bord0\blur.4\frz56.04\c&H00585B66\pos(757.18,713.77)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.58,0:19:52.63,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.24\fscy287.24\bord0\blur.4\frz56.04\c&H00585B66\pos(757.45,713.99)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.63,0:19:52.67,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.6\fscy287.6\bord0\blur.4\frz56.04\c&H00585B66\pos(757.7,714.21)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.67,0:19:52.71,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.95\fscy287.95\bord0\blur.4\frz56.04\c&H00585B66\pos(757.94,714.42)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.71,0:19:52.75,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.33\fscy288.33\bord0\blur.4\frz56.04\c&H00585B66\pos(758.21,714.64)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.75,0:19:52.79,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.68\fscy288.68\bord0\blur.4\frz56.04\c&H00585B66\pos(758.46,714.86)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.79,0:19:52.83,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.04\fscy289.04\bord0\blur.4\frz56.04\c&H00585B66\pos(758.71,715.07)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.83,0:19:52.88,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.4\fscy289.4\bord0\blur.4\frz56.04\c&H00585B66\pos(758.95,715.28)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.88,0:19:52.92,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.75\fscy289.75\bord0\blur.4\frz56.04\c&H00585B66\pos(759.2,715.5)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.92,0:19:52.96,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.1\fscy290.1\bord0\blur.4\frz56.04\c&H00585B66\pos(759.46,715.72)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:52.96,0:19:53.00,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.46\fscy290.46\bord0\blur.4\frz56.04\c&H00585B66\pos(759.71,715.93)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.00,0:19:53.04,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.82\fscy290.82\bord0\blur.4\frz56.04\c&H00585B66\pos(759.96,716.15)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.04,0:19:53.08,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.19\fscy291.19\bord0\blur.4\frz56.04\c&H00585B66\pos(760.22,716.38)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.08,0:19:53.13,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.58\fscy291.58\bord0\blur.4\frz56.04\c&H00585B66\pos(760.48,716.6)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.13,0:19:53.17,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.94\fscy291.94\bord0\blur.4\frz56.04\c&H00585B66\pos(760.74,716.82)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.17,0:19:53.21,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.31\fscy292.31\bord0\blur.4\frz56.04\c&H00585B66\pos(761,717.05)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.21,0:19:53.25,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.68\fscy292.68\bord0\blur.4\frz56.04\c&H00585B66\pos(761.26,717.27)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.25,0:19:53.29,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.07\fscy293.07\bord0\blur.4\frz56.04\c&H00585B66\pos(761.53,717.51)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.29,0:19:53.33,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.45\fscy293.45\bord0\blur.4\frz56.04\c&H00585B66\pos(761.8,717.73)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.33,0:19:53.38,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.83\fscy293.83\bord0\blur.4\frz56.04\c&H00585B66\pos(762.07,717.97)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.38,0:19:53.42,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.2\fscy294.2\bord0\blur.4\frz56.04\c&H00585B66\pos(762.32,718.19)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.42,0:19:53.46,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.58\fscy294.58\bord0\blur.4\frz56.04\c&H00585B66\pos(762.59,718.42)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.46,0:19:53.50,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.93\fscy294.93\bord0\blur.4\frz56.04\c&H00585B66\pos(762.83,718.63)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.50,0:19:53.54,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.32\fscy295.32\bord0\blur.4\frz56.04\c&H00585B66\pos(763.11,718.87)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.54,0:19:53.59,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.69\fscy295.69\bord0\blur.4\frz56.04\c&H00585B66\pos(763.37,719.09)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.59,0:19:53.63,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.07\fscy296.07\bord0\blur.4\frz56.04\c&H00585B66\pos(763.64,719.32)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.63,0:19:53.67,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.44\fscy296.44\bord0\blur.4\frz56.04\c&H00585B66\pos(763.89,719.54)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.67,0:19:53.71,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.82\fscy296.82\bord0\blur.4\frz56.04\c&H00585B66\pos(764.16,719.77)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.71,0:19:53.75,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.18\fscy297.18\bord0\blur.4\frz56.04\c&H00585B66\pos(764.41,719.99)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.75,0:19:53.79,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.55\fscy297.55\bord0\blur.4\frz56.04\c&H00585B66\pos(764.67,720.21)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.79,0:19:53.84,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.93\fscy297.93\bord0\blur.4\frz56.04\c&H00585B66\pos(764.94,720.44)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.84,0:19:53.88,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.31\fscy298.31\bord0\blur.4\frz56.04\c&H00585B66\pos(765.21,720.68)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.88,0:19:53.92,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.69\fscy298.69\bord0\blur.4\frz56.04\c&H00585B66\pos(765.48,720.91)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.92,0:19:53.96,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.08\fscy299.08\bord0\blur.4\frz56.04\c&H00585B66\pos(765.75,721.13)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:53.96,0:19:54.00,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.45\fscy299.45\bord0\blur.4\frz56.04\c&H00585B66\pos(766.01,721.36)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.00,0:19:54.04,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.84\fscy299.84\bord0\blur.4\frz56.04\c&H00585B66\pos(766.29,721.6)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.04,0:19:54.09,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.2\fscy300.2\bord0\blur.4\frz56.04\c&H00585B66\pos(766.54,721.82)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.09,0:19:54.13,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.59\fscy300.59\bord0\blur.4\frz56.04\c&H00585B66\pos(766.81,722.06)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.13,0:19:54.17,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.98\fscy300.98\bord0\blur.4\frz56.04\c&H00585B66\pos(767.09,722.28)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.17,0:19:54.21,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.36\fscy301.36\bord0\blur.4\frz56.04\c&H00585B66\pos(767.36,722.52)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.21,0:19:54.25,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.76\fscy301.76\bord0\blur.4\frz56.04\c&H00585B66\pos(767.63,722.76)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.25,0:19:54.29,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.14\fscy302.14\bord0\blur.4\frz56.04\c&H00585B66\pos(767.9,722.99)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.29,0:19:54.34,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.53\fscy302.53\bord0\blur.4\frz56.04\c&H00585B66\pos(768.17,723.22)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.34,0:19:54.38,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.92\fscy302.92\bord0\blur.4\frz56.04\c&H00585B66\pos(768.44,723.46)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.38,0:19:54.42,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.31\fscy303.31\bord0\blur.4\frz56.04\c&H00585B66\pos(768.72,723.7)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.42,0:19:54.46,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.7\fscy303.7\bord0\blur.4\frz56.04\c&H00585B66\pos(768.99,723.92)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.46,0:19:54.50,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.08\fscy304.08\bord0\blur.4\frz56.04\c&H00585B66\pos(769.26,724.16)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.50,0:19:54.54,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.48\fscy304.48\bord0\blur.4\frz56.04\c&H00585B66\pos(769.54,724.4)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.54,0:19:54.59,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.86\fscy304.86\bord0\blur.4\frz56.04\c&H00585B66\pos(769.81,724.63)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.59,0:19:54.63,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.27\fscy305.27\bord0\blur.4\frz56.04\c&H00585B66\pos(770.1,724.88)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.63,0:19:54.67,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.67\fscy305.67\bord0\blur.4\frz56.04\c&H00585B66\pos(770.38,725.13)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.67,0:19:54.71,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.06\fscy306.06\bord0\blur.4\frz56.04\c&H00585B66\pos(770.65,725.37)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.71,0:19:54.75,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.47\fscy306.47\bord0\blur.4\frz56.04\c&H00585B66\pos(770.94,725.61)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.75,0:19:54.79,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.85\fscy306.85\bord0\blur.4\frz56.04\c&H00585B66\pos(771.21,725.84)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.79,0:19:54.84,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.26\fscy307.26\bord0\blur.4\frz56.04\c&H00585B66\pos(771.5,726.08)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.84,0:19:54.88,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.67\fscy307.67\bord0\blur.4\frz56.04\c&H00585B66\pos(771.78,726.33)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.88,0:19:54.92,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.07\fscy308.07\bord0\blur.4\frz56.04\c&H00585B66\pos(772.07,726.58)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.92,0:19:54.96,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.48\fscy308.48\bord0\blur.4\frz56.04\c&H00585B66\pos(772.35,726.82)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:54.96,0:19:55.00,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.88\fscy308.88\bord0\blur.4\frz56.04\c&H00585B66\pos(772.63,727.06)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.00,0:19:55.04,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.29\fscy309.29\bord0\blur.4\frz56.04\c&H00585B66\pos(772.91,727.32)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.04,0:19:55.09,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.7\fscy309.7\bord0\blur.4\frz56.04\c&H00585B66\pos(773.2,727.56)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.09,0:19:55.13,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.11\fscy310.11\bord0\blur.4\frz56.04\c&H00585B66\pos(773.49,727.81)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.13,0:19:55.17,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.51\fscy310.51\bord0\blur.4\frz56.04\c&H00585B66\pos(773.78,728.05)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.17,0:19:55.21,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.93\fscy310.93\bord0\blur.4\frz56.04\c&H00585B66\pos(774.07,728.31)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.21,0:19:55.25,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.33\fscy311.33\bord0\blur.4\frz56.04\c&H00585B66\pos(774.36,728.55)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.25,0:19:55.30,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.74\fscy311.74\bord0\blur.4\frz56.04\c&H00585B66\pos(774.65,728.8)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.30,0:19:55.34,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.16\fscy312.16\bord0\blur.4\frz56.04\c&H00585B66\pos(774.94,729.05)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.34,0:19:55.38,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.57\fscy312.57\bord0\blur.4\frz56.04\c&H00585B66\pos(775.22,729.29)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.38,0:19:55.42,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.98\fscy312.98\bord0\blur.4\frz56.04\c&H00585B66\pos(775.51,729.55)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.42,0:19:55.46,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.4\fscy313.4\bord0\blur.4\frz56.04\c&H00585B66\pos(775.8,729.8)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.46,0:19:55.50,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.83\fscy313.83\bord0\blur.4\frz56.04\c&H00585B66\pos(776.11,730.05)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.50,0:19:55.55,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.23\fscy314.23\bord0\blur.4\frz56.04\c&H00585B66\pos(776.39,730.3)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.55,0:19:55.59,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.66\fscy314.66\bord0\blur.4\frz56.04\c&H00585B66\pos(776.7,730.55)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.59,0:19:55.63,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.08\fscy315.08\bord0\blur.4\frz56.04\c&H00585B66\pos(776.99,730.81)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.63,0:19:55.67,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.5\fscy315.5\bord0\blur.4\frz56.04\c&H00585B66\pos(777.28,731.06)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:55.67,0:19:55.71,CN,,0,0,0,,{=27}{\alpha&H00&\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.92\fscy315.92\bord0\blur.4\frz56.04\c&H00585B66\pos(777.58,731.32)}可可粉和砂糖各加一满勺
+Dialogue: 0,0:19:51.71,0:19:51.75,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280\fscy280\bord0\blur.4\frz56.04\c&H00585B66\pos(822.4,584)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.75,0:19:51.79,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.31\fscy280.31\bord0\blur.4\frz56.04\c&H00585B66\pos(822.69,584.05)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.79,0:19:51.83,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.64\fscy280.64\bord0\blur.4\frz56.04\c&H00585B66\pos(823.01,584.1)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.83,0:19:51.88,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.99\fscy280.99\bord0\blur.4\frz56.04\c&H00585B66\pos(823.34,584.15)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.88,0:19:51.92,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.32\fscy281.32\bord0\blur.4\frz56.04\c&H00585B66\pos(823.65,584.2)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.92,0:19:51.96,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.66\fscy281.66\bord0\blur.4\frz56.04\c&H00585B66\pos(823.98,584.26)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.96,0:19:52.00,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.01\fscy282.01\bord0\blur.4\frz56.04\c&H00585B66\pos(824.32,584.31)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.00,0:19:52.04,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.34\fscy282.34\bord0\blur.4\frz56.04\c&H00585B66\pos(824.63,584.36)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.04,0:19:52.08,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.66\fscy282.66\bord0\blur.4\frz56.04\c&H00585B66\pos(824.93,584.42)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.08,0:19:52.13,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.02\fscy283.02\bord0\blur.4\frz56.04\c&H00585B66\pos(825.27,584.47)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.13,0:19:52.17,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.37\fscy283.37\bord0\blur.4\frz56.04\c&H00585B66\pos(825.61,584.53)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.17,0:19:52.21,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.74\fscy283.74\bord0\blur.4\frz56.04\c&H00585B66\pos(825.96,584.58)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.21,0:19:52.25,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.07\fscy284.07\bord0\blur.4\frz56.04\c&H00585B66\pos(826.27,584.64)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.25,0:19:52.29,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.41\fscy284.41\bord0\blur.4\frz56.04\c&H00585B66\pos(826.6,584.69)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.29,0:19:52.33,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.74\fscy284.74\bord0\blur.4\frz56.04\c&H00585B66\pos(826.91,584.74)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.33,0:19:52.38,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.08\fscy285.08\bord0\blur.4\frz56.04\c&H00585B66\pos(827.24,584.8)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.38,0:19:52.42,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.44\fscy285.44\bord0\blur.4\frz56.04\c&H00585B66\pos(827.58,584.85)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.42,0:19:52.46,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.79\fscy285.79\bord0\blur.4\frz56.04\c&H00585B66\pos(827.92,584.9)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.46,0:19:52.50,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.16\fscy286.16\bord0\blur.4\frz56.04\c&H00585B66\pos(828.26,584.96)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.50,0:19:52.54,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.52\fscy286.52\bord0\blur.4\frz56.04\c&H00585B66\pos(828.61,585.02)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.54,0:19:52.58,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.87\fscy286.87\bord0\blur.4\frz56.04\c&H00585B66\pos(828.94,585.07)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.58,0:19:52.63,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.24\fscy287.24\bord0\blur.4\frz56.04\c&H00585B66\pos(829.3,585.13)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.63,0:19:52.67,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.6\fscy287.6\bord0\blur.4\frz56.04\c&H00585B66\pos(829.64,585.18)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.67,0:19:52.71,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.95\fscy287.95\bord0\blur.4\frz56.04\c&H00585B66\pos(829.97,585.23)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.71,0:19:52.75,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.33\fscy288.33\bord0\blur.4\frz56.04\c&H00585B66\pos(830.33,585.29)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.75,0:19:52.79,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.68\fscy288.68\bord0\blur.4\frz56.04\c&H00585B66\pos(830.66,585.35)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.79,0:19:52.83,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.04\fscy289.04\bord0\blur.4\frz56.04\c&H00585B66\pos(831,585.4)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.83,0:19:52.88,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.4\fscy289.4\bord0\blur.4\frz56.04\c&H00585B66\pos(831.34,585.45)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.88,0:19:52.92,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.75\fscy289.75\bord0\blur.4\frz56.04\c&H00585B66\pos(831.68,585.51)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.92,0:19:52.96,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.1\fscy290.1\bord0\blur.4\frz56.04\c&H00585B66\pos(832.02,585.57)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:52.96,0:19:53.00,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.46\fscy290.46\bord0\blur.4\frz56.04\c&H00585B66\pos(832.36,585.63)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.00,0:19:53.04,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.82\fscy290.82\bord0\blur.4\frz56.04\c&H00585B66\pos(832.7,585.68)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.04,0:19:53.08,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.19\fscy291.19\bord0\blur.4\frz56.04\c&H00585B66\pos(833.06,585.74)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.08,0:19:53.13,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.58\fscy291.58\bord0\blur.4\frz56.04\c&H00585B66\pos(833.42,585.79)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.13,0:19:53.17,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.94\fscy291.94\bord0\blur.4\frz56.04\c&H00585B66\pos(833.77,585.85)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.17,0:19:53.21,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.31\fscy292.31\bord0\blur.4\frz56.04\c&H00585B66\pos(834.12,585.91)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.21,0:19:53.25,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.68\fscy292.68\bord0\blur.4\frz56.04\c&H00585B66\pos(834.47,585.97)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.25,0:19:53.29,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.07\fscy293.07\bord0\blur.4\frz56.04\c&H00585B66\pos(834.84,586.03)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.29,0:19:53.33,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.45\fscy293.45\bord0\blur.4\frz56.04\c&H00585B66\pos(835.2,586.08)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.33,0:19:53.38,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.83\fscy293.83\bord0\blur.4\frz56.04\c&H00585B66\pos(835.56,586.15)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.38,0:19:53.42,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.2\fscy294.2\bord0\blur.4\frz56.04\c&H00585B66\pos(835.91,586.2)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.42,0:19:53.46,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.58\fscy294.58\bord0\blur.4\frz56.04\c&H00585B66\pos(836.27,586.26)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.46,0:19:53.50,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.93\fscy294.93\bord0\blur.4\frz56.04\c&H00585B66\pos(836.61,586.32)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.50,0:19:53.54,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.32\fscy295.32\bord0\blur.4\frz56.04\c&H00585B66\pos(836.98,586.38)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.54,0:19:53.59,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.69\fscy295.69\bord0\blur.4\frz56.04\c&H00585B66\pos(837.33,586.44)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.59,0:19:53.63,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.07\fscy296.07\bord0\blur.4\frz56.04\c&H00585B66\pos(837.7,586.49)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.63,0:19:53.67,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.44\fscy296.44\bord0\blur.4\frz56.04\c&H00585B66\pos(838.04,586.56)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.67,0:19:53.71,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.82\fscy296.82\bord0\blur.4\frz56.04\c&H00585B66\pos(838.41,586.61)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.71,0:19:53.75,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.18\fscy297.18\bord0\blur.4\frz56.04\c&H00585B66\pos(838.75,586.67)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.75,0:19:53.79,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.55\fscy297.55\bord0\blur.4\frz56.04\c&H00585B66\pos(839.1,586.72)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.79,0:19:53.84,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.93\fscy297.93\bord0\blur.4\frz56.04\c&H00585B66\pos(839.47,586.78)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.84,0:19:53.88,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.31\fscy298.31\bord0\blur.4\frz56.04\c&H00585B66\pos(839.82,586.85)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.88,0:19:53.92,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.69\fscy298.69\bord0\blur.4\frz56.04\c&H00585B66\pos(840.2,586.9)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.92,0:19:53.96,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.08\fscy299.08\bord0\blur.4\frz56.04\c&H00585B66\pos(840.56,586.96)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:53.96,0:19:54.00,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.45\fscy299.45\bord0\blur.4\frz56.04\c&H00585B66\pos(840.91,587.02)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.00,0:19:54.04,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.84\fscy299.84\bord0\blur.4\frz56.04\c&H00585B66\pos(841.29,587.08)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.04,0:19:54.09,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.2\fscy300.2\bord0\blur.4\frz56.04\c&H00585B66\pos(841.63,587.14)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.09,0:19:54.13,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.59\fscy300.59\bord0\blur.4\frz56.04\c&H00585B66\pos(842,587.2)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.13,0:19:54.17,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.98\fscy300.98\bord0\blur.4\frz56.04\c&H00585B66\pos(842.37,587.26)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.17,0:19:54.21,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.36\fscy301.36\bord0\blur.4\frz56.04\c&H00585B66\pos(842.74,587.32)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.21,0:19:54.25,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.76\fscy301.76\bord0\blur.4\frz56.04\c&H00585B66\pos(843.11,587.38)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.25,0:19:54.29,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.14\fscy302.14\bord0\blur.4\frz56.04\c&H00585B66\pos(843.48,587.44)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.29,0:19:54.34,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.53\fscy302.53\bord0\blur.4\frz56.04\c&H00585B66\pos(843.85,587.5)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.34,0:19:54.38,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.92\fscy302.92\bord0\blur.4\frz56.04\c&H00585B66\pos(844.21,587.56)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.38,0:19:54.42,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.31\fscy303.31\bord0\blur.4\frz56.04\c&H00585B66\pos(844.59,587.62)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.42,0:19:54.46,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.7\fscy303.7\bord0\blur.4\frz56.04\c&H00585B66\pos(844.96,587.68)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.46,0:19:54.50,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.08\fscy304.08\bord0\blur.4\frz56.04\c&H00585B66\pos(845.32,587.74)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.50,0:19:54.54,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.48\fscy304.48\bord0\blur.4\frz56.04\c&H00585B66\pos(845.7,587.81)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.54,0:19:54.59,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.86\fscy304.86\bord0\blur.4\frz56.04\c&H00585B66\pos(846.06,587.86)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.59,0:19:54.63,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.27\fscy305.27\bord0\blur.4\frz56.04\c&H00585B66\pos(846.46,587.93)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.63,0:19:54.67,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.67\fscy305.67\bord0\blur.4\frz56.04\c&H00585B66\pos(846.84,587.99)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.67,0:19:54.71,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.06\fscy306.06\bord0\blur.4\frz56.04\c&H00585B66\pos(847.21,588.06)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.71,0:19:54.75,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.47\fscy306.47\bord0\blur.4\frz56.04\c&H00585B66\pos(847.6,588.12)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.75,0:19:54.79,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.85\fscy306.85\bord0\blur.4\frz56.04\c&H00585B66\pos(847.96,588.18)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.79,0:19:54.84,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.26\fscy307.26\bord0\blur.4\frz56.04\c&H00585B66\pos(848.36,588.24)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.84,0:19:54.88,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.67\fscy307.67\bord0\blur.4\frz56.04\c&H00585B66\pos(848.74,588.3)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.88,0:19:54.92,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.07\fscy308.07\bord0\blur.4\frz56.04\c&H00585B66\pos(849.13,588.37)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.92,0:19:54.96,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.48\fscy308.48\bord0\blur.4\frz56.04\c&H00585B66\pos(849.52,588.43)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:54.96,0:19:55.00,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.88\fscy308.88\bord0\blur.4\frz56.04\c&H00585B66\pos(849.9,588.49)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.00,0:19:55.04,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.29\fscy309.29\bord0\blur.4\frz56.04\c&H00585B66\pos(850.28,588.56)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.04,0:19:55.09,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.7\fscy309.7\bord0\blur.4\frz56.04\c&H00585B66\pos(850.67,588.62)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.09,0:19:55.13,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.11\fscy310.11\bord0\blur.4\frz56.04\c&H00585B66\pos(851.06,588.68)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.13,0:19:55.17,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.51\fscy310.51\bord0\blur.4\frz56.04\c&H00585B66\pos(851.45,588.74)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.17,0:19:55.21,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.93\fscy310.93\bord0\blur.4\frz56.04\c&H00585B66\pos(851.85,588.82)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.21,0:19:55.25,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.33\fscy311.33\bord0\blur.4\frz56.04\c&H00585B66\pos(852.23,588.88)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.25,0:19:55.30,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.74\fscy311.74\bord0\blur.4\frz56.04\c&H00585B66\pos(852.62,588.94)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.30,0:19:55.34,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.16\fscy312.16\bord0\blur.4\frz56.04\c&H00585B66\pos(853.02,589.01)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.34,0:19:55.38,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.57\fscy312.57\bord0\blur.4\frz56.04\c&H00585B66\pos(853.41,589.07)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.38,0:19:55.42,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.98\fscy312.98\bord0\blur.4\frz56.04\c&H00585B66\pos(853.8,589.14)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.42,0:19:55.46,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.4\fscy313.4\bord0\blur.4\frz56.04\c&H00585B66\pos(854.2,589.2)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.46,0:19:55.50,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.83\fscy313.83\bord0\blur.4\frz56.04\c&H00585B66\pos(854.61,589.26)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.50,0:19:55.55,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.23\fscy314.23\bord0\blur.4\frz56.04\c&H00585B66\pos(854.99,589.33)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.55,0:19:55.59,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.66\fscy314.66\bord0\blur.4\frz56.04\c&H00585B66\pos(855.4,589.39)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.59,0:19:55.63,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.08\fscy315.08\bord0\blur.4\frz56.04\c&H00585B66\pos(855.8,589.46)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.63,0:19:55.67,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.5\fscy315.5\bord0\blur.4\frz56.04\c&H00585B66\pos(856.2,589.52)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:55.67,0:19:55.71,CN,,0,0,0,,{=26}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.92\fscy315.92\bord0\blur.4\frz56.04\c&H00585B66\pos(856.6,589.59)}加入热水（10ml）\N搅拌至糊状
+Dialogue: 0,0:19:51.71,0:19:51.75,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280\fscy280\bord0\blur.4\frz56.04\c&H00585B66\pos(956.36,402.18)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.75,0:19:51.79,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.31\fscy280.31\bord0\blur.4\frz56.04\c&H00585B66\pos(956.8,402.03)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.79,0:19:51.83,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.64\fscy280.64\bord0\blur.4\frz56.04\c&H00585B66\pos(957.27,401.86)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.83,0:19:51.88,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx280.99\fscy280.99\bord0\blur.4\frz56.04\c&H00585B66\pos(957.77,401.69)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.88,0:19:51.92,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.32\fscy281.32\bord0\blur.4\frz56.04\c&H00585B66\pos(958.25,401.52)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.92,0:19:51.96,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx281.66\fscy281.66\bord0\blur.4\frz56.04\c&H00585B66\pos(958.74,401.36)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:51.96,0:19:52.00,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.01\fscy282.01\bord0\blur.4\frz56.04\c&H00585B66\pos(959.24,401.18)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.00,0:19:52.04,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.34\fscy282.34\bord0\blur.4\frz56.04\c&H00585B66\pos(959.71,401.03)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.04,0:19:52.08,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx282.66\fscy282.66\bord0\blur.4\frz56.04\c&H00585B66\pos(960.17,400.87)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.08,0:19:52.13,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.02\fscy283.02\bord0\blur.4\frz56.04\c&H00585B66\pos(960.67,400.7)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.13,0:19:52.17,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.37\fscy283.37\bord0\blur.4\frz56.04\c&H00585B66\pos(961.19,400.52)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.17,0:19:52.21,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx283.74\fscy283.74\bord0\blur.4\frz56.04\c&H00585B66\pos(961.71,400.33)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.21,0:19:52.25,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.07\fscy284.07\bord0\blur.4\frz56.04\c&H00585B66\pos(962.18,400.18)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.25,0:19:52.29,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.41\fscy284.41\bord0\blur.4\frz56.04\c&H00585B66\pos(962.67,400.01)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.29,0:19:52.33,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx284.74\fscy284.74\bord0\blur.4\frz56.04\c&H00585B66\pos(963.14,399.84)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.33,0:19:52.38,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.08\fscy285.08\bord0\blur.4\frz56.04\c&H00585B66\pos(963.63,399.68)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.38,0:19:52.42,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.44\fscy285.44\bord0\blur.4\frz56.04\c&H00585B66\pos(964.14,399.5)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.42,0:19:52.46,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx285.79\fscy285.79\bord0\blur.4\frz56.04\c&H00585B66\pos(964.65,399.32)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.46,0:19:52.50,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.16\fscy286.16\bord0\blur.4\frz56.04\c&H00585B66\pos(965.17,399.14)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.50,0:19:52.54,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.52\fscy286.52\bord0\blur.4\frz56.04\c&H00585B66\pos(965.69,398.96)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.54,0:19:52.58,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx286.87\fscy286.87\bord0\blur.4\frz56.04\c&H00585B66\pos(966.19,398.79)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.58,0:19:52.63,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.24\fscy287.24\bord0\blur.4\frz56.04\c&H00585B66\pos(966.72,398.6)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.63,0:19:52.67,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.6\fscy287.6\bord0\blur.4\frz56.04\c&H00585B66\pos(967.23,398.42)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.67,0:19:52.71,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx287.95\fscy287.95\bord0\blur.4\frz56.04\c&H00585B66\pos(967.74,398.25)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.71,0:19:52.75,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.33\fscy288.33\bord0\blur.4\frz56.04\c&H00585B66\pos(968.27,398.06)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.75,0:19:52.79,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx288.68\fscy288.68\bord0\blur.4\frz56.04\c&H00585B66\pos(968.78,397.89)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.79,0:19:52.83,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.04\fscy289.04\bord0\blur.4\frz56.04\c&H00585B66\pos(969.29,397.71)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.83,0:19:52.88,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.4\fscy289.4\bord0\blur.4\frz56.04\c&H00585B66\pos(969.8,397.53)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.88,0:19:52.92,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx289.75\fscy289.75\bord0\blur.4\frz56.04\c&H00585B66\pos(970.31,397.36)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.92,0:19:52.96,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.1\fscy290.1\bord0\blur.4\frz56.04\c&H00585B66\pos(970.81,397.19)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:52.96,0:19:53.00,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.46\fscy290.46\bord0\blur.4\frz56.04\c&H00585B66\pos(971.33,397.01)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.00,0:19:53.04,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx290.82\fscy290.82\bord0\blur.4\frz56.04\c&H00585B66\pos(971.84,396.83)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.04,0:19:53.08,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.19\fscy291.19\bord0\blur.4\frz56.04\c&H00585B66\pos(972.37,396.65)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.08,0:19:53.13,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.58\fscy291.58\bord0\blur.4\frz56.04\c&H00585B66\pos(972.91,396.46)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.13,0:19:53.17,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx291.94\fscy291.94\bord0\blur.4\frz56.04\c&H00585B66\pos(973.44,396.28)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.17,0:19:53.21,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.31\fscy292.31\bord0\blur.4\frz56.04\c&H00585B66\pos(973.97,396.09)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.21,0:19:53.25,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx292.68\fscy292.68\bord0\blur.4\frz56.04\c&H00585B66\pos(974.5,395.92)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.25,0:19:53.29,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.07\fscy293.07\bord0\blur.4\frz56.04\c&H00585B66\pos(975.05,395.72)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.29,0:19:53.33,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.45\fscy293.45\bord0\blur.4\frz56.04\c&H00585B66\pos(975.59,395.53)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.33,0:19:53.38,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx293.83\fscy293.83\bord0\blur.4\frz56.04\c&H00585B66\pos(976.14,395.34)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.38,0:19:53.42,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.2\fscy294.2\bord0\blur.4\frz56.04\c&H00585B66\pos(976.67,395.16)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.42,0:19:53.46,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.58\fscy294.58\bord0\blur.4\frz56.04\c&H00585B66\pos(977.21,394.98)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.46,0:19:53.50,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx294.93\fscy294.93\bord0\blur.4\frz56.04\c&H00585B66\pos(977.71,394.8)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.50,0:19:53.54,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.32\fscy295.32\bord0\blur.4\frz56.04\c&H00585B66\pos(978.27,394.61)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.54,0:19:53.59,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx295.69\fscy295.69\bord0\blur.4\frz56.04\c&H00585B66\pos(978.8,394.43)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.59,0:19:53.63,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.07\fscy296.07\bord0\blur.4\frz56.04\c&H00585B66\pos(979.34,394.24)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.63,0:19:53.67,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.44\fscy296.44\bord0\blur.4\frz56.04\c&H00585B66\pos(979.86,394.06)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.67,0:19:53.71,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx296.82\fscy296.82\bord0\blur.4\frz56.04\c&H00585B66\pos(980.41,393.87)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.71,0:19:53.75,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.18\fscy297.18\bord0\blur.4\frz56.04\c&H00585B66\pos(980.93,393.7)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.75,0:19:53.79,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.55\fscy297.55\bord0\blur.4\frz56.04\c&H00585B66\pos(981.46,393.51)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.79,0:19:53.84,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx297.93\fscy297.93\bord0\blur.4\frz56.04\c&H00585B66\pos(982,393.32)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.84,0:19:53.88,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.31\fscy298.31\bord0\blur.4\frz56.04\c&H00585B66\pos(982.54,393.14)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.88,0:19:53.92,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx298.69\fscy298.69\bord0\blur.4\frz56.04\c&H00585B66\pos(983.1,392.94)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.92,0:19:53.96,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.08\fscy299.08\bord0\blur.4\frz56.04\c&H00585B66\pos(983.64,392.75)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:53.96,0:19:54.00,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.45\fscy299.45\bord0\blur.4\frz56.04\c&H00585B66\pos(984.18,392.57)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.00,0:19:54.04,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx299.84\fscy299.84\bord0\blur.4\frz56.04\c&H00585B66\pos(984.74,392.38)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.04,0:19:54.09,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.2\fscy300.2\bord0\blur.4\frz56.04\c&H00585B66\pos(985.25,392.2)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.09,0:19:54.13,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.59\fscy300.59\bord0\blur.4\frz56.04\c&H00585B66\pos(985.81,392.01)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.13,0:19:54.17,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx300.98\fscy300.98\bord0\blur.4\frz56.04\c&H00585B66\pos(986.37,391.81)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.17,0:19:54.21,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.36\fscy301.36\bord0\blur.4\frz56.04\c&H00585B66\pos(986.92,391.63)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.21,0:19:54.25,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx301.76\fscy301.76\bord0\blur.4\frz56.04\c&H00585B66\pos(987.48,391.43)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.25,0:19:54.29,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.14\fscy302.14\bord0\blur.4\frz56.04\c&H00585B66\pos(988.04,391.24)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.29,0:19:54.34,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.53\fscy302.53\bord0\blur.4\frz56.04\c&H00585B66\pos(988.59,391.05)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.34,0:19:54.38,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx302.92\fscy302.92\bord0\blur.4\frz56.04\c&H00585B66\pos(989.14,390.86)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.38,0:19:54.42,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.31\fscy303.31\bord0\blur.4\frz56.04\c&H00585B66\pos(989.71,390.67)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.42,0:19:54.46,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx303.7\fscy303.7\bord0\blur.4\frz56.04\c&H00585B66\pos(990.26,390.47)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.46,0:19:54.50,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.08\fscy304.08\bord0\blur.4\frz56.04\c&H00585B66\pos(990.8,390.29)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.50,0:19:54.54,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.48\fscy304.48\bord0\blur.4\frz56.04\c&H00585B66\pos(991.37,390.09)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.54,0:19:54.59,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx304.86\fscy304.86\bord0\blur.4\frz56.04\c&H00585B66\pos(991.91,389.9)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.59,0:19:54.63,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.27\fscy305.27\bord0\blur.4\frz56.04\c&H00585B66\pos(992.51,389.7)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.63,0:19:54.67,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx305.67\fscy305.67\bord0\blur.4\frz56.04\c&H00585B66\pos(993.08,389.5)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.67,0:19:54.71,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.06\fscy306.06\bord0\blur.4\frz56.04\c&H00585B66\pos(993.63,389.32)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.71,0:19:54.75,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.47\fscy306.47\bord0\blur.4\frz56.04\c&H00585B66\pos(994.22,389.11)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.75,0:19:54.79,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx306.85\fscy306.85\bord0\blur.4\frz56.04\c&H00585B66\pos(994.77,388.92)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.79,0:19:54.84,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.26\fscy307.26\bord0\blur.4\frz56.04\c&H00585B66\pos(995.36,388.71)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.84,0:19:54.88,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx307.67\fscy307.67\bord0\blur.4\frz56.04\c&H00585B66\pos(995.94,388.52)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.88,0:19:54.92,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.07\fscy308.07\bord0\blur.4\frz56.04\c&H00585B66\pos(996.52,388.32)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.92,0:19:54.96,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.48\fscy308.48\bord0\blur.4\frz56.04\c&H00585B66\pos(997.1,388.12)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:54.96,0:19:55.00,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx308.88\fscy308.88\bord0\blur.4\frz56.04\c&H00585B66\pos(997.67,387.92)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.00,0:19:55.04,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.29\fscy309.29\bord0\blur.4\frz56.04\c&H00585B66\pos(998.25,387.72)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.04,0:19:55.09,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx309.7\fscy309.7\bord0\blur.4\frz56.04\c&H00585B66\pos(998.84,387.52)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.09,0:19:55.13,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.11\fscy310.11\bord0\blur.4\frz56.04\c&H00585B66\pos(999.42,387.31)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.13,0:19:55.17,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.51\fscy310.51\bord0\blur.4\frz56.04\c&H00585B66\pos(1000.01,387.11)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.17,0:19:55.21,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx310.93\fscy310.93\bord0\blur.4\frz56.04\c&H00585B66\pos(1000.6,386.91)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.21,0:19:55.25,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.33\fscy311.33\bord0\blur.4\frz56.04\c&H00585B66\pos(1001.18,386.71)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.25,0:19:55.30,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx311.74\fscy311.74\bord0\blur.4\frz56.04\c&H00585B66\pos(1001.77,386.51)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.30,0:19:55.34,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.16\fscy312.16\bord0\blur.4\frz56.04\c&H00585B66\pos(1002.37,386.3)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.34,0:19:55.38,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.57\fscy312.57\bord0\blur.4\frz56.04\c&H00585B66\pos(1002.95,386.1)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.38,0:19:55.42,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx312.98\fscy312.98\bord0\blur.4\frz56.04\c&H00585B66\pos(1003.54,385.9)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.42,0:19:55.46,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.4\fscy313.4\bord0\blur.4\frz56.04\c&H00585B66\pos(1004.14,385.69)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.46,0:19:55.50,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx313.83\fscy313.83\bord0\blur.4\frz56.04\c&H00585B66\pos(1004.75,385.48)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.50,0:19:55.55,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.23\fscy314.23\bord0\blur.4\frz56.04\c&H00585B66\pos(1005.33,385.28)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.55,0:19:55.59,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx314.66\fscy314.66\bord0\blur.4\frz56.04\c&H00585B66\pos(1005.94,385.07)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.59,0:19:55.63,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.08\fscy315.08\bord0\blur.4\frz56.04\c&H00585B66\pos(1006.54,384.86)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.63,0:19:55.67,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.5\fscy315.5\bord0\blur.4\frz56.04\c&H00585B66\pos(1007.15,384.65)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:19:55.67,0:19:55.71,CN,,0,0,0,,{=25}{\alpha&H00&\an7\fn方正兰亭圆_GBK\fs6\fsp.3\fscx315.92\fscy315.92\bord0\blur.4\frz56.04\c&H00585B66\pos(1007.75,384.44)\fax.04}加入140cc热牛奶\N搅拌均匀即成
+Dialogue: 0,0:18:58.66,0:19:01.66,CN,,0,0,0,,{=0}{\fn方正兰亭圆_GBK\fs40\fsp4.5\bord0.1\blur3\c&H00E3E3E3\3c&H00E3E3E3\3a&H27&\move(1102,394,1102,463.6)}加热中 牛奶
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Title ------
+Dialogue: 0,0:01:30.32,0:01:32.72,CN,,750,0,137,,{\fad(400,0)\fs40\fn方正中雅宋_GBK\b1\bord1\3a&H77&\3c&H000000&\blur1}第二话 好喝热可可的做法
+Comment: 1,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue CN ------
+Dialogue: 1,0:01:45.28,0:01:46.56,CN,,0,0,0,,变装…
+Dialogue: 1,0:01:50.21,0:01:52.25,CN,,0,0,0,,真巧啊 小鸠同学
+Dialogue: 1,0:01:52.25,0:01:54.80,CN,,0,0,0,,你今天一个人出来逛吗
+Dialogue: 1,0:01:54.80,0:01:56.08,CN,,0,0,0,,嗯
+Dialogue: 1,0:01:56.77,0:02:00.50,CN,,0,0,0,,我想着去购物的话 心情可能会轻松一些
+Dialogue: 1,0:02:00.50,0:02:02.31,CN,,0,0,0,,是啊
+Dialogue: 1,0:02:02.31,0:02:06.14,CN,,0,0,0,,自行车和草莓挞同时被偷
+Dialogue: 1,0:02:06.14,0:02:07.32,CN,,0,0,0,,确实是少见的经历
+Dialogue: 1,0:02:07.32,0:02:08.44,CN,,0,0,0,,不是因为那个
+Dialogue: 1,0:02:08.44,0:02:09.12,CN,,0,0,0,,诶
+Dialogue: 1,0:02:09.96,0:02:13.32,CN,,0,0,0,,那件事过了挺久了 我已经不在乎了
+Dialogue: 1,0:02:13.90,0:02:15.11,CN,,0,0,0,,发生什么事了吗
+Dialogue: 1,0:02:15.97,0:02:19.56,CN,,0,0,0,,前天 我被叫到学生指导室去了
+Dialogue: 1,0:02:19.56,0:02:22.84,CN,,0,0,0,,这么说起来 你好像被骂了一顿
+Dialogue: 1,0:02:24.67,0:02:27.36,CN,,0,0,0,,说被骂也不算
+Dialogue: 1,0:02:27.36,0:02:28.82,CN,,0,0,0,,应该说是问了很多问题
+Dialogue: 1,0:02:29.88,0:02:31.43,CN,,0,0,0,,关于自行车的事
+Dialogue: 1,0:02:31.43,0:02:34.36,CN,,53,0,0,,自行车？被偷的那辆？
+Dialogue: 1,0:02:34.92,0:02:35.85,CN,,0,0,0,,嗯
+Dialogue: 1,0:02:35.85,0:02:39.77,CN,,0,0,0,,那辆自行车在一个奇怪的地方被找到了
+Dialogue: 1,0:02:40.47,0:02:42.44,CN,,0,0,0,,找到了不是挺好吗
+Dialogue: 1,0:02:43.63,0:02:46.23,CN,,0,0,0,,也不能算是找到了
+Dialogue: 1,0:02:46.82,0:02:49.23,CN,,0,0,0,,上周日有一起盗窃案
+Dialogue: 1,0:02:50.29,0:02:53.84,CN,,0,0,0,,有人在那儿看见了我的自行车
+Dialogue: 1,0:02:53.84,0:02:55.49,CN,,53,0,0,,是有人目击到了吗？
+Dialogue: 1,0:02:56.00,0:03:01.00,CN,,0,0,0,,听说是学生的公寓被盗了
+Dialogue: 1,0:03:01.65,0:03:06.08,CN,,0,0,0,,有个年轻人在路边好像在放哨
+Dialogue: 1,0:03:06.08,0:03:08.91,CN,,0,0,0,,附近的人觉得很可疑
+Dialogue: 1,0:03:08.91,0:03:12.13,CN,,0,0,0,,于是记下了停车许可证的编号
+Dialogue: 1,0:03:14.38,0:03:17.99,CN,,0,0,0,,后来发现那是我的车
+Dialogue: 1,0:03:17.99,0:03:20.01,CN,,0,0,0,,我就被叫到学生辅导室了
+Dialogue: 1,0:03:21.67,0:03:24.64,CN,,0,0,0,,老师还责问我为什么车被偷了
+Dialogue: 1,0:03:25.78,0:03:30.40,CN,,0,0,0,,所以我很沮丧 想出来买买东西
+Dialogue: 1,0:03:30.40,0:03:31.32,CN,,0,0,0,,这样啊
+Dialogue: 1,0:03:37.16,0:03:40.52,CN,,0,0,0,,我的心受伤了
+Dialogue: 1,0:03:42.19,0:03:43.36,CN,,0,0,0,,圣马克
+Dialogue: 1,0:03:44.47,0:03:47.90,CN,,0,0,0,,有家很好吃的店 就在附近
+Dialogue: 1,0:03:47.90,0:03:50.88,CN,,0,0,0,,圣马克… 是蛋糕吗
+Dialogue: 1,0:03:50.88,0:03:54.65,CN,,0,0,0,,焦糖的部分很香 非常美味
+Dialogue: 1,0:03:56.61,0:03:58.30,CN,,0,0,0,,我知道了 我请你
+Dialogue: 1,0:04:03.57,0:04:04.74,CN,,0,0,0,,健吾发的消息
+Dialogue: 1,0:04:18.58,0:04:19.57,CN,,0,0,0,,等一下
+Dialogue: 1,0:04:21.66,0:04:24.23,CN,,0,0,0,,健吾问我要不要去他家
+Dialogue: 1,0:04:25.57,0:04:26.88,CN,,0,0,0,,是吗
+Dialogue: 1,0:04:27.56,0:04:28.72,CN,,0,0,0,,那我先走了
+Dialogue: 1,0:04:28.72,0:04:32.43,CN,,0,0,0,,不是 他让你也一起去
+Dialogue: 1,0:04:32.43,0:04:34.13,CN,,53,0,0,,我？
+Dialogue: 1,0:04:38.25,0:04:39.21,CN,,0,0,0,,久等了
+Dialogue: 1,0:04:40.82,0:04:42.47,CN,,53,0,0,,解除变装了？
+Dialogue: 1,0:04:43.35,0:04:45.24,CN,,0,0,0,,没事 我们走吧
+Dialogue: 1,0:04:55.86,0:04:57.24,CN,,0,0,0,,哟 来了啊
+Dialogue: 1,0:04:58.74,0:05:00.11,CN,,0,0,0,,你好 小佐内同学
+Dialogue: 1,0:05:00.92,0:05:02.13,CN,,0,0,0,,你好
+Dialogue: 1,0:05:02.13,0:05:03.19,CN,,0,0,0,,请进
+Dialogue: 1,0:05:09.46,0:05:11.76,CN,,0,0,0,,啊 这是蛋糕
+Dialogue: 1,0:05:11.76,0:05:13.65,CN,,0,0,0,,我觉得空手来也不好
+Dialogue: 1,0:05:18.28,0:05:21.30,CN,,0,0,0,,不过提议的是小佐内同学就是了
+Dialogue: 1,0:05:23.76,0:05:25.96,CN,,0,0,0,,我就知道 谢谢
+Dialogue: 1,0:05:26.57,0:05:27.51,CN,,0,0,0,,不客气
+Dialogue: 1,0:05:29.15,0:05:31.70,CN,,0,0,0,,稍等一下 我准备了好喝的热可可
+Dialogue: 1,0:05:32.20,0:05:34.11,CN,,0,0,0,,你们先吃蛋糕吧
+Dialogue: 1,0:05:38.46,0:05:39.92,CN,,0,0,0,,我拿哪个呢
+Dialogue: 1,0:05:48.76,0:05:50.90,CN,,0,0,0,,健吾 那块蛋糕给你可以吗
+Dialogue: 1,0:05:50.90,0:05:52.42,CN,,0,0,0,,嗯 我都可以
+Dialogue: 1,0:06:09.26,0:06:12.67,CN,,0,0,0,,这是用热牛奶溶解的可可粉 对吧
+Dialogue: 1,0:06:12.67,0:06:14.21,CN,,0,0,0,,当然了
+Dialogue: 1,0:06:14.21,0:06:17.83,CN,,0,0,0,,溶得很好 做到这样可不容易啊
+Dialogue: 1,0:06:17.83,0:06:18.61,CN,,53,0,0,,看出来了？
+Dialogue: 1,0:06:19.74,0:06:21.47,CN,,0,0,0,,要不要我教你诀窍
+Dialogue: 1,0:06:21.47,0:06:23.01,CN,,0,0,0,,不用了
+Dialogue: 1,0:06:23.01,0:06:24.40,CN,,0,0,0,,听我说
+Dialogue: 1,0:06:24.40,0:06:27.11,CN,,0,0,0,,只要一个步骤 就能改变它的味道
+Dialogue: 1,0:06:27.11,0:06:30.19,CN,,0,0,0,,首先 在杯子里放入可可粉
+Dialogue: 1,0:06:30.19,0:06:32.92,CN,,0,0,0,,然后倒入热腾腾的牛奶
+Dialogue: 1,0:06:33.32,0:06:37.29,CN,,0,0,0,,这时候 诀窍就是倒入的牛奶要非常少
+Dialogue: 1,0:06:38.77,0:06:42.29,CN,,0,0,0,,可可粉中加入极少量的热牛奶
+Dialogue: 1,0:06:42.29,0:06:45.55,CN,,0,0,0,,经过用力搅拌后会变成糊状
+Dialogue: 1,0:06:46.58,0:06:49.49,CN,,0,0,0,,当粉末完全变成糊状时
+Dialogue: 1,0:06:49.49,0:06:51.71,CN,,0,0,0,,再次加入热牛奶
+Dialogue: 1,0:06:51.71,0:06:52.96,CN,,0,0,0,,加入所需的量就好
+Dialogue: 1,0:06:53.77,0:06:55.39,CN,,0,0,0,,再加入适量砂糖
+Dialogue: 1,0:06:55.39,0:06:57.56,CN,,0,0,0,,然后仔细搅拌
+Dialogue: 1,0:06:58.26,0:06:59.52,CN,,0,0,0,,就能变成这样
+Dialogue: 1,0:06:59.86,0:07:04.02,CN,,0,0,0,,真是个有趣的知识 谢谢
+Dialogue: 1,0:07:04.57,0:07:07.55,CN,,0,0,0,,的确只要花点小工夫就能让味道大不相同
+Dialogue: 1,0:07:08.48,0:07:09.68,CN,,0,0,0,,我说 常悟朗
+Dialogue: 1,0:07:18.38,0:07:19.29,CN,,0,0,0,,那个
+Dialogue: 1,0:07:19.70,0:07:21.80,CN,,0,0,0,,我想借用一下洗手间
+Dialogue: 1,0:07:23.79,0:07:27.24,CN,,0,0,0,,出去后往右走 左手边有扇门
+Dialogue: 1,0:07:27.24,0:07:28.72,CN,,0,0,0,,知道怎么走吗
+Dialogue: 1,0:07:28.72,0:07:30.11,CN,,0,0,0,,我应该知道了
+Dialogue: 1,0:07:34.89,0:07:38.15,CN,,0,0,0,,所以 你周日特地邀请我来
+Dialogue: 1,0:07:38.15,0:07:39.98,CN,,0,0,0,,是有什么话要说吗
+Dialogue: 1,0:07:41.25,0:07:44.78,CN,,0,0,0,,不 也没什么特别的话要说
+Dialogue: 1,0:07:44.78,0:07:49.17,CN,,0,0,0,,那你是为了教我怎么做好喝的热可可
+Dialogue: 1,0:07:49.17,0:07:51.14,CN,,53,0,0,,才把在散步的我叫来的？
+Dialogue: 1,0:07:51.84,0:07:53.43,CN,,0,0,0,,真是感谢…
+Dialogue: 1,0:07:53.43,0:07:56.27,CN,,0,0,0,,这种话我可说不出来呢
+Dialogue: 1,0:07:56.27,0:08:00.30,CN,,0,0,0,,不过 能享受到好喝的热可可也挺开心的
+Dialogue: 1,0:08:01.84,0:08:04.96,CN,,0,0,0,,看起来你还是很敏锐嘛
+Dialogue: 1,0:08:05.88,0:08:09.39,CN,,0,0,0,,我直说了 你初中时遇到了什么事吗
+Dialogue: 1,0:08:10.00,0:08:11.85,CN,,0,0,0,,你变得太不一样了
+Dialogue: 1,0:08:11.85,0:08:15.22,CN,,0,0,0,,那个怎么都杀不死的小鸠常悟朗去哪里了
+Dialogue: 1,0:08:16.22,0:08:17.22,CN,,53,0,0,,比如说？
+Dialogue: 1,0:08:17.68,0:08:21.11,CN,,0,0,0,,要什么比如 整个人都变了
+Dialogue: 1,0:08:21.11,0:08:22.95,CN,,0,0,0,,刚刚也是
+Dialogue: 1,0:08:22.95,0:08:25.28,CN,,0,0,0,,我不过是教你怎么泡可可
+Dialogue: 1,0:08:25.28,0:08:28.35,CN,,53,0,0,,你居然说「真是个有趣的知识 谢谢」？
+Dialogue: 1,0:08:31.32,0:08:35.16,CN,,0,0,0,,我听不懂你说的 以前的我是什么样子的
+Dialogue: 1,0:08:35.16,0:08:39.17,CN,,0,0,0,,总是把知道的一切都说出来
+Dialogue: 1,0:08:39.17,0:08:43.44,CN,,0,0,0,,如果别人知道你不知道的事 就会嘴硬 说些讨人厌的话
+Dialogue: 1,0:08:44.05,0:08:47.43,CN,,0,0,0,,但现在的你 更加让人讨厌
+Dialogue: 1,0:08:47.96,0:08:50.06,CN,,0,0,0,,以前你是嘴巴和性格都恶劣的小孩
+Dialogue: 1,0:08:50.06,0:08:54.12,CN,,0,0,0,,现在变成了笑里藏刀的讨厌鬼
+Dialogue: 1,0:08:54.76,0:08:56.39,CN,,0,0,0,,总结一下
+Dialogue: 1,0:08:56.98,0:09:01.90,CN,,0,0,0,,你想知道我… 初中的我发生了什么
+Dialogue: 1,0:09:02.58,0:09:04.27,CN,,0,0,0,,这就是你的问题对吧
+Dialogue: 1,0:09:04.27,0:09:05.86,CN,,0,0,0,,可以这么说
+Dialogue: 1,0:09:08.40,0:09:10.02,CN,,0,0,0,,那就简单了
+Dialogue: 1,0:09:10.02,0:09:11.67,CN,,0,0,0,,什么都没有发生
+Dialogue: 1,0:09:11.67,0:09:16.10,CN,,0,0,0,,刚上初中的时候 我也许确实像你说的那样
+Dialogue: 1,0:09:16.10,0:09:19.64,CN,,0,0,0,,但毕业时我自然就变成了这样
+Dialogue: 1,0:09:19.64,0:09:21.35,CN,,0,0,0,,变成了小市民
+Dialogue: 1,0:09:21.35,0:09:22.54,CN,,0,0,0,,我可不信
+Dialogue: 1,0:09:23.76,0:09:25.22,CN,,0,0,0,,你随意
+Dialogue: 1,0:09:25.22,0:09:27.64,CN,,0,0,0,,江山易改 秉性难移
+Dialogue: 1,0:09:27.64,0:09:31.13,CN,,0,0,0,,如果没发生什么大事 我认识的常悟朗不会变成现在这样
+Dialogue: 1,0:09:31.13,0:09:33.67,CN,,0,0,0,,士别三日 当刮目相待
+Dialogue: 1,0:09:33.67,0:09:35.53,CN,,0,0,0,,何况都过了三年
+Dialogue: 1,0:09:35.53,0:09:37.78,CN,,0,0,0,,倒是你什么变化都没有
+Dialogue: 1,0:09:40.72,0:09:45.34,CN,,0,0,0,,听到你说「是啊」「没错」之类的话
+Dialogue: 1,0:09:45.34,0:09:46.59,CN,,0,0,0,,我都会觉得烦躁
+Dialogue: 1,0:09:47.54,0:09:50.15,CN,,0,0,0,,你根本不是真心这么想的
+Dialogue: 1,0:09:50.76,0:09:53.19,CN,,0,0,0,,你要是感到烦躁的话 那只能请你习惯了
+Dialogue: 1,0:09:54.24,0:09:55.76,CN,,0,0,0,,是我说得不对
+Dialogue: 1,0:09:56.62,0:09:59.75,CN,,0,0,0,,但你应该明白我想说什么
+Dialogue: 1,0:09:59.75,0:10:01.42,CN,,0,0,0,,嗯 我明白
+Dialogue: 1,0:10:01.42,0:10:02.46,CN,,0,0,0,,但是 健吾
+Dialogue: 1,0:10:03.25,0:10:08.24,CN,,0,0,0,,你是不是期待我受过什么显而易见的创伤呢
+Dialogue: 1,0:10:08.24,0:10:10.20,CN,,0,0,0,,真的没有那种事
+Dialogue: 1,0:10:10.20,0:10:13.45,CN,,0,0,0,,我不是出于某种理由而想成为小市民
+Dialogue: 1,0:10:13.45,0:10:16.75,CN,,0,0,0,,就像你不是出于某种理由而成为好人一样
+Dialogue: 1,0:10:17.99,0:10:20.09,CN,,0,0,0,,你叫我来只是为这事吗
+Dialogue: 1,0:10:20.89,0:10:22.22,CN,,0,0,0,,如果是的话我…
+Dialogue: 1,0:10:27.30,0:10:28.53,CN,,0,0,0,,我去一下洗手间
+Dialogue: 1,0:10:28.53,0:10:29.62,CN,,0,0,0,,随你便
+Dialogue: 1,0:10:33.33,0:10:35.68,CN,,0,0,0,,但是那样量就不够了
+Dialogue: 1,0:10:35.68,0:10:37.30,CN,,0,0,0,,是啊
+Dialogue: 1,0:10:37.30,0:10:39.21,CN,,0,0,0,,真的很奇怪啊
+Dialogue: 1,0:10:39.21,0:10:40.18,CN,,0,0,0,,嗯
+Dialogue: 1,0:10:41.87,0:10:44.12,CN,,0,0,0,,你好 知里姐
+Dialogue: 1,0:10:46.00,0:10:48.38,CN,,0,0,0,,你是小鸠同学吗
+Dialogue: 1,0:10:48.38,0:10:50.84,CN,,0,0,0,,是的 好久不见
+Dialogue: 1,0:10:57.48,0:10:59.01,CN,,0,0,0,,怎么了吗
+Dialogue: 1,0:10:59.01,0:11:03.16,CN,,0,0,0,,我们现在正在挑战笨蛋健吾留下的难题
+Dialogue: 1,0:11:09.19,0:11:10.88,CN,,0,0,0,,水槽是干的
+Dialogue: 1,0:11:12.25,0:11:15.40,CN,,0,0,0,,而且这里只放着一把勺子
+Dialogue: 1,0:11:16.03,0:11:18.49,CN,,0,0,0,,那有什么问题吗
+Dialogue: 1,0:11:18.49,0:11:19.16,CN,,0,0,0,,真迟钝
+Dialogue: 1,0:11:20.32,0:11:23.66,CN,,0,0,0,,健吾给你们泡了热可可吧
+Dialogue: 1,0:11:24.27,0:11:26.91,CN,,0,0,0,,如果是用牛奶做的热可可
+Dialogue: 1,0:11:26.91,0:11:30.72,CN,,0,0,0,,这里就应该有一个锅才对
+Dialogue: 1,0:11:31.77,0:11:32.92,CN,,0,0,0,,应该是他洗了吧
+Dialogue: 1,0:11:33.32,0:11:35.81,CN,,0,0,0,,不 说了水槽是干的啊
+Dialogue: 1,0:11:35.81,0:11:39.43,CN,,0,0,0,,在不弄湿水槽的情况下做热牛奶可可
+Dialogue: 1,0:11:40.19,0:11:41.73,CN,,0,0,0,,你能解释吗
+Dialogue: 1,0:11:42.45,0:11:43.55,CN,,0,0,0,,不能
+Dialogue: 1,0:11:43.55,0:11:44.99,CN,,0,0,0,,我也不能
+Dialogue: 1,0:11:44.99,0:11:46.28,CN,,0,0,0,,她也是
+Dialogue: 1,0:11:49.20,0:11:50.19,CN,,0,0,0,,不可原谅
+Dialogue: 1,0:11:51.30,0:11:54.73,CN,,0,0,0,,连笨蛋健吾能做到我们却做不到 不觉得不甘心吗
+Dialogue: 1,0:11:55.13,0:11:57.24,CN,,0,0,0,,确实很不甘心
+Dialogue: 1,0:11:57.24,0:11:58.50,CN,,0,0,0,,小鸠同学
+Dialogue: 1,0:11:58.50,0:12:02.72,CN,,0,0,0,,那么跟我们一起调查健吾是怎么做的吧
+Dialogue: 1,0:12:19.43,0:12:20.72,CN,,0,0,0,,好大啊
+Dialogue: 1,0:12:20.72,0:12:23.77,CN,,0,0,0,,毕竟也要拿来做点心
+Dialogue: 1,0:12:23.77,0:12:25.47,CN,,0,0,0,,也能当作烤箱用
+Dialogue: 1,0:12:26.44,0:12:32.04,CN,,0,0,0,,所以你是觉得 他是用微波炉加热牛奶的啊
+Dialogue: 1,0:12:33.30,0:12:35.97,CN,,0,0,0,,这样的话就不用锅了
+Dialogue: 1,0:12:35.97,0:12:39.04,CN,,0,0,0,,那应该有个非金属容器才对
+Dialogue: 1,0:12:39.04,0:12:41.63,CN,,0,0,0,,要么是陶瓷碗 要么是塑料碗
+Dialogue: 1,0:12:41.63,0:12:43.74,CN,,0,0,0,,这里有很多
+Dialogue: 1,0:12:44.26,0:12:47.87,CN,,0,0,0,,但是 水槽是干的
+Dialogue: 1,0:12:47.87,0:12:49.87,CN,,0,0,0,,那就是这样吧
+Dialogue: 1,0:13:16.03,0:13:18.85,CN,,0,0,0,,这样就做出三杯热可可了
+Dialogue: 1,0:13:18.85,0:13:22.78,CN,,0,0,0,,但我们喝到的不是普通可可哦
+Dialogue: 1,0:13:22.78,0:13:25.78,CN,,0,0,0,,对哦 是好喝的可可
+Dialogue: 1,0:13:26.17,0:13:28.98,CN,,0,0,0,,得有个装糊状可可的容器
+Dialogue: 1,0:13:28.98,0:13:32.40,CN,,0,0,0,,也得有个往里倒热牛奶的容器
+Dialogue: 1,0:13:38.80,0:13:41.36,CN,,0,0,0,,你似乎认识到问题所在了
+Dialogue: 1,0:13:41.36,0:13:43.06,CN,,0,0,0,,就是这回事啊
+Dialogue: 1,0:13:43.06,0:13:46.76,CN,,0,0,0,,笨蛋健吾 到底怎么搞的啊
+Dialogue: 1,0:13:46.76,0:13:49.93,CN,,0,0,0,,如果他没有用盆这种容器的话
+Dialogue: 1,0:13:50.75,0:13:54.42,CN,,0,0,0,,也就是说把牛奶加到杯子里 在微波炉里加热
+Dialogue: 1,0:13:54.42,0:13:56.68,CN,,0,0,0,,那就需要六个杯子了哦
+Dialogue: 1,0:13:56.68,0:13:59.19,CN,,0,0,0,,不 四个就够了
+Dialogue: 1,0:14:00.23,0:14:02.59,CN,,0,0,0,,用三个杯子加热牛奶
+Dialogue: 1,0:14:02.59,0:14:04.25,CN,,0,0,0,,然后再准备一个
+Dialogue: 1,0:14:04.25,0:14:07.93,CN,,0,0,0,,用来制作好喝热可可的杯子
+Dialogue: 1,0:14:07.93,0:14:11.97,CN,,0,0,0,,在这个杯子里溶解可可粉 就能泡出来一杯
+Dialogue: 1,0:14:11.97,0:14:14.03,CN,,0,0,0,,同时空出来一个杯子
+Dialogue: 1,0:14:14.03,0:14:18.17,CN,,0,0,0,,重复三次 就能泡出三杯好喝热可可
+Dialogue: 1,0:14:19.03,0:14:20.95,CN,,0,0,0,,不行 小鸠同学
+Dialogue: 1,0:14:20.95,0:14:25.24,CN,,0,0,0,,这样的话做第一杯时勺子就湿了
+Dialogue: 1,0:14:26.52,0:14:28.80,CN,,0,0,0,,毕竟这个男人是健吾啊
+Dialogue: 1,0:14:28.80,0:14:30.23,CN,,0,0,0,,很可能会为了偷懒
+Dialogue: 1,0:14:30.23,0:14:34.52,CN,,0,0,0,,把湿了的勺子重新捅进可可粉里啊
+Dialogue: 1,0:14:34.52,0:14:37.31,CN,,0,0,0,,就算不是那样
+Dialogue: 1,0:14:37.31,0:14:43.01,CN,,0,0,0,,也可以准备一个杯子加热牛奶 三个杯子装可可粉
+Dialogue: 1,0:14:43.01,0:14:44.82,CN,,0,0,0,,只需要热三次牛奶
+Dialogue: 1,0:14:44.82,0:14:48.43,CN,,0,0,0,,然后倒进装可可粉的杯子里就好了
+Dialogue: 1,0:14:49.42,0:14:53.81,CN,,0,0,0,,但不管你怎么说 这都是用了四个杯子哦
+Dialogue: 1,0:14:53.81,0:14:58.12,CN,,0,0,0,,实际上 他只用了三个杯子
+Dialogue: 1,0:15:02.59,0:15:08.12,CN,,0,0,0,,这是我的推测 重新审视一遍问题后 我似乎明白了
+Dialogue: 1,0:15:09.18,0:15:11.51,CN,,0,0,0,,好喝的热可可只有两杯
+Dialogue: 1,0:15:15.40,0:15:20.05,CN,,0,0,0,,第三杯只是把可可粉加在热牛奶里了
+Dialogue: 1,0:15:20.05,0:15:22.59,CN,,0,0,0,,就是平常的泡粉可可
+Dialogue: 1,0:15:23.22,0:15:28.87,CN,,0,0,0,,那样就是两杯好喝热可可和一杯普通可可
+Dialogue: 1,0:15:28.87,0:15:29.95,CN,,0,0,0,,原来如此
+Dialogue: 1,0:15:29.95,0:15:32.14,CN,,0,0,0,,不 这样也不对
+Dialogue: 1,0:15:32.14,0:15:33.20,CN,,0,0,0,,为什么
+Dialogue: 1,0:15:33.88,0:15:39.21,CN,,0,0,0,,我们是从盘子上随便拿的一杯
+Dialogue: 1,0:15:39.21,0:15:42.44,CN,,0,0,0,,健吾也不是第一个拿的
+Dialogue: 1,0:15:43.19,0:15:47.91,CN,,0,0,0,,用两杯热牛奶也能做出三杯牛奶热可可哦
+Dialogue: 1,0:16:11.58,0:16:15.83,CN,,0,0,0,,这样重复 就是两杯好喝热可可
+Dialogue: 1,0:16:15.83,0:16:17.82,CN,,0,0,0,,然后 再这样子
+Dialogue: 1,0:16:17.82,0:16:20.88,CN,,0,0,0,,三杯就都是好喝热可可了哦
+Dialogue: 1,0:16:20.88,0:16:26.22,CN,,0,0,0,,但这样的话每一杯都只装了三分之二
+Dialogue: 1,0:16:26.88,0:16:29.03,CN,,0,0,0,,我们喝的热可可
+Dialogue: 1,0:16:29.03,0:16:32.87,CN,,0,0,0,,三杯都是满到溢出来了哦
+Dialogue: 1,0:16:32.87,0:16:36.52,CN,,0,0,0,,你都知道 还说这些做什么
+Dialogue: 1,0:16:38.53,0:16:41.02,CN,,0,0,0,,啊 我只是也想顺着说说
+Dialogue: 1,0:16:43.30,0:16:45.17,CN,,0,0,0,,啊 我知道了
+Dialogue: 1,0:16:45.17,0:16:47.60,CN,,0,0,0,,就是那样 和小不点说的一样
+Dialogue: 1,0:16:47.60,0:16:48.90,CN,,53,0,0,,小不点？
+Dialogue: 1,0:16:48.90,0:16:53.50,CN,,0,0,0,,这种做法能用三个杯子做出三杯热可可
+Dialogue: 1,0:16:53.50,0:16:55.21,CN,,0,0,0,,然后是量的问题了
+Dialogue: 1,0:16:55.21,0:16:58.69,CN,,0,0,0,,也就是说 提前备好较浓的可可
+Dialogue: 1,0:16:58.69,0:17:01.26,CN,,0,0,0,,再用牛奶冲开就行了
+Dialogue: 1,0:17:01.26,0:17:03.03,CN,,0,0,0,,那样就凉了
+Dialogue: 1,0:17:03.03,0:17:07.67,CN,,0,0,0,,我们喝的可可 可是烫到没法立刻下嘴哦
+Dialogue: 1,0:17:07.67,0:17:11.11,CN,,0,0,0,,那就再用微波炉加热一下就行了
+Dialogue: 1,0:17:11.11,0:17:15.64,CN,,0,0,0,,热两杯牛奶 再泡成可可分成三杯
+Dialogue: 1,0:17:15.64,0:17:17.59,CN,,0,0,0,,接着再加牛奶重新加热
+Dialogue: 1,0:17:18.29,0:17:20.08,CN,,0,0,0,,也太费劲了吧
+Dialogue: 1,0:17:21.86,0:17:26.03,CN,,0,0,0,,我可不想比笨蛋健吾做事效率更低啊
+Dialogue: 1,0:17:26.91,0:17:30.32,CN,,0,0,0,,可可为什么是粉状的啊
+Dialogue: 1,0:17:32.16,0:17:37.42,CN,,0,0,0,,还是说有我不知道的可可原液这种东西…
+Dialogue: 1,0:17:40.24,0:17:43.70,CN,,0,0,0,,就是平常的可可粉啊
+Dialogue: 1,0:17:48.53,0:17:51.80,CN,,0,0,0,,为什么水槽是干的呢
+Dialogue: 1,0:17:51.80,0:17:54.89,CN,,0,0,0,,他把东西洗了 然后全擦干了吗
+Dialogue: 1,0:17:54.89,0:17:56.66,CN,,0,0,0,,但是 勺子还留着呢
+Dialogue: 1,0:17:57.59,0:18:01.11,CN,,0,0,0,,如果真有湿了的东西 我们不可能没注意到
+Dialogue: 1,0:18:03.73,0:18:07.36,CN,,0,0,0,,也就是 反过来可以这样说
+Dialogue: 1,0:18:08.62,0:18:13.75,CN,,0,0,0,,做三杯好喝热可可 就需要四个湿掉的容器
+Dialogue: 1,0:18:14.49,0:18:16.99,CN,,0,0,0,,第四个到底是什么
+Dialogue: 1,0:18:17.57,0:18:20.11,CN,,0,0,0,,热可可泡湿的杯子三个
+Dialogue: 1,0:18:21.83,0:18:27.05,CN,,0,0,0,,剩下的那个 如果是洗了 应该还是湿的
+Dialogue: 1,0:18:30.21,0:18:31.71,CN,,0,0,0,,如果不是洗了的话…
+Dialogue: 1,0:18:33.01,0:18:33.94,CN,,0,0,0,,知里姐
+Dialogue: 1,0:18:33.94,0:18:34.71,CN,,0,0,0,,怎么
+Dialogue: 1,0:18:34.71,0:18:36.38,CN,,0,0,0,,请打开冰箱
+Dialogue: 1,0:18:38.60,0:18:41.14,CN,,0,0,0,,拿一下那个牛奶盒
+Dialogue: 1,0:18:47.59,0:18:48.69,CN,,0,0,0,,很烫对吧
+Dialogue: 1,0:18:50.73,0:18:56.16,CN,,0,0,0,,健吾是直接把牛奶带盒子一块放微波炉里加热了
+Dialogue: 1,0:19:04.46,0:19:09.92,CN,,0,0,0,,所以第四个湿掉的容器 就是这个牛奶盒本身
+Dialogue: 1,0:19:10.64,0:19:13.39,CN,,60,0,0,,那个懒鬼！
+Dialogue: 1,0:19:15.47,0:19:16.93,CN,,0,0,0,,好慢啊
+Dialogue: 1,0:19:17.36,0:19:18.40,CN,,0,0,0,,小佐内同学
+Dialogue: 1,0:19:19.18,0:19:21.43,CN,,0,0,0,,蛋糕很好吃哦
+Dialogue: 1,0:19:22.06,0:19:23.43,CN,,0,0,0,,那就好
+Dialogue: 1,0:19:23.43,0:19:26.53,CN,,0,0,0,,和你姐姐久违地聊了会儿天
+Dialogue: 1,0:19:26.53,0:19:29.10,CN,,53,0,0,,和我姐？聊了些什么？
+Dialogue: 1,0:19:30.65,0:19:32.38,CN,,0,0,0,,她给我出了个谜题
+Dialogue: 1,0:19:32.38,0:19:33.38,CN,,53,0,0,,谜题？
+Dialogue: 1,0:19:33.38,0:19:35.81,CN,,0,0,0,,然后还闲聊了下
+Dialogue: 1,0:20:06.40,0:20:08.98,CN,,0,0,0,,他叫小鸠来着吧
+Dialogue: 1,0:20:08.98,0:20:10.78,CN,,0,0,0,,还真能干呢
+Dialogue: 1,0:20:11.23,0:20:14.44,CN,,0,0,0,,小的时候就觉得他脑子很好使
+Dialogue: 1,0:20:14.99,0:20:17.23,CN,,0,0,0,,现在都变这么成熟了啊
+Dialogue: 1,0:20:17.23,0:20:20.70,CN,,0,0,0,,连我的份都买了
+Dialogue: 1,0:20:25.81,0:20:28.19,CN,,0,0,0,,他才不是那种人呢
+Dialogue: 1,0:20:31.10,0:20:32.99,CN,,0,0,0,,小佐内同学
+Dialogue: 1,0:20:33.40,0:20:36.85,CN,,0,0,0,,你放心 我不会再做这种事了
+Dialogue: 1,0:20:37.74,0:20:41.41,CN,,0,0,0,,因为是周日 我才有些松散罢了
+Dialogue: 1,0:20:42.32,0:20:44.51,CN,,0,0,0,,我不明白你说什么
+Dialogue: 1,0:20:46.07,0:20:48.79,CN,,0,0,0,,我们确实是约好了
+Dialogue: 1,0:20:49.34,0:20:53.96,CN,,0,0,0,,但我可没要求小鸠同学做什么样的人哦
+Dialogue: 1,0:20:56.64,0:21:00.92,CN,,0,0,0,,今天的小鸠同学 就像我们第一次见面时那样
+Dialogue: 1,0:21:02.37,0:21:06.91,CN,,0,0,0,,如果你觉得那样开心 不妨就继续保持下去吧
+Dialogue: 1,0:21:06.91,0:21:09.57,CN,,0,0,0,,我不介意的哦
+Dialogue: 1,0:21:09.57,0:21:13.09,CN,,0,0,0,,我已经决定不做动脑筋的事了
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Dialogue JP ------
+Dialogue: 0,0:01:45.28,0:01:46.56,JP,,0,0,0,,変装…
+Dialogue: 0,0:01:50.21,0:01:52.25,JP,,0,0,0,,偶然だね　小鳩くん
+Dialogue: 0,0:01:52.25,0:01:54.80,JP,,0,0,0,,今日は　一人でお出かけ
+Dialogue: 0,0:01:54.80,0:01:56.08,JP,,0,0,0,,うん
+Dialogue: 0,0:01:56.77,0:02:00.50,JP,,0,0,0,,買い物でもしてたら　気持ちが楽になるかなって
+Dialogue: 0,0:02:00.50,0:02:02.31,JP,,0,0,0,,そうだよね
+Dialogue: 0,0:02:02.31,0:02:06.14,JP,,0,0,0,,自転車といちごタルトを同時に盗まれるなんて
+Dialogue: 0,0:02:06.14,0:02:07.32,JP,,0,0,0,,めったにあることじゃ
+Dialogue: 0,0:02:07.32,0:02:08.44,JP,,0,0,0,,そうじゃなくて
+Dialogue: 0,0:02:08.44,0:02:09.12,JP,,0,0,0,,えっ
+Dialogue: 0,0:02:09.96,0:02:13.32,JP,,0,0,0,,そのことはもう結構時間が経ったからいいんだけど
+Dialogue: 0,0:02:13.90,0:02:15.11,JP,,0,0,0,,何かあったの
+Dialogue: 0,0:02:15.97,0:02:19.56,JP,,0,0,0,,おととい　生徒指導室に呼び出されたの
+Dialogue: 0,0:02:19.56,0:02:22.84,JP,,0,0,0,,ああ　そういえば　何か怒られたの
+Dialogue: 0,0:02:24.67,0:02:27.36,JP,,0,0,0,,怒られたっていうか
+Dialogue: 0,0:02:27.36,0:02:28.82,JP,,0,0,0,,いろいろ聞かれたの
+Dialogue: 0,0:02:29.88,0:02:31.43,JP,,0,0,0,,自転車のこと
+Dialogue: 0,0:02:31.43,0:02:34.36,JP,,0,0,0,,自転車？　盗まれたやつ？
+Dialogue: 0,0:02:34.92,0:02:35.85,JP,,0,0,0,,うん
+Dialogue: 0,0:02:35.85,0:02:39.77,JP,,0,0,0,,あれがね　変な所で見つかったんだって
+Dialogue: 0,0:02:40.47,0:02:42.44,JP,,0,0,0,,見つかったんならよかったじゃない
+Dialogue: 0,0:02:43.63,0:02:46.23,JP,,0,0,0,,見つかったっていうか
+Dialogue: 0,0:02:46.82,0:02:49.23,JP,,0,0,0,,先週の日曜日に泥棒があって
+Dialogue: 0,0:02:50.29,0:02:53.84,JP,,0,0,0,,そこで　私の自転車が見られてたの
+Dialogue: 0,0:02:53.84,0:02:55.49,JP,,0,0,0,,目撃されてたってこと？
+Dialogue: 0,0:02:56.00,0:03:01.00,JP,,0,0,0,,泥棒があったのは　学生さんのアパートだったらしいんだけど
+Dialogue: 0,0:03:01.65,0:03:06.08,JP,,0,0,0,,若い人が　道端で見張りみたいにじっとしてるのを
+Dialogue: 0,0:03:06.08,0:03:08.91,JP,,0,0,0,,近所の人がおかしいって思って
+Dialogue: 0,0:03:08.91,0:03:12.13,JP,,0,0,0,,駐輪許可シールの番号を覚えてたんだって
+Dialogue: 0,0:03:14.38,0:03:17.99,JP,,0,0,0,,それで　私のものだってわかって
+Dialogue: 0,0:03:17.99,0:03:20.01,JP,,0,0,0,,生徒指導室に呼ばれたの
+Dialogue: 0,0:03:21.67,0:03:24.64,JP,,0,0,0,,なんで盗まれたんだって責められたの
+Dialogue: 0,0:03:25.78,0:03:30.40,JP,,0,0,0,,それで　私気分が沈んで　買い物したくなったの
+Dialogue: 0,0:03:30.40,0:03:31.32,JP,,0,0,0,,そう
+Dialogue: 0,0:03:37.16,0:03:40.52,JP,,0,0,0,,私　心が傷ついたの
+Dialogue: 0,0:03:42.19,0:03:43.36,JP,,0,0,0,,サンマルク
+Dialogue: 0,0:03:44.47,0:03:47.90,JP,,0,0,0,,おいしいお店がね　近くにあるの
+Dialogue: 0,0:03:47.90,0:03:50.88,JP,,0,0,0,,サンマルク…　ケーキかな
+Dialogue: 0,0:03:50.88,0:03:54.65,JP,,0,0,0,,キャラメリゼの部分が香ばしくて　素敵なの
+Dialogue: 0,0:03:56.61,0:03:58.30,JP,,0,0,0,,わかった　おごるよ
+Dialogue: 0,0:04:03.57,0:04:04.74,JP,,0,0,0,,健吾からだ
+Dialogue: 0,0:04:18.58,0:04:19.57,JP,,0,0,0,,ちょっと待って
+Dialogue: 0,0:04:21.66,0:04:24.23,JP,,0,0,0,,健吾から　家に来ないかってさ
+Dialogue: 0,0:04:25.57,0:04:26.88,JP,,0,0,0,,そうなの
+Dialogue: 0,0:04:27.56,0:04:28.72,JP,,0,0,0,,じゃあこれで
+Dialogue: 0,0:04:28.72,0:04:32.43,JP,,0,0,0,,いや　だから小佐内さんも来ないかって
+Dialogue: 0,0:04:32.43,0:04:34.13,JP,,0,0,0,,私も？
+Dialogue: 0,0:04:38.25,0:04:39.21,JP,,0,0,0,,お待たせ
+Dialogue: 0,0:04:40.82,0:04:42.47,JP,,0,0,0,,変装解除？
+Dialogue: 0,0:04:43.35,0:04:45.24,JP,,0,0,0,,ううん　行こうか
+Dialogue: 0,0:04:55.86,0:04:57.24,JP,,0,0,0,,よう　来たか
+Dialogue: 0,0:04:58.74,0:05:00.11,JP,,0,0,0,,どうも　小佐内さん
+Dialogue: 0,0:05:00.92,0:05:02.13,JP,,0,0,0,,こんにちは
+Dialogue: 0,0:05:02.13,0:05:03.19,JP,,0,0,0,,まあ　上がれ
+Dialogue: 0,0:05:09.46,0:05:11.76,JP,,0,0,0,,あっ　これケーキ
+Dialogue: 0,0:05:11.76,0:05:13.65,JP,,0,0,0,,手ぶらじゃあれだと思って
+Dialogue: 0,0:05:18.28,0:05:21.30,JP,,0,0,0,,まあ　発案者は小佐内さんなんだけどね
+Dialogue: 0,0:05:23.76,0:05:25.96,JP,,0,0,0,,だろうと思った　どうも
+Dialogue: 0,0:05:26.57,0:05:27.51,JP,,0,0,0,,いえ
+Dialogue: 0,0:05:29.15,0:05:31.70,JP,,0,0,0,,ちょっと待ってろ　うまいココアがある
+Dialogue: 0,0:05:32.20,0:05:34.11,JP,,0,0,0,,ケーキ先に食べてていいぞ
+Dialogue: 0,0:05:38.46,0:05:39.92,JP,,0,0,0,,どれにしようかな
+Dialogue: 0,0:05:48.76,0:05:50.90,JP,,0,0,0,,健吾　ケーキそれでいい
+Dialogue: 0,0:05:50.90,0:05:52.42,JP,,0,0,0,,ああ　なんでもいい
+Dialogue: 0,0:06:09.26,0:06:12.67,JP,,0,0,0,,これはココアパウダーをホットミルクで溶いたんだよね
+Dialogue: 0,0:06:12.67,0:06:14.21,JP,,0,0,0,,もちろんそうだ
+Dialogue: 0,0:06:14.21,0:06:17.83,JP,,0,0,0,,よく溶けてる　なかなかこうはいかない
+Dialogue: 0,0:06:17.83,0:06:18.61,JP,,0,0,0,,わかるか？
+Dialogue: 0,0:06:19.74,0:06:21.47,JP,,0,0,0,,なんならコツを教えてもいいぞ
+Dialogue: 0,0:06:21.47,0:06:23.01,JP,,0,0,0,,いや　別にいいよ
+Dialogue: 0,0:06:23.01,0:06:24.40,JP,,0,0,0,,まあ　聞け
+Dialogue: 0,0:06:24.40,0:06:27.11,JP,,0,0,0,,手順一つでなかなか味が変わるんだ
+Dialogue: 0,0:06:27.11,0:06:30.19,JP,,0,0,0,,まず　カップにココアパウダーを入れて
+Dialogue: 0,0:06:30.19,0:06:32.92,JP,,0,0,0,,そこに熱々のホットミルクを注ぐ
+Dialogue: 0,0:06:33.32,0:06:37.29,JP,,0,0,0,,この時　注ぐミルクをごく控えめにするのがコツだ
+Dialogue: 0,0:06:38.77,0:06:42.29,JP,,0,0,0,,ごく少量のホットミルクを加えられたココアパウダーは
+Dialogue: 0,0:06:42.29,0:06:45.55,JP,,0,0,0,,ごりごり練ってやると　ペースト状になる
+Dialogue: 0,0:06:46.58,0:06:49.49,JP,,0,0,0,,パウダーがすっかりペースト状になったところで
+Dialogue: 0,0:06:49.49,0:06:51.71,JP,,0,0,0,,もう一度ホットミルクを注ぐ
+Dialogue: 0,0:06:51.71,0:06:52.96,JP,,0,0,0,,欲しい量だけだ
+Dialogue: 0,0:06:53.77,0:06:55.39,JP,,0,0,0,,砂糖を適量
+Dialogue: 0,0:06:55.39,0:06:57.56,JP,,0,0,0,,あとはかき混ぜれば
+Dialogue: 0,0:06:58.26,0:06:59.52,JP,,0,0,0,,こうなる
+Dialogue: 0,0:06:59.86,0:07:04.02,JP,,0,0,0,,いやあ　面白い話を聞いたよ　ありがとう
+Dialogue: 0,0:07:04.57,0:07:07.55,JP,,0,0,0,,確かにひと工夫で随分違うもんだね
+Dialogue: 0,0:07:08.48,0:07:09.68,JP,,0,0,0,,なあ　常悟朗
+Dialogue: 0,0:07:18.38,0:07:19.29,JP,,0,0,0,,あの
+Dialogue: 0,0:07:19.70,0:07:21.80,JP,,0,0,0,,お手洗いを借りたいんですけど
+Dialogue: 0,0:07:23.79,0:07:27.24,JP,,0,0,0,,そこを出て右へ行くと　左側に扉がある
+Dialogue: 0,0:07:27.24,0:07:28.72,JP,,0,0,0,,わかるかな
+Dialogue: 0,0:07:28.72,0:07:30.11,JP,,0,0,0,,わかると思います
+Dialogue: 0,0:07:34.89,0:07:38.15,JP,,0,0,0,,で　日曜日にお招きくださったからには
+Dialogue: 0,0:07:38.15,0:07:39.98,JP,,0,0,0,,何か話でもあるのかな
+Dialogue: 0,0:07:41.25,0:07:44.78,JP,,0,0,0,,別に　話ってほどの話はないさ
+Dialogue: 0,0:07:44.78,0:07:49.17,JP,,0,0,0,,じゃあ　おいしいココアの作り方をレクチャーするために
+Dialogue: 0,0:07:49.17,0:07:51.14,JP,,0,0,0,,散歩中の僕を呼んだと？
+Dialogue: 0,0:07:51.84,0:07:53.43,JP,,0,0,0,,ありがたい…
+Dialogue: 0,0:07:53.43,0:07:56.27,JP,,0,0,0,,とは　ちょっと言えないね
+Dialogue: 0,0:07:56.27,0:08:00.30,JP,,0,0,0,,まあ　これからおいしいココアを楽しめるのは嬉しいけど
+Dialogue: 0,0:08:01.84,0:08:04.96,JP,,0,0,0,,まるで切れ味をなくしたわけでもなさそうだな
+Dialogue: 0,0:08:05.88,0:08:09.39,JP,,0,0,0,,はっきり聞くが　お前中学で何かあったのか
+Dialogue: 0,0:08:10.00,0:08:11.85,JP,,0,0,0,,雰囲気が違いすぎる
+Dialogue: 0,0:08:11.85,0:08:15.22,JP,,0,0,0,,殺しても死にそうにない小鳩常悟朗はどこに行った
+Dialogue: 0,0:08:16.22,0:08:17.22,JP,,0,0,0,,例えば？
+Dialogue: 0,0:08:17.68,0:08:21.11,JP,,0,0,0,,例えばだと　何もかもだよ
+Dialogue: 0,0:08:21.11,0:08:22.95,JP,,0,0,0,,今だってそうだ
+Dialogue: 0,0:08:22.95,0:08:25.28,JP,,0,0,0,,ココアの溶き方を教わったぐらいで
+Dialogue: 0,0:08:25.28,0:08:28.35,JP,,0,43,0,,「面白い話を聞いた　ありがとう」だと？
+Dialogue: 0,0:08:31.32,0:08:35.16,JP,,0,0,0,,わからないな　前の僕はどうだったって
+Dialogue: 0,0:08:35.16,0:08:39.17,JP,,0,0,0,,わかってることは全部口に出さないと気が済まなかった
+Dialogue: 0,0:08:39.17,0:08:43.44,JP,,0,0,0,,自分の知らないことを他人が知ってれば　憎まれ口に負け惜しみ
+Dialogue: 0,0:08:44.05,0:08:47.43,JP,,0,0,0,,だがな　今のお前はもっとタチが悪い
+Dialogue: 0,0:08:47.96,0:08:50.06,JP,,0,0,0,,口と性格の悪いガキが
+Dialogue: 0,0:08:50.06,0:08:54.12,JP,,0,0,0,,顔は笑っても腹に一物ありそうな　嫌な野郎になっちまった
+Dialogue: 0,0:08:54.76,0:08:56.39,JP,,0,0,0,,質問をまとめると
+Dialogue: 0,0:08:56.98,0:09:01.90,JP,,0,0,0,,健吾は僕に…　中学時代の僕に何かあったのか
+Dialogue: 0,0:09:02.58,0:09:04.27,JP,,0,0,0,,それを聞きたいんだね
+Dialogue: 0,0:09:04.27,0:09:05.86,JP,,0,0,0,,そういうことになるか
+Dialogue: 0,0:09:08.40,0:09:10.02,JP,,0,0,0,,じゃあ簡単だ
+Dialogue: 0,0:09:10.02,0:09:11.67,JP,,0,0,0,,何もなかったよ
+Dialogue: 0,0:09:11.67,0:09:16.10,JP,,0,0,0,,中学に入学した頃は　健吾の言うとおりだったかもしれない
+Dialogue: 0,0:09:16.10,0:09:19.64,JP,,0,0,0,,けど出る時には自然とこうなってた
+Dialogue: 0,0:09:19.64,0:09:21.35,JP,,0,0,0,,小市民にね
+Dialogue: 0,0:09:21.35,0:09:22.54,JP,,0,0,0,,信じんぞ
+Dialogue: 0,0:09:23.76,0:09:25.22,JP,,0,0,0,,それは自由だ
+Dialogue: 0,0:09:25.22,0:09:27.64,JP,,0,0,0,,三つ子の魂ってやつだよ
+Dialogue: 0,0:09:27.64,0:09:31.13,JP,,0,0,0,,よほどのことがなければ　あの常悟朗がこうはなるまい
+Dialogue: 0,0:09:31.13,0:09:33.67,JP,,0,0,0,,男子三日会わざればってやつだよ
+Dialogue: 0,0:09:33.67,0:09:35.53,JP,,0,0,0,,まして{\fscx50} {\fscx}3{\fscx50} {\fscx}年も経ってる
+Dialogue: 0,0:09:35.53,0:09:37.78,JP,,0,0,0,,健吾が変わらなさすぎなんだよ
+Dialogue: 0,0:09:40.72,0:09:45.34,JP,,0,0,0,,お前の口から「そうだね」とか　「そのとおりだ」とか出てくるのを聞くと
+Dialogue: 0,0:09:45.34,0:09:46.59,JP,,0,0,0,,いら立つんだよ
+Dialogue: 0,0:09:47.54,0:09:50.15,JP,,0,0,0,,本当にそうだなんて思ってもないくせに
+Dialogue: 0,0:09:50.76,0:09:53.19,JP,,0,0,0,,いら立つんなら　慣れてもらうしかないね
+Dialogue: 0,0:09:54.24,0:09:55.76,JP,,0,0,0,,言葉が悪かった
+Dialogue: 0,0:09:56.62,0:09:59.75,JP,,0,0,0,,だが言いたいことはわかるだろ
+Dialogue: 0,0:09:59.75,0:10:01.42,JP,,0,0,0,,ああ　わかるよ
+Dialogue: 0,0:10:01.42,0:10:02.46,JP,,0,0,0,,けどね　健吾
+Dialogue: 0,0:10:03.25,0:10:08.24,JP,,0,0,0,,僕に何かわかりやすいトラウマなんてものを期待してるんじゃないのかな
+Dialogue: 0,0:10:08.24,0:10:10.20,JP,,0,0,0,,そんなものはないよ
+Dialogue: 0,0:10:10.20,0:10:13.45,JP,,0,0,0,,理由があって小市民を目指してるんじゃない
+Dialogue: 0,0:10:13.45,0:10:16.75,JP,,0,0,0,,健吾が理由があって善人じゃないのと同じでね
+Dialogue: 0,0:10:17.99,0:10:20.09,JP,,0,0,0,,そんな話をするために呼んだのか
+Dialogue: 0,0:10:20.89,0:10:22.22,JP,,0,0,0,,それなら僕は…
+Dialogue: 0,0:10:27.30,0:10:28.53,JP,,0,0,0,,トイレ借りるね
+Dialogue: 0,0:10:28.53,0:10:29.62,JP,,0,0,0,,好きにしろ
+Dialogue: 0,0:10:33.33,0:10:35.68,JP,,0,0,0,,でもそれじゃあ量が
+Dialogue: 0,0:10:35.68,0:10:37.30,JP,,0,0,0,,そうですね
+Dialogue: 0,0:10:37.30,0:10:39.21,JP,,0,0,0,,おかしいよね　本当に
+Dialogue: 0,0:10:39.21,0:10:40.18,JP,,0,0,0,,はい
+Dialogue: 0,0:10:41.87,0:10:44.12,JP,,0,0,0,,こんにちは　知里さん
+Dialogue: 0,0:10:46.00,0:10:48.38,JP,,0,0,0,,もしかして　小鳩くん
+Dialogue: 0,0:10:48.38,0:10:50.84,JP,,0,0,0,,はい　お久しぶりです
+Dialogue: 0,0:10:57.48,0:10:59.01,JP,,0,0,0,,どうかしたの
+Dialogue: 0,0:10:59.01,0:11:03.16,JP,,0,0,0,,私たちは　バカ健吾から挑戦を受けてるのよ
+Dialogue: 0,0:11:09.19,0:11:10.88,JP,,0,0,0,,シンクが乾いてる
+Dialogue: 0,0:11:12.25,0:11:15.40,JP,,0,0,0,,しかもここに置いてあるのはスプーンだけ
+Dialogue: 0,0:11:16.03,0:11:18.49,JP,,0,0,0,,それがどうかしましたか
+Dialogue: 0,0:11:18.49,0:11:19.16,JP,,0,0,0,,鈍い
+Dialogue: 0,0:11:20.32,0:11:23.66,JP,,0,0,0,,健吾は君たちに　ココアを入れたんでしょう
+Dialogue: 0,0:11:24.27,0:11:26.91,JP,,0,0,0,,それが牛乳を使ったミルクココアなら
+Dialogue: 0,0:11:26.91,0:11:30.72,JP,,0,0,0,,ここには当然鍋がなければいけないのよ
+Dialogue: 0,0:11:31.77,0:11:32.92,JP,,0,0,0,,洗ったんでしょ
+Dialogue: 0,0:11:33.32,0:11:35.81,JP,,0,0,0,,いや　シンクは乾いてるんだって
+Dialogue: 0,0:11:35.81,0:11:39.43,JP,,0,0,0,,シンクを濡らさずに　ホットミルクココアを作る
+Dialogue: 0,0:11:40.19,0:11:41.73,JP,,0,0,0,,できる相談かしら
+Dialogue: 0,0:11:42.45,0:11:43.55,JP,,0,0,0,,できません
+Dialogue: 0,0:11:43.55,0:11:44.99,JP,,0,0,0,,私もよ
+Dialogue: 0,0:11:44.99,0:11:46.28,JP,,0,0,0,,その子にもね
+Dialogue: 0,0:11:49.20,0:11:50.19,JP,,0,0,0,,許せん
+Dialogue: 0,0:11:51.30,0:11:54.73,JP,,0,0,0,,バカ健吾にできることができないって　悔しくないの
+Dialogue: 0,0:11:55.13,0:11:57.24,JP,,0,0,0,,悔しいですね　それは
+Dialogue: 0,0:11:57.24,0:11:58.50,JP,,0,0,0,,小鳩くん
+Dialogue: 0,0:11:58.50,0:12:02.72,JP,,0,0,0,,なら　一緒に健吾の行動をトレースしてみようじゃないの
+Dialogue: 0,0:12:19.43,0:12:20.72,JP,,0,0,0,,大きいですね
+Dialogue: 0,0:12:20.72,0:12:23.77,JP,,0,0,0,,お菓子作りにも使えるようにね
+Dialogue: 0,0:12:23.77,0:12:25.47,JP,,0,0,0,,オーブンにもなるよ
+Dialogue: 0,0:12:26.44,0:12:32.04,JP,,0,0,0,,で　電子レンジでホットミルクを作ったんじゃないかと考えるわけだ　君は
+Dialogue: 0,0:12:33.30,0:12:35.97,JP,,0,0,0,,そうすれば　鍋はいらないでしょう
+Dialogue: 0,0:12:35.97,0:12:39.04,JP,,0,0,0,,その代わり　金属じゃない器がいる
+Dialogue: 0,0:12:39.04,0:12:41.63,JP,,0,0,0,,セラミックなり　プラスチックなり
+Dialogue: 0,0:12:41.63,0:12:43.74,JP,,0,0,0,,ここにはいろいろあるけど
+Dialogue: 0,0:12:44.26,0:12:47.87,JP,,0,0,0,,でも　シンクは乾いてるの
+Dialogue: 0,0:12:47.87,0:12:49.87,JP,,0,0,0,,なら　こうですよ
+Dialogue: 0,0:13:16.03,0:13:18.85,JP,,0,0,0,,これでココアが{\fscx50} {\fscx}3{\fscx50} {\fscx}杯出来上がる
+Dialogue: 0,0:13:18.85,0:13:22.78,JP,,0,0,0,,でも　私たちがもらったのはただのココアじゃない
+Dialogue: 0,0:13:22.78,0:13:25.78,JP,,0,0,0,,そうか　おいしいココアだ
+Dialogue: 0,0:13:26.17,0:13:28.98,JP,,0,0,0,,ペースト状のココアが入る器に対し
+Dialogue: 0,0:13:28.98,0:13:32.40,JP,,0,0,0,,そこへホットミルクを注ぐための器が必要
+Dialogue: 0,0:13:38.80,0:13:41.36,JP,,0,0,0,,問題を認識したようね
+Dialogue: 0,0:13:41.36,0:13:43.06,JP,,0,0,0,,そうなのよ
+Dialogue: 0,0:13:43.06,0:13:46.76,JP,,0,0,0,,バカ健吾　何をやったものやら
+Dialogue: 0,0:13:46.76,0:13:49.93,JP,,0,0,0,,もしボウルみたいな器を使わなかったとしたら
+Dialogue: 0,0:13:50.75,0:13:54.42,JP,,0,0,0,,つまり　カップにミルクを入れて　レンジにかけたら
+Dialogue: 0,0:13:54.42,0:13:56.68,JP,,0,0,0,,カップは{\fscx50} {\fscx}6{\fscx50} {\fscx}ついるはずなのよ
+Dialogue: 0,0:13:56.68,0:13:59.19,JP,,0,0,0,,いえ　4{\fscx50} {\fscx}つで済みます
+Dialogue: 0,0:14:00.23,0:14:02.59,JP,,0,0,0,,ミルクを{\fscx50} {\fscx}3{\fscx50} {\fscx}杯温めて
+Dialogue: 0,0:14:02.59,0:14:04.25,JP,,0,0,0,,それとは別に
+Dialogue: 0,0:14:04.25,0:14:07.93,JP,,0,0,0,,おいしいココアを作るためのカップを用意します
+Dialogue: 0,0:14:07.93,0:14:11.97,JP,,0,0,0,,そこでココアパウダーを溶くと　ココアが{\fscx50} {\fscx}1{\fscx50} {\fscx}杯でき
+Dialogue: 0,0:14:11.97,0:14:14.03,JP,,0,0,0,,カップが{\fscx50} {\fscx}1{\fscx50} {\fscx}つ空きます
+Dialogue: 0,0:14:14.03,0:14:18.17,JP,,0,0,0,,これを{\fscx50} {\fscx}3{\fscx50} {\fscx}度繰り返せば　3{\fscx50} {\fscx}杯のおいしいココアができます
+Dialogue: 0,0:14:19.03,0:14:20.95,JP,,0,0,0,,駄目　小鳩くん
+Dialogue: 0,0:14:20.95,0:14:25.24,JP,,0,0,0,,それだと　最初の一杯を作った時点でスプーンが濡れちゃう
+Dialogue: 0,0:14:26.52,0:14:28.80,JP,,0,0,0,,そこは健吾のことだしね
+Dialogue: 0,0:14:28.80,0:14:30.23,JP,,0,0,0,,濡れたスプーンを
+Dialogue: 0,0:14:30.23,0:14:34.52,JP,,0,0,0,,ココアパウダーの中に突っ込むぐらいのズボラなことはやりかねないよ
+Dialogue: 0,0:14:34.52,0:14:37.31,JP,,0,0,0,,もしそうじゃなかったとしても
+Dialogue: 0,0:14:37.31,0:14:43.01,JP,,0,0,0,,ミルクを温めるためのカップを{\fscx50} {\fscx}1{\fscx50} {\fscx}つと　パウダー入りのカップを{\fscx50} {\fscx}3{\fscx50} {\fscx}つ用意して
+Dialogue: 0,0:14:43.01,0:14:44.82,JP,,0,0,0,,ミルクを温めて
+Dialogue: 0,0:14:44.82,0:14:48.43,JP,,0,0,0,,パウダー入りのカップに注ぐって作業を{\fscx50} {\fscx}3{\fscx50} {\fscx}回やればいい
+Dialogue: 0,0:14:49.42,0:14:53.81,JP,,0,0,0,,それって　どっちにしてもカップ{\fscx50} {\fscx}4{\fscx50} {\fscx}つ使ったってことでしょ
+Dialogue: 0,0:14:53.81,0:14:58.12,JP,,0,0,0,,でも実際は　3{\fscx50} {\fscx}つしか使われてないのよ
+Dialogue: 0,0:15:02.59,0:15:08.12,JP,,0,0,0,,これは　僕が思うに　問題の捉え直しで片がつきそうですね
+Dialogue: 0,0:15:09.18,0:15:11.51,JP,,0,0,0,,おいしいココアは{\fscx50} {\fscx}2{\fscx50} {\fscx}杯だった
+Dialogue: 0,0:15:15.40,0:15:20.05,JP,,0,0,0,,もう一杯は　ホットミルクの上からココアパウダーを落とし込んだ
+Dialogue: 0,0:15:20.05,0:15:22.59,JP,,0,0,0,,従来型の粉っぽいココアだった
+Dialogue: 0,0:15:23.22,0:15:28.87,JP,,0,0,0,,それなら　2{\fscx50} {\fscx}杯のおいしいココアと　1{\fscx50} {\fscx}杯の普通のココアができる
+Dialogue: 0,0:15:28.87,0:15:29.95,JP,,0,0,0,,なるほど
+Dialogue: 0,0:15:29.95,0:15:32.14,JP,,0,0,0,,いや　これはありません
+Dialogue: 0,0:15:32.14,0:15:33.20,JP,,0,0,0,,どうして
+Dialogue: 0,0:15:33.88,0:15:39.21,JP,,0,0,0,,僕たちは　お盆からそれぞれが任意に自分の分をもらったんです
+Dialogue: 0,0:15:39.21,0:15:42.44,JP,,0,0,0,,健吾が一番最初ってこともありませんでした
+Dialogue: 0,0:15:43.19,0:15:47.91,JP,,0,0,0,,2{\fscx50} {\fscx}杯のホットミルクで　3{\fscx50} {\fscx}杯のミルクココアを作ることはできるよ
+Dialogue: 0,0:16:11.58,0:16:15.83,JP,,0,0,0,,これを繰り返して　おいしいココアを{\fscx50} {\fscx}2{\fscx50} {\fscx}杯作る
+Dialogue: 0,0:16:15.83,0:16:17.82,JP,,0,0,0,,それから　こうすると
+Dialogue: 0,0:16:17.82,0:16:20.88,JP,,0,0,0,,3{\fscx50} {\fscx}つのカップに　おいしいココアが入るよ
+Dialogue: 0,0:16:20.88,0:16:26.22,JP,,0,0,0,,でも　これだとどのカップも{\fscx50} {\fscx}66{\fscx50} {\fscx}パーセントまでしか入れられない
+Dialogue: 0,0:16:26.88,0:16:29.03,JP,,0,0,0,,私たちがもらったココアは
+Dialogue: 0,0:16:29.03,0:16:32.87,JP,,0,0,0,,3{\fscx50} {\fscx}杯ともカップの縁ギリギリまで入ってた
+Dialogue: 0,0:16:32.87,0:16:36.52,JP,,0,0,0,,あんた　それがわかってて　なんで言うのよ
+Dialogue: 0,0:16:38.53,0:16:41.02,JP,,0,0,0,,あっ　場を繋ごうと思って
+Dialogue: 0,0:16:43.30,0:16:45.17,JP,,0,0,0,,あ～っ　わかった
+Dialogue: 0,0:16:45.17,0:16:47.60,JP,,0,0,0,,それよ　ちっちゃい子の言うとおり
+Dialogue: 0,0:16:47.60,0:16:48.90,JP,,0,0,0,,ちっちゃい子？
+Dialogue: 0,0:16:48.90,0:16:53.50,JP,,0,0,0,,今のやり方と{\fscx50} {\fscx}3{\fscx50} {\fscx}つのカップで　3{\fscx50} {\fscx}杯のココアはできる
+Dialogue: 0,0:16:53.50,0:16:55.21,JP,,0,0,0,,あとは量なのよね
+Dialogue: 0,0:16:55.21,0:16:58.69,JP,,0,0,0,,ということは　あらかじめココアを濃く作っておいて
+Dialogue: 0,0:16:58.69,0:17:01.26,JP,,0,0,0,,あとからミルクを足せばいいのよ
+Dialogue: 0,0:17:01.26,0:17:03.03,JP,,0,0,0,,ぬるくなります
+Dialogue: 0,0:17:03.03,0:17:07.67,JP,,0,0,0,,僕たちがもらったココアは　すぐに飲めないくらい熱かったですよ
+Dialogue: 0,0:17:07.67,0:17:11.11,JP,,0,0,0,,じゃあ　そのあとでレンジにかければいいじゃない
+Dialogue: 0,0:17:11.11,0:17:15.64,JP,,0,0,0,,ミルクを{\fscx50} {\fscx}2{\fscx50} {\fscx}杯温めて　ココアを作って{\fscx50} {\fscx}3{\fscx50} {\fscx}杯に分けて
+Dialogue: 0,0:17:15.64,0:17:17.59,JP,,0,0,0,,ミルクを足して温め直す
+Dialogue: 0,0:17:18.29,0:17:20.08,JP,,0,0,0,,手間がかかりすぎますよ
+Dialogue: 0,0:17:21.86,0:17:26.03,JP,,0,0,0,,バカ健吾より効率が悪いってのは気に入らないよね
+Dialogue: 0,0:17:26.91,0:17:30.32,JP,,0,0,0,,本当にどうしてココアってパウダーなんだろう
+Dialogue: 0,0:17:32.16,0:17:37.42,JP,,0,0,0,,もし　僕の知らないようなココアの原液みたいなものがあったとしたら…
+Dialogue: 0,0:17:40.24,0:17:43.70,JP,,0,0,0,,ココアパウダーだよ　普通の
+Dialogue: 0,0:17:48.53,0:17:51.80,JP,,0,0,0,,なんでシンクが乾いているの
+Dialogue: 0,0:17:51.80,0:17:54.89,JP,,0,0,0,,洗い物をして　滴を全部拭き取った
+Dialogue: 0,0:17:54.89,0:17:56.66,JP,,0,0,0,,でも　スプーンは残ってる
+Dialogue: 0,0:17:57.59,0:18:01.11,JP,,0,0,0,,濡れてるものなら　気づかないはずがない
+Dialogue: 0,0:18:03.73,0:18:07.36,JP,,0,0,0,,つまり　こう言い換えられる
+Dialogue: 0,0:18:08.62,0:18:13.75,JP,,0,0,0,,おいしいココアを{\fscx50} {\fscx}3{\fscx50} {\fscx}杯作るには　濡れた存在が{\fscx50} {\fscx}4{\fscx50} {\fscx}つ必要
+Dialogue: 0,0:18:14.49,0:18:16.99,JP,,0,0,0,,4{\fscx50} {\fscx}つ目は何か
+Dialogue: 0,0:18:17.57,0:18:20.11,JP,,0,0,0,,ココアに濡れたカップが{\fscx50} {\fscx}3{\fscx50} {\fscx}つ
+Dialogue: 0,0:18:21.83,0:18:27.05,JP,,0,0,0,,残り{\fscx50} {\fscx}1{\fscx50} {\fscx}つは　洗ったなら水に濡れてる
+Dialogue: 0,0:18:30.21,0:18:31.71,JP,,0,0,0,,洗ってないなら…
+Dialogue: 0,0:18:33.01,0:18:33.94,JP,,0,0,0,,知里さん
+Dialogue: 0,0:18:33.94,0:18:34.71,JP,,0,0,0,,なに
+Dialogue: 0,0:18:34.71,0:18:36.38,JP,,0,0,0,,冷蔵庫を開けてください
+Dialogue: 0,0:18:38.60,0:18:41.14,JP,,0,0,0,,その牛乳パックを持ってみてください
+Dialogue: 0,0:18:47.59,0:18:48.69,JP,,0,0,0,,熱いでしょ
+Dialogue: 0,0:18:50.73,0:18:56.16,JP,,0,0,0,,健吾は　牛乳を牛乳パックごとレンジに入れて　加熱したんです
+Dialogue: 0,0:19:04.46,0:19:09.92,JP,,0,0,0,,つまり{\fscx50} {\fscx}4{\fscx50} {\fscx}つ目の濡れた存在とは　牛乳パックそのもの
+Dialogue: 0,0:19:10.64,0:19:13.39,JP,,0,0,0,,あのズボラが～っ！
+Dialogue: 0,0:19:15.47,0:19:16.93,JP,,0,0,0,,遅かったな
+Dialogue: 0,0:19:17.36,0:19:18.40,JP,,0,0,0,,小佐内さん
+Dialogue: 0,0:19:19.18,0:19:21.43,JP,,0,0,0,,おいしかったよ　ケーキ
+Dialogue: 0,0:19:22.06,0:19:23.43,JP,,0,0,0,,よかったです
+Dialogue: 0,0:19:23.43,0:19:26.53,JP,,0,0,0,,久々に話したよ　お姉さんと
+Dialogue: 0,0:19:26.53,0:19:29.10,JP,,0,0,0,,姉貴と？　何を話した？
+Dialogue: 0,0:19:30.65,0:19:32.38,JP,,0,0,0,,謎をかけられた
+Dialogue: 0,0:19:32.38,0:19:33.38,JP,,0,0,0,,謎？
+Dialogue: 0,0:19:33.38,0:19:35.81,JP,,0,0,0,,あとは　無難な談笑
+Dialogue: 0,0:20:06.40,0:20:08.98,JP,,0,0,0,,小鳩くんだっけ　あの子
+Dialogue: 0,0:20:08.98,0:20:10.78,JP,,0,0,0,,なかなかやるよね
+Dialogue: 0,0:20:11.23,0:20:14.44,JP,,0,0,0,,子供の頃から頭は回ると思ってたけど
+Dialogue: 0,0:20:14.99,0:20:17.23,JP,,0,0,0,,それに随分大人になったじゃない
+Dialogue: 0,0:20:17.23,0:20:20.70,JP,,0,0,0,,ちゃんと私の分まで買ってきてくれたし
+Dialogue: 0,0:20:25.81,0:20:28.19,JP,,0,0,0,,そんなタマじゃないよ　あいつは
+Dialogue: 0,0:20:31.10,0:20:32.99,JP,,0,0,0,,ねえ　小佐内さん
+Dialogue: 0,0:20:33.40,0:20:36.85,JP,,0,0,0,,大丈夫だよ　こんなことは　もうやらない
+Dialogue: 0,0:20:37.74,0:20:41.41,JP,,0,0,0,,日曜日だから　ちょっと羽目を外しただけだよ
+Dialogue: 0,0:20:42.32,0:20:44.51,JP,,0,0,0,,なんのことかわかんない
+Dialogue: 0,0:20:46.07,0:20:48.79,JP,,0,0,0,,私たち　約束してるよ
+Dialogue: 0,0:20:49.34,0:20:53.96,JP,,0,0,0,,でも　小鳩くんがどういう人になるのかまで　縛ってない
+Dialogue: 0,0:20:56.64,0:21:00.92,JP,,0,0,0,,今日の小鳩くん　初めて会った時みたいだった
+Dialogue: 0,0:21:02.37,0:21:06.91,JP,,0,0,0,,そっちのほうが楽しいなら　そっちの小鳩くんになればいいじゃない
+Dialogue: 0,0:21:06.91,0:21:09.57,JP,,0,0,0,,私　気にしないよ
+Dialogue: 0,0:21:09.57,0:21:13.09,JP,,0,0,0,,僕はもう　知恵働きはやめたんだ
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,
