@@ -1,0 +1,53 @@
+﻿[Script Info]
+ScaledBorderAndShadow: yes
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EDJP,FOT-UDMarugo_Large Pr6N B,62,&H00FFFFFF,&H000000FF,&H00552A09,&H00FFFFFF,0,0,0,0,100,100,1,0,1,2,0,8,30,30,20,1
+Style: EDCN,汉仪正圆-85S,56,&H00FFFFFF,&H000000FF,&H00552A09,&H00FFFFFF,0,0,0,0,100,100,1.5,0,1,2,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:22:30.04,0:22:30.04,EDJP,,0,0,0,,------ EDJP ------
+Dialogue: 0,0:22:39.59,0:22:43.39,EDJP,,0,0,190,,{\an7\fad(0,250)\xshad4\4c&H66E3FD&}効率だとか　ナンセンスだとか
+Dialogue: 0,0:22:43.39,0:22:46.85,EDJP,,0,0,190,,{\an7\fad(250,0)\xshad4\4c&H66E3FD&}その辺は置いといて
+Dialogue: 0,0:22:46.85,0:22:49.27,EDJP,,0,0,190,,{\an7\xshad-4\4c&HD5FFCB&}興味わくコト　気になるコト
+Dialogue: 0,0:22:49.27,0:22:51.23,EDJP,,0,0,190,,{\an7\xshad4\4c&H66E3FD&}興味わくコト　気になるコト
+Dialogue: 0,0:22:51.23,0:22:54.81,EDJP,,0,0,190,,{\xshad4\4c&HFFE7B2&}憧れで　やってみちゃおう直感だ
+Dialogue: 0,0:22:54.81,0:22:58.36,EDJP,,0,0,190,,{\xshad4\4c&HD5FFCB&}「楽しんだもん勝ち」とかいう
+Dialogue: 0,0:22:58.36,0:23:01.82,EDJP,,0,0,190,,{\xshad4\4c&H805A57&}ステキな言葉があるじゃん
+Dialogue: 0,0:23:01.82,0:23:06.99,EDJP,,0,0,190,,今日だって　なんだかんだ満足　よかった
+Dialogue: 0,0:23:06.99,0:23:10.81,EDJP,,0,0,0,,{\yshad4\4c&HFEAB01&}360{\fscx50} {\fscx}度の景色を撮って
+Dialogue: 0,0:23:10.81,0:23:14.89,EDJP,,0,0,0,,{\yshad4\4c&HFEAB01&}ずっと形に残せたらいいな
+Dialogue: 0,0:23:14.89,0:23:18.49,EDJP,,0,0,0,,{\yshad4\4c&HFEAB01&}だって振り向けば　君がいるし
+Dialogue: 0,0:23:18.49,0:23:22.47,EDJP,,0,0,0,,{\yshad4\4c&HFEAB01&}前向けば色んなフレーバーだ
+Dialogue: 0,0:23:22.47,0:23:24.59,EDJP,,0,0,0,,{\xshad4\4c&H66E3FD&}ウィークエンドロール
+Dialogue: 0,0:23:24.59,0:23:26.51,EDJP,,0,0,0,,{\xshad4\4c&H66E3FD&}思い出　残して
+Dialogue: 0,0:23:26.51,0:23:30.35,EDJP,,0,0,0,,{\xshad4\4c&HFFFFFF&}来週は何して遊ぼうかな
+Dialogue: 0,0:23:34.10,0:23:38.11,EDJP,,0,0,0,,{\xshad4\4c&HFFFFFF&}こんくらいがなんか丁度いい空気だ
+Dialogue: 0,0:23:41.86,0:23:45.86,EDJP,,0,0,0,,{\xshad4\4c&HFFFFFF&}こんくらいがなんか居心地がいいよ
+Dialogue: 0,0:23:49.58,0:23:55.90,EDJP,,0,0,190,,{\an7\fad(0,1000)}ねえ　来週の天気　晴れるかな？
+Comment: 1,0:22:30.04,0:22:30.04,EDCN,,0,0,0,,------ EDCN ------
+Dialogue: 1,0:22:39.59,0:22:43.39,EDCN,,0,0,190,,{\an3\fad(0,250)\xshad4\4c&H66E3FD&}效率什麼的 沒意義什麼的
+Dialogue: 1,0:22:43.39,0:22:46.85,EDCN,,0,0,190,,{\an3\fad(250,0)\xshad4\4c&H66E3FD&}這些先放一邊吧
+Dialogue: 1,0:22:46.85,0:22:49.27,EDCN,,0,0,190,,{\an3\xshad-4\4c&HD5FFCB&}感興趣的事 好奇的事物
+Dialogue: 1,0:22:49.27,0:22:51.23,EDCN,,0,0,190,,{\an3\xshad4\4c&H66E3FD&}感興趣的事 好奇的事物
+Dialogue: 1,0:22:51.23,0:22:54.81,EDCN,,0,0,190,,{\xshad4\4c&HFFE7B2&}就憑著憧憬 跟著直覺去試試看吧
+Dialogue: 1,0:22:54.81,0:22:58.36,EDCN,,0,0,190,,{\xshad4\4c&HD5FFCB&}「享受的人才是贏家」
+Dialogue: 1,0:22:58.36,0:23:01.82,EDCN,,0,0,190,,{\xshad4\4c&H805A57&}這句格言多麼美妙
+Dialogue: 1,0:23:01.82,0:23:06.99,EDCN,,0,0,190,,今天也這樣那樣的 還挺滿足的
+Dialogue: 1,0:23:06.99,0:23:10.81,EDCN,,0,0,85,,{\an8\yshad4\4c&HFEAB01&}好想拍下{\fscx50} {\fscx}360{\fscx50} {\fscx}度的風景
+Dialogue: 1,0:23:10.81,0:23:14.89,EDCN,,0,0,85,,{\an8\yshad4\4c&HFEAB01&}永遠定格保存成紀念
+Dialogue: 1,0:23:14.89,0:23:18.49,EDCN,,0,0,85,,{\an8\yshad4\4c&HFEAB01&}因為回過頭 你就在身旁
+Dialogue: 1,0:23:18.49,0:23:22.47,EDCN,,0,0,85,,{\an8\yshad4\4c&HFEAB01&}而前方還有繽紛的滋味在等待
+Dialogue: 1,0:23:22.47,0:23:24.59,EDCN,,0,0,0,,{\xshad4\4c&H66E3FD&}Weekend Roll
+Dialogue: 1,0:23:24.59,0:23:26.51,EDCN,,0,0,0,,{\xshad4\4c&H66E3FD&}將此刻珍藏
+Dialogue: 1,0:23:26.51,0:23:30.35,EDCN,,0,0,0,,{\xshad4\4c&HFFFFFF&}下週要玩些什麼好呢
+Dialogue: 1,0:23:34.10,0:23:38.11,EDCN,,0,0,0,,{\xshad4\4c&HFFFFFF&}這樣的氛圍剛剛好
+Dialogue: 1,0:23:41.86,0:23:45.86,EDCN,,0,0,0,,{\xshad4\4c&HFFFFFF&}這樣的感覺最舒服
+Dialogue: 1,0:23:49.58,0:23:55.90,EDCN,,0,0,190,,{\an3\fad(0,1000)}欸 你說 下週會是晴天嗎？
+Comment: 0,0:22:30.04,0:22:30.04,CN,,0,0,0,,
