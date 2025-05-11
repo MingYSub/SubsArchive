@@ -24,12 +24,13 @@ Style: EDJP,FOT-Matisse ProN M,50,&H00FFFFFF,&H000000FF,&H00333333,&H00FFFFFF,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,!import ./Songs/OP2
 Comment: 0,0:21:18.63,0:21:18.63,CN,,0,0,0,,!import ./Songs/ED2
 Comment: 0,0:00:00.00,0:00:00.00,CN,,0,0,0,,------ Credits ------
 Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fscx90\pos(616,626)\bord0\blur2\c&H000000&\1a&HC8&}字幕
 Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fsp6\fs58\pos(692,678)\bord0\blur2\c&H000000&\1a&HC8&}MingYSub
-Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fscx90\pos(606,616)}字{\c&H313439&\3c&HD4D4D4&}幕
-Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fsp6\fs58\pos(682,668)}MingY{\c&H313439&\3c&HD4D4D4&}S{\c\3c}ub
+Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fscx90\pos(606,616)}字{\c&H161616&\3c&HD4D4D4&}幕
+Dialogue: 0,0:01:26.44,0:01:28.23,Credits,,0,0,0,,{\fsp6\fs58\pos(682,668)}MingY{\c&H161616&\3c&HD4D4D4&}S{\c\3c}ub
 Dialogue: 0,0:21:18.63,0:21:22.63,EDCN,,0,0,20,,{\fad(0,500)\an8\fs50}本字幕由 MingYSub 制作
 Dialogue: 0,0:21:18.63,0:21:22.63,EDCN,,0,0,75,,{\fad(0,500)\an8\fs40}翻译：Ming  时轴：nagi 加尔
 Comment: 0,0:00:00.00,0:00:00.00,Screen,,0,0,0,,------ Screen ------
@@ -764,7 +765,7 @@ Dialogue: 9,0:07:15.25,0:07:18.29,CN,,0,0,0,,关心你嫌烦吗
 Dialogue: 9,0:07:18.29,0:07:20.76,CN,,0,0,0,,怎么会呢
 Dialogue: 9,0:07:20.76,0:07:21.81,CN,,0,0,0,,谢谢
 Dialogue: 9,0:07:21.81,0:07:24.13,CN,,0,0,0,,嗯 注意安全
-Dialogue: 9,0:07:24.13,0:07:27.54,CN,,0,0,0,,{\fad(0,300)}加油啊 我也{会支持你的}…
+Dialogue: 9,0:07:24.13,0:07:27.54,CN,,0,0,0,,{\fad(0,300)}加油啊 我也会{支持你的}…
 Dialogue: 9,0:07:35.06,0:07:36.77,CN,,0,0,0,,手机没电了
 Dialogue: 9,0:07:47.23,0:07:47.95,CN,,0,0,0,,喂
 Dialogue: 9,0:07:47.95,0:07:50.29,CN,,0,0,0,,学长 高架桥下出事了
