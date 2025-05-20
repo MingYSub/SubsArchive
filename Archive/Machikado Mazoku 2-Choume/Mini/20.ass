@@ -1,10 +1,11 @@
 ﻿[Script Info]
+Title: [MingY] Machikado Mazoku 2-Choume Mini - 20
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
 ScaledBorderAndShadow: yes
 WrapStyle: 2
-YCbCr Matrix: TV.601
+YCbCr Matrix: TV.709
 LayoutResX: 1920
 LayoutResY: 1080
 

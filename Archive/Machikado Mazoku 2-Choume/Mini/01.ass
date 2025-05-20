@@ -1,10 +1,11 @@
 ﻿[Script Info]
+Title: [MingY] Machikado Mazoku 2-Choume Mini - 01
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
 ScaledBorderAndShadow: yes
 WrapStyle: 2
-YCbCr Matrix: TV.601
+YCbCr Matrix: TV.709
 LayoutResX: 1920
 LayoutResY: 1080
 
@@ -27,7 +28,7 @@ Dialogue: 0,0:00:04.61,0:00:06.28,JP,Momo,0,0,0,,{\3c7E61DE\blur3}アニメの�
 Dialogue: 0,0:00:06.28,0:00:07.82,JP,Momo,0,0,0,,{\3c7E61DE\blur3}これまでを振り返ってる
 Dialogue: 0,0:00:07.82,0:00:08.74,JP,Momo,0,0,0,,{\3c7E61DE\blur3}シャミ子も見る？
 Dialogue: 0,0:00:08.74,0:00:10.74,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}そんな文明の利器に頼らずとも
-Dialogue: 0,0:00:10.74,0:00:15.14,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}まぞく優秀の思い出はこのまぞくメモリーにばっちりしっかり記憶済みです
+Dialogue: 0,0:00:10.74,0:00:15.14,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}まぞく優勝の思い出は　このまぞくメモリーにばっちりしっかり記憶済みです
 Dialogue: 0,0:00:15.14,0:00:18.54,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}まず　私に角と尻尾が生えてまぞくに覚醒しました
 Dialogue: 0,0:00:18.54,0:00:20.54,JP,Momo,0,0,0,,{\3c7E61DE\blur3}そうだね　それが始まりだったね
 Dialogue: 0,0:00:20.54,0:00:23.75,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}魔法少女の桃に片手ダンプで助けてもらいました
@@ -43,7 +44,7 @@ Dialogue: 0,0:00:43.52,0:00:45.77,JP,Momo,0,0,0,,{\3c7E61DE\blur3}そのなん�
 Dialogue: 0,0:00:45.77,0:00:48.24,JP,Momo,0,0,0,,{\3c7E61DE\blur3}眷属になれるのは私を倒してからだけど
 Dialogue: 0,0:00:48.24,0:00:49.60,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}ところでなのですが…
 Dialogue: 0,0:00:49.60,0:00:50.28,JP,Momo,0,0,0,,{\3c7E61DE\blur3}うん
-Dialogue: 0,0:00:50.28,0:00:53.32,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}私の手元にあるものにお気づき頂けたんだろうか
+Dialogue: 0,0:00:50.28,0:00:53.32,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}私の手元にあるものにお気づきいただけただろうか
 Dialogue: 0,0:00:53.32,0:00:54.08,JP,Momo,0,0,0,,{\3c7E61DE\blur3}何これ
 Dialogue: 0,0:00:54.08,0:00:56.04,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}今日は何日だか分かりますか
 Dialogue: 0,0:00:56.04,0:00:58.25,JP,Momo,0,0,0,,{\3c7E61DE\blur3}2{\fscx50} {\fscx}月{\fscx50} {\fscx}14{\fscx50} {\fscx}日だね　月曜日だね
@@ -56,9 +57,9 @@ Dialogue: 0,0:01:07.92,0:01:08.80,JP,Momo,0,0,0,,{\3c7E61DE\blur3}チョコ？
 Dialogue: 0,0:01:08.80,0:01:10.43,JP,Momo,0,0,0,,{\3c7E61DE\blur3}今糖質制限中で
 Dialogue: 0,0:01:10.43,0:01:11.13,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}ん？
 Dialogue: 0,0:01:11.13,0:01:12.12,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}貴様そういうとこだぞ…
-Dialogue: 0,0:01:12.12,0:01:14.64,JP,Momo,0,0,0,,{\3c7E61DE\blur3}でもシャミ子の手作りならいただこうかな
+Dialogue: 0,0:01:12.12,0:01:14.64,JP,Momo,0,0,0,,{\3c7E61DE\blur3}でもシャミ子の手作りなら　いただこうかな
 Dialogue: 0,0:01:14.64,0:01:15.22,JP,Momo,0,0,0,,{\3c7E61DE\blur3}ありがとう
-Dialogue: 0,0:01:15.22,0:01:16.64,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}えっ？　あっ　はい　おお
+Dialogue: 0,0:01:15.22,0:01:16.64,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}え？　あっ　はい　おお
 Dialogue: 0,0:01:16.64,0:01:19.77,JP,Shamiko,0,0,0,,{\3c5B50C4\blur3}あれ？　素直に受け取られるとなんか調子が出ない
 Dialogue: 1,0:00:02.91,0:00:04.61,CN,Shamiko,0,0,0,,{\3c5B50C4\blur3}桃  你在干嘛
 Dialogue: 1,0:00:04.61,0:00:06.28,CN,Momo,0,0,0,,{\3c7E61DE\blur3}动画续集要开播了
