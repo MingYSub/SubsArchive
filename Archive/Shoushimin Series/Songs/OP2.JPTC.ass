@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OPCN,更纱黑体 SC,58,&H00FFFFFF,&H000000FF,&H00D0BC9C,&H00FFFFFF,0,0,0,0,95,100,2,0,1,0,0,2,30,30,36,1
+Style: OPJP,Sarasa Gothic J,58,&H00FFFFFF,&H000000FF,&H00D0BC9C,&H00FFFFFF,0,0,0,0,95,100,2,0,1,0,0,8,30,30,36,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,,------ OPCN ------
+Dialogue: 0,0:00:19.65,0:00:24.39,OPCN,,0,0,0,,{\fad(200,200)}從筆直豎起的指尖
+Dialogue: 0,0:00:24.39,0:00:29.25,OPCN,,0,0,0,,{\fad(200,200)}彷彿能看見燦爛的光芒
+Dialogue: 0,0:00:29.25,0:00:34.01,OPCN,,0,0,0,,{\fad(200,200)}從豁然張開的口中深處
+Dialogue: 0,0:00:34.01,0:00:38.82,OPCN,,0,0,0,,{\fad(200,200)}今天也能看到火星
+Dialogue: 0,0:00:38.82,0:00:43.25,OPCN,,0,0,0,,{\fad(200,100)}只想平靜地生活下去
+Dialogue: 0,0:00:43.25,0:00:43.93,OPCN,,0,0,0,,{\fad(100,200)}休止符。
+Dialogue: 0,0:00:43.93,0:00:46.93,OPCN,,0,0,0,,{\fad(100,200)}啊，請你理解我
+Dialogue: 0,0:00:48.46,0:00:50.82,OPCN,,0,0,0,,{\fad(200,200)}奔向火星相會
+Dialogue: 0,0:00:50.82,0:00:53.24,OPCN,,0,0,0,,{\fad(200,200)}普通的日子　普通的共鳴
+Dialogue: 0,0:00:53.24,0:00:58.04,OPCN,,0,0,0,,{\fad(200,200)}我想看到的唯有不羈的風暴
+Dialogue: 0,0:00:58.04,0:00:59.95,OPCN,,0,0,0,,{\fad(200,200)}奔向火星相會
+Dialogue: 0,0:00:59.95,0:01:02.75,OPCN,,0,0,0,,{\fad(200,200)}無需燈籠也無需明鏡
+Dialogue: 0,0:01:02.75,0:01:10.60,OPCN,,0,0,0,,{\fad(200,200)}我的苦痛若只是月亮的倒影該多好
+Comment: 0,0:00:00.00,0:00:00.00,OPJP,,0,0,0,,------ OPJP ------
+Dialogue: 0,0:00:19.65,0:00:24.39,OPJP,,0,0,0,,{\fad(200,200)}ぴんと立てた指の先から
+Dialogue: 0,0:00:24.39,0:00:29.25,OPJP,,0,0,0,,{\fad(200,200)}爛と光って見える
+Dialogue: 0,0:00:29.25,0:00:34.01,OPJP,,0,0,0,,{\fad(200,200)}ぱんと開けた口の奥から
+Dialogue: 0,0:00:34.01,0:00:38.82,OPJP,,0,0,0,,{\fad(200,200)}今日も火星が見える
+Dialogue: 0,0:00:38.82,0:00:43.25,OPJP,,0,0,0,,{\fad(200,100)}穏やかに生きていたい
+Dialogue: 0,0:00:43.25,0:00:43.93,OPJP,,0,0,0,,{\fad(100,100)}休符。
+Dialogue: 0,0:00:43.93,0:00:46.93,OPJP,,0,0,0,,{\fad(100,200)}あぁ、わかってください
+Dialogue: 0,0:00:48.46,0:00:50.82,OPJP,,0,0,0,,{\fad(200,200)}火星へランデヴー
+Dialogue: 0,0:00:50.82,0:00:53.24,OPJP,,0,0,0,,{\fad(200,200)}普通の日々　普通のシンパシー
+Dialogue: 0,0:00:53.24,0:00:58.04,OPJP,,0,0,0,,{\fad(200,200)}僕が見たいのはふざけた嵐だけ
+Dialogue: 0,0:00:58.04,0:00:59.95,OPJP,,0,0,0,,{\fad(200,200)}火星へランデヴー
+Dialogue: 0,0:00:59.95,0:01:02.75,OPJP,,0,0,0,,{\fad(200,200)}それにランタンも鏡もいらない
+Dialogue: 0,0:01:02.75,0:01:10.60,OPJP,,0,0,0,,{\fad(200,200)}僕の苦しさが月の反射だったらいいのに
+Comment: 0,0:00:00.00,0:00:00.00,OPCN,,0,0,0,,

@@ -13,7 +13,7 @@ LayoutResY: 1080
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: CN,森泽UD黎明体 Gb4 B,69,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2.5,0,2,30,30,50,1
 Style: JP,A-OTF UD Reimin Pr6N B,57,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2.2,0,2,30,30,5,1
-Style: CN - Top,森泽UD黎明体 Gb4 B,62,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,8,30,30,50,1
+Style: CN - Top,森泽UD黎明体 Gb4 B,69,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,8,30,30,55,1
 Style: JP - Top,A-OTF UD Reimin Pr6N B,57,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.2,0,8,30,30,5,1
 Style: Screen,森泽UD黎明体 Gb4 B,69,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,0,0,2,30,30,50,1
 Style: Credits,更纱黑体 SC,56,&H32FFFFFF,&H000000FF,&H32969696,&H00FFFFFF,0,0,0,0,100,100,8,0,1,1.3,0,7,30,30,36,1
