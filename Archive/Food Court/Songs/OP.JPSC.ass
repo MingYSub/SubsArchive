@@ -1,0 +1,58 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CN,械黑 GB SemiBold,68,&H00FFFFFF,&H000000FF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2.6,0,2,30,30,70,1
+Style: OPCN,方正兰亭圆_GBK_中,56,&H00EC8540,&H00FFFFFF,&H00FFFFFF,&H14202020,0,0,0,0,100,100,3,0,1,4,0,8,30,30,25,1
+Style: OPJP,A-OTF UD Shin Maru Go Pr6N M,76,&H00EC8540,&H00FFFFFF,&H00FFFFFF,&H14202020,0,0,0,0,100,100,1,0,1,4,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:01:05.96,0:01:05.96,OPCN,,0,0,0,,------ OPCN ------
+Dialogue: 0,0:01:08.32,0:01:10.33,OPCN,,0,0,0,,{\fad(200,200)}我们再多聊一些吧
+Dialogue: 0,0:01:10.33,0:01:12.94,OPCN,,0,0,0,,{\fad(200,200)}聊些无关紧要又没营养的话题
+Dialogue: 0,0:01:12.94,0:01:16.18,OPCN,,0,0,0,,{\fad(200,200)}人生的过渡期不停空转中
+Dialogue: 0,0:01:24.50,0:01:29.00,OPCN,,0,0,0,,{\fad(200,200)}用透明情感层层涂抹的日记
+Dialogue: 0,0:01:29.00,0:01:33.04,OPCN,,0,0,0,,{\fad(200,200)}是用索然无味的附和做成的装饰贴纸
+Dialogue: 0,0:01:33.04,0:01:36.98,OPCN,,0,0,0,,{\fad(200,200)}一如既往 感觉好像懂你又好像不懂
+Dialogue: 0,0:01:36.98,0:01:40.30,OPCN,,0,0,0,,{\fad(200,200)}感觉有些地方相像又有些地方不同
+Dialogue: 0,0:01:41.01,0:01:49.52,OPCN,,0,0,0,,{\fad(200,200)}口头的约定是六月的阴雨模样
+Dialogue: 0,0:01:50.26,0:01:52.20,OPCN,,0,0,0,,{\fad(200,200)}模糊不清才刚刚好
+Dialogue: 0,0:01:52.54,0:01:55.05,OPCN,,0,0,0,,{\fad(200,200)}快要天旋地转
+Dialogue: 0,0:01:55.05,0:01:57.54,OPCN,,0,0,0,,{\fad(200,200)}以这摇摇晃晃的速度
+Dialogue: 0,0:01:57.54,0:02:01.12,OPCN,,0,0,0,,{\fad(200,200)}昨天已经变成了回忆
+Dialogue: 0,0:02:01.12,0:02:03.03,OPCN,,0,0,0,,{\fad(200,200)}就算再怎么去想
+Dialogue: 0,0:02:03.03,0:02:05.56,OPCN,,0,0,0,,{\fad(200,200)}也净是些搞不懂的事情
+Dialogue: 0,0:02:05.56,0:02:08.55,OPCN,,0,0,0,,{\fad(200,200)}就让我们一起笑着记住吧
+Dialogue: 0,0:02:09.03,0:02:13.58,OPCN,,0,0,0,,{\fad(200,200)}比如说明天一定是彩虹色的
+Dialogue: 0,0:02:13.58,0:02:17.06,OPCN,,0,0,0,,{\fad(200,200)}无论我们选择什么都无所谓
+Dialogue: 0,0:02:17.06,0:02:21.82,OPCN,,0,0,0,,{\fad(200,200)}在这样的世界里我依然想保持透明
+Dialogue: 0,0:02:21.82,0:02:26.07,OPCN,,0,0,0,,{\fad(200,200)}若能与你共沐夕阳的颜色
+Dialogue: 0,0:02:28.46,0:02:30.24,OPCN,,0,0,0,,{\fad(200,200)}明天再见
+Comment: 0,0:01:05.96,0:01:05.96,OPJP,,0,0,0,,------ OPJP ------
+Dialogue: 0,0:01:08.32,0:01:10.33,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}ねえもっと{\fn\fscx\fscy}関係{\fnA-OTF KamoLime Std M\fscx80\fscy80}ない
+Dialogue: 0,0:01:10.33,0:01:12.94,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}かわいげない{\fn\fscx\fscy}話{\fnA-OTF KamoLime Std M\fscx80\fscy80}をしよう
+Dialogue: 0,0:01:12.94,0:01:16.18,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}モラトリアム{\fn\fscx\fscy}延々空転中
+Dialogue: 0,0:01:24.50,0:01:29.00,OPJP,,0,0,0,,{\fad(200,200)}透明{\fnA-OTF KamoLime Std M\fscx80\fscy80}な{\fn\fscx\fscy}感情{\fnA-OTF KamoLime Std M\fscx80\fscy80}で{\fn\fscx\fscy}塗{\fnA-OTF KamoLime Std M\fscx80\fscy80}り{\fn\fscx\fscy}重{\fnA-OTF KamoLime Std M\fscx80\fscy80}ねたダイアリー
+Dialogue: 0,0:01:29.00,0:01:33.04,OPJP,,0,0,0,,{\fad(200,200)}無味乾燥{\fnA-OTF KamoLime Std M\fscx80\fscy80}な{\fn\fscx\fscy}相槌{\fnA-OTF KamoLime Std M\fscx80\fscy80}のデコレーションシール
+Dialogue: 0,0:01:33.04,0:01:36.98,OPJP,,0,0,0,,{\fad(200,200)}相{\fnA-OTF KamoLime Std M\fscx80\fscy80}も{\fn\fscx\fscy}変{\fnA-OTF KamoLime Std M\fscx80\fscy80}わらず{\fn\fscx\fscy}知{\fnA-OTF KamoLime Std M\fscx80\fscy80}ってるようでないような{\fn\fscx\fscy}感{\fnA-OTF KamoLime Std M\fscx80\fscy80}じ
+Dialogue: 0,0:01:36.98,0:01:40.30,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}どっか{\fn\fscx\fscy}似{\fnA-OTF KamoLime Std M\fscx80\fscy80}てるようで{\fn\fscx\fscy}違{\fnA-OTF KamoLime Std M\fscx80\fscy80}うような{\fn\fscx\fscy}感{\fnA-OTF KamoLime Std M\fscx80\fscy80}じ
+Dialogue: 0,0:01:41.01,0:01:49.52,OPJP,,0,0,0,,{\fad(200,200)}口約束{\fnA-OTF KamoLime Std M\fscx80\fscy80}は{\fn\fscx\fscy}六月{\fnA-OTF KamoLime Std M\fscx80\fscy80}の{\fn\fscx\fscy}雨模様
+Dialogue: 0,0:01:50.26,0:01:52.20,OPJP,,0,0,0,,{\fad(200,200)}曖昧{\fnA-OTF KamoLime Std M\fscx80\fscy80}くらいがいい
+Dialogue: 0,0:01:52.54,0:01:55.05,OPJP,,0,0,0,,{\fad(200,200)}目{\fnA-OTF KamoLime Std M\fscx80\fscy80}が{\fn\fscx\fscy}回{\fnA-OTF KamoLime Std M\fscx80\fscy80}っちゃいそうで
+Dialogue: 0,0:01:55.05,0:01:57.54,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}グラっちゃいそうなスピードで
+Dialogue: 0,0:01:57.54,0:02:01.12,OPJP,,0,0,0,,{\fad(200,200)}昨日{\fnA-OTF KamoLime Std M\fscx80\fscy80}に{\fn\fscx\fscy}思{\fnA-OTF KamoLime Std M\fscx80\fscy80}い{\fn\fscx\fscy}出{\fnA-OTF KamoLime Std M\fscx80\fscy80}になってしまったって
+Dialogue: 0,0:02:01.12,0:02:03.03,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}もう{\fn\fscx\fscy}考{\fnA-OTF KamoLime Std M\fscx80\fscy80}えたって
+Dialogue: 0,0:02:03.03,0:02:05.56,OPJP,,0,0,0,,{\fad(200,200)}分{\fnA-OTF KamoLime Std M\fscx80\fscy80}かんないことばっかだって
+Dialogue: 0,0:02:05.56,0:02:08.55,OPJP,,0,0,0,,{\fad(200,200)}笑{\fnA-OTF KamoLime Std M\fscx80\fscy80}い{\fn\fscx\fscy}合{\fnA-OTF KamoLime Std M\fscx80\fscy80}って{\fn\fscx\fscy}憶{\fnA-OTF KamoLime Std M\fscx80\fscy80}えていようね
+Dialogue: 0,0:02:09.03,0:02:13.58,OPJP,,0,0,0,,{\fad(200,200)}例{\fnA-OTF KamoLime Std M\fscx80\fscy80}えばきっと{\fn\fscx\fscy}虹色{\fnA-OTF KamoLime Std M\fscx80\fscy80}の{\fn\fscx\fscy}明日{\fnA-OTF KamoLime Std M\fscx80\fscy80}だって
+Dialogue: 0,0:02:13.58,0:02:17.06,OPJP,,0,0,0,,{\fad(200,200)}何{\fnA-OTF KamoLime Std M\fscx80\fscy80}だって{\fn\fscx\fscy}選{\fnA-OTF KamoLime Std M\fscx80\fscy80}んだって{\fn\fscx\fscy}構{\fnA-OTF KamoLime Std M\fscx80\fscy80}わない
+Dialogue: 0,0:02:17.06,0:02:21.82,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}そんな{\fn\fscx\fscy}世界{\fnA-OTF KamoLime Std M\fscx80\fscy80}でそれでも{\fn\fscx\fscy}透明{\fnA-OTF KamoLime Std M\fscx80\fscy80}でいたい
+Dialogue: 0,0:02:21.82,0:02:26.07,OPJP,,0,0,0,,{\fad(200,200)}君{\fnA-OTF KamoLime Std M\fscx80\fscy80}に{\fn\fscx\fscy}差{\fnA-OTF KamoLime Std M\fscx80\fscy80}す{\fn\fscx\fscy}夕陽{\fnA-OTF KamoLime Std M\fscx80\fscy80}と{\fn\fscx\fscy}同{\fnA-OTF KamoLime Std M\fscx80\fscy80}じ{\fn\fscx\fscy}色{\fnA-OTF KamoLime Std M\fscx80\fscy80}に{\fn\fscx\fscy}染{\fnA-OTF KamoLime Std M\fscx80\fscy80}まれたら
+Dialogue: 0,0:02:28.46,0:02:30.24,OPJP,,0,0,0,,{\fad(200,200)\fnA-OTF KamoLime Std M\fscx80\fscy80}また{\fn\fscx\fscy}明日
