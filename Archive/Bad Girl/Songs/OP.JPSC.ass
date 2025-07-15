@@ -1,0 +1,981 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OPCN,上首方糖体,58,&H00FFFFFF,&H00FFFFFF,&H008F76E8,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,2,10,10,20,1
+Style: OPCN - Blur,上首方糖体,58,&H00FFFFFF,&H00FFFFFF,&H00B09BF5,&H00FFFFFF,0,0,0,0,100,100,0,0,1,6,0,2,10,10,20,1
+Style: OPJP,FOT-Yuruka Std UB,70,&H00FFFFFF,&H00FFFFFF,&H00DCB47C,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,10,10,20,1
+Style: OPJP - Blur,FOT-Yuruka Std UB,70,&H00FFFFFF,&H00FFFFFF,&H00EBC997,&H00FFFFFF,0,0,0,0,100,100,0,0,1,6,0,8,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:02:14.99,0:02:14.99,OPCN,,0,0,0,,------ OPCN ------
+Dialogue: 1,0:02:15.73,0:02:17.18,OPCN,,0,0,14,,{\fad(120,120)}想要成为不良少女{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:17.18,0:02:18.84,OPCN,,0,0,14,,{\fad(120,120)}注意到我吧 {\fnFOT-Yuruka Std UB\fs70}My love!
+Dialogue: 1,0:02:18.84,0:02:20.20,OPCN,,0,0,14,,{\fad(120,120)}看我这里吧 {\fnFOT-Yuruka Std UB\fs70}My girl!
+Dialogue: 1,0:02:20.20,0:02:22.00,OPCN,,0,0,14,,{\fad(120,120)}这份爱意快要满溢而出{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:22.61,0:02:24.07,OPCN,,0,0,0,,{\fad(120,120)}我的心和外表都因你而改变
+Dialogue: 1,0:02:24.07,0:02:24.84,OPCN,,0,0,0,,{\fad(120,120)}最喜欢你了
+Dialogue: 1,0:02:24.84,0:02:25.92,OPCN,,0,0,0,,{\fad(120,120)}这简直就像洗脑
+Dialogue: 1,0:02:25.97,0:02:27.69,OPCN,,0,0,0,,{\fad(120,120)}思念彻底失控大暴走
+Dialogue: 1,0:02:27.69,0:02:28.78,OPCN,,0,0,14,,{\fad(120,120)}好混乱{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:29.08,0:02:30.54,OPCN,,0,0,0,,{\fad(120,120)}但我还是想成为
+Dialogue: 1,0:02:30.62,0:02:31.90,OPCN,,0,0,0,,{\fad(120,120)}没错 只属于你的
+Dialogue: 1,0:02:32.57,0:02:35.01,OPCN,,0,0,14,,{\fad(120,120)}好孩子 坏孩子 特别的女孩子{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:35.52,0:02:38.32,OPCN,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70}GO! GO! GO! GO!{\r} 恋爱就是暴走{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:38.48,0:02:41.06,OPCN,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70}GO! GO! GO! GO!{\r} 早已偏离了轨道{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:41.06,0:02:42.15,OPCN,,0,0,0,,{\fad(120,120)}那个从小到大
+Dialogue: 1,0:02:42.15,0:02:44.52,OPCN,,0,0,14,,{\fad(120,120)}品行端正的女孩竟然突然{\fnFOT-Yuruka Std UB\fs70}!?
+Dialogue: 1,0:02:44.52,0:02:47.07,OPCN,,0,0,14,,{\fad(120,120)}那一定是陷入热恋了 大事件{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:02:47.29,0:02:49.96,OPCN,,0,0,0,,{\fad(120,120)}试着染了头发 穿衣风格也变了
+Dialogue: 1,0:02:50.18,0:02:52.98,OPCN,,0,0,14,,{\fad(120,120)}全新的我 闪亮诞生{\fnFOT-Yuruka Std UB\fs70}!?
+Dialogue: 1,0:02:53.19,0:02:55.49,OPCN,,0,0,0,,{\fad(120,120)}故作姿态 用力过猛 追求着理想型
+Dialogue: 1,0:02:55.57,0:02:57.76,OPCN,,0,0,14,,{\fad(120,120)}请不要对我说{\fnFOT-Yuruka Std UB\fs70}「{\r}快认清现实{\fnFOT-Yuruka Std UB\fs70}」
+Dialogue: 1,0:02:57.82,0:02:58.99,OPCN,,0,0,0,,{\fad(120,120)}爱情让人盲目
+Dialogue: 1,0:02:59.43,0:03:02.09,OPCN,,0,0,0,,{\fad(120,120)}就算深呼吸也无法停止
+Dialogue: 1,0:03:02.32,0:03:05.26,OPCN,,0,0,0,,{\fad(120,120)}被悸动的心所蛊惑 迷失着方向
+Dialogue: 1,0:03:05.55,0:03:08.93,OPCN,,0,0,0,,{\fad(120,120)}虽然只是笨拙地模仿着拼尽全力
+Dialogue: 1,0:03:09.11,0:03:11.68,OPCN,,0,0,0,,{\fad(120,120)}但其中倾注了我的爱
+Dialogue: 1,0:03:12.07,0:03:13.55,OPCN,,0,0,0,,{\fad(120,120)}因为我的一切都已天翻地覆
+Dialogue: 1,0:03:13.55,0:03:14.38,OPCN,,0,0,0,,{\fad(120,120)}最喜欢你了
+Dialogue: 1,0:03:14.38,0:03:15.35,OPCN,,0,0,0,,{\fad(120,120)}一旦相遇就是终章
+Dialogue: 1,0:03:15.45,0:03:16.62,OPCN,,0,0,0,,{\fad(120,120)}这份快要失控的心跳
+Dialogue: 1,0:03:16.62,0:03:18.35,OPCN,,0,0,0,,{\fad(120,120)}就是为了你
+Dialogue: 1,0:03:18.77,0:03:21.49,OPCN,,0,0,0,,{\fad(120,120)}足以让我忘掉过去一切的
+Dialogue: 1,0:03:22.02,0:03:24.69,OPCN,,0,0,0,,{\fad(120,120)}心动不已 让我整个为之震撼
+Dialogue: 1,0:03:24.81,0:03:26.36,OPCN,,0,0,0,,{\fad(120,120)}喜欢你 喜欢到自己都搞不懂
+Dialogue: 1,0:03:26.43,0:03:27.38,OPCN,,0,0,14,,{\fad(120,120)}现在是几点几分{\fnFOT-Yuruka Std UB\fs70}？
+Dialogue: 1,0:03:27.38,0:03:30.29,OPCN,,0,0,14,,{\fad(120,120)}一天到晚胡思乱想 好混乱{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:03:30.52,0:03:33.43,OPCN,,0,0,0,,{\fad(120,120)}但我好想知道 在你眼中我是
+Dialogue: 1,0:03:34.00,0:03:36.54,OPCN,,0,0,14,,{\fad(120,120)}好孩子{\fnFOT-Yuruka Std UB\fs70}？{\r}坏孩子{\fnFOT-Yuruka Std UB\fs70}？{\r}还是特别的女孩子{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:03:37.02,0:03:40.02,OPCN,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70}GO! GO! GO! GO!{\r} 恋爱就是暴走{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 1,0:03:40.02,0:03:42.96,OPCN,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70}GO! GO! GO! GO!{\r} 将这份思念传达给你{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:15.73,0:02:17.18,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}想要成为不良少女{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:17.18,0:02:18.84,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}注意到我吧 {\fnFOT-Yuruka Std UB\fs70}My love!
+Dialogue: 0,0:02:18.84,0:02:20.20,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}看我这里吧 {\fnFOT-Yuruka Std UB\fs70}My girl!
+Dialogue: 0,0:02:20.20,0:02:22.00,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}这份爱意快要满溢而出{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:22.61,0:02:24.07,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}我的心和外表都因你而改变
+Dialogue: 0,0:02:24.07,0:02:24.84,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}最喜欢你了
+Dialogue: 0,0:02:24.84,0:02:25.92,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}这简直就像洗脑
+Dialogue: 0,0:02:25.97,0:02:27.69,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}思念彻底失控大暴走
+Dialogue: 0,0:02:27.69,0:02:28.78,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}好混乱{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:29.08,0:02:30.54,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}但我还是想成为
+Dialogue: 0,0:02:30.62,0:02:31.90,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}没错 只属于你的
+Dialogue: 0,0:02:32.57,0:02:35.01,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}好孩子 坏孩子 特别的女孩子{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:35.52,0:02:38.32,OPCN - Blur,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70\blur6}GO! GO! GO! GO!{\r\blur6} 恋爱就是暴走{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:38.48,0:02:41.06,OPCN - Blur,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70\blur6}GO! GO! GO! GO!{\r\blur6} 早已偏离了轨道{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:41.06,0:02:42.15,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}那个从小到大
+Dialogue: 0,0:02:42.15,0:02:44.52,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}品行端正的女孩竟然突然{\fnFOT-Yuruka Std UB\fs70}!?
+Dialogue: 0,0:02:44.52,0:02:47.07,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}那一定是陷入热恋了 大事件{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:02:47.29,0:02:49.96,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}试着染了头发 穿衣风格也变了
+Dialogue: 0,0:02:50.18,0:02:52.98,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}全新的我 闪亮诞生{\fnFOT-Yuruka Std UB\fs70}!?
+Dialogue: 0,0:02:53.19,0:02:55.49,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}故作姿态 用力过猛 追求着理想型
+Dialogue: 0,0:02:55.57,0:02:57.76,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}请不要对我说{\fnFOT-Yuruka Std UB\fs70}「{\r\blur6}快认清现实{\fnFOT-Yuruka Std UB\fs70}」
+Dialogue: 0,0:02:57.82,0:02:58.99,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}爱情让人盲目
+Dialogue: 0,0:02:59.43,0:03:02.09,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}就算深呼吸也无法停止
+Dialogue: 0,0:03:02.32,0:03:05.26,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}被悸动的心所蛊惑 迷失着方向
+Dialogue: 0,0:03:05.55,0:03:08.93,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}虽然只是笨拙地模仿着拼尽全力
+Dialogue: 0,0:03:09.11,0:03:11.68,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}但其中倾注了我的爱
+Dialogue: 0,0:03:12.07,0:03:13.55,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}因为我的一切都已天翻地覆
+Dialogue: 0,0:03:13.55,0:03:14.38,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}最喜欢你了
+Dialogue: 0,0:03:14.38,0:03:15.35,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}一旦相遇就是终章
+Dialogue: 0,0:03:15.45,0:03:16.62,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}这份快要失控的心跳
+Dialogue: 0,0:03:16.62,0:03:18.35,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}就是为了你
+Dialogue: 0,0:03:18.77,0:03:21.49,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}足以让我忘掉过去一切的
+Dialogue: 0,0:03:22.02,0:03:24.69,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}心动不已 让我整个为之震撼
+Dialogue: 0,0:03:24.81,0:03:26.36,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}喜欢你 喜欢到自己都搞不懂
+Dialogue: 0,0:03:26.43,0:03:27.38,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}现在是几点几分{\fnFOT-Yuruka Std UB\fs70}？
+Dialogue: 0,0:03:27.38,0:03:30.29,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}一天到晚胡思乱想 好混乱{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:03:30.52,0:03:33.43,OPCN - Blur,,0,0,0,,{\fad(120,120)\blur6}但我好想知道 在你眼中我是
+Dialogue: 0,0:03:34.00,0:03:36.54,OPCN - Blur,,0,0,14,,{\fad(120,120)\blur6}好孩子{\fnFOT-Yuruka Std UB\fs70}？{\r\blur6}坏孩子{\fnFOT-Yuruka Std UB\fs70}？{\r\blur6}还是特别的女孩子{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:03:37.02,0:03:40.02,OPCN - Blur,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70\blur6}GO! GO! GO! GO!{\r\blur6} 恋爱就是暴走{\fnFOT-Yuruka Std UB\fs70}！
+Dialogue: 0,0:03:40.02,0:03:42.96,OPCN - Blur,,0,0,14,,{\fad(120,120)\fnFOT-Yuruka Std UB\fs70\blur6}GO! GO! GO! GO!{\r\blur6} 将这份思念传达给你{\fnFOT-Yuruka Std UB\fs70}！
+Comment: 0,0:02:14.99,0:02:14.99,OPJP,,0,0,0,,------ OPJP ------
+Comment: 1,0:02:15.78,0:02:17.18,OPJP,,0,0,0,,{\kf23}わ{\kf15}な{\kf11}び{\kf11}ー{\kf10}あ{\kf13}ば{\kf13}っ{\kf13}ど{\kf11}が{\kf8}ー{\kf12}る！
+Dialogue: 1,0:02:15.70,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}わ{\alpha&HFF&}なびーあばっどがーる！
+Dialogue: 1,0:02:15.93,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わ{\alpha&H00&}な{\alpha&HFF&}びーあばっどがーる！
+Dialogue: 1,0:02:16.08,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わな{\alpha&H00&}び{\alpha&HFF&}ーあばっどがーる！
+Dialogue: 1,0:02:16.19,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなび{\alpha&H00&}ー{\alpha&HFF&}あばっどがーる！
+Dialogue: 1,0:02:16.30,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびー{\alpha&H00&}あ{\alpha&HFF&}ばっどがーる！
+Dialogue: 1,0:02:16.40,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあ{\alpha&H00&}ば{\alpha&HFF&}っどがーる！
+Dialogue: 1,0:02:16.53,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあば{\alpha&H00&}っ{\alpha&HFF&}どがーる！
+Dialogue: 1,0:02:16.66,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっ{\alpha&H00&}ど{\alpha&HFF&}がーる！
+Dialogue: 1,0:02:16.79,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっど{\alpha&H00&}が{\alpha&HFF&}ーる！
+Dialogue: 1,0:02:16.90,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっどが{\alpha&H00&}ー{\alpha&HFF&}る！
+Dialogue: 1,0:02:16.98,0:02:17.26,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっどがー{\alpha&H00&}る！
+Comment: 1,0:02:17.18,0:02:18.84,OPJP,,0,0,0,,{\kf20}き{\kf15}が{\kf13}つ{\kf17}い{\kf15}て{\kf15}よ{\kf15}ま{\kf17}い{\kf19}ら{\kf20}ぶ！
+Dialogue: 1,0:02:17.10,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}き{\alpha&HFF&}がついてよまいらぶ！
+Dialogue: 1,0:02:17.30,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}き{\alpha&H00&}が{\alpha&HFF&}ついてよまいらぶ！
+Dialogue: 1,0:02:17.45,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きが{\alpha&H00&}つ{\alpha&HFF&}いてよまいらぶ！
+Dialogue: 1,0:02:17.58,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがつ{\alpha&H00&}い{\alpha&HFF&}てよまいらぶ！
+Dialogue: 1,0:02:17.75,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがつい{\alpha&H00&}て{\alpha&HFF&}よまいらぶ！
+Dialogue: 1,0:02:17.90,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついて{\alpha&H00&}よ{\alpha&HFF&}まいらぶ！
+Dialogue: 1,0:02:18.05,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよ{\alpha&H00&}ま{\alpha&HFF&}いらぶ！
+Dialogue: 1,0:02:18.20,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよま{\alpha&H00&}い{\alpha&HFF&}らぶ！
+Dialogue: 1,0:02:18.37,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよまい{\alpha&H00&}ら{\alpha&HFF&}ぶ！
+Dialogue: 1,0:02:18.56,0:02:18.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよまいら{\alpha&H00&}ぶ！
+Comment: 1,0:02:18.84,0:02:20.20,OPJP,,0,0,0,,{\kf13}こ{\kf11}っ{\kf11}ち{\kf13}む{\kf13}い{\kf10}て{\kf13}ま{\kf13}い{\kf14}が{\kf13}ー{\kf15}る！
+Dialogue: 1,0:02:18.76,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}こ{\alpha&HFF&}っちむいてまいがーる！
+Dialogue: 1,0:02:18.89,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こ{\alpha&H00&}っ{\alpha&HFF&}ちむいてまいがーる！
+Dialogue: 1,0:02:19.00,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっ{\alpha&H00&}ち{\alpha&HFF&}むいてまいがーる！
+Dialogue: 1,0:02:19.11,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっち{\alpha&H00&}む{\alpha&HFF&}いてまいがーる！
+Dialogue: 1,0:02:19.24,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむ{\alpha&H00&}い{\alpha&HFF&}てまいがーる！
+Dialogue: 1,0:02:19.37,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむい{\alpha&H00&}て{\alpha&HFF&}まいがーる！
+Dialogue: 1,0:02:19.47,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいて{\alpha&H00&}ま{\alpha&HFF&}いがーる！
+Dialogue: 1,0:02:19.60,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてま{\alpha&H00&}い{\alpha&HFF&}がーる！
+Dialogue: 1,0:02:19.73,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまい{\alpha&H00&}が{\alpha&HFF&}ーる！
+Dialogue: 1,0:02:19.87,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまいが{\alpha&H00&}ー{\alpha&HFF&}る！
+Dialogue: 1,0:02:20.00,0:02:20.28,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまいがー{\alpha&H00&}る！
+Comment: 1,0:02:20.20,0:02:21.95,OPJP,,0,0,0,,{\kf21}あ{\kf15}ふ{\kf13}れ{\kf13}る{\kf12}こ{\kf19}の{\kf15}ま{\kf15}い{\kf15}ら{\kf33}ぶ！
+Dialogue: 1,0:02:20.12,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}あ{\alpha&HFF&}ふれるこのまいらぶ！
+Dialogue: 1,0:02:20.33,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あ{\alpha&H00&}ふ{\alpha&HFF&}れるこのまいらぶ！
+Dialogue: 1,0:02:20.48,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふ{\alpha&H00&}れ{\alpha&HFF&}るこのまいらぶ！
+Dialogue: 1,0:02:20.61,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれ{\alpha&H00&}る{\alpha&HFF&}このまいらぶ！
+Dialogue: 1,0:02:20.74,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれる{\alpha&H00&}こ{\alpha&HFF&}のまいらぶ！
+Dialogue: 1,0:02:20.86,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこ{\alpha&H00&}の{\alpha&HFF&}まいらぶ！
+Dialogue: 1,0:02:21.05,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこの{\alpha&H00&}ま{\alpha&HFF&}いらぶ！
+Dialogue: 1,0:02:21.20,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのま{\alpha&H00&}い{\alpha&HFF&}らぶ！
+Dialogue: 1,0:02:21.35,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのまい{\alpha&H00&}ら{\alpha&HFF&}ぶ！
+Dialogue: 1,0:02:21.50,0:02:22.03,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのまいら{\alpha&H00&}ぶ！
+Comment: 1,0:02:22.66,0:02:24.07,OPJP,,0,0,0,,{\kf15}心{\kf10}も{\kf12}見{\kf10}た{\kf9}目{\kf10}も{\kf8}変{\kf10}わ{\kf7}っ{\kf9}ち{\kf7}ゃ{\kf8}う{\kf8}く{\kf10}ら{\kf8}い
+Dialogue: 1,0:02:22.58,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}心{\alpha&HFF&}も見た目も変わっちゃうくらい
+Dialogue: 1,0:02:22.73,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心{\alpha&H00&}も{\alpha&HFF&}見た目も変わっちゃうくらい
+Dialogue: 1,0:02:22.83,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も{\alpha&H00&}見{\alpha&HFF&}た目も変わっちゃうくらい
+Dialogue: 1,0:02:22.95,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見{\alpha&H00&}た{\alpha&HFF&}目も変わっちゃうくらい
+Dialogue: 1,0:02:23.05,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た{\alpha&H00&}目{\alpha&HFF&}も変わっちゃうくらい
+Dialogue: 1,0:02:23.14,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目{\alpha&H00&}も{\alpha&HFF&}変わっちゃうくらい
+Dialogue: 1,0:02:23.24,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も{\alpha&H00&}変{\alpha&HFF&}わっちゃうくらい
+Dialogue: 1,0:02:23.32,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変{\alpha&H00&}わ{\alpha&HFF&}っちゃうくらい
+Dialogue: 1,0:02:23.42,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わ{\alpha&H00&}っ{\alpha&HFF&}ちゃうくらい
+Dialogue: 1,0:02:23.49,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっ{\alpha&H00&}ち{\alpha&HFF&}ゃうくらい
+Dialogue: 1,0:02:23.58,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっち{\alpha&H00&}ゃ{\alpha&HFF&}うくらい
+Dialogue: 1,0:02:23.65,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃ{\alpha&H00&}う{\alpha&HFF&}くらい
+Dialogue: 1,0:02:23.73,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃう{\alpha&H00&}く{\alpha&HFF&}らい
+Dialogue: 1,0:02:23.81,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃうく{\alpha&H00&}ら{\alpha&HFF&}い
+Dialogue: 1,0:02:23.91,0:02:24.15,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃうくら{\alpha&H00&}い
+Comment: 1,0:02:24.07,0:02:24.84,OPJP,,0,0,0,,{\kf20}好{\kf17}き{\kf22}好{\kf18}き
+Dialogue: 1,0:02:23.99,0:02:24.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 1,0:02:24.19,0:02:24.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 1,0:02:24.36,0:02:24.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 1,0:02:24.58,0:02:24.92,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き好{\alpha&H00&}き
+Comment: 1,0:02:24.84,0:02:25.87,OPJP,,0,0,0,,{\kf10}こ{\kf6}れ{\kf15}な{\kf10}ん{\kf15}て{\kf25}洗{\kf22}脳
+Dialogue: 1,0:02:24.76,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}こ{\alpha&HFF&}れなんて洗脳
+Dialogue: 1,0:02:24.86,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}こ{\alpha&H00&}れ{\alpha&HFF&}なんて洗脳
+Dialogue: 1,0:02:24.92,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}これ{\alpha&H00&}な{\alpha&HFF&}んて洗脳
+Dialogue: 1,0:02:25.07,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}これな{\alpha&H00&}ん{\alpha&HFF&}て洗脳
+Dialogue: 1,0:02:25.17,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなん{\alpha&H00&}て{\alpha&HFF&}洗脳
+Dialogue: 1,0:02:25.32,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなんて{\alpha&H00&}洗{\alpha&HFF&}脳
+Dialogue: 1,0:02:25.57,0:02:25.95,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなんて洗{\alpha&H00&}脳
+Comment: 1,0:02:26.02,0:02:27.69,OPJP,,0,0,0,,{\kf14}想{\kf7}い{\kf17}が{\kf19}大{\kf18}体{\kf18}大{\kf14}暴{\kf16}走{\kf12}し{\kf6}ち{\kf8}ゃ{\kf8}っ{\kf10}て
+Dialogue: 1,0:02:25.94,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}想{\alpha&HFF&}いが大体大暴走しちゃって
+Dialogue: 1,0:02:26.08,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想{\alpha&H00&}い{\alpha&HFF&}が大体大暴走しちゃって
+Dialogue: 1,0:02:26.15,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想い{\alpha&H00&}が{\alpha&HFF&}大体大暴走しちゃって
+Dialogue: 1,0:02:26.32,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが{\alpha&H00&}大{\alpha&HFF&}体大暴走しちゃって
+Dialogue: 1,0:02:26.51,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大{\alpha&H00&}体{\alpha&HFF&}大暴走しちゃって
+Dialogue: 1,0:02:26.69,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体{\alpha&H00&}大{\alpha&HFF&}暴走しちゃって
+Dialogue: 1,0:02:26.87,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大{\alpha&H00&}暴{\alpha&HFF&}走しちゃって
+Dialogue: 1,0:02:27.01,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴{\alpha&H00&}走{\alpha&HFF&}しちゃって
+Dialogue: 1,0:02:27.17,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走{\alpha&H00&}し{\alpha&HFF&}ちゃって
+Dialogue: 1,0:02:27.29,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走し{\alpha&H00&}ち{\alpha&HFF&}ゃって
+Dialogue: 1,0:02:27.35,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しち{\alpha&H00&}ゃ{\alpha&HFF&}って
+Dialogue: 1,0:02:27.43,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しちゃ{\alpha&H00&}っ{\alpha&HFF&}て
+Dialogue: 1,0:02:27.51,0:02:27.77,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しちゃっ{\alpha&H00&}て
+Comment: 1,0:02:27.69,0:02:28.73,OPJP,,0,0,0,,{\kf22}Con{\kf69}fu{\kf13}se！
+Dialogue: 1,0:02:27.61,0:02:28.81,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}Con{\alpha&HFF&}fuse！
+Dialogue: 1,0:02:27.83,0:02:28.81,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Con{\alpha&H00&}fu{\alpha&HFF&}se！
+Dialogue: 1,0:02:28.52,0:02:28.81,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Confu{\alpha&H00&}se！
+Comment: 1,0:02:29.13,0:02:30.49,OPJP,,0,0,0,,{\kf22}だ{\kf7}け{\kf17}ど{\kf21}な{\kf13}り{\kf10}た{\kf16}い{\kf30}の
+Dialogue: 1,0:02:29.05,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}だ{\alpha&HFF&}けどなりたいの
+Dialogue: 1,0:02:29.27,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だ{\alpha&H00&}け{\alpha&HFF&}どなりたいの
+Dialogue: 1,0:02:29.34,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけ{\alpha&H00&}ど{\alpha&HFF&}なりたいの
+Dialogue: 1,0:02:29.51,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど{\alpha&H00&}な{\alpha&HFF&}りたいの
+Dialogue: 1,0:02:29.72,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどな{\alpha&H00&}り{\alpha&HFF&}たいの
+Dialogue: 1,0:02:29.85,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなり{\alpha&H00&}た{\alpha&HFF&}いの
+Dialogue: 1,0:02:29.95,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなりた{\alpha&H00&}い{\alpha&HFF&}の
+Dialogue: 1,0:02:30.11,0:02:30.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなりたい{\alpha&H00&}の
+Comment: 1,0:02:30.67,0:02:31.85,OPJP,,0,0,0,,{\kf20}そ{\kf14}う、{\kf16}あ{\kf15}な{\kf14}た{\kf13}だ{\kf8}け{\kf18}の
+Dialogue: 1,0:02:30.59,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}そ{\alpha&HFF&}う、あなただけの
+Dialogue: 1,0:02:30.79,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そ{\alpha&H00&}う、{\alpha&HFF&}あなただけの
+Dialogue: 1,0:02:30.93,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、{\alpha&H00&}あ{\alpha&HFF&}なただけの
+Dialogue: 1,0:02:31.09,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あ{\alpha&H00&}な{\alpha&HFF&}ただけの
+Dialogue: 1,0:02:31.24,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あな{\alpha&H00&}た{\alpha&HFF&}だけの
+Dialogue: 1,0:02:31.38,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなた{\alpha&H00&}だ{\alpha&HFF&}けの
+Dialogue: 1,0:02:31.51,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなただ{\alpha&H00&}け{\alpha&HFF&}の
+Dialogue: 1,0:02:31.59,0:02:31.93,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなただけ{\alpha&H00&}の
+Comment: 1,0:02:32.62,0:02:34.96,OPJP,,0,0,0,,{\kf16}良{\kf17}い{\kf20}子 {\kf12}ワ{\kf14}ル{\kf26}い{\kf22}子 {\kf18}ト{\kf13}ク{\kf14}ベ{\kf15}ツ{\kf15}な{\kf32}子！
+Dialogue: 1,0:02:32.54,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}良{\alpha&HFF&}い子 ワルい子 トクベツな子！
+Dialogue: 1,0:02:32.70,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良{\alpha&H00&}い{\alpha&HFF&}子 ワルい子 トクベツな子！
+Dialogue: 1,0:02:32.87,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い{\alpha&H00&}子 {\alpha&HFF&}ワルい子 トクベツな子！
+Dialogue: 1,0:02:33.07,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 {\alpha&H00&}ワ{\alpha&HFF&}ルい子 トクベツな子！
+Dialogue: 1,0:02:33.19,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワ{\alpha&H00&}ル{\alpha&HFF&}い子 トクベツな子！
+Dialogue: 1,0:02:33.33,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワル{\alpha&H00&}い{\alpha&HFF&}子 トクベツな子！
+Dialogue: 1,0:02:33.59,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい{\alpha&H00&}子 {\alpha&HFF&}トクベツな子！
+Dialogue: 1,0:02:33.81,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 {\alpha&H00&}ト{\alpha&HFF&}クベツな子！
+Dialogue: 1,0:02:33.99,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 ト{\alpha&H00&}ク{\alpha&HFF&}ベツな子！
+Dialogue: 1,0:02:34.12,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トク{\alpha&H00&}ベ{\alpha&HFF&}ツな子！
+Dialogue: 1,0:02:34.26,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベ{\alpha&H00&}ツ{\alpha&HFF&}な子！
+Dialogue: 1,0:02:34.41,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベツ{\alpha&H00&}な{\alpha&HFF&}子！
+Dialogue: 1,0:02:34.56,0:02:35.04,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベツな{\alpha&H00&}子！
+Comment: 1,0:02:35.57,0:02:38.27,OPJP,,0,0,0,,{\kf38}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf35}恋{\kf22}は{\kf16}暴{\kf46}走！
+Dialogue: 1,0:02:35.49,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 恋は暴走！
+Dialogue: 1,0:02:35.87,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 恋は暴走！
+Dialogue: 1,0:02:36.24,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 恋は暴走！
+Dialogue: 1,0:02:36.63,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}恋は暴走！
+Dialogue: 1,0:02:37.00,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}恋{\alpha&HFF&}は暴走！
+Dialogue: 1,0:02:37.35,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋{\alpha&H00&}は{\alpha&HFF&}暴走！
+Dialogue: 1,0:02:37.57,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は{\alpha&H00&}暴{\alpha&HFF&}走！
+Dialogue: 1,0:02:37.73,0:02:38.35,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は暴{\alpha&H00&}走！
+Comment: 1,0:02:38.53,0:02:41.06,OPJP,,0,0,0,,{\kf38}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf17}も{\kf19}は{\kf17}や{\kf22}迷{\kf43}走！
+Dialogue: 1,0:02:38.45,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! もはや迷走！
+Dialogue: 1,0:02:38.83,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! もはや迷走！
+Dialogue: 1,0:02:39.20,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! もはや迷走！
+Dialogue: 1,0:02:39.59,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}もはや迷走！
+Dialogue: 1,0:02:39.96,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}も{\alpha&HFF&}はや迷走！
+Dialogue: 1,0:02:40.13,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! も{\alpha&H00&}は{\alpha&HFF&}や迷走！
+Dialogue: 1,0:02:40.32,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もは{\alpha&H00&}や{\alpha&HFF&}迷走！
+Dialogue: 1,0:02:40.49,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もはや{\alpha&H00&}迷{\alpha&HFF&}走！
+Dialogue: 1,0:02:40.71,0:02:41.14,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もはや迷{\alpha&H00&}走！
+Comment: 1,0:02:41.06,0:02:42.15,OPJP,,0,0,0,,{\kf32}生{\kf12}ま{\kf12}れ{\kf14}て{\kf9}こ{\kf11}の{\kf19}方
+Dialogue: 1,0:02:40.98,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}生{\alpha&HFF&}まれてこの方
+Dialogue: 1,0:02:41.30,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生{\alpha&H00&}ま{\alpha&HFF&}れてこの方
+Dialogue: 1,0:02:41.42,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生ま{\alpha&H00&}れ{\alpha&HFF&}てこの方
+Dialogue: 1,0:02:41.54,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれ{\alpha&H00&}て{\alpha&HFF&}この方
+Dialogue: 1,0:02:41.68,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれて{\alpha&H00&}こ{\alpha&HFF&}の方
+Dialogue: 1,0:02:41.77,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれてこ{\alpha&H00&}の{\alpha&HFF&}方
+Dialogue: 1,0:02:41.88,0:02:42.23,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれてこの{\alpha&H00&}方
+Comment: 1,0:02:42.15,0:02:44.52,OPJP,,0,0,0,,{\kf18}品{\kf18}行{\kf14}方{\kf20}正{\kf13}だ{\kf12}っ{\kf8}た{\kf16}あ{\kf12}の{\kf8}子{\kf11}が{\kf31}突{\kf56}然!?
+Dialogue: 1,0:02:42.07,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}品{\alpha&HFF&}行方正だったあの子が突然!?
+Dialogue: 1,0:02:42.25,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品{\alpha&H00&}行{\alpha&HFF&}方正だったあの子が突然!?
+Dialogue: 1,0:02:42.43,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行{\alpha&H00&}方{\alpha&HFF&}正だったあの子が突然!?
+Dialogue: 1,0:02:42.57,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方{\alpha&H00&}正{\alpha&HFF&}だったあの子が突然!?
+Dialogue: 1,0:02:42.77,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正{\alpha&H00&}だ{\alpha&HFF&}ったあの子が突然!?
+Dialogue: 1,0:02:42.90,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だ{\alpha&H00&}っ{\alpha&HFF&}たあの子が突然!?
+Dialogue: 1,0:02:43.02,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だっ{\alpha&H00&}た{\alpha&HFF&}あの子が突然!?
+Dialogue: 1,0:02:43.10,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だった{\alpha&H00&}あ{\alpha&HFF&}の子が突然!?
+Dialogue: 1,0:02:43.26,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあ{\alpha&H00&}の{\alpha&HFF&}子が突然!?
+Dialogue: 1,0:02:43.38,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの{\alpha&H00&}子{\alpha&HFF&}が突然!?
+Dialogue: 1,0:02:43.46,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子{\alpha&H00&}が{\alpha&HFF&}突然!?
+Dialogue: 1,0:02:43.57,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子が{\alpha&H00&}突{\alpha&HFF&}然!?
+Dialogue: 1,0:02:43.88,0:02:44.60,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子が突{\alpha&H00&}然!?
+Comment: 1,0:02:44.52,0:02:47.02,OPJP,,0,0,0,,{\kf25}そ{\kf19}れ{\kf16}は{\kf12}き{\kf8}っ{\kf11}と{\kf27}恋{\kf8}で{\kf12}す {\kf71}大{\kf73}変！
+Dialogue: 1,0:02:44.44,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}そ{\alpha&HFF&}れはきっと恋です 大変！
+Dialogue: 1,0:02:44.69,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}そ{\alpha&H00&}れ{\alpha&HFF&}はきっと恋です 大変！
+Dialogue: 1,0:02:44.88,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それ{\alpha&H00&}は{\alpha&HFF&}きっと恋です 大変！
+Dialogue: 1,0:02:45.04,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それは{\alpha&H00&}き{\alpha&HFF&}っと恋です 大変！
+Dialogue: 1,0:02:45.16,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはき{\alpha&H00&}っ{\alpha&HFF&}と恋です 大変！
+Dialogue: 1,0:02:45.24,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっ{\alpha&H00&}と{\alpha&HFF&}恋です 大変！
+Dialogue: 1,0:02:45.35,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと{\alpha&H00&}恋{\alpha&HFF&}です 大変！
+Dialogue: 1,0:02:45.62,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋{\alpha&H00&}で{\alpha&HFF&}す 大変！
+Dialogue: 1,0:02:45.70,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋で{\alpha&H00&}す {\alpha&HFF&}大変！
+Dialogue: 1,0:02:45.82,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋です {\alpha&H00&}大{\alpha&HFF&}変！
+Dialogue: 1,0:02:46.53,0:02:47.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋です 大{\alpha&H00&}変！
+Comment: 1,0:02:47.34,0:02:49.91,OPJP,,0,0,0,,{\kf20}髪{\kf13}染{\kf14}め{\kf14}て{\kf11}み{\kf10}た{\kf54}り{\kf20}服{\kf12}の{\kf15}趣{\kf16}味{\kf13}も{\kf10}変{\kf9}わ{\kf26}り
+Dialogue: 1,0:02:47.26,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}髪{\alpha&HFF&}染めてみたり服の趣味も変わり
+Dialogue: 1,0:02:47.46,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪{\alpha&H00&}染{\alpha&HFF&}めてみたり服の趣味も変わり
+Dialogue: 1,0:02:47.59,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染{\alpha&H00&}め{\alpha&HFF&}てみたり服の趣味も変わり
+Dialogue: 1,0:02:47.73,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染め{\alpha&H00&}て{\alpha&HFF&}みたり服の趣味も変わり
+Dialogue: 1,0:02:47.87,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めて{\alpha&H00&}み{\alpha&HFF&}たり服の趣味も変わり
+Dialogue: 1,0:02:47.98,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみ{\alpha&H00&}た{\alpha&HFF&}り服の趣味も変わり
+Dialogue: 1,0:02:48.08,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみた{\alpha&H00&}り{\alpha&HFF&}服の趣味も変わり
+Dialogue: 1,0:02:48.62,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり{\alpha&H00&}服{\alpha&HFF&}の趣味も変わり
+Dialogue: 1,0:02:48.82,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服{\alpha&H00&}の{\alpha&HFF&}趣味も変わり
+Dialogue: 1,0:02:48.94,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の{\alpha&H00&}趣{\alpha&HFF&}味も変わり
+Dialogue: 1,0:02:49.09,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣{\alpha&H00&}味{\alpha&HFF&}も変わり
+Dialogue: 1,0:02:49.25,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味{\alpha&H00&}も{\alpha&HFF&}変わり
+Dialogue: 1,0:02:49.38,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も{\alpha&H00&}変{\alpha&HFF&}わり
+Dialogue: 1,0:02:49.48,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も変{\alpha&H00&}わ{\alpha&HFF&}り
+Dialogue: 1,0:02:49.57,0:02:49.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も変わ{\alpha&H00&}り
+Comment: 1,0:02:50.23,0:02:52.93,OPJP,,0,0,0,,{\kf41}新{\kf32}し{\kf21}い{\kf52}私{\kf19}の{\kf74}爆{\kf31}誕!?
+Dialogue: 1,0:02:50.15,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}新{\alpha&HFF&}しい私の爆誕!?
+Dialogue: 1,0:02:50.56,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新{\alpha&H00&}し{\alpha&HFF&}い私の爆誕!?
+Dialogue: 1,0:02:50.88,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新し{\alpha&H00&}い{\alpha&HFF&}私の爆誕!?
+Dialogue: 1,0:02:51.09,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい{\alpha&H00&}私{\alpha&HFF&}の爆誕!?
+Dialogue: 1,0:02:51.61,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私{\alpha&H00&}の{\alpha&HFF&}爆誕!?
+Dialogue: 1,0:02:51.80,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私の{\alpha&H00&}爆{\alpha&HFF&}誕!?
+Dialogue: 1,0:02:52.54,0:02:53.01,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私の爆{\alpha&H00&}誕!?
+Comment: 1,0:02:53.24,0:02:55.44,OPJP,,0,0,0,,{\kf24}気{\kf19}取{\kf25}っ{\kf17}て{\kf1} {\kf16}気{\kf16}負{\kf27}っ{\kf16}て{\kf1} {\kf7}理{\kf21}想{\kf30}系
+Dialogue: 1,0:02:53.16,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}気{\alpha&HFF&}取って 気負って 理想系
+Dialogue: 1,0:02:53.40,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気{\alpha&H00&}取{\alpha&HFF&}って 気負って 理想系
+Dialogue: 1,0:02:53.59,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取{\alpha&H00&}っ{\alpha&HFF&}て 気負って 理想系
+Dialogue: 1,0:02:53.84,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取っ{\alpha&H00&}て{\alpha&HFF&} 気負って 理想系
+Dialogue: 1,0:02:54.01,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って{\alpha&H00&} {\alpha&HFF&}気負って 理想系
+Dialogue: 1,0:02:54.02,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って {\alpha&H00&}気{\alpha&HFF&}負って 理想系
+Dialogue: 1,0:02:54.18,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気{\alpha&H00&}負{\alpha&HFF&}って 理想系
+Dialogue: 1,0:02:54.34,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負{\alpha&H00&}っ{\alpha&HFF&}て 理想系
+Dialogue: 1,0:02:54.61,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負っ{\alpha&H00&}て{\alpha&HFF&} 理想系
+Dialogue: 1,0:02:54.77,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って{\alpha&H00&} {\alpha&HFF&}理想系
+Dialogue: 1,0:02:54.78,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って {\alpha&H00&}理{\alpha&HFF&}想系
+Dialogue: 1,0:02:54.85,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って 理{\alpha&H00&}想{\alpha&HFF&}系
+Dialogue: 1,0:02:55.06,0:02:55.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って 理想{\alpha&H00&}系
+Comment: 1,0:02:55.62,0:02:57.71,OPJP,,0,0,0,,「{\kf35}現{\kf40}実{\kf12}見{\kf18}な」{\kf12}っ{\kf14}て {\kf20}言{\kf12}わ{\kf18}な{\kf15}い{\kf13}で
+Dialogue: 1,0:02:55.54,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}「{\alpha&HFF&}現実見な」って 言わないで
+Dialogue: 1,0:02:55.54,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「{\alpha&H00&}現{\alpha&HFF&}実見な」って 言わないで
+Dialogue: 1,0:02:55.89,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現{\alpha&H00&}実{\alpha&HFF&}見な」って 言わないで
+Dialogue: 1,0:02:56.29,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実{\alpha&H00&}見{\alpha&HFF&}な」って 言わないで
+Dialogue: 1,0:02:56.41,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見{\alpha&H00&}な」{\alpha&HFF&}って 言わないで
+Dialogue: 1,0:02:56.59,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」{\alpha&H00&}っ{\alpha&HFF&}て 言わないで
+Dialogue: 1,0:02:56.71,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」っ{\alpha&H00&}て {\alpha&HFF&}言わないで
+Dialogue: 1,0:02:56.85,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って {\alpha&H00&}言{\alpha&HFF&}わないで
+Dialogue: 1,0:02:57.05,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言{\alpha&H00&}わ{\alpha&HFF&}ないで
+Dialogue: 1,0:02:57.17,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わ{\alpha&H00&}な{\alpha&HFF&}いで
+Dialogue: 1,0:02:57.35,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わな{\alpha&H00&}い{\alpha&HFF&}で
+Dialogue: 1,0:02:57.50,0:02:57.79,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わない{\alpha&H00&}で
+Comment: 1,0:02:57.87,0:02:58.94,OPJP,,0,0,0,,{\kf17}Lo{\kf13}ve {\kf28}is {\kf17}b{\kf32}lind
+Dialogue: 1,0:02:57.79,0:02:59.02,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}Lo{\alpha&HFF&}ve is blind
+Dialogue: 1,0:02:57.96,0:02:59.02,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Lo{\alpha&H00&}ve {\alpha&HFF&}is blind
+Dialogue: 1,0:02:58.09,0:02:59.02,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love {\alpha&H00&}is {\alpha&HFF&}blind
+Dialogue: 1,0:02:58.37,0:02:59.02,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love is {\alpha&H00&}b{\alpha&HFF&}lind
+Dialogue: 1,0:02:58.54,0:02:59.02,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love is b{\alpha&H00&}lind
+Comment: 1,0:02:59.48,0:03:02.04,OPJP,,0,0,0,,{\kf42}深{\kf19}呼{\kf27}吸{\kf14}し{\kf15}て{\kf19}も{\kf20}止{\kf14}ま{\kf24}ら{\kf19}な{\kf43}い
+Dialogue: 1,0:02:59.40,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}深{\alpha&HFF&}呼吸しても止まらない
+Dialogue: 1,0:02:59.82,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深{\alpha&H00&}呼{\alpha&HFF&}吸しても止まらない
+Dialogue: 1,0:03:00.01,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼{\alpha&H00&}吸{\alpha&HFF&}しても止まらない
+Dialogue: 1,0:03:00.28,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸{\alpha&H00&}し{\alpha&HFF&}ても止まらない
+Dialogue: 1,0:03:00.42,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸し{\alpha&H00&}て{\alpha&HFF&}も止まらない
+Dialogue: 1,0:03:00.57,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸して{\alpha&H00&}も{\alpha&HFF&}止まらない
+Dialogue: 1,0:03:00.76,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても{\alpha&H00&}止{\alpha&HFF&}まらない
+Dialogue: 1,0:03:00.96,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止{\alpha&H00&}ま{\alpha&HFF&}らない
+Dialogue: 1,0:03:01.10,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止ま{\alpha&H00&}ら{\alpha&HFF&}ない
+Dialogue: 1,0:03:01.34,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止まら{\alpha&H00&}な{\alpha&HFF&}い
+Dialogue: 1,0:03:01.53,0:03:02.12,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止まらな{\alpha&H00&}い
+Comment: 1,0:03:02.37,0:03:05.21,OPJP,,0,0,0,,{\kf32}高{\kf24}鳴{\kf21}る{\kf26}胸{\kf36}に {\kf21}そ{\kf22}そ{\kf15}の{\kf6}か{\kf14}さ{\kf15}れ{\kf9}迷{\kf23}走{\kf20}中
+Dialogue: 1,0:03:02.29,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}高{\alpha&HFF&}鳴る胸に そそのかされ迷走中
+Dialogue: 1,0:03:02.61,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高{\alpha&H00&}鳴{\alpha&HFF&}る胸に そそのかされ迷走中
+Dialogue: 1,0:03:02.85,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴{\alpha&H00&}る{\alpha&HFF&}胸に そそのかされ迷走中
+Dialogue: 1,0:03:03.06,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る{\alpha&H00&}胸{\alpha&HFF&}に そそのかされ迷走中
+Dialogue: 1,0:03:03.32,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸{\alpha&H00&}に {\alpha&HFF&}そそのかされ迷走中
+Dialogue: 1,0:03:03.68,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に {\alpha&H00&}そ{\alpha&HFF&}そのかされ迷走中
+Dialogue: 1,0:03:03.89,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そ{\alpha&H00&}そ{\alpha&HFF&}のかされ迷走中
+Dialogue: 1,0:03:04.11,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそ{\alpha&H00&}の{\alpha&HFF&}かされ迷走中
+Dialogue: 1,0:03:04.26,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そその{\alpha&H00&}か{\alpha&HFF&}され迷走中
+Dialogue: 1,0:03:04.32,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのか{\alpha&H00&}さ{\alpha&HFF&}れ迷走中
+Dialogue: 1,0:03:04.46,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかさ{\alpha&H00&}れ{\alpha&HFF&}迷走中
+Dialogue: 1,0:03:04.61,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ{\alpha&H00&}迷{\alpha&HFF&}走中
+Dialogue: 1,0:03:04.70,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ迷{\alpha&H00&}走{\alpha&HFF&}中
+Dialogue: 1,0:03:04.93,0:03:05.29,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ迷走{\alpha&H00&}中
+Comment: 1,0:03:05.60,0:03:08.88,OPJP,,0,0,0,,{\kf17}見{\kf18}よ{\kf16}う{\kf20}見{\kf18}ま{\kf13}ね{\kf17}の{\kf36}精{\kf44}一{\kf39}杯{\kf20}だ{\kf19}け{\kf51}ど
+Dialogue: 1,0:03:05.52,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}見{\alpha&HFF&}よう見まねの精一杯だけど
+Dialogue: 1,0:03:05.69,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見{\alpha&H00&}よ{\alpha&HFF&}う見まねの精一杯だけど
+Dialogue: 1,0:03:05.87,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よ{\alpha&H00&}う{\alpha&HFF&}見まねの精一杯だけど
+Dialogue: 1,0:03:06.03,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう{\alpha&H00&}見{\alpha&HFF&}まねの精一杯だけど
+Dialogue: 1,0:03:06.23,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見{\alpha&H00&}ま{\alpha&HFF&}ねの精一杯だけど
+Dialogue: 1,0:03:06.41,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見ま{\alpha&H00&}ね{\alpha&HFF&}の精一杯だけど
+Dialogue: 1,0:03:06.54,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まね{\alpha&H00&}の{\alpha&HFF&}精一杯だけど
+Dialogue: 1,0:03:06.71,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの{\alpha&H00&}精{\alpha&HFF&}一杯だけど
+Dialogue: 1,0:03:07.07,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精{\alpha&H00&}一{\alpha&HFF&}杯だけど
+Dialogue: 1,0:03:07.51,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一{\alpha&H00&}杯{\alpha&HFF&}だけど
+Dialogue: 1,0:03:07.90,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯{\alpha&H00&}だ{\alpha&HFF&}けど
+Dialogue: 1,0:03:08.10,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯だ{\alpha&H00&}け{\alpha&HFF&}ど
+Dialogue: 1,0:03:08.29,0:03:08.96,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯だけ{\alpha&H00&}ど
+Comment: 1,0:03:09.16,0:03:11.63,OPJP,,0,0,0,,{\kf73}愛{\kf72}を{\kf54}こ{\kf17}め{\kf31}て
+Dialogue: 1,0:03:09.08,0:03:11.71,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}愛{\alpha&HFF&}をこめて
+Dialogue: 1,0:03:09.81,0:03:11.71,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛{\alpha&H00&}を{\alpha&HFF&}こめて
+Dialogue: 1,0:03:10.53,0:03:11.71,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛を{\alpha&H00&}こ{\alpha&HFF&}めて
+Dialogue: 1,0:03:11.07,0:03:11.71,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛をこ{\alpha&H00&}め{\alpha&HFF&}て
+Dialogue: 1,0:03:11.24,0:03:11.71,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛をこめ{\alpha&H00&}て
+Comment: 1,0:03:12.12,0:03:13.55,OPJP,,0,0,0,,{\kf10}な{\kf10}ぜ{\kf7}な{\kf10}ら{\kf11}す{\kf9}べ{\kf10}て{\kf10}が{\kf8}変{\kf7}わ{\kf7}っ{\kf8}ち{\kf10}ゃ{\kf8}っ{\kf7}た{\kf11}の
+Dialogue: 1,0:03:12.04,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}な{\alpha&HFF&}ぜならすべてが変わっちゃったの
+Dialogue: 1,0:03:12.14,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}な{\alpha&H00&}ぜ{\alpha&HFF&}ならすべてが変わっちゃったの
+Dialogue: 1,0:03:12.24,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜ{\alpha&H00&}な{\alpha&HFF&}らすべてが変わっちゃったの
+Dialogue: 1,0:03:12.31,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜな{\alpha&H00&}ら{\alpha&HFF&}すべてが変わっちゃったの
+Dialogue: 1,0:03:12.41,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜなら{\alpha&H00&}す{\alpha&HFF&}べてが変わっちゃったの
+Dialogue: 1,0:03:12.52,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならす{\alpha&H00&}べ{\alpha&HFF&}てが変わっちゃったの
+Dialogue: 1,0:03:12.61,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべ{\alpha&H00&}て{\alpha&HFF&}が変わっちゃったの
+Dialogue: 1,0:03:12.71,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべて{\alpha&H00&}が{\alpha&HFF&}変わっちゃったの
+Dialogue: 1,0:03:12.81,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが{\alpha&H00&}変{\alpha&HFF&}わっちゃったの
+Dialogue: 1,0:03:12.89,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変{\alpha&H00&}わ{\alpha&HFF&}っちゃったの
+Dialogue: 1,0:03:12.96,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わ{\alpha&H00&}っ{\alpha&HFF&}ちゃったの
+Dialogue: 1,0:03:13.03,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっ{\alpha&H00&}ち{\alpha&HFF&}ゃったの
+Dialogue: 1,0:03:13.11,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっち{\alpha&H00&}ゃ{\alpha&HFF&}ったの
+Dialogue: 1,0:03:13.21,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃ{\alpha&H00&}っ{\alpha&HFF&}たの
+Dialogue: 1,0:03:13.29,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃっ{\alpha&H00&}た{\alpha&HFF&}の
+Dialogue: 1,0:03:13.36,0:03:13.63,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃった{\alpha&H00&}の
+Comment: 1,0:03:13.55,0:03:14.38,OPJP,,0,0,0,,{\kf22}好{\kf17}き{\kf20}好{\kf24}き
+Dialogue: 1,0:03:13.47,0:03:14.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 1,0:03:13.69,0:03:14.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 1,0:03:13.86,0:03:14.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 1,0:03:14.06,0:03:14.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き好{\alpha&H00&}き
+Comment: 1,0:03:14.38,0:03:15.30,OPJP,,0,0,0,,{\kf12}出{\kf9}会{\kf10}っ{\kf10}た{\kf13}が{\kf18}最{\kf20}後
+Dialogue: 1,0:03:14.30,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}出{\alpha&HFF&}会ったが最後
+Dialogue: 1,0:03:14.42,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出{\alpha&H00&}会{\alpha&HFF&}ったが最後
+Dialogue: 1,0:03:14.51,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会{\alpha&H00&}っ{\alpha&HFF&}たが最後
+Dialogue: 1,0:03:14.61,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会っ{\alpha&H00&}た{\alpha&HFF&}が最後
+Dialogue: 1,0:03:14.71,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会った{\alpha&H00&}が{\alpha&HFF&}最後
+Dialogue: 1,0:03:14.84,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会ったが{\alpha&H00&}最{\alpha&HFF&}後
+Dialogue: 1,0:03:15.02,0:03:15.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会ったが最{\alpha&H00&}後
+Comment: 1,0:03:15.50,0:03:16.62,OPJP,,0,0,0,,{\kf10}ど{\kf10}う{\kf9}に{\kf8}か{\kf10}な{\kf6}っ{\kf5}ち{\kf5}ゃ{\kf6}い{\kf13}そ{\kf12}う{\kf18}な
+Dialogue: 1,0:03:15.42,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}ど{\alpha&HFF&}うにかなっちゃいそうな
+Dialogue: 1,0:03:15.52,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ど{\alpha&H00&}う{\alpha&HFF&}にかなっちゃいそうな
+Dialogue: 1,0:03:15.62,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どう{\alpha&H00&}に{\alpha&HFF&}かなっちゃいそうな
+Dialogue: 1,0:03:15.71,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうに{\alpha&H00&}か{\alpha&HFF&}なっちゃいそうな
+Dialogue: 1,0:03:15.79,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにか{\alpha&H00&}な{\alpha&HFF&}っちゃいそうな
+Dialogue: 1,0:03:15.89,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかな{\alpha&H00&}っ{\alpha&HFF&}ちゃいそうな
+Dialogue: 1,0:03:15.95,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっ{\alpha&H00&}ち{\alpha&HFF&}ゃいそうな
+Dialogue: 1,0:03:16.00,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっち{\alpha&H00&}ゃ{\alpha&HFF&}いそうな
+Dialogue: 1,0:03:16.05,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃ{\alpha&H00&}い{\alpha&HFF&}そうな
+Dialogue: 1,0:03:16.11,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃい{\alpha&H00&}そ{\alpha&HFF&}うな
+Dialogue: 1,0:03:16.24,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃいそ{\alpha&H00&}う{\alpha&HFF&}な
+Dialogue: 1,0:03:16.36,0:03:16.70,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃいそう{\alpha&H00&}な
+Comment: 1,0:03:16.62,0:03:18.30,OPJP,,0,0,0,,{\kf11}鼓{\kf16}動{\kf27}は {\kf22}For {\kf92}you
+Dialogue: 1,0:03:16.54,0:03:18.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}鼓{\alpha&HFF&}動は For you
+Dialogue: 1,0:03:16.65,0:03:18.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓{\alpha&H00&}動{\alpha&HFF&}は For you
+Dialogue: 1,0:03:16.81,0:03:18.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動{\alpha&H00&}は {\alpha&HFF&}For you
+Dialogue: 1,0:03:17.08,0:03:18.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動は {\alpha&H00&}For {\alpha&HFF&}you
+Dialogue: 1,0:03:17.30,0:03:18.38,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動は For {\alpha&H00&}you
+Comment: 1,0:03:18.82,0:03:21.44,OPJP,,0,0,0,,{\kf23}今{\kf21}ま{\kf18}で{\kf17}の{\kf22}こ{\kf34}と {\kf24}忘{\kf17}れ{\kf9}ち{\kf8}ゃ{\kf11}う{\kf11}く{\kf8}ら{\kf8}い{\kf31}の
+Dialogue: 1,0:03:18.74,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}今{\alpha&HFF&}までのこと 忘れちゃうくらいの
+Dialogue: 1,0:03:18.97,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今{\alpha&H00&}ま{\alpha&HFF&}でのこと 忘れちゃうくらいの
+Dialogue: 1,0:03:19.18,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今ま{\alpha&H00&}で{\alpha&HFF&}のこと 忘れちゃうくらいの
+Dialogue: 1,0:03:19.36,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今まで{\alpha&H00&}の{\alpha&HFF&}こと 忘れちゃうくらいの
+Dialogue: 1,0:03:19.53,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までの{\alpha&H00&}こ{\alpha&HFF&}と 忘れちゃうくらいの
+Dialogue: 1,0:03:19.75,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこ{\alpha&H00&}と {\alpha&HFF&}忘れちゃうくらいの
+Dialogue: 1,0:03:20.09,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと {\alpha&H00&}忘{\alpha&HFF&}れちゃうくらいの
+Dialogue: 1,0:03:20.33,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘{\alpha&H00&}れ{\alpha&HFF&}ちゃうくらいの
+Dialogue: 1,0:03:20.50,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れ{\alpha&H00&}ち{\alpha&HFF&}ゃうくらいの
+Dialogue: 1,0:03:20.59,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れち{\alpha&H00&}ゃ{\alpha&HFF&}うくらいの
+Dialogue: 1,0:03:20.67,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃ{\alpha&H00&}う{\alpha&HFF&}くらいの
+Dialogue: 1,0:03:20.78,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃう{\alpha&H00&}く{\alpha&HFF&}らいの
+Dialogue: 1,0:03:20.89,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうく{\alpha&H00&}ら{\alpha&HFF&}いの
+Dialogue: 1,0:03:20.97,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうくら{\alpha&H00&}い{\alpha&HFF&}の
+Dialogue: 1,0:03:21.05,0:03:21.52,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうくらい{\alpha&H00&}の
+Comment: 1,0:03:22.07,0:03:24.64,OPJP,,0,0,0,,{\kf18}ド{\kf19}キ{\kf15}ド{\kf17}キ{\kf22}に{\kf19}全{\kf49}私{\kf19}が{\kf18}震{\kf61}撼
+Dialogue: 1,0:03:21.99,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}ド{\alpha&HFF&}キドキに全私が震撼
+Dialogue: 1,0:03:22.17,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ド{\alpha&H00&}キ{\alpha&HFF&}ドキに全私が震撼
+Dialogue: 1,0:03:22.36,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキ{\alpha&H00&}ド{\alpha&HFF&}キに全私が震撼
+Dialogue: 1,0:03:22.51,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキド{\alpha&H00&}キ{\alpha&HFF&}に全私が震撼
+Dialogue: 1,0:03:22.68,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキ{\alpha&H00&}に{\alpha&HFF&}全私が震撼
+Dialogue: 1,0:03:22.90,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに{\alpha&H00&}全{\alpha&HFF&}私が震撼
+Dialogue: 1,0:03:23.09,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全{\alpha&H00&}私{\alpha&HFF&}が震撼
+Dialogue: 1,0:03:23.58,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私{\alpha&H00&}が{\alpha&HFF&}震撼
+Dialogue: 1,0:03:23.77,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私が{\alpha&H00&}震{\alpha&HFF&}撼
+Dialogue: 1,0:03:23.95,0:03:24.72,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私が震{\alpha&H00&}撼
+Comment: 1,0:03:24.86,0:03:26.31,OPJP,,0,0,0,,{\kf8}分{\kf9}か{\kf9}ん{\kf8}な{\kf8}い{\kf9}く{\kf10}ら{\kf11}い{\kf24}好{\kf12}き{\kf19}好{\kf18}き
+Dialogue: 1,0:03:24.78,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}分{\alpha&HFF&}かんないくらい好き好き
+Dialogue: 1,0:03:24.86,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分{\alpha&H00&}か{\alpha&HFF&}んないくらい好き好き
+Dialogue: 1,0:03:24.95,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分か{\alpha&H00&}ん{\alpha&HFF&}ないくらい好き好き
+Dialogue: 1,0:03:25.04,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かん{\alpha&H00&}な{\alpha&HFF&}いくらい好き好き
+Dialogue: 1,0:03:25.12,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんな{\alpha&H00&}い{\alpha&HFF&}くらい好き好き
+Dialogue: 1,0:03:25.20,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんない{\alpha&H00&}く{\alpha&HFF&}らい好き好き
+Dialogue: 1,0:03:25.29,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないく{\alpha&H00&}ら{\alpha&HFF&}い好き好き
+Dialogue: 1,0:03:25.39,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくら{\alpha&H00&}い{\alpha&HFF&}好き好き
+Dialogue: 1,0:03:25.50,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい{\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 1,0:03:25.74,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 1,0:03:25.86,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 1,0:03:26.05,0:03:26.39,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好き好{\alpha&H00&}き
+Comment: 1,0:03:26.48,0:03:27.38,OPJP,,0,0,0,,{\kf18}今{\kf19}何{\kf14}時{\kf18}何{\kf21}分？
+Dialogue: 1,0:03:26.40,0:03:27.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}今{\alpha&HFF&}何時何分？
+Dialogue: 1,0:03:26.58,0:03:27.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今{\alpha&H00&}何{\alpha&HFF&}時何分？
+Dialogue: 1,0:03:26.77,0:03:27.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何{\alpha&H00&}時{\alpha&HFF&}何分？
+Dialogue: 1,0:03:26.91,0:03:27.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何時{\alpha&H00&}何{\alpha&HFF&}分？
+Dialogue: 1,0:03:27.09,0:03:27.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何時何{\alpha&H00&}分？
+Comment: 1,0:03:27.38,0:03:30.24,OPJP,,0,0,0,,{\kf18}四{\kf15}六{\kf15}時{\kf19}中{\kf13}考{\kf13}え{\kf14}す{\kf11}ぎ{\kf20}ち{\kf14}ゃ{\kf19}っ{\kf11}て {\kf21}Con{\kf74}fu{\kf9}se！
+Dialogue: 1,0:03:27.30,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}四{\alpha&HFF&}六時中考えすぎちゃって Confuse！
+Dialogue: 1,0:03:27.48,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四{\alpha&H00&}六{\alpha&HFF&}時中考えすぎちゃって Confuse！
+Dialogue: 1,0:03:27.63,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六{\alpha&H00&}時{\alpha&HFF&}中考えすぎちゃって Confuse！
+Dialogue: 1,0:03:27.78,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時{\alpha&H00&}中{\alpha&HFF&}考えすぎちゃって Confuse！
+Dialogue: 1,0:03:27.97,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中{\alpha&H00&}考{\alpha&HFF&}えすぎちゃって Confuse！
+Dialogue: 1,0:03:28.10,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考{\alpha&H00&}え{\alpha&HFF&}すぎちゃって Confuse！
+Dialogue: 1,0:03:28.23,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考え{\alpha&H00&}す{\alpha&HFF&}ぎちゃって Confuse！
+Dialogue: 1,0:03:28.37,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えす{\alpha&H00&}ぎ{\alpha&HFF&}ちゃって Confuse！
+Dialogue: 1,0:03:28.48,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎ{\alpha&H00&}ち{\alpha&HFF&}ゃって Confuse！
+Dialogue: 1,0:03:28.68,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎち{\alpha&H00&}ゃ{\alpha&HFF&}って Confuse！
+Dialogue: 1,0:03:28.82,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃ{\alpha&H00&}っ{\alpha&HFF&}て Confuse！
+Dialogue: 1,0:03:29.01,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃっ{\alpha&H00&}て {\alpha&HFF&}Confuse！
+Dialogue: 1,0:03:29.12,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって {\alpha&H00&}Con{\alpha&HFF&}fuse！
+Dialogue: 1,0:03:29.33,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって Con{\alpha&H00&}fu{\alpha&HFF&}se！
+Dialogue: 1,0:03:30.07,0:03:30.32,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって Confu{\alpha&H00&}se！
+Comment: 1,0:03:30.57,0:03:33.38,OPJP,,0,0,0,,{\kf30}だ{\kf13}け{\kf8}ど{\kf22}知{\kf14}り{\kf12}た{\kf8}い{\kf33}の{\kf17} {\kf55}私{\kf15}あ{\kf13}な{\kf14}た{\kf27}の
+Dialogue: 1,0:03:30.49,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}だ{\alpha&HFF&}けど知りたいの 私あなたの
+Dialogue: 1,0:03:30.79,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だ{\alpha&H00&}け{\alpha&HFF&}ど知りたいの 私あなたの
+Dialogue: 1,0:03:30.92,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけ{\alpha&H00&}ど{\alpha&HFF&}知りたいの 私あなたの
+Dialogue: 1,0:03:31.00,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど{\alpha&H00&}知{\alpha&HFF&}りたいの 私あなたの
+Dialogue: 1,0:03:31.22,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知{\alpha&H00&}り{\alpha&HFF&}たいの 私あなたの
+Dialogue: 1,0:03:31.36,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知り{\alpha&H00&}た{\alpha&HFF&}いの 私あなたの
+Dialogue: 1,0:03:31.48,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りた{\alpha&H00&}い{\alpha&HFF&}の 私あなたの
+Dialogue: 1,0:03:31.56,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたい{\alpha&H00&}の{\alpha&HFF&} 私あなたの
+Dialogue: 1,0:03:31.89,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの{\alpha&H00&} {\alpha&HFF&}私あなたの
+Dialogue: 1,0:03:32.06,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの {\alpha&H00&}私{\alpha&HFF&}あなたの
+Dialogue: 1,0:03:32.61,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私{\alpha&H00&}あ{\alpha&HFF&}なたの
+Dialogue: 1,0:03:32.76,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あ{\alpha&H00&}な{\alpha&HFF&}たの
+Dialogue: 1,0:03:32.89,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あな{\alpha&H00&}た{\alpha&HFF&}の
+Dialogue: 1,0:03:33.03,0:03:33.46,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あなた{\alpha&H00&}の
+Comment: 1,0:03:34.05,0:03:36.49,OPJP,,0,0,0,,{\kf19}良{\kf15}い{\kf25}子？{\kf13}ワ{\kf14}ル{\kf24}い{\kf17}子？{\kf18}ト{\kf13}ク{\kf14}ベ{\kf15}ツ{\kf15}な{\kf42}子！
+Dialogue: 1,0:03:33.97,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}良{\alpha&HFF&}い子？ワルい子？トクベツな子！
+Dialogue: 1,0:03:34.16,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良{\alpha&H00&}い{\alpha&HFF&}子？ワルい子？トクベツな子！
+Dialogue: 1,0:03:34.31,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い{\alpha&H00&}子？{\alpha&HFF&}ワルい子？トクベツな子！
+Dialogue: 1,0:03:34.56,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？{\alpha&H00&}ワ{\alpha&HFF&}ルい子？トクベツな子！
+Dialogue: 1,0:03:34.69,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワ{\alpha&H00&}ル{\alpha&HFF&}い子？トクベツな子！
+Dialogue: 1,0:03:34.83,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワル{\alpha&H00&}い{\alpha&HFF&}子？トクベツな子！
+Dialogue: 1,0:03:35.07,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい{\alpha&H00&}子？{\alpha&HFF&}トクベツな子！
+Dialogue: 1,0:03:35.24,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？{\alpha&H00&}ト{\alpha&HFF&}クベツな子！
+Dialogue: 1,0:03:35.42,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？ト{\alpha&H00&}ク{\alpha&HFF&}ベツな子！
+Dialogue: 1,0:03:35.55,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トク{\alpha&H00&}ベ{\alpha&HFF&}ツな子！
+Dialogue: 1,0:03:35.69,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベ{\alpha&H00&}ツ{\alpha&HFF&}な子！
+Dialogue: 1,0:03:35.84,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベツ{\alpha&H00&}な{\alpha&HFF&}子！
+Dialogue: 1,0:03:35.99,0:03:36.57,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベツな{\alpha&H00&}子！
+Comment: 1,0:03:37.07,0:03:40.02,OPJP,,0,0,0,,{\kf38}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf35}恋{\kf22}は{\kf16}暴{\kf71}走！
+Dialogue: 1,0:03:36.99,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 恋は暴走！
+Dialogue: 1,0:03:37.37,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 恋は暴走！
+Dialogue: 1,0:03:37.74,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 恋は暴走！
+Dialogue: 1,0:03:38.13,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}恋は暴走！
+Dialogue: 1,0:03:38.50,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}恋{\alpha&HFF&}は暴走！
+Dialogue: 1,0:03:38.85,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋{\alpha&H00&}は{\alpha&HFF&}暴走！
+Dialogue: 1,0:03:39.07,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は{\alpha&H00&}暴{\alpha&HFF&}走！
+Dialogue: 1,0:03:39.23,0:03:40.10,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は暴{\alpha&H00&}走！
+Comment: 1,0:03:40.02,0:03:42.91,OPJP,,0,0,0,,{\kf38}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf22}届{\kf20}け{\kf19}想{\kf30}い{\kf47}よ！
+Dialogue: 1,0:03:39.94,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 届け想いよ！
+Dialogue: 1,0:03:40.32,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 届け想いよ！
+Dialogue: 1,0:03:40.69,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 届け想いよ！
+Dialogue: 1,0:03:41.08,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}届け想いよ！
+Dialogue: 1,0:03:41.45,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}届{\alpha&HFF&}け想いよ！
+Dialogue: 1,0:03:41.67,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届{\alpha&H00&}け{\alpha&HFF&}想いよ！
+Dialogue: 1,0:03:41.87,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け{\alpha&H00&}想{\alpha&HFF&}いよ！
+Dialogue: 1,0:03:42.06,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け想{\alpha&H00&}い{\alpha&HFF&}よ！
+Dialogue: 1,0:03:42.36,0:03:42.99,OPJP,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け想い{\alpha&H00&}よ！
+Comment: 0,0:02:15.78,0:02:17.18,OPJP - Blur,,0,0,0,,{\kf23\blur6}わ{\kf15}な{\kf11}び{\kf11}ー{\kf10}あ{\kf13}ば{\kf13}っ{\kf13}ど{\kf11}が{\kf8}ー{\kf12}る！
+Dialogue: 0,0:02:15.70,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}わ{\alpha&HFF&}なびーあばっどがーる！
+Dialogue: 0,0:02:15.93,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わ{\alpha&H00&}な{\alpha&HFF&}びーあばっどがーる！
+Dialogue: 0,0:02:16.08,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わな{\alpha&H00&}び{\alpha&HFF&}ーあばっどがーる！
+Dialogue: 0,0:02:16.19,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなび{\alpha&H00&}ー{\alpha&HFF&}あばっどがーる！
+Dialogue: 0,0:02:16.30,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびー{\alpha&H00&}あ{\alpha&HFF&}ばっどがーる！
+Dialogue: 0,0:02:16.40,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあ{\alpha&H00&}ば{\alpha&HFF&}っどがーる！
+Dialogue: 0,0:02:16.53,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあば{\alpha&H00&}っ{\alpha&HFF&}どがーる！
+Dialogue: 0,0:02:16.66,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっ{\alpha&H00&}ど{\alpha&HFF&}がーる！
+Dialogue: 0,0:02:16.79,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっど{\alpha&H00&}が{\alpha&HFF&}ーる！
+Dialogue: 0,0:02:16.90,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっどが{\alpha&H00&}ー{\alpha&HFF&}る！
+Dialogue: 0,0:02:16.98,0:02:17.26,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}わなびーあばっどがー{\alpha&H00&}る！
+Comment: 0,0:02:17.18,0:02:18.84,OPJP - Blur,,0,0,0,,{\kf20\blur6}き{\kf15}が{\kf13}つ{\kf17}い{\kf15}て{\kf15}よ{\kf15}ま{\kf17}い{\kf19}ら{\kf20}ぶ！
+Dialogue: 0,0:02:17.10,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}き{\alpha&HFF&}がついてよまいらぶ！
+Dialogue: 0,0:02:17.30,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}き{\alpha&H00&}が{\alpha&HFF&}ついてよまいらぶ！
+Dialogue: 0,0:02:17.45,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きが{\alpha&H00&}つ{\alpha&HFF&}いてよまいらぶ！
+Dialogue: 0,0:02:17.58,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがつ{\alpha&H00&}い{\alpha&HFF&}てよまいらぶ！
+Dialogue: 0,0:02:17.75,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがつい{\alpha&H00&}て{\alpha&HFF&}よまいらぶ！
+Dialogue: 0,0:02:17.90,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついて{\alpha&H00&}よ{\alpha&HFF&}まいらぶ！
+Dialogue: 0,0:02:18.05,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよ{\alpha&H00&}ま{\alpha&HFF&}いらぶ！
+Dialogue: 0,0:02:18.20,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよま{\alpha&H00&}い{\alpha&HFF&}らぶ！
+Dialogue: 0,0:02:18.37,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよまい{\alpha&H00&}ら{\alpha&HFF&}ぶ！
+Dialogue: 0,0:02:18.56,0:02:18.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}きがついてよまいら{\alpha&H00&}ぶ！
+Comment: 0,0:02:18.84,0:02:20.20,OPJP - Blur,,0,0,0,,{\kf13\blur6}こ{\kf11}っ{\kf11}ち{\kf13}む{\kf13}い{\kf10}て{\kf13}ま{\kf13}い{\kf14}が{\kf13}ー{\kf15}る！
+Dialogue: 0,0:02:18.76,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}こ{\alpha&HFF&}っちむいてまいがーる！
+Dialogue: 0,0:02:18.89,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こ{\alpha&H00&}っ{\alpha&HFF&}ちむいてまいがーる！
+Dialogue: 0,0:02:19.00,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっ{\alpha&H00&}ち{\alpha&HFF&}むいてまいがーる！
+Dialogue: 0,0:02:19.11,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっち{\alpha&H00&}む{\alpha&HFF&}いてまいがーる！
+Dialogue: 0,0:02:19.24,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむ{\alpha&H00&}い{\alpha&HFF&}てまいがーる！
+Dialogue: 0,0:02:19.37,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむい{\alpha&H00&}て{\alpha&HFF&}まいがーる！
+Dialogue: 0,0:02:19.47,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいて{\alpha&H00&}ま{\alpha&HFF&}いがーる！
+Dialogue: 0,0:02:19.60,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてま{\alpha&H00&}い{\alpha&HFF&}がーる！
+Dialogue: 0,0:02:19.73,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまい{\alpha&H00&}が{\alpha&HFF&}ーる！
+Dialogue: 0,0:02:19.87,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまいが{\alpha&H00&}ー{\alpha&HFF&}る！
+Dialogue: 0,0:02:20.00,0:02:20.28,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こっちむいてまいがー{\alpha&H00&}る！
+Comment: 0,0:02:20.20,0:02:21.95,OPJP - Blur,,0,0,0,,{\kf21\blur6}あ{\kf15}ふ{\kf13}れ{\kf13}る{\kf12}こ{\kf19}の{\kf15}ま{\kf15}い{\kf15}ら{\kf33}ぶ！
+Dialogue: 0,0:02:20.12,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}あ{\alpha&HFF&}ふれるこのまいらぶ！
+Dialogue: 0,0:02:20.33,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あ{\alpha&H00&}ふ{\alpha&HFF&}れるこのまいらぶ！
+Dialogue: 0,0:02:20.48,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふ{\alpha&H00&}れ{\alpha&HFF&}るこのまいらぶ！
+Dialogue: 0,0:02:20.61,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれ{\alpha&H00&}る{\alpha&HFF&}このまいらぶ！
+Dialogue: 0,0:02:20.74,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれる{\alpha&H00&}こ{\alpha&HFF&}のまいらぶ！
+Dialogue: 0,0:02:20.86,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこ{\alpha&H00&}の{\alpha&HFF&}まいらぶ！
+Dialogue: 0,0:02:21.05,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこの{\alpha&H00&}ま{\alpha&HFF&}いらぶ！
+Dialogue: 0,0:02:21.20,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのま{\alpha&H00&}い{\alpha&HFF&}らぶ！
+Dialogue: 0,0:02:21.35,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのまい{\alpha&H00&}ら{\alpha&HFF&}ぶ！
+Dialogue: 0,0:02:21.50,0:02:22.03,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}あふれるこのまいら{\alpha&H00&}ぶ！
+Comment: 0,0:02:22.66,0:02:24.07,OPJP - Blur,,0,0,0,,{\kf15\blur6}心{\kf10}も{\kf12}見{\kf10}た{\kf9}目{\kf10}も{\kf8}変{\kf10}わ{\kf7}っ{\kf9}ち{\kf7}ゃ{\kf8}う{\kf8}く{\kf10}ら{\kf8}い
+Dialogue: 0,0:02:22.58,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}心{\alpha&HFF&}も見た目も変わっちゃうくらい
+Dialogue: 0,0:02:22.73,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心{\alpha&H00&}も{\alpha&HFF&}見た目も変わっちゃうくらい
+Dialogue: 0,0:02:22.83,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も{\alpha&H00&}見{\alpha&HFF&}た目も変わっちゃうくらい
+Dialogue: 0,0:02:22.95,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見{\alpha&H00&}た{\alpha&HFF&}目も変わっちゃうくらい
+Dialogue: 0,0:02:23.05,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た{\alpha&H00&}目{\alpha&HFF&}も変わっちゃうくらい
+Dialogue: 0,0:02:23.14,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目{\alpha&H00&}も{\alpha&HFF&}変わっちゃうくらい
+Dialogue: 0,0:02:23.24,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も{\alpha&H00&}変{\alpha&HFF&}わっちゃうくらい
+Dialogue: 0,0:02:23.32,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変{\alpha&H00&}わ{\alpha&HFF&}っちゃうくらい
+Dialogue: 0,0:02:23.42,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わ{\alpha&H00&}っ{\alpha&HFF&}ちゃうくらい
+Dialogue: 0,0:02:23.49,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっ{\alpha&H00&}ち{\alpha&HFF&}ゃうくらい
+Dialogue: 0,0:02:23.58,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっち{\alpha&H00&}ゃ{\alpha&HFF&}うくらい
+Dialogue: 0,0:02:23.65,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃ{\alpha&H00&}う{\alpha&HFF&}くらい
+Dialogue: 0,0:02:23.73,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃう{\alpha&H00&}く{\alpha&HFF&}らい
+Dialogue: 0,0:02:23.81,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃうく{\alpha&H00&}ら{\alpha&HFF&}い
+Dialogue: 0,0:02:23.91,0:02:24.15,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}心も見た目も変わっちゃうくら{\alpha&H00&}い
+Comment: 0,0:02:24.07,0:02:24.84,OPJP - Blur,,0,0,0,,{\kf20\blur6}好{\kf17}き{\kf22}好{\kf18}き
+Dialogue: 0,0:02:23.99,0:02:24.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 0,0:02:24.19,0:02:24.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 0,0:02:24.36,0:02:24.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 0,0:02:24.58,0:02:24.92,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き好{\alpha&H00&}き
+Comment: 0,0:02:24.84,0:02:25.87,OPJP - Blur,,0,0,0,,{\kf10\blur6}こ{\kf6}れ{\kf15}な{\kf10}ん{\kf15}て{\kf25}洗{\kf22}脳
+Dialogue: 0,0:02:24.76,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}こ{\alpha&HFF&}れなんて洗脳
+Dialogue: 0,0:02:24.86,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}こ{\alpha&H00&}れ{\alpha&HFF&}なんて洗脳
+Dialogue: 0,0:02:24.92,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}これ{\alpha&H00&}な{\alpha&HFF&}んて洗脳
+Dialogue: 0,0:02:25.07,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}これな{\alpha&H00&}ん{\alpha&HFF&}て洗脳
+Dialogue: 0,0:02:25.17,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなん{\alpha&H00&}て{\alpha&HFF&}洗脳
+Dialogue: 0,0:02:25.32,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなんて{\alpha&H00&}洗{\alpha&HFF&}脳
+Dialogue: 0,0:02:25.57,0:02:25.95,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}これなんて洗{\alpha&H00&}脳
+Comment: 0,0:02:26.02,0:02:27.69,OPJP - Blur,,0,0,0,,{\kf14\blur6}想{\kf7}い{\kf17}が{\kf19}大{\kf18}体{\kf18}大{\kf14}暴{\kf16}走{\kf12}し{\kf6}ち{\kf8}ゃ{\kf8}っ{\kf10}て
+Dialogue: 0,0:02:25.94,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}想{\alpha&HFF&}いが大体大暴走しちゃって
+Dialogue: 0,0:02:26.08,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想{\alpha&H00&}い{\alpha&HFF&}が大体大暴走しちゃって
+Dialogue: 0,0:02:26.15,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想い{\alpha&H00&}が{\alpha&HFF&}大体大暴走しちゃって
+Dialogue: 0,0:02:26.32,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが{\alpha&H00&}大{\alpha&HFF&}体大暴走しちゃって
+Dialogue: 0,0:02:26.51,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大{\alpha&H00&}体{\alpha&HFF&}大暴走しちゃって
+Dialogue: 0,0:02:26.69,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体{\alpha&H00&}大{\alpha&HFF&}暴走しちゃって
+Dialogue: 0,0:02:26.87,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大{\alpha&H00&}暴{\alpha&HFF&}走しちゃって
+Dialogue: 0,0:02:27.01,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴{\alpha&H00&}走{\alpha&HFF&}しちゃって
+Dialogue: 0,0:02:27.17,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走{\alpha&H00&}し{\alpha&HFF&}ちゃって
+Dialogue: 0,0:02:27.29,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走し{\alpha&H00&}ち{\alpha&HFF&}ゃって
+Dialogue: 0,0:02:27.35,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しち{\alpha&H00&}ゃ{\alpha&HFF&}って
+Dialogue: 0,0:02:27.43,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しちゃ{\alpha&H00&}っ{\alpha&HFF&}て
+Dialogue: 0,0:02:27.51,0:02:27.77,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}想いが大体大暴走しちゃっ{\alpha&H00&}て
+Comment: 0,0:02:27.69,0:02:28.73,OPJP - Blur,,0,0,0,,{\kf22\blur6}Con{\kf69}fu{\kf13}se！
+Dialogue: 0,0:02:27.61,0:02:28.81,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}Con{\alpha&HFF&}fuse！
+Dialogue: 0,0:02:27.83,0:02:28.81,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Con{\alpha&H00&}fu{\alpha&HFF&}se！
+Dialogue: 0,0:02:28.52,0:02:28.81,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Confu{\alpha&H00&}se！
+Comment: 0,0:02:29.13,0:02:30.49,OPJP - Blur,,0,0,0,,{\kf22\blur6}だ{\kf7}け{\kf17}ど{\kf21}な{\kf13}り{\kf10}た{\kf16}い{\kf30}の
+Dialogue: 0,0:02:29.05,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}だ{\alpha&HFF&}けどなりたいの
+Dialogue: 0,0:02:29.27,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だ{\alpha&H00&}け{\alpha&HFF&}どなりたいの
+Dialogue: 0,0:02:29.34,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけ{\alpha&H00&}ど{\alpha&HFF&}なりたいの
+Dialogue: 0,0:02:29.51,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど{\alpha&H00&}な{\alpha&HFF&}りたいの
+Dialogue: 0,0:02:29.72,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどな{\alpha&H00&}り{\alpha&HFF&}たいの
+Dialogue: 0,0:02:29.85,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなり{\alpha&H00&}た{\alpha&HFF&}いの
+Dialogue: 0,0:02:29.95,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなりた{\alpha&H00&}い{\alpha&HFF&}の
+Dialogue: 0,0:02:30.11,0:02:30.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけどなりたい{\alpha&H00&}の
+Comment: 0,0:02:30.67,0:02:31.85,OPJP - Blur,,0,0,0,,{\kf20\blur6}そ{\kf14}う、{\kf16}あ{\kf15}な{\kf14}た{\kf13}だ{\kf8}け{\kf18}の
+Dialogue: 0,0:02:30.59,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}そ{\alpha&HFF&}う、あなただけの
+Dialogue: 0,0:02:30.79,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そ{\alpha&H00&}う、{\alpha&HFF&}あなただけの
+Dialogue: 0,0:02:30.93,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、{\alpha&H00&}あ{\alpha&HFF&}なただけの
+Dialogue: 0,0:02:31.09,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あ{\alpha&H00&}な{\alpha&HFF&}ただけの
+Dialogue: 0,0:02:31.24,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あな{\alpha&H00&}た{\alpha&HFF&}だけの
+Dialogue: 0,0:02:31.38,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなた{\alpha&H00&}だ{\alpha&HFF&}けの
+Dialogue: 0,0:02:31.51,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなただ{\alpha&H00&}け{\alpha&HFF&}の
+Dialogue: 0,0:02:31.59,0:02:31.93,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そう、あなただけ{\alpha&H00&}の
+Comment: 0,0:02:32.62,0:02:34.96,OPJP - Blur,,0,0,0,,{\kf16\blur6}良{\kf17}い{\kf20}子 {\kf12}ワ{\kf14}ル{\kf26}い{\kf22}子 {\kf18}ト{\kf13}ク{\kf14}ベ{\kf15}ツ{\kf15}な{\kf32}子！
+Dialogue: 0,0:02:32.54,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}良{\alpha&HFF&}い子 ワルい子 トクベツな子！
+Dialogue: 0,0:02:32.70,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良{\alpha&H00&}い{\alpha&HFF&}子 ワルい子 トクベツな子！
+Dialogue: 0,0:02:32.87,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い{\alpha&H00&}子 {\alpha&HFF&}ワルい子 トクベツな子！
+Dialogue: 0,0:02:33.07,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 {\alpha&H00&}ワ{\alpha&HFF&}ルい子 トクベツな子！
+Dialogue: 0,0:02:33.19,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワ{\alpha&H00&}ル{\alpha&HFF&}い子 トクベツな子！
+Dialogue: 0,0:02:33.33,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワル{\alpha&H00&}い{\alpha&HFF&}子 トクベツな子！
+Dialogue: 0,0:02:33.59,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい{\alpha&H00&}子 {\alpha&HFF&}トクベツな子！
+Dialogue: 0,0:02:33.81,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 {\alpha&H00&}ト{\alpha&HFF&}クベツな子！
+Dialogue: 0,0:02:33.99,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 ト{\alpha&H00&}ク{\alpha&HFF&}ベツな子！
+Dialogue: 0,0:02:34.12,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トク{\alpha&H00&}ベ{\alpha&HFF&}ツな子！
+Dialogue: 0,0:02:34.26,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベ{\alpha&H00&}ツ{\alpha&HFF&}な子！
+Dialogue: 0,0:02:34.41,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベツ{\alpha&H00&}な{\alpha&HFF&}子！
+Dialogue: 0,0:02:34.56,0:02:35.04,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子 ワルい子 トクベツな{\alpha&H00&}子！
+Comment: 0,0:02:35.57,0:02:38.27,OPJP - Blur,,0,0,0,,{\kf38\blur6}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf35}恋{\kf22}は{\kf16}暴{\kf46}走！
+Dialogue: 0,0:02:35.49,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 恋は暴走！
+Dialogue: 0,0:02:35.87,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 恋は暴走！
+Dialogue: 0,0:02:36.24,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 恋は暴走！
+Dialogue: 0,0:02:36.63,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}恋は暴走！
+Dialogue: 0,0:02:37.00,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}恋{\alpha&HFF&}は暴走！
+Dialogue: 0,0:02:37.35,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋{\alpha&H00&}は{\alpha&HFF&}暴走！
+Dialogue: 0,0:02:37.57,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は{\alpha&H00&}暴{\alpha&HFF&}走！
+Dialogue: 0,0:02:37.73,0:02:38.35,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は暴{\alpha&H00&}走！
+Comment: 0,0:02:38.53,0:02:41.06,OPJP - Blur,,0,0,0,,{\kf38\blur6}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf17}も{\kf19}は{\kf17}や{\kf22}迷{\kf43}走！
+Dialogue: 0,0:02:38.45,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! もはや迷走！
+Dialogue: 0,0:02:38.83,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! もはや迷走！
+Dialogue: 0,0:02:39.20,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! もはや迷走！
+Dialogue: 0,0:02:39.59,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}もはや迷走！
+Dialogue: 0,0:02:39.96,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}も{\alpha&HFF&}はや迷走！
+Dialogue: 0,0:02:40.13,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! も{\alpha&H00&}は{\alpha&HFF&}や迷走！
+Dialogue: 0,0:02:40.32,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もは{\alpha&H00&}や{\alpha&HFF&}迷走！
+Dialogue: 0,0:02:40.49,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もはや{\alpha&H00&}迷{\alpha&HFF&}走！
+Dialogue: 0,0:02:40.71,0:02:41.14,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! もはや迷{\alpha&H00&}走！
+Comment: 0,0:02:41.06,0:02:42.15,OPJP - Blur,,0,0,0,,{\kf32\blur6}生{\kf12}ま{\kf12}れ{\kf14}て{\kf9}こ{\kf11}の{\kf19}方
+Dialogue: 0,0:02:40.98,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}生{\alpha&HFF&}まれてこの方
+Dialogue: 0,0:02:41.30,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生{\alpha&H00&}ま{\alpha&HFF&}れてこの方
+Dialogue: 0,0:02:41.42,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生ま{\alpha&H00&}れ{\alpha&HFF&}てこの方
+Dialogue: 0,0:02:41.54,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれ{\alpha&H00&}て{\alpha&HFF&}この方
+Dialogue: 0,0:02:41.68,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれて{\alpha&H00&}こ{\alpha&HFF&}の方
+Dialogue: 0,0:02:41.77,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれてこ{\alpha&H00&}の{\alpha&HFF&}方
+Dialogue: 0,0:02:41.88,0:02:42.23,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}生まれてこの{\alpha&H00&}方
+Comment: 0,0:02:42.15,0:02:44.52,OPJP - Blur,,0,0,0,,{\kf18\blur6}品{\kf18}行{\kf14}方{\kf20}正{\kf13}だ{\kf12}っ{\kf8}た{\kf16}あ{\kf12}の{\kf8}子{\kf11}が{\kf31}突{\kf56}然!?
+Dialogue: 0,0:02:42.07,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}品{\alpha&HFF&}行方正だったあの子が突然!?
+Dialogue: 0,0:02:42.25,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品{\alpha&H00&}行{\alpha&HFF&}方正だったあの子が突然!?
+Dialogue: 0,0:02:42.43,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行{\alpha&H00&}方{\alpha&HFF&}正だったあの子が突然!?
+Dialogue: 0,0:02:42.57,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方{\alpha&H00&}正{\alpha&HFF&}だったあの子が突然!?
+Dialogue: 0,0:02:42.77,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正{\alpha&H00&}だ{\alpha&HFF&}ったあの子が突然!?
+Dialogue: 0,0:02:42.90,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だ{\alpha&H00&}っ{\alpha&HFF&}たあの子が突然!?
+Dialogue: 0,0:02:43.02,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だっ{\alpha&H00&}た{\alpha&HFF&}あの子が突然!?
+Dialogue: 0,0:02:43.10,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だった{\alpha&H00&}あ{\alpha&HFF&}の子が突然!?
+Dialogue: 0,0:02:43.26,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあ{\alpha&H00&}の{\alpha&HFF&}子が突然!?
+Dialogue: 0,0:02:43.38,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの{\alpha&H00&}子{\alpha&HFF&}が突然!?
+Dialogue: 0,0:02:43.46,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子{\alpha&H00&}が{\alpha&HFF&}突然!?
+Dialogue: 0,0:02:43.57,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子が{\alpha&H00&}突{\alpha&HFF&}然!?
+Dialogue: 0,0:02:43.88,0:02:44.60,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}品行方正だったあの子が突{\alpha&H00&}然!?
+Comment: 0,0:02:44.52,0:02:47.02,OPJP - Blur,,0,0,0,,{\kf25\blur6}そ{\kf19}れ{\kf16}は{\kf12}き{\kf8}っ{\kf11}と{\kf27}恋{\kf8}で{\kf12}す {\kf71}大{\kf73}変！
+Dialogue: 0,0:02:44.44,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}そ{\alpha&HFF&}れはきっと恋です 大変！
+Dialogue: 0,0:02:44.69,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}そ{\alpha&H00&}れ{\alpha&HFF&}はきっと恋です 大変！
+Dialogue: 0,0:02:44.88,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それ{\alpha&H00&}は{\alpha&HFF&}きっと恋です 大変！
+Dialogue: 0,0:02:45.04,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それは{\alpha&H00&}き{\alpha&HFF&}っと恋です 大変！
+Dialogue: 0,0:02:45.16,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはき{\alpha&H00&}っ{\alpha&HFF&}と恋です 大変！
+Dialogue: 0,0:02:45.24,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっ{\alpha&H00&}と{\alpha&HFF&}恋です 大変！
+Dialogue: 0,0:02:45.35,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと{\alpha&H00&}恋{\alpha&HFF&}です 大変！
+Dialogue: 0,0:02:45.62,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋{\alpha&H00&}で{\alpha&HFF&}す 大変！
+Dialogue: 0,0:02:45.70,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋で{\alpha&H00&}す {\alpha&HFF&}大変！
+Dialogue: 0,0:02:45.82,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋です {\alpha&H00&}大{\alpha&HFF&}変！
+Dialogue: 0,0:02:46.53,0:02:47.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}それはきっと恋です 大{\alpha&H00&}変！
+Comment: 0,0:02:47.34,0:02:49.91,OPJP - Blur,,0,0,0,,{\kf20\blur6}髪{\kf13}染{\kf14}め{\kf14}て{\kf11}み{\kf10}た{\kf54}り{\kf20}服{\kf12}の{\kf15}趣{\kf16}味{\kf13}も{\kf10}変{\kf9}わ{\kf26}り
+Dialogue: 0,0:02:47.26,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}髪{\alpha&HFF&}染めてみたり服の趣味も変わり
+Dialogue: 0,0:02:47.46,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪{\alpha&H00&}染{\alpha&HFF&}めてみたり服の趣味も変わり
+Dialogue: 0,0:02:47.59,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染{\alpha&H00&}め{\alpha&HFF&}てみたり服の趣味も変わり
+Dialogue: 0,0:02:47.73,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染め{\alpha&H00&}て{\alpha&HFF&}みたり服の趣味も変わり
+Dialogue: 0,0:02:47.87,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めて{\alpha&H00&}み{\alpha&HFF&}たり服の趣味も変わり
+Dialogue: 0,0:02:47.98,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみ{\alpha&H00&}た{\alpha&HFF&}り服の趣味も変わり
+Dialogue: 0,0:02:48.08,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみた{\alpha&H00&}り{\alpha&HFF&}服の趣味も変わり
+Dialogue: 0,0:02:48.62,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり{\alpha&H00&}服{\alpha&HFF&}の趣味も変わり
+Dialogue: 0,0:02:48.82,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服{\alpha&H00&}の{\alpha&HFF&}趣味も変わり
+Dialogue: 0,0:02:48.94,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の{\alpha&H00&}趣{\alpha&HFF&}味も変わり
+Dialogue: 0,0:02:49.09,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣{\alpha&H00&}味{\alpha&HFF&}も変わり
+Dialogue: 0,0:02:49.25,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味{\alpha&H00&}も{\alpha&HFF&}変わり
+Dialogue: 0,0:02:49.38,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も{\alpha&H00&}変{\alpha&HFF&}わり
+Dialogue: 0,0:02:49.48,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も変{\alpha&H00&}わ{\alpha&HFF&}り
+Dialogue: 0,0:02:49.57,0:02:49.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}髪染めてみたり服の趣味も変わ{\alpha&H00&}り
+Comment: 0,0:02:50.23,0:02:52.93,OPJP - Blur,,0,0,0,,{\kf41\blur6}新{\kf32}し{\kf21}い{\kf52}私{\kf19}の{\kf74}爆{\kf31}誕!?
+Dialogue: 0,0:02:50.15,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}新{\alpha&HFF&}しい私の爆誕!?
+Dialogue: 0,0:02:50.56,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新{\alpha&H00&}し{\alpha&HFF&}い私の爆誕!?
+Dialogue: 0,0:02:50.88,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新し{\alpha&H00&}い{\alpha&HFF&}私の爆誕!?
+Dialogue: 0,0:02:51.09,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい{\alpha&H00&}私{\alpha&HFF&}の爆誕!?
+Dialogue: 0,0:02:51.61,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私{\alpha&H00&}の{\alpha&HFF&}爆誕!?
+Dialogue: 0,0:02:51.80,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私の{\alpha&H00&}爆{\alpha&HFF&}誕!?
+Dialogue: 0,0:02:52.54,0:02:53.01,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}新しい私の爆{\alpha&H00&}誕!?
+Comment: 0,0:02:53.24,0:02:55.44,OPJP - Blur,,0,0,0,,{\kf24\blur6}気{\kf19}取{\kf25}っ{\kf17}て{\kf1} {\kf16}気{\kf16}負{\kf27}っ{\kf16}て{\kf1} {\kf7}理{\kf21}想{\kf30}系
+Dialogue: 0,0:02:53.16,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}気{\alpha&HFF&}取って 気負って 理想系
+Dialogue: 0,0:02:53.40,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気{\alpha&H00&}取{\alpha&HFF&}って 気負って 理想系
+Dialogue: 0,0:02:53.59,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取{\alpha&H00&}っ{\alpha&HFF&}て 気負って 理想系
+Dialogue: 0,0:02:53.84,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取っ{\alpha&H00&}て{\alpha&HFF&} 気負って 理想系
+Dialogue: 0,0:02:54.01,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って{\alpha&H00&} {\alpha&HFF&}気負って 理想系
+Dialogue: 0,0:02:54.02,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って {\alpha&H00&}気{\alpha&HFF&}負って 理想系
+Dialogue: 0,0:02:54.18,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気{\alpha&H00&}負{\alpha&HFF&}って 理想系
+Dialogue: 0,0:02:54.34,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負{\alpha&H00&}っ{\alpha&HFF&}て 理想系
+Dialogue: 0,0:02:54.61,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負っ{\alpha&H00&}て{\alpha&HFF&} 理想系
+Dialogue: 0,0:02:54.77,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って{\alpha&H00&} {\alpha&HFF&}理想系
+Dialogue: 0,0:02:54.78,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って {\alpha&H00&}理{\alpha&HFF&}想系
+Dialogue: 0,0:02:54.85,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って 理{\alpha&H00&}想{\alpha&HFF&}系
+Dialogue: 0,0:02:55.06,0:02:55.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}気取って 気負って 理想{\alpha&H00&}系
+Comment: 0,0:02:55.62,0:02:57.71,OPJP - Blur,,0,0,0,,{\blur6}「{\kf35}現{\kf40}実{\kf12}見{\kf18}な」{\kf12}っ{\kf14}て {\kf20}言{\kf12}わ{\kf18}な{\kf15}い{\kf13}で
+Dialogue: 0,0:02:55.54,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}「{\alpha&HFF&}現実見な」って 言わないで
+Dialogue: 0,0:02:55.54,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「{\alpha&H00&}現{\alpha&HFF&}実見な」って 言わないで
+Dialogue: 0,0:02:55.89,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現{\alpha&H00&}実{\alpha&HFF&}見な」って 言わないで
+Dialogue: 0,0:02:56.29,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実{\alpha&H00&}見{\alpha&HFF&}な」って 言わないで
+Dialogue: 0,0:02:56.41,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見{\alpha&H00&}な」{\alpha&HFF&}って 言わないで
+Dialogue: 0,0:02:56.59,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」{\alpha&H00&}っ{\alpha&HFF&}て 言わないで
+Dialogue: 0,0:02:56.71,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」っ{\alpha&H00&}て {\alpha&HFF&}言わないで
+Dialogue: 0,0:02:56.85,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って {\alpha&H00&}言{\alpha&HFF&}わないで
+Dialogue: 0,0:02:57.05,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言{\alpha&H00&}わ{\alpha&HFF&}ないで
+Dialogue: 0,0:02:57.17,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わ{\alpha&H00&}な{\alpha&HFF&}いで
+Dialogue: 0,0:02:57.35,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わな{\alpha&H00&}い{\alpha&HFF&}で
+Dialogue: 0,0:02:57.50,0:02:57.79,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}「現実見な」って 言わない{\alpha&H00&}で
+Comment: 0,0:02:57.87,0:02:58.94,OPJP - Blur,,0,0,0,,{\kf17\blur6}Lo{\kf13}ve {\kf28}is {\kf17}b{\kf32}lind
+Dialogue: 0,0:02:57.79,0:02:59.02,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}Lo{\alpha&HFF&}ve is blind
+Dialogue: 0,0:02:57.96,0:02:59.02,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Lo{\alpha&H00&}ve {\alpha&HFF&}is blind
+Dialogue: 0,0:02:58.09,0:02:59.02,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love {\alpha&H00&}is {\alpha&HFF&}blind
+Dialogue: 0,0:02:58.37,0:02:59.02,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love is {\alpha&H00&}b{\alpha&HFF&}lind
+Dialogue: 0,0:02:58.54,0:02:59.02,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}Love is b{\alpha&H00&}lind
+Comment: 0,0:02:59.48,0:03:02.04,OPJP - Blur,,0,0,0,,{\kf42\blur6}深{\kf19}呼{\kf27}吸{\kf14}し{\kf15}て{\kf19}も{\kf20}止{\kf14}ま{\kf24}ら{\kf19}な{\kf43}い
+Dialogue: 0,0:02:59.40,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}深{\alpha&HFF&}呼吸しても止まらない
+Dialogue: 0,0:02:59.82,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深{\alpha&H00&}呼{\alpha&HFF&}吸しても止まらない
+Dialogue: 0,0:03:00.01,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼{\alpha&H00&}吸{\alpha&HFF&}しても止まらない
+Dialogue: 0,0:03:00.28,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸{\alpha&H00&}し{\alpha&HFF&}ても止まらない
+Dialogue: 0,0:03:00.42,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸し{\alpha&H00&}て{\alpha&HFF&}も止まらない
+Dialogue: 0,0:03:00.57,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸して{\alpha&H00&}も{\alpha&HFF&}止まらない
+Dialogue: 0,0:03:00.76,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても{\alpha&H00&}止{\alpha&HFF&}まらない
+Dialogue: 0,0:03:00.96,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止{\alpha&H00&}ま{\alpha&HFF&}らない
+Dialogue: 0,0:03:01.10,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止ま{\alpha&H00&}ら{\alpha&HFF&}ない
+Dialogue: 0,0:03:01.34,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止まら{\alpha&H00&}な{\alpha&HFF&}い
+Dialogue: 0,0:03:01.53,0:03:02.12,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}深呼吸しても止まらな{\alpha&H00&}い
+Comment: 0,0:03:02.37,0:03:05.21,OPJP - Blur,,0,0,0,,{\kf32\blur6}高{\kf24}鳴{\kf21}る{\kf26}胸{\kf36}に {\kf21}そ{\kf22}そ{\kf15}の{\kf6}か{\kf14}さ{\kf15}れ{\kf9}迷{\kf23}走{\kf20}中
+Dialogue: 0,0:03:02.29,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}高{\alpha&HFF&}鳴る胸に そそのかされ迷走中
+Dialogue: 0,0:03:02.61,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高{\alpha&H00&}鳴{\alpha&HFF&}る胸に そそのかされ迷走中
+Dialogue: 0,0:03:02.85,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴{\alpha&H00&}る{\alpha&HFF&}胸に そそのかされ迷走中
+Dialogue: 0,0:03:03.06,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る{\alpha&H00&}胸{\alpha&HFF&}に そそのかされ迷走中
+Dialogue: 0,0:03:03.32,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸{\alpha&H00&}に {\alpha&HFF&}そそのかされ迷走中
+Dialogue: 0,0:03:03.68,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に {\alpha&H00&}そ{\alpha&HFF&}そのかされ迷走中
+Dialogue: 0,0:03:03.89,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そ{\alpha&H00&}そ{\alpha&HFF&}のかされ迷走中
+Dialogue: 0,0:03:04.11,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそ{\alpha&H00&}の{\alpha&HFF&}かされ迷走中
+Dialogue: 0,0:03:04.26,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そその{\alpha&H00&}か{\alpha&HFF&}され迷走中
+Dialogue: 0,0:03:04.32,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのか{\alpha&H00&}さ{\alpha&HFF&}れ迷走中
+Dialogue: 0,0:03:04.46,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかさ{\alpha&H00&}れ{\alpha&HFF&}迷走中
+Dialogue: 0,0:03:04.61,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ{\alpha&H00&}迷{\alpha&HFF&}走中
+Dialogue: 0,0:03:04.70,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ迷{\alpha&H00&}走{\alpha&HFF&}中
+Dialogue: 0,0:03:04.93,0:03:05.29,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}高鳴る胸に そそのかされ迷走{\alpha&H00&}中
+Comment: 0,0:03:05.60,0:03:08.88,OPJP - Blur,,0,0,0,,{\kf17\blur6}見{\kf18}よ{\kf16}う{\kf20}見{\kf18}ま{\kf13}ね{\kf17}の{\kf36}精{\kf44}一{\kf39}杯{\kf20}だ{\kf19}け{\kf51}ど
+Dialogue: 0,0:03:05.52,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}見{\alpha&HFF&}よう見まねの精一杯だけど
+Dialogue: 0,0:03:05.69,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見{\alpha&H00&}よ{\alpha&HFF&}う見まねの精一杯だけど
+Dialogue: 0,0:03:05.87,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よ{\alpha&H00&}う{\alpha&HFF&}見まねの精一杯だけど
+Dialogue: 0,0:03:06.03,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう{\alpha&H00&}見{\alpha&HFF&}まねの精一杯だけど
+Dialogue: 0,0:03:06.23,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見{\alpha&H00&}ま{\alpha&HFF&}ねの精一杯だけど
+Dialogue: 0,0:03:06.41,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見ま{\alpha&H00&}ね{\alpha&HFF&}の精一杯だけど
+Dialogue: 0,0:03:06.54,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まね{\alpha&H00&}の{\alpha&HFF&}精一杯だけど
+Dialogue: 0,0:03:06.71,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの{\alpha&H00&}精{\alpha&HFF&}一杯だけど
+Dialogue: 0,0:03:07.07,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精{\alpha&H00&}一{\alpha&HFF&}杯だけど
+Dialogue: 0,0:03:07.51,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一{\alpha&H00&}杯{\alpha&HFF&}だけど
+Dialogue: 0,0:03:07.90,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯{\alpha&H00&}だ{\alpha&HFF&}けど
+Dialogue: 0,0:03:08.10,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯だ{\alpha&H00&}け{\alpha&HFF&}ど
+Dialogue: 0,0:03:08.29,0:03:08.96,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}見よう見まねの精一杯だけ{\alpha&H00&}ど
+Comment: 0,0:03:09.16,0:03:11.63,OPJP - Blur,,0,0,0,,{\kf73\blur6}愛{\kf72}を{\kf54}こ{\kf17}め{\kf31}て
+Dialogue: 0,0:03:09.08,0:03:11.71,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}愛{\alpha&HFF&}をこめて
+Dialogue: 0,0:03:09.81,0:03:11.71,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛{\alpha&H00&}を{\alpha&HFF&}こめて
+Dialogue: 0,0:03:10.53,0:03:11.71,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛を{\alpha&H00&}こ{\alpha&HFF&}めて
+Dialogue: 0,0:03:11.07,0:03:11.71,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛をこ{\alpha&H00&}め{\alpha&HFF&}て
+Dialogue: 0,0:03:11.24,0:03:11.71,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}愛をこめ{\alpha&H00&}て
+Comment: 0,0:03:12.12,0:03:13.55,OPJP - Blur,,0,0,0,,{\kf10\blur6}な{\kf10}ぜ{\kf7}な{\kf10}ら{\kf11}す{\kf9}べ{\kf10}て{\kf10}が{\kf8}変{\kf7}わ{\kf7}っ{\kf8}ち{\kf10}ゃ{\kf8}っ{\kf7}た{\kf11}の
+Dialogue: 0,0:03:12.04,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}な{\alpha&HFF&}ぜならすべてが変わっちゃったの
+Dialogue: 0,0:03:12.14,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}な{\alpha&H00&}ぜ{\alpha&HFF&}ならすべてが変わっちゃったの
+Dialogue: 0,0:03:12.24,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜ{\alpha&H00&}な{\alpha&HFF&}らすべてが変わっちゃったの
+Dialogue: 0,0:03:12.31,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜな{\alpha&H00&}ら{\alpha&HFF&}すべてが変わっちゃったの
+Dialogue: 0,0:03:12.41,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜなら{\alpha&H00&}す{\alpha&HFF&}べてが変わっちゃったの
+Dialogue: 0,0:03:12.52,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならす{\alpha&H00&}べ{\alpha&HFF&}てが変わっちゃったの
+Dialogue: 0,0:03:12.61,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべ{\alpha&H00&}て{\alpha&HFF&}が変わっちゃったの
+Dialogue: 0,0:03:12.71,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべて{\alpha&H00&}が{\alpha&HFF&}変わっちゃったの
+Dialogue: 0,0:03:12.81,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが{\alpha&H00&}変{\alpha&HFF&}わっちゃったの
+Dialogue: 0,0:03:12.89,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変{\alpha&H00&}わ{\alpha&HFF&}っちゃったの
+Dialogue: 0,0:03:12.96,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わ{\alpha&H00&}っ{\alpha&HFF&}ちゃったの
+Dialogue: 0,0:03:13.03,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっ{\alpha&H00&}ち{\alpha&HFF&}ゃったの
+Dialogue: 0,0:03:13.11,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっち{\alpha&H00&}ゃ{\alpha&HFF&}ったの
+Dialogue: 0,0:03:13.21,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃ{\alpha&H00&}っ{\alpha&HFF&}たの
+Dialogue: 0,0:03:13.29,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃっ{\alpha&H00&}た{\alpha&HFF&}の
+Dialogue: 0,0:03:13.36,0:03:13.63,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}なぜならすべてが変わっちゃった{\alpha&H00&}の
+Comment: 0,0:03:13.55,0:03:14.38,OPJP - Blur,,0,0,0,,{\kf22\blur6}好{\kf17}き{\kf20}好{\kf24}き
+Dialogue: 0,0:03:13.47,0:03:14.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 0,0:03:13.69,0:03:14.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 0,0:03:13.86,0:03:14.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 0,0:03:14.06,0:03:14.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}好き好{\alpha&H00&}き
+Comment: 0,0:03:14.38,0:03:15.30,OPJP - Blur,,0,0,0,,{\kf12\blur6}出{\kf9}会{\kf10}っ{\kf10}た{\kf13}が{\kf18}最{\kf20}後
+Dialogue: 0,0:03:14.30,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}出{\alpha&HFF&}会ったが最後
+Dialogue: 0,0:03:14.42,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出{\alpha&H00&}会{\alpha&HFF&}ったが最後
+Dialogue: 0,0:03:14.51,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会{\alpha&H00&}っ{\alpha&HFF&}たが最後
+Dialogue: 0,0:03:14.61,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会っ{\alpha&H00&}た{\alpha&HFF&}が最後
+Dialogue: 0,0:03:14.71,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会った{\alpha&H00&}が{\alpha&HFF&}最後
+Dialogue: 0,0:03:14.84,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会ったが{\alpha&H00&}最{\alpha&HFF&}後
+Dialogue: 0,0:03:15.02,0:03:15.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}出会ったが最{\alpha&H00&}後
+Comment: 0,0:03:15.50,0:03:16.62,OPJP - Blur,,0,0,0,,{\kf10\blur6}ど{\kf10}う{\kf9}に{\kf8}か{\kf10}な{\kf6}っ{\kf5}ち{\kf5}ゃ{\kf6}い{\kf13}そ{\kf12}う{\kf18}な
+Dialogue: 0,0:03:15.42,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}ど{\alpha&HFF&}うにかなっちゃいそうな
+Dialogue: 0,0:03:15.52,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ど{\alpha&H00&}う{\alpha&HFF&}にかなっちゃいそうな
+Dialogue: 0,0:03:15.62,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どう{\alpha&H00&}に{\alpha&HFF&}かなっちゃいそうな
+Dialogue: 0,0:03:15.71,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうに{\alpha&H00&}か{\alpha&HFF&}なっちゃいそうな
+Dialogue: 0,0:03:15.79,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにか{\alpha&H00&}な{\alpha&HFF&}っちゃいそうな
+Dialogue: 0,0:03:15.89,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかな{\alpha&H00&}っ{\alpha&HFF&}ちゃいそうな
+Dialogue: 0,0:03:15.95,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっ{\alpha&H00&}ち{\alpha&HFF&}ゃいそうな
+Dialogue: 0,0:03:16.00,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっち{\alpha&H00&}ゃ{\alpha&HFF&}いそうな
+Dialogue: 0,0:03:16.05,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃ{\alpha&H00&}い{\alpha&HFF&}そうな
+Dialogue: 0,0:03:16.11,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃい{\alpha&H00&}そ{\alpha&HFF&}うな
+Dialogue: 0,0:03:16.24,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃいそ{\alpha&H00&}う{\alpha&HFF&}な
+Dialogue: 0,0:03:16.36,0:03:16.70,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}どうにかなっちゃいそう{\alpha&H00&}な
+Comment: 0,0:03:16.62,0:03:18.30,OPJP - Blur,,0,0,0,,{\kf11\blur6}鼓{\kf16}動{\kf27}は {\kf22}For {\kf92}you
+Dialogue: 0,0:03:16.54,0:03:18.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}鼓{\alpha&HFF&}動は For you
+Dialogue: 0,0:03:16.65,0:03:18.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓{\alpha&H00&}動{\alpha&HFF&}は For you
+Dialogue: 0,0:03:16.81,0:03:18.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動{\alpha&H00&}は {\alpha&HFF&}For you
+Dialogue: 0,0:03:17.08,0:03:18.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動は {\alpha&H00&}For {\alpha&HFF&}you
+Dialogue: 0,0:03:17.30,0:03:18.38,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}鼓動は For {\alpha&H00&}you
+Comment: 0,0:03:18.82,0:03:21.44,OPJP - Blur,,0,0,0,,{\kf23\blur6}今{\kf21}ま{\kf18}で{\kf17}の{\kf22}こ{\kf34}と {\kf24}忘{\kf17}れ{\kf9}ち{\kf8}ゃ{\kf11}う{\kf11}く{\kf8}ら{\kf8}い{\kf31}の
+Dialogue: 0,0:03:18.74,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}今{\alpha&HFF&}までのこと 忘れちゃうくらいの
+Dialogue: 0,0:03:18.97,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今{\alpha&H00&}ま{\alpha&HFF&}でのこと 忘れちゃうくらいの
+Dialogue: 0,0:03:19.18,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今ま{\alpha&H00&}で{\alpha&HFF&}のこと 忘れちゃうくらいの
+Dialogue: 0,0:03:19.36,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今まで{\alpha&H00&}の{\alpha&HFF&}こと 忘れちゃうくらいの
+Dialogue: 0,0:03:19.53,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までの{\alpha&H00&}こ{\alpha&HFF&}と 忘れちゃうくらいの
+Dialogue: 0,0:03:19.75,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこ{\alpha&H00&}と {\alpha&HFF&}忘れちゃうくらいの
+Dialogue: 0,0:03:20.09,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと {\alpha&H00&}忘{\alpha&HFF&}れちゃうくらいの
+Dialogue: 0,0:03:20.33,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘{\alpha&H00&}れ{\alpha&HFF&}ちゃうくらいの
+Dialogue: 0,0:03:20.50,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れ{\alpha&H00&}ち{\alpha&HFF&}ゃうくらいの
+Dialogue: 0,0:03:20.59,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れち{\alpha&H00&}ゃ{\alpha&HFF&}うくらいの
+Dialogue: 0,0:03:20.67,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃ{\alpha&H00&}う{\alpha&HFF&}くらいの
+Dialogue: 0,0:03:20.78,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃう{\alpha&H00&}く{\alpha&HFF&}らいの
+Dialogue: 0,0:03:20.89,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうく{\alpha&H00&}ら{\alpha&HFF&}いの
+Dialogue: 0,0:03:20.97,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうくら{\alpha&H00&}い{\alpha&HFF&}の
+Dialogue: 0,0:03:21.05,0:03:21.52,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今までのこと 忘れちゃうくらい{\alpha&H00&}の
+Comment: 0,0:03:22.07,0:03:24.64,OPJP - Blur,,0,0,0,,{\kf18\blur6}ド{\kf19}キ{\kf15}ド{\kf17}キ{\kf22}に{\kf19}全{\kf49}私{\kf19}が{\kf18}震{\kf61}撼
+Dialogue: 0,0:03:21.99,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}ド{\alpha&HFF&}キドキに全私が震撼
+Dialogue: 0,0:03:22.17,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ド{\alpha&H00&}キ{\alpha&HFF&}ドキに全私が震撼
+Dialogue: 0,0:03:22.36,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキ{\alpha&H00&}ド{\alpha&HFF&}キに全私が震撼
+Dialogue: 0,0:03:22.51,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキド{\alpha&H00&}キ{\alpha&HFF&}に全私が震撼
+Dialogue: 0,0:03:22.68,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキ{\alpha&H00&}に{\alpha&HFF&}全私が震撼
+Dialogue: 0,0:03:22.90,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに{\alpha&H00&}全{\alpha&HFF&}私が震撼
+Dialogue: 0,0:03:23.09,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全{\alpha&H00&}私{\alpha&HFF&}が震撼
+Dialogue: 0,0:03:23.58,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私{\alpha&H00&}が{\alpha&HFF&}震撼
+Dialogue: 0,0:03:23.77,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私が{\alpha&H00&}震{\alpha&HFF&}撼
+Dialogue: 0,0:03:23.95,0:03:24.72,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}ドキドキに全私が震{\alpha&H00&}撼
+Comment: 0,0:03:24.86,0:03:26.31,OPJP - Blur,,0,0,0,,{\kf8\blur6}分{\kf9}か{\kf9}ん{\kf8}な{\kf8}い{\kf9}く{\kf10}ら{\kf11}い{\kf24}好{\kf12}き{\kf19}好{\kf18}き
+Dialogue: 0,0:03:24.78,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}分{\alpha&HFF&}かんないくらい好き好き
+Dialogue: 0,0:03:24.86,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分{\alpha&H00&}か{\alpha&HFF&}んないくらい好き好き
+Dialogue: 0,0:03:24.95,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分か{\alpha&H00&}ん{\alpha&HFF&}ないくらい好き好き
+Dialogue: 0,0:03:25.04,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かん{\alpha&H00&}な{\alpha&HFF&}いくらい好き好き
+Dialogue: 0,0:03:25.12,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんな{\alpha&H00&}い{\alpha&HFF&}くらい好き好き
+Dialogue: 0,0:03:25.20,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんない{\alpha&H00&}く{\alpha&HFF&}らい好き好き
+Dialogue: 0,0:03:25.29,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないく{\alpha&H00&}ら{\alpha&HFF&}い好き好き
+Dialogue: 0,0:03:25.39,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくら{\alpha&H00&}い{\alpha&HFF&}好き好き
+Dialogue: 0,0:03:25.50,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい{\alpha&H00&}好{\alpha&HFF&}き好き
+Dialogue: 0,0:03:25.74,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好{\alpha&H00&}き{\alpha&HFF&}好き
+Dialogue: 0,0:03:25.86,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好き{\alpha&H00&}好{\alpha&HFF&}き
+Dialogue: 0,0:03:26.05,0:03:26.39,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}分かんないくらい好き好{\alpha&H00&}き
+Comment: 0,0:03:26.48,0:03:27.38,OPJP - Blur,,0,0,0,,{\kf18\blur6}今{\kf19}何{\kf14}時{\kf18}何{\kf21}分？
+Dialogue: 0,0:03:26.40,0:03:27.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}今{\alpha&HFF&}何時何分？
+Dialogue: 0,0:03:26.58,0:03:27.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今{\alpha&H00&}何{\alpha&HFF&}時何分？
+Dialogue: 0,0:03:26.77,0:03:27.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何{\alpha&H00&}時{\alpha&HFF&}何分？
+Dialogue: 0,0:03:26.91,0:03:27.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何時{\alpha&H00&}何{\alpha&HFF&}分？
+Dialogue: 0,0:03:27.09,0:03:27.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}今何時何{\alpha&H00&}分？
+Comment: 0,0:03:27.38,0:03:30.24,OPJP - Blur,,0,0,0,,{\kf18\blur6}四{\kf15}六{\kf15}時{\kf19}中{\kf13}考{\kf13}え{\kf14}す{\kf11}ぎ{\kf20}ち{\kf14}ゃ{\kf19}っ{\kf11}て {\kf21}Con{\kf74}fu{\kf9}se！
+Dialogue: 0,0:03:27.30,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}四{\alpha&HFF&}六時中考えすぎちゃって Confuse！
+Dialogue: 0,0:03:27.48,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四{\alpha&H00&}六{\alpha&HFF&}時中考えすぎちゃって Confuse！
+Dialogue: 0,0:03:27.63,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六{\alpha&H00&}時{\alpha&HFF&}中考えすぎちゃって Confuse！
+Dialogue: 0,0:03:27.78,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時{\alpha&H00&}中{\alpha&HFF&}考えすぎちゃって Confuse！
+Dialogue: 0,0:03:27.97,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中{\alpha&H00&}考{\alpha&HFF&}えすぎちゃって Confuse！
+Dialogue: 0,0:03:28.10,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考{\alpha&H00&}え{\alpha&HFF&}すぎちゃって Confuse！
+Dialogue: 0,0:03:28.23,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考え{\alpha&H00&}す{\alpha&HFF&}ぎちゃって Confuse！
+Dialogue: 0,0:03:28.37,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えす{\alpha&H00&}ぎ{\alpha&HFF&}ちゃって Confuse！
+Dialogue: 0,0:03:28.48,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎ{\alpha&H00&}ち{\alpha&HFF&}ゃって Confuse！
+Dialogue: 0,0:03:28.68,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎち{\alpha&H00&}ゃ{\alpha&HFF&}って Confuse！
+Dialogue: 0,0:03:28.82,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃ{\alpha&H00&}っ{\alpha&HFF&}て Confuse！
+Dialogue: 0,0:03:29.01,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃっ{\alpha&H00&}て {\alpha&HFF&}Confuse！
+Dialogue: 0,0:03:29.12,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって {\alpha&H00&}Con{\alpha&HFF&}fuse！
+Dialogue: 0,0:03:29.33,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって Con{\alpha&H00&}fu{\alpha&HFF&}se！
+Dialogue: 0,0:03:30.07,0:03:30.32,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}四六時中考えすぎちゃって Confu{\alpha&H00&}se！
+Comment: 0,0:03:30.57,0:03:33.38,OPJP - Blur,,0,0,0,,{\kf30\blur6}だ{\kf13}け{\kf8}ど{\kf22}知{\kf14}り{\kf12}た{\kf8}い{\kf33}の{\kf17} {\kf55}私{\kf15}あ{\kf13}な{\kf14}た{\kf27}の
+Dialogue: 0,0:03:30.49,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}だ{\alpha&HFF&}けど知りたいの 私あなたの
+Dialogue: 0,0:03:30.79,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だ{\alpha&H00&}け{\alpha&HFF&}ど知りたいの 私あなたの
+Dialogue: 0,0:03:30.92,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけ{\alpha&H00&}ど{\alpha&HFF&}知りたいの 私あなたの
+Dialogue: 0,0:03:31.00,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど{\alpha&H00&}知{\alpha&HFF&}りたいの 私あなたの
+Dialogue: 0,0:03:31.22,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知{\alpha&H00&}り{\alpha&HFF&}たいの 私あなたの
+Dialogue: 0,0:03:31.36,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知り{\alpha&H00&}た{\alpha&HFF&}いの 私あなたの
+Dialogue: 0,0:03:31.48,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りた{\alpha&H00&}い{\alpha&HFF&}の 私あなたの
+Dialogue: 0,0:03:31.56,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたい{\alpha&H00&}の{\alpha&HFF&} 私あなたの
+Dialogue: 0,0:03:31.89,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの{\alpha&H00&} {\alpha&HFF&}私あなたの
+Dialogue: 0,0:03:32.06,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの {\alpha&H00&}私{\alpha&HFF&}あなたの
+Dialogue: 0,0:03:32.61,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私{\alpha&H00&}あ{\alpha&HFF&}なたの
+Dialogue: 0,0:03:32.76,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あ{\alpha&H00&}な{\alpha&HFF&}たの
+Dialogue: 0,0:03:32.89,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あな{\alpha&H00&}た{\alpha&HFF&}の
+Dialogue: 0,0:03:33.03,0:03:33.46,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}だけど知りたいの 私あなた{\alpha&H00&}の
+Comment: 0,0:03:34.05,0:03:36.49,OPJP - Blur,,0,0,0,,{\kf19\blur6}良{\kf15}い{\kf25}子？{\kf13}ワ{\kf14}ル{\kf24}い{\kf17}子？{\kf18}ト{\kf13}ク{\kf14}ベ{\kf15}ツ{\kf15}な{\kf42}子！
+Dialogue: 0,0:03:33.97,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}良{\alpha&HFF&}い子？ワルい子？トクベツな子！
+Dialogue: 0,0:03:34.16,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良{\alpha&H00&}い{\alpha&HFF&}子？ワルい子？トクベツな子！
+Dialogue: 0,0:03:34.31,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い{\alpha&H00&}子？{\alpha&HFF&}ワルい子？トクベツな子！
+Dialogue: 0,0:03:34.56,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？{\alpha&H00&}ワ{\alpha&HFF&}ルい子？トクベツな子！
+Dialogue: 0,0:03:34.69,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワ{\alpha&H00&}ル{\alpha&HFF&}い子？トクベツな子！
+Dialogue: 0,0:03:34.83,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワル{\alpha&H00&}い{\alpha&HFF&}子？トクベツな子！
+Dialogue: 0,0:03:35.07,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい{\alpha&H00&}子？{\alpha&HFF&}トクベツな子！
+Dialogue: 0,0:03:35.24,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？{\alpha&H00&}ト{\alpha&HFF&}クベツな子！
+Dialogue: 0,0:03:35.42,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？ト{\alpha&H00&}ク{\alpha&HFF&}ベツな子！
+Dialogue: 0,0:03:35.55,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トク{\alpha&H00&}ベ{\alpha&HFF&}ツな子！
+Dialogue: 0,0:03:35.69,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベ{\alpha&H00&}ツ{\alpha&HFF&}な子！
+Dialogue: 0,0:03:35.84,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベツ{\alpha&H00&}な{\alpha&HFF&}子！
+Dialogue: 0,0:03:35.99,0:03:36.57,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}良い子？ワルい子？トクベツな{\alpha&H00&}子！
+Comment: 0,0:03:37.07,0:03:40.02,OPJP - Blur,,0,0,0,,{\kf38\blur6}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf35}恋{\kf22}は{\kf16}暴{\kf71}走！
+Dialogue: 0,0:03:36.99,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 恋は暴走！
+Dialogue: 0,0:03:37.37,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 恋は暴走！
+Dialogue: 0,0:03:37.74,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 恋は暴走！
+Dialogue: 0,0:03:38.13,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}恋は暴走！
+Dialogue: 0,0:03:38.50,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}恋{\alpha&HFF&}は暴走！
+Dialogue: 0,0:03:38.85,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋{\alpha&H00&}は{\alpha&HFF&}暴走！
+Dialogue: 0,0:03:39.07,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は{\alpha&H00&}暴{\alpha&HFF&}走！
+Dialogue: 0,0:03:39.23,0:03:40.10,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 恋は暴{\alpha&H00&}走！
+Comment: 0,0:03:40.02,0:03:42.91,OPJP - Blur,,0,0,0,,{\kf38\blur6}GO! {\kf37}GO! {\kf39}GO! {\kf37}GO! {\kf22}届{\kf20}け{\kf19}想{\kf30}い{\kf47}よ！
+Dialogue: 0,0:03:39.94,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100\alpha&H00&}GO! {\alpha&HFF&}GO! GO! GO! 届け想いよ！
+Dialogue: 0,0:03:40.32,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! GO! 届け想いよ！
+Dialogue: 0,0:03:40.69,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}GO! 届け想いよ！
+Dialogue: 0,0:03:41.08,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! {\alpha&H00&}GO! {\alpha&HFF&}届け想いよ！
+Dialogue: 0,0:03:41.45,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! {\alpha&H00&}届{\alpha&HFF&}け想いよ！
+Dialogue: 0,0:03:41.67,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届{\alpha&H00&}け{\alpha&HFF&}想いよ！
+Dialogue: 0,0:03:41.87,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け{\alpha&H00&}想{\alpha&HFF&}いよ！
+Dialogue: 0,0:03:42.06,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け想{\alpha&H00&}い{\alpha&HFF&}よ！
+Dialogue: 0,0:03:42.36,0:03:42.99,OPJP - Blur,,0,0,0,,{\fad(80,80)\alpha&HFF&\fscy20\blur6\t(0,500,0.3,\fscy0)}_\N{\fscy100}GO! GO! GO! GO! 届け想い{\alpha&H00&}よ！

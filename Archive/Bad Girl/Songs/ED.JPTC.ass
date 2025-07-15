@@ -1,0 +1,185 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EDCN,攸望黑钟体（简繁）Bold,70,&H00FFFFFF,&H00FFFFFF,&H00BAA0EA,&H00662DD0,0,0,0,0,100,100,2,0,1,0,0,2,10,10,20,1
+Style: EDJP,FOT-Kurokane Std EB,70,&H00FFFFFF,&H00FFFFFF,&H00BAA0EA,&H00662DD0,0,0,0,0,100,100,0,0,1,0,0,8,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:21:19.97,0:21:19.97,EDCN,,0,0,0,,------ EDCN ------
+Dialogue: 1,0:21:29.73,0:21:30.48,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}Rock you!!
+Dialogue: 1,0:21:30.48,0:21:32.75,EDCN,,0,0,0,,{\xshad6\yshad1.5}我不知道壞的定義
+Dialogue: 1,0:21:32.75,0:21:35.40,EDCN,,0,0,0,,{\xshad6\yshad1.5}說實話連普通的標準我也不懂
+Dialogue: 1,0:21:35.40,0:21:38.34,EDCN,,0,0,0,,{\xshad6\yshad1.5}活了這麼多年持之以恆的事
+Dialogue: 1,0:21:38.34,0:21:40.37,EDCN,,0,0,0,,{\xshad6\yshad1.5}大概也就只有呼吸了吧
+Dialogue: 1,0:21:40.37,0:21:41.78,EDCN,,0,0,0,,{\xshad6\yshad1.5}真不好意思啊
+Dialogue: 1,0:21:42.29,0:21:43.15,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}咳呵{\rEDJP\xshad6\yshad1.5}…）
+Dialogue: 1,0:21:43.15,0:21:44.76,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}真是的 振作點啊{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:21:45.87,0:21:48.06,EDCN,,0,0,0,,{\xshad6\yshad1.5}愛可不是靠計算就能解開的
+Dialogue: 1,0:21:48.06,0:21:50.87,EDCN,,0,0,0,,{\xshad6\yshad1.5}明明可愛是存在正確答案的
+Dialogue: 1,0:21:50.87,0:21:53.81,EDCN,,0,0,0,,{\xshad6\yshad1.5}我想要一場大大的驚嚇
+Dialogue: 1,0:21:53.81,0:21:56.13,EDCN,,0,0,0,,{\xshad6\yshad1.5}像用水晶鞋把平靜日常狠狠踩碎一樣
+Dialogue: 1,0:21:56.13,0:21:56.46,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:21:56.46,0:21:57.38,EDCN,,0,0,0,,{\xshad6\yshad1.5}給我狠狠地瞪過去
+Dialogue: 1,0:21:57.38,0:21:57.71,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:21:57.71,0:21:58.67,EDCN,,0,0,0,,{\xshad6\yshad1.5}給我擺出慵懶的樣子
+Dialogue: 1,0:21:58.67,0:21:59.00,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:21:59.01,0:22:01.21,EDCN,,0,0,0,,{\xshad6\yshad1.5}給我把手插進口袋
+Dialogue: 1,0:22:01.22,0:22:01.55,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:22:01.55,0:22:02.51,EDCN,,0,0,0,,{\xshad6\yshad1.5}強人所難的課題
+Dialogue: 1,0:22:02.51,0:22:02.84,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:22:02.84,0:22:03.76,EDCN,,0,0,0,,{\xshad6\yshad1.5}我偏要將它攻破
+Dialogue: 1,0:22:03.76,0:22:04.09,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}（{\r\xshad6\yshad1.5}喂{\rEDJP\xshad6\yshad1.5}）
+Dialogue: 1,0:22:04.09,0:22:06.18,EDCN,,0,0,0,,{\xshad6\yshad1.5}完全無法預測
+Dialogue: 1,0:22:06.18,0:22:08.68,EDCN,,0,0,0,,{\xshad6\yshad1.5}用我的 {\rEDJP\xshad6\yshad1.5}Bad Style{\r\xshad6\yshad1.5} 說聲嘿喲 {\rEDJP\xshad6\yshad1.5}man？
+Dialogue: 1,0:22:08.68,0:22:11.14,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}「{\r\xshad6\yshad1.5}我只是希望你能多看看我{\rEDJP\xshad6\yshad1.5}」
+Dialogue: 1,0:22:11.44,0:22:13.54,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}BAD BAD BAD SURPRISE
+Dialogue: 1,0:22:13.54,0:22:16.59,EDCN,,0,0,0,,{\xshad6\yshad1.5}就用這滿到溢出的愛讓你傷腦筋
+Dialogue: 1,0:22:16.59,0:22:18.69,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}BUD BUD BUD I LOVE YOU
+Dialogue: 1,0:22:18.69,0:22:21.47,EDCN,,0,0,0,,{\xshad6\yshad1.5}在意我嗎{\rEDJP\xshad6\yshad1.5}？{\r\xshad6\yshad1.5}快在意我啊{\rEDJP\xshad6\yshad1.5}！{\r\xshad6\yshad1.5}給我注意到啊
+Dialogue: 1,0:22:21.47,0:22:23.76,EDCN,,0,0,0,,{\rEDJP\xshad6\yshad1.5}Ha BAD BAD BAD SURPRISE
+Dialogue: 1,0:22:23.76,0:22:26.66,EDCN,,0,0,0,,{\xshad6\yshad1.5}有點小問題反而更有魅力
+Dialogue: 1,0:22:26.66,0:22:27.66,EDCN,,0,0,0,,{\xshad6\yshad1.5}再給一次機會{\rEDJP\xshad6\yshad1.5}！{\r\xshad6\yshad1.5}
+Dialogue: 1,0:22:27.66,0:22:28.66,EDCN,,0,0,0,,{\xshad6\yshad1.5}沒機會了嗎{\rEDJP\xshad6\yshad1.5}!?{\r\xshad6\yshad1.5}
+Dialogue: 1,0:22:28.66,0:22:31.66,EDCN,,0,0,0,,{\xshad6\yshad1.5}好想用我的全心全意去期待啊
+Dialogue: 1,0:22:31.66,0:22:33.05,EDCN,,0,0,0,,{\xshad6\yshad1.5}自由自在的不良少女
+Dialogue: 1,0:22:33.05,0:22:34.35,EDCN,,0,0,0,,{\xshad6\yshad1.5}裝模作樣 又愛闖禍
+Dialogue: 1,0:22:34.35,0:22:37.02,EDCN,,0,0,0,,{\xshad6\yshad1.5}時而犯傻大笑 時而超兇超兇
+Dialogue: 1,0:22:37.02,0:22:38.08,EDCN,,0,0,0,,{\xshad6\yshad1.5}無精打采的不良少女
+Dialogue: 1,0:22:38.08,0:22:39.17,EDCN,,0,0,0,,{\xshad6\yshad1.5}為愛痴狂 像個笨蛋
+Dialogue: 1,0:22:39.17,0:22:41.17,EDCN,,0,0,0,,{\xshad6\yshad1.5}可別小看我了哦
+Dialogue: 1,0:22:41.44,0:22:42.85,EDCN,,0,0,0,,{\xshad6\yshad1.5}就是要特立獨行{\rEDJP\xshad6\yshad1.5}！
+Dialogue: 0,0:21:29.73,0:21:30.48,EDCN,,0,0,0,,{\rEDJP\bord2\blur7}Rock you!!
+Dialogue: 0,0:21:30.48,0:21:32.75,EDCN,,0,0,0,,{\bord2\blur7}我不知道壞的定義
+Dialogue: 0,0:21:32.75,0:21:35.40,EDCN,,0,0,0,,{\bord2\blur7}說實話連普通的標準我也不懂
+Dialogue: 0,0:21:35.40,0:21:38.34,EDCN,,0,0,0,,{\bord2\blur7}活了這麼多年持之以恆的事
+Dialogue: 0,0:21:38.34,0:21:40.37,EDCN,,0,0,0,,{\bord2\blur7}大概也就只有呼吸了吧
+Dialogue: 0,0:21:40.37,0:21:41.78,EDCN,,0,0,0,,{\bord2\blur7}真不好意思啊
+Dialogue: 0,0:21:42.29,0:21:43.15,EDCN,,0,0,0,,{\rEDJP\bord2\blur7}（{\r\bord2\blur7}咳呵{\rEDJP\bord2\blur7}…）
+Dialogue: 0,0:21:43.15,0:21:44.76,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}（{\r\bord2\blur7}真是的 振作點啊{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:21:45.87,0:21:48.06,EDCN,,0,0,0,,{\bord2\blur7}愛可不是靠計算就能解開的
+Dialogue: 0,0:21:48.06,0:21:50.87,EDCN,,0,0,0,,{\bord2\blur7}明明可愛是存在正確答案的
+Dialogue: 0,0:21:50.87,0:21:53.81,EDCN,,0,0,0,,{\bord2\blur7}我想要一場大大的驚嚇
+Dialogue: 0,0:21:53.81,0:21:56.13,EDCN,,0,0,0,,{\bord2\blur7}像用水晶鞋把平靜日常狠狠踩碎一樣
+Dialogue: 0,0:21:56.13,0:21:56.46,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:21:56.46,0:21:57.38,EDCN,,0,0,0,,{\bord2\blur7}給我狠狠地瞪過去
+Dialogue: 0,0:21:57.38,0:21:57.71,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:21:57.71,0:21:58.67,EDCN,,0,0,0,,{\bord2\blur7}給我擺出慵懶的樣子
+Dialogue: 0,0:21:58.67,0:21:59.00,EDCN,,0,0,0,,{\rEDJP}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:21:59.01,0:22:01.21,EDCN,,0,0,0,,{\bord2\blur7}給我把手插進口袋
+Dialogue: 0,0:22:01.22,0:22:01.55,EDCN,,0,0,0,,{\rEDJP\bord2\blur7}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:22:01.55,0:22:02.51,EDCN,,0,0,0,,{\bord2\blur7}強人所難的課題
+Dialogue: 0,0:22:02.51,0:22:02.84,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:22:02.84,0:22:03.76,EDCN,,0,0,0,,{\bord2\blur7}我偏要將它攻破
+Dialogue: 0,0:22:03.76,0:22:04.09,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}（{\r\bord2\blur7}喂{\rEDJP\bord2\blur7}）
+Dialogue: 0,0:22:04.09,0:22:06.18,EDCN,,0,0,0,,{\bord2\blur7}完全無法預測
+Dialogue: 0,0:22:06.18,0:22:08.68,EDCN,,0,0,0,,{\bord2\blur7}用我的 {\rEDJP\bord2\blur7}Bad Style{\r\bord2\blur7} 說聲嘿喲 {\rEDJP\bord2\blur7}man？
+Dialogue: 0,0:22:08.68,0:22:11.14,EDCN,,0,0,0,,{\rEDJP\bord2\blur7}「{\r\bord2\blur7}我只是希望你能多看看我{\rEDJP\bord2\blur7}」
+Dialogue: 0,0:22:11.44,0:22:13.54,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}BAD BAD BAD SURPRISE
+Dialogue: 0,0:22:13.54,0:22:16.59,EDCN,,0,0,0,,{\bord2\blur7}就用這滿到溢出的愛讓你傷腦筋
+Dialogue: 0,0:22:16.59,0:22:18.69,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}BUD BUD BUD I LOVE YOU
+Dialogue: 0,0:22:18.69,0:22:21.47,EDCN,,0,0,0,,{\bord2\blur7}在意我嗎{\rEDJP\bord2\blur7}？{\r\bord2\blur7}快在意我啊{\rEDJP\bord2\blur7}！{\r\bord2\blur7}給我注意到啊
+Dialogue: 0,0:22:21.47,0:22:23.76,EDCN,,0,0,0,,{\rEDJP\bord2\blur7\bord2\blur7}Ha BAD BAD BAD SURPRISE
+Dialogue: 0,0:22:23.76,0:22:26.66,EDCN,,0,0,0,,{\bord2\blur7}有點小問題反而更有魅力
+Dialogue: 0,0:22:26.66,0:22:27.66,EDCN,,0,0,0,,{\bord2\blur7}再給一次機會{\rEDJP\bord2\blur7}！
+Dialogue: 0,0:22:27.66,0:22:28.66,EDCN,,0,0,0,,{\bord2\blur7}沒機會了嗎{\rEDJP\bord2\blur7}!?
+Dialogue: 0,0:22:28.66,0:22:31.66,EDCN,,0,0,0,,{\bord2\blur7}好想用我的全心全意去期待啊
+Dialogue: 0,0:22:31.66,0:22:33.05,EDCN,,0,0,0,,{\bord2\blur7}自由自在的不良少女
+Dialogue: 0,0:22:33.05,0:22:34.35,EDCN,,0,0,0,,{\bord2\blur7}裝模作樣 又愛闖禍
+Dialogue: 0,0:22:34.35,0:22:37.02,EDCN,,0,0,0,,{\bord2\blur7}時而犯傻大笑 時而超兇超兇
+Dialogue: 0,0:22:37.02,0:22:38.08,EDCN,,0,0,0,,{\bord2\blur7}無精打采的不良少女
+Dialogue: 0,0:22:38.08,0:22:39.17,EDCN,,0,0,0,,{\bord2\blur7}為愛痴狂 像個笨蛋
+Dialogue: 0,0:22:39.17,0:22:41.17,EDCN,,0,0,0,,{\bord2\blur7}可別小看我了哦
+Dialogue: 0,0:22:41.44,0:22:42.85,EDCN,,0,0,0,,{\bord2\blur7}就是要特立獨行{\rEDJP\bord2\blur7}！
+Comment: 0,0:21:19.97,0:21:19.97,EDJP,,0,0,0,,------ EDJP ------
+Dialogue: 1,0:21:29.73,0:21:30.48,EDJP,,0,0,0,,{\xshad6\yshad1.5}Rock you!!
+Dialogue: 1,0:21:30.48,0:21:32.75,EDJP,,0,0,0,,{\xshad6\yshad1.5}ワルイの定義はしらない
+Dialogue: 1,0:21:32.75,0:21:35.40,EDJP,,0,0,0,,{\xshad6\yshad1.5}まずフツウの基準もわかんない
+Dialogue: 1,0:21:35.40,0:21:38.34,EDJP,,0,0,0,,{\xshad6\yshad1.5}何年も生きて続いたことって
+Dialogue: 1,0:21:38.34,0:21:40.37,EDJP,,0,0,0,,{\xshad6\yshad1.5}呼吸ぐらいしかないもんで
+Dialogue: 1,0:21:40.37,0:21:41.78,EDJP,,0,0,0,,{\xshad6\yshad1.5}すんません
+Dialogue: 1,0:21:42.29,0:21:43.15,EDJP,,0,0,0,,{\xshad6\yshad1.5}（コヒュっ…）
+Dialogue: 1,0:21:43.15,0:21:44.76,EDJP,,0,0,0,,{\xshad6\yshad1.5}（もう、しっかりしなよ）
+Dialogue: 1,0:21:45.87,0:21:48.06,EDJP,,0,0,0,,{\xshad6\yshad1.5}愛は計算じゃ解けない
+Dialogue: 1,0:21:48.06,0:21:50.87,EDJP,,0,0,0,,{\xshad6\yshad1.5}カワイイは正解があるのに
+Dialogue: 1,0:21:50.87,0:21:53.81,EDJP,,0,0,0,,{\xshad6\yshad1.5}平穏な日々をガラスの靴で
+Dialogue: 1,0:21:53.81,0:21:56.13,EDJP,,0,0,0,,{\xshad6\yshad1.5}踏み潰すようなびっくりが欲しい
+Dialogue: 1,0:21:56.13,0:21:56.46,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:21:56.46,0:21:57.38,EDJP,,0,0,0,,{\xshad6\yshad1.5}睨みつけろ
+Dialogue: 1,0:21:57.38,0:21:57.71,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:21:57.71,0:21:58.67,EDJP,,0,0,0,,{\xshad6\yshad1.5}ダルそうにしろ
+Dialogue: 1,0:21:58.67,0:21:59.00,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:21:59.01,0:22:01.21,EDJP,,0,0,0,,{\xshad6\yshad1.5}ポケットには手を突っ込んで
+Dialogue: 1,0:22:01.22,0:22:01.55,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:22:01.55,0:22:02.51,EDJP,,0,0,0,,{\xshad6\yshad1.5}無理難題
+Dialogue: 1,0:22:02.51,0:22:02.84,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:22:02.84,0:22:03.76,EDJP,,0,0,0,,{\xshad6\yshad1.5}超えていきたい
+Dialogue: 1,0:22:03.76,0:22:04.09,EDJP,,0,0,0,,{\xshad6\yshad1.5}（おい）
+Dialogue: 1,0:22:04.09,0:22:06.18,EDJP,,0,0,0,,{\xshad6\yshad1.5}予測不可能
+Dialogue: 1,0:22:06.18,0:22:08.68,EDJP,,0,0,0,,{\xshad6\yshad1.5}Bad Style でへいよーめーん？
+Dialogue: 1,0:22:08.68,0:22:11.14,EDJP,,0,0,0,,{\xshad6\yshad1.5}「もっとあたしをみてほしいの」
+Dialogue: 1,0:22:11.44,0:22:13.54,EDJP,,0,0,0,,{\xshad6\yshad1.5}BAD BAD BAD SURPRISE
+Dialogue: 1,0:22:13.54,0:22:16.59,EDJP,,0,0,0,,{\xshad6\yshad1.5}めいっぱいの愛で困らせて
+Dialogue: 1,0:22:16.59,0:22:18.69,EDJP,,0,0,0,,{\xshad6\yshad1.5}BUD BUD BUD I LOVE YOU
+Dialogue: 1,0:22:18.69,0:22:21.47,EDJP,,0,0,0,,{\xshad6\yshad1.5}気になる? 気になれ! 気付いてよ
+Dialogue: 1,0:22:21.47,0:22:23.76,EDJP,,0,0,0,,{\xshad6\yshad1.5}Ha BAD BAD BAD SURPRISE
+Dialogue: 1,0:22:23.76,0:22:26.66,EDJP,,0,0,0,,{\xshad6\yshad1.5}ちょっと問題があるぐらいが魅力
+Dialogue: 1,0:22:26.66,0:22:27.66,EDJP,,0,0,0,,{\xshad6\yshad1.5}わんもあチャンス！
+Dialogue: 1,0:22:27.66,0:22:28.66,EDJP,,0,0,0,,{\xshad6\yshad1.5}のーもあチャンス!?
+Dialogue: 1,0:22:28.66,0:22:31.66,EDJP,,0,0,0,,{\xshad6\yshad1.5}期待したいの　全身全霊
+Dialogue: 1,0:22:31.66,0:22:33.05,EDJP,,0,0,0,,{\xshad6\yshad1.5}自由に BAD GIRL
+Dialogue: 1,0:22:33.05,0:22:34.35,EDJP,,0,0,0,,{\xshad6\yshad1.5}気取ってやんちゃ
+Dialogue: 1,0:22:34.35,0:22:37.02,EDJP,,0,0,0,,{\xshad6\yshad1.5}バグって笑ってオラオラオラオラ
+Dialogue: 1,0:22:37.02,0:22:38.08,EDJP,,0,0,0,,{\xshad6\yshad1.5}グダって BAD GIRL
+Dialogue: 1,0:22:38.08,0:22:39.17,EDJP,,0,0,0,,{\xshad6\yshad1.5}病んじゃってバカ
+Dialogue: 1,0:22:39.17,0:22:41.17,EDJP,,0,0,0,,{\xshad6\yshad1.5}舐めんじゃないですよ
+Dialogue: 1,0:22:41.44,0:22:42.85,EDJP,,0,0,0,,{\xshad6\yshad1.5}尖ってけ！
+Dialogue: 0,0:21:29.73,0:21:30.48,EDJP,,0,0,0,,{\bord2\blur7}Rock you!!
+Dialogue: 0,0:21:30.48,0:21:32.75,EDJP,,0,0,0,,{\bord2\blur7}ワルイの定義はしらない
+Dialogue: 0,0:21:32.75,0:21:35.40,EDJP,,0,0,0,,{\bord2\blur7}まずフツウの基準もわかんない
+Dialogue: 0,0:21:35.40,0:21:38.34,EDJP,,0,0,0,,{\bord2\blur7}何年も生きて続いたことって
+Dialogue: 0,0:21:38.34,0:21:40.37,EDJP,,0,0,0,,{\bord2\blur7}呼吸ぐらいしかないもんで
+Dialogue: 0,0:21:40.37,0:21:41.78,EDJP,,0,0,0,,{\bord2\blur7}すんません
+Dialogue: 0,0:21:42.29,0:21:43.15,EDJP,,0,0,0,,{\bord2\blur7}（コヒュっ…）
+Dialogue: 0,0:21:43.15,0:21:44.76,EDJP,,0,0,0,,{\bord2\blur7}（もう、しっかりしなよ）
+Dialogue: 0,0:21:45.87,0:21:48.06,EDJP,,0,0,0,,{\bord2\blur7}愛は計算じゃ解けない
+Dialogue: 0,0:21:48.06,0:21:50.87,EDJP,,0,0,0,,{\bord2\blur7}カワイイは正解があるのに
+Dialogue: 0,0:21:50.87,0:21:53.81,EDJP,,0,0,0,,{\bord2\blur7}平穏な日々をガラスの靴で
+Dialogue: 0,0:21:53.81,0:21:56.13,EDJP,,0,0,0,,{\bord2\blur7}踏み潰すようなびっくりが欲しい
+Dialogue: 0,0:21:56.13,0:21:56.46,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:21:56.46,0:21:57.38,EDJP,,0,0,0,,{\bord2\blur7}睨みつけろ
+Dialogue: 0,0:21:57.38,0:21:57.71,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:21:57.71,0:21:58.67,EDJP,,0,0,0,,{\bord2\blur7}ダルそうにしろ
+Dialogue: 0,0:21:58.67,0:21:59.00,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:21:59.01,0:22:01.21,EDJP,,0,0,0,,{\bord2\blur7}ポケットには手を突っ込んで
+Dialogue: 0,0:22:01.22,0:22:01.55,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:22:01.55,0:22:02.51,EDJP,,0,0,0,,{\bord2\blur7}無理難題
+Dialogue: 0,0:22:02.51,0:22:02.84,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:22:02.84,0:22:03.76,EDJP,,0,0,0,,{\bord2\blur7}超えていきたい
+Dialogue: 0,0:22:03.76,0:22:04.09,EDJP,,0,0,0,,{\bord2\blur7}（おい）
+Dialogue: 0,0:22:04.09,0:22:06.18,EDJP,,0,0,0,,{\bord2\blur7}予測不可能
+Dialogue: 0,0:22:06.18,0:22:08.68,EDJP,,0,0,0,,{\bord2\blur7}Bad Style でへいよーめーん？
+Dialogue: 0,0:22:08.68,0:22:11.14,EDJP,,0,0,0,,{\bord2\blur7}「もっとあたしをみてほしいの」
+Dialogue: 0,0:22:11.44,0:22:13.54,EDJP,,0,0,0,,{\bord2\blur7}BAD BAD BAD SURPRISE
+Dialogue: 0,0:22:13.54,0:22:16.59,EDJP,,0,0,0,,{\bord2\blur7}めいっぱいの愛で困らせて
+Dialogue: 0,0:22:16.59,0:22:18.69,EDJP,,0,0,0,,{\bord2\blur7}BUD BUD BUD I LOVE YOU
+Dialogue: 0,0:22:18.69,0:22:21.47,EDJP,,0,0,0,,{\bord2\blur7}気になる? 気になれ! 気付いてよ
+Dialogue: 0,0:22:21.47,0:22:23.76,EDJP,,0,0,0,,{\bord2\blur7}Ha BAD BAD BAD SURPRISE
+Dialogue: 0,0:22:23.76,0:22:26.66,EDJP,,0,0,0,,{\bord2\blur7}ちょっと問題があるぐらいが魅力
+Dialogue: 0,0:22:26.66,0:22:27.66,EDJP,,0,0,0,,{\bord2\blur7}わんもあチャンス！
+Dialogue: 0,0:22:27.66,0:22:28.66,EDJP,,0,0,0,,{\bord2\blur7}のーもあチャンス!?
+Dialogue: 0,0:22:28.66,0:22:31.66,EDJP,,0,0,0,,{\bord2\blur7}期待したいの　全身全霊
+Dialogue: 0,0:22:31.66,0:22:33.05,EDJP,,0,0,0,,{\bord2\blur7}自由に BAD GIRL
+Dialogue: 0,0:22:33.05,0:22:34.35,EDJP,,0,0,0,,{\bord2\blur7}気取ってやんちゃ
+Dialogue: 0,0:22:34.35,0:22:37.02,EDJP,,0,0,0,,{\bord2\blur7}バグって笑ってオラオラオラオラ
+Dialogue: 0,0:22:37.02,0:22:38.08,EDJP,,0,0,0,,{\bord2\blur7}グダって BAD GIRL
+Dialogue: 0,0:22:38.08,0:22:39.17,EDJP,,0,0,0,,{\bord2\blur7}病んじゃってバカ
+Dialogue: 0,0:22:39.17,0:22:41.17,EDJP,,0,0,0,,{\bord2\blur7}舐めんじゃないですよ
+Dialogue: 0,0:22:41.44,0:22:42.85,EDJP,,0,0,0,,{\bord2\blur7}尖ってけ！
