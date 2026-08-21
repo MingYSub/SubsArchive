@@ -13,19 +13,18 @@ LayoutResY: 1080
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: JP,IBM Plex Sans JP SmBld,54,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,2,0,2,0,0,22,1
 Style: JP - Top,IBM Plex Sans JP SmBld,54,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1,0,1,2,0,8,0,0,24,1
-Style: CN,械黑 GB SemiBold,65,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,2,0,0,78,1
-Style: CN - Top,械黑 GB SemiBold,65,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,8,0,0,75,1
-Style: CN - Furi,械黑 GB SemiBold,42,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,2,0,0,142,1
-Style: Note,械黑 GB SemiBold,45,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,7,20,20,20,1
+Style: CN,Frex Sans GB SemiBold,65,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,2,0,0,78,1
+Style: CN - Top,Frex Sans GB SemiBold,65,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,8,0,0,75,1
+Style: CN - Furi,Frex Sans GB SemiBold,42,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,2,0,0,142,1
+Style: Note,Frex Sans GB SemiBold,45,&H00FFFFFF,&H00FFFFFF,&H00202020,&H14202020,0,0,0,0,100,100,1.5,0,1,2,0,7,20,20,20,1
 Style: Sign,HYZhengYuan-95S,60,&H00FFFFFF,&HFFFFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,4,0,0,0,1
 Style: Title,YW HeiZhongTi Bold,82,&H00FFFFFF,&HFFFFFFFF,&H003284FF,&H00000000,0,0,0,0,100,100,1,0,1,2,0,7,0,0,0,1
-Style: Title - SC,WenYue-XinQingNianTi-W8-J,80,&H00FFFFFF,&HFFFFFFFF,&H003284FF,&H00000000,0,0,0,0,115,100,1,0,1,2,0,7,0,0,0,1
 Style: OP JP,FOT-Kurokane Std EB,45,&H00035CD5,&H00FFFFFF,&H00FFFFFF,&H14035CD5,0,0,0,0,100,100,1,0,1,3,0,1,50,0,36,1
 Style: OP JP - Back,FOT-BabyPop Std EB,45,&H00A3C4F5,&H00FFFFFF,&H00FFFFFF,&H14035CD5,0,0,0,0,100,100,0.2,0,1,3,0,1,50,0,36,1
 Style: OP CN,HYYongZiYeZiShu W,67,&H00035CD5,&H00FFFFFF,&H00FFFFFF,&H14035CD5,0,0,0,0,100,100,5,0,1,3,0,1,50,0,80,1
 Style: ED JP,IBM Plex Sans JP SmBld,50,&H00FFFFFF,&H00FFFFFF,&H00035CD5,&H14035CD5,0,0,0,0,100,100,1,0,1,2,0,1,50,0,32,1
-Style: ED CN,械黑 GB SemiBold,50,&H00FFFFFF,&H00FFFFFF,&H00035CD5,&H14035CD5,0,0,0,0,100,100,1.5,0,1,2,0,1,50,0,80,1
-Style: Credits,Flex Sans GB,56,&H002F81FA,&H00FFFFFF,&H00FFFFFF,&H14202020,-1,0,0,0,100,100,3,0,1,2.5,0,8,0,0,30,1
+Style: ED CN,Frex Sans GB SemiBold,50,&H00FFFFFF,&H00FFFFFF,&H00035CD5,&H14035CD5,0,0,0,0,100,100,1.5,0,1,2,0,1,50,0,80,1
+Style: Credits,Frex Sans GB,56,&H002F81FA,&H00FFFFFF,&H00FFFFFF,&H14202020,-1,0,0,0,100,100,3,0,1,2.5,0,8,0,0,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -618,8 +617,8 @@ Dialogue: 5,0:21:42.68,0:21:44.35,CN,,0,0,0,,准备
 Dialogue: 5,0:21:50.10,0:21:52.70,CN,,0,0,0,,Serow{\fscx50} {\fscx}长出翅膀了哦
 Dialogue: 5,0:21:53.89,0:21:58.13,CN,,0,0,0,,接下来就这样 飞到筑波去了哦
 Comment: 0,0:00:00.00,0:00:00.00,Credits,,0,0,0,,------ Credits ------
-Dialogue: 0,0:01:26.27,0:01:29.99,Credits,,0,0,0,,{\3c&H2F81FA&\bord8\blur8\3a&H49&}本字幕由 MingYSub 制作{\fs26}\N\N{\fs45}翻译：小黑   时轴：j24   压制：倒地
-Dialogue: 1,0:01:26.27,0:01:29.99,Credits,,0,0,0,,本字幕由 MingYSub 制作{\fs26}\N\N{\fs45}翻译：小黑   时轴：j24   压制：倒地
+Dialogue: 0,0:01:26.27,0:01:29.99,Credits,,0,0,0,,{\3c&H2F81FA&\bord8\blur8\3a&H49&}本字幕由 MingYSub 制作{\fs26}\N\N{\fs45}翻译：小黑  校对：Ming  时轴：j24  压制：倒地
+Dialogue: 1,0:01:26.27,0:01:29.99,Credits,,0,0,0,,本字幕由 MingYSub 制作{\fs26}\N\N{\fs45}翻译：小黑  校对：Ming  时轴：j24  压制：倒地
 Comment: 0,0:00:00.00,0:00:00.00,Sign,,0,0,0,,------ Signs ------
 Dialogue: 0,0:01:30.28,0:01:34.24,Title,,307,0,150,,{\an7\fad(550,550)\blur36}海萤休息站
 Dialogue: 1,0:01:30.28,0:01:34.24,Title,,307,0,150,,{\an7\fad(550,550)}海萤休息站
